@@ -1,0 +1,138 @@
+'English LanguageFile
+'Description
+'
+'==============================================================================
+[Controls]
+'==============================================================================
+GroupBox_SN                = 序列号:
+GroupBox_Scap              = 报废板子位置：
+GroupBox_ErrorMsg          = 错误信息：
+grpCounter                 = 产能：
+ShowDataToolStripMenuItem  = 变种数量
+ShowArticleDataToolStripMenuItem  = 无MES变种
+ShowLineControlConfigToolStripMenuItem = LineControl维护
+SMTNumberToolStripMenuItem = SMT Number维护
+BitNumberToolStripMenuItem = 刀具维护
+PLCNumberToolStripMenuItem = PLC维护
+
+MenuLanguage               = 语言
+Label_Total                = 总数:
+Label_Pass                 = 良品:
+Label_Fail                 = 不良:
+Button_Clean               = 复位
+Button_Abort               = 停止
+Button_Save		   = 确认	
+
+GroupBox_Check             = 查询
+Label_ID                   = 序列号:
+Label_Article              = 变种:
+Button_Reset               = 复位
+Button_Check               = 查询
+Label_Edit_Id              = 序列号:
+Label_Edit_Article         = 变种:
+Label_Edit_Count           = 数量:
+Label_Edit_Config          = 配置:
+Button_Add                 = 新增
+Button_Modify              = 修改
+Button_Delete              = 删除
+ToolStripLabel1            = 前一页
+ToolStripLabel2            = 后一页
+Label_SMT                  = SMT 号:
+Label_Edit_SMT             = SMT 号:
+Button_OK                  = 确认
+
+
+'==============================================================================
+[Text]
+'==============================================================================
+
+MaxText = 100
+
+-100 = 系统初始化
+-99  = 初始化扫描仪
+-98  = 初始化扫描仪
+-97  = 初始化LineControl
+-96  = 开启接受数据
+-95  = 回原点
+0    = 等待扫描
+1    = 分析扫描长度
+2    = 解析扫描结果
+3    = 检查SN与Article长度
+4    = 等待 _ArticleStore not Run
+5    = 检查是否需要MES
+6    = 等待 _DataStore  and  _ArticleCount not Run
+7    = 获取变种数量
+8    = 检查变种数量
+9    = 等待 _ArticleCount not Run
+10    = 等待输入变种数量
+11    = 检查输入变种数量
+12   = 等待WebService返回
+13   = 查询WebService
+14   = 显示报废板子位置
+15   = 等待 _DataStore not Run
+16   = 存储变种数量
+17   = 检查是否需要Linecontrol
+18   = 等待_LinecontrolStore not Run
+19   = 获取Linecontrol Ini文件
+20   = 等待 _DataStore  and  _ArticleCount not Run
+21   = 获取变种数量
+22   = 获取SN序列
+23   = 初始化LineControl
+24   = 等待_Linecontrol not Run
+25   = Linecontrol 检查
+26   = 检查Linecontrol 结果
+27   = 等待产品到位
+28   = 开启输出
+29   = 开启输出
+30   = 等待 _TimeDelay not Run
+31   = 延时 1s
+32   = 等待 _TimeDelay not Run
+33   = 等待产品过站
+34   = 关闭输出
+35   = 等待PLC关闭输出
+36   = 检查是否需要MES
+37   = 等待WebService返回
+38   = WebService.startBoard
+39   = 等待 _TimeDelay not Run
+40   = 延时 1s
+41   = 等待 _TimeDelay not Run
+42   = 等待 _WebService not Run
+43   = WebService.completeBoard
+44   = 检查是否需要Linecontrol
+45   = 获取SN序列
+46   = 等待_Linecontrol not Run
+47   = 上传Linecontrol
+48   = 检查Linecontrol上传结果
+49   = 清除显示
+50   = 结束
+
+100 = 等待 _SMTStore not Run
+101 = 获取变种号
+102 = 产生新序列号
+
+140 = 获取刀具
+141 = 显示刀具
+
+150 = 获取PLC Address
+151 = 写入PLC Address
+152 = 等待PLC Address
+
+
+'==============================================================================
+[FailText]
+'==============================================================================
+1    = 扫描仪关闭
+2    = 扫描长度错误
+3    = 变种长度错误
+4    = SN长度错误
+5    = 获取变种数量错误，请联系工程师添加.
+6    = 输入变种数量错误
+7    = 获取Linecontrol ini文件错误，请联系工程师添加.
+8    = 获取SN List错误
+9    = LineControl 初始化错误，请联系工程师确认ini文件.
+10   = LineControl 错误
+11   = 转换SMT变种错误，请联系工程师添加.
+20   = 请确认刀具是否正确.
+21   = 刀具型号:
+30   = 请清洁设备.
+40   = 请确认变种是否正确.

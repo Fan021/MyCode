@@ -1,0 +1,11 @@
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingBarcodeRule\obj\Debug\MillingBarcodeRule.csproj.GenerateResource.Cache
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingBarcodeRule\bin\Debug\MillingBarcodeRule.dll
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingBarcodeRule\bin\Debug\MillingBarcodeRule.pdb
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingBarcodeRule\bin\Debug\DBConnector.dll
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingBarcodeRule\bin\Debug\NLog.dll
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingBarcodeRule\bin\Debug\DBConnector.pdb
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingBarcodeRule\bin\Debug\NLog.xml
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingBarcodeRule\obj\Debug\MillingBarcodeRule.dll
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingBarcodeRule\obj\Debug\MillingBarcodeRule.pdb
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingBarcodeRule\obj\Debug\MesStationCommon.AmountOfBoards.resources
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingBarcodeRule\obj\Debug\MillingBarcodeRule.csprojResolveAssemblyReference.cache

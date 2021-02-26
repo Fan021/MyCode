@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:r1="http://systemagmbh.com/milling-automation/r1/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <r1:startBoard>
+         <startBoardRequest>
+            <resourceId></resourceId>
+            <operation></operation>
+            <sfc></sfc>
+            <recipe></recipe>
+         </startBoardRequest>
+      </r1:startBoard>
+   </soapenv:Body>
+</soapenv:Envelope>

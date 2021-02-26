@@ -1,0 +1,55 @@
+H:\work project\2019\occ mes\CriusMESTerminal\CriusMESTerminal.exe.config
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESTerminal.exe.config
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\obj\Debug\CriusMESTerminal.Main.resources
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\obj\Debug\CriusMESTerminal.Properties.Resources.resources
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.csproj.GenerateResource.Cache
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\obj\Debug\CriusMESTerminal.exe
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\obj\Debug\CriusMESTerminal.pdb
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESTerminal.exe
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESTerminal.pdb
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\CriusMESTerminal.exe.config
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\CriusMESTerminal.exe
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\CriusMESTerminal.pdb
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\lib\CriusMESTerminal.exe.config
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\lib\CriusMESTerminal.exe
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\lib\CriusMESTerminal.pdb
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\bin\CriusMESTerminal.exe.config
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\bin\CriusMESTerminal.exe
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\bin\CriusMESTerminal.pdb
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.csprojResolveAssemblyReference.cache
+H:\work project\2019\occ mes\CriusMESAssistant\obj\Debug\CriusMESTerminal.Main.resources
+H:\work project\2019\occ mes\CriusMESAssistant\obj\Debug\CriusMESAssistant.csproj.GenerateResource.Cache
+H:\work project\2019\occ mes\CriusMESAssistant\bin\CriusMESAssistant.exe.config
+H:\work project\2019\occ mes\CriusMESAssistant\bin\CriusMESAssistant.exe
+H:\work project\2019\occ mes\CriusMESAssistant\bin\CriusMESAssistant.pdb
+H:\work project\2019\occ mes\CriusMESAssistant\obj\Debug\CriusMESAssistant.Properties.Resources.resources
+H:\work project\2019\occ mes\CriusMESAssistant\obj\Debug\CriusMESAssistant.exe
+H:\work project\2019\occ mes\CriusMESAssistant\obj\Debug\CriusMESAssistant.pdb
+H:\work project\2019\occ mes\CriusMESAssistant\obj\Debug\CriusMESAssistant.csprojResolveAssemblyReference.cache
+D:\Crius_Mes_Assistant\CriusMESAssistant\bin\CriusMESAssistant.exe.config
+D:\Crius_Mes_Assistant\CriusMESAssistant\bin\CriusMESAssistant.exe
+D:\Crius_Mes_Assistant\CriusMESAssistant\bin\CriusMESAssistant.pdb
+D:\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESTerminal.Main.resources
+D:\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.Properties.Resources.resources
+D:\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.csproj.GenerateResource.Cache
+D:\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.exe
+D:\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.pdb
+D:\新建文件夹\CriusMESAssistant\bin\CriusMESAssistant.exe.config
+D:\新建文件夹\CriusMESAssistant\bin\CriusMESAssistant.exe
+D:\新建文件夹\CriusMESAssistant\bin\CriusMESAssistant.pdb
+D:\新建文件夹\CriusMESAssistant\obj\Debug\CriusMESAssistant.csprojResolveAssemblyReference.cache
+D:\新建文件夹\CriusMESAssistant\obj\Debug\CriusMESTerminal.Main.resources
+D:\新建文件夹\CriusMESAssistant\obj\Debug\CriusMESAssistant.Properties.Resources.resources
+D:\新建文件夹\CriusMESAssistant\obj\Debug\CriusMESAssistant.csproj.GenerateResource.Cache
+D:\新建文件夹\CriusMESAssistant\obj\Debug\CriusMESAssistant.exe
+D:\新建文件夹\CriusMESAssistant\obj\Debug\CriusMESAssistant.pdb
+D:\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.csprojResolveAssemblyReference.cache
+D:\workdetails\8.Mes\Crius_Mes_Assistant\CriusMESAssistant\bin\CriusMESAssistant.exe.config
+D:\workdetails\8.Mes\Crius_Mes_Assistant\CriusMESAssistant\bin\CriusMESAssistant.exe
+D:\workdetails\8.Mes\Crius_Mes_Assistant\CriusMESAssistant\bin\CriusMESAssistant.pdb
+D:\workdetails\8.Mes\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.csprojResolveAssemblyReference.cache
+D:\workdetails\8.Mes\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESTerminal.Main.resources
+D:\workdetails\8.Mes\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.Properties.Resources.resources
+D:\workdetails\8.Mes\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.csproj.GenerateResource.Cache
+D:\workdetails\8.Mes\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.exe
+D:\workdetails\8.Mes\Crius_Mes_Assistant\CriusMESAssistant\obj\Debug\CriusMESAssistant.pdb

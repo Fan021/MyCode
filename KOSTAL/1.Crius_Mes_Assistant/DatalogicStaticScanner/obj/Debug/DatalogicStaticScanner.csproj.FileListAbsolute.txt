@@ -1,0 +1,23 @@
+D:\Crius_Mes_Assistant\bin\DatalogicStaticScanner.dll
+D:\Crius_Mes_Assistant\bin\DatalogicStaticScanner.pdb
+D:\Crius_Mes_Assistant\DatalogicStaticScanner\obj\Debug\DatalogicStaticScanner.csprojResolveAssemblyReference.cache
+D:\Crius_Mes_Assistant\DatalogicStaticScanner\obj\Debug\DatalogicStaticScanner.dll
+D:\Crius_Mes_Assistant\DatalogicStaticScanner\obj\Debug\DatalogicStaticScanner.pdb
+H:\work project\2019\occ mes\bin\DatalogicStaticScanner.dll
+H:\work project\2019\occ mes\bin\DatalogicStaticScanner.pdb
+H:\work project\2019\occ mes\DatalogicStaticScanner\obj\Debug\DatalogicStaticScanner.csprojResolveAssemblyReference.cache
+H:\work project\2019\occ mes\DatalogicStaticScanner\obj\Debug\DatalogicStaticScanner.dll
+H:\work project\2019\occ mes\DatalogicStaticScanner\obj\Debug\DatalogicStaticScanner.pdb
+D:\Mes\DatalogicStaticScanner\obj\Debug\DatalogicStaticScanner.csprojResolveAssemblyReference.cache
+D:\Mes\DatalogicStaticScanner\obj\Debug\DatalogicStaticScanner.dll
+D:\Mes\DatalogicStaticScanner\obj\Debug\DatalogicStaticScanner.pdb
+D:\Mes\bin\DatalogicStaticScanner.dll
+D:\Mes\bin\DatalogicStaticScanner.pdb
+H:\work project\2019\occ mes\DatalogicStaticScanner\bin\Debug\DatalogicStaticScanner.dll
+H:\work project\2019\occ mes\DatalogicStaticScanner\bin\Debug\DatalogicStaticScanner.pdb
+H:\work project\2019\occ mes\DatalogicStaticScanner\bin\Debug\MesStationCommon.dll
+H:\work project\2019\occ mes\DatalogicStaticScanner\bin\Debug\MesStationCommon.pdb
+D:\Mes\DatalogicStaticScanner\bin\Debug\DatalogicStaticScanner.dll
+D:\Mes\DatalogicStaticScanner\bin\Debug\DatalogicStaticScanner.pdb
+D:\Mes\DatalogicStaticScanner\bin\Debug\MesStationCommon.dll
+D:\Mes\DatalogicStaticScanner\bin\Debug\MesStationCommon.pdb

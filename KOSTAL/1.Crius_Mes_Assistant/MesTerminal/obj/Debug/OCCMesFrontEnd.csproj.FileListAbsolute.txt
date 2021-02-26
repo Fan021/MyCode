@@ -1,0 +1,8 @@
+D:\Projects1\2019\OCCMes\OCCMesApp\bin\OCCMesFrontEnd.exe.config
+D:\Projects1\2019\OCCMes\OCCMesApp\bin\OCCMesFrontEnd.exe
+D:\Projects1\2019\OCCMes\OCCMesApp\bin\OCCMesFrontEnd.pdb
+D:\Projects1\2019\OCCMes\OCCMesApp\obj\Debug\AppDemo.MainForm.resources
+D:\Projects1\2019\OCCMes\OCCMesApp\obj\Debug\OCCMesApp.Properties.Resources.resources
+D:\Projects1\2019\OCCMes\OCCMesApp\obj\Debug\OCCMesFrontEnd.csproj.GenerateResource.Cache
+D:\Projects1\2019\OCCMes\OCCMesApp\obj\Debug\OCCMesFrontEnd.exe
+D:\Projects1\2019\OCCMes\OCCMesApp\obj\Debug\OCCMesFrontEnd.pdb

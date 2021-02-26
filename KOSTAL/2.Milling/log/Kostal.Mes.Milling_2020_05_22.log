@@ -1,0 +1,234 @@
+2020.05.22;09:29:58;Left;Dispose;Dispose Pass
+2020.05.22;09:29:58;Right;Dispose;Dispose Pass
+2020.05.22;09:29:58;MainLeft;Dispose;**************************************************************************************
+2020.05.22;09:29:58;MainRight;Dispose;**************************************************************************************
+2020.05.22;09:30:05;MainLeft;Init;**************************************************************************************
+2020.05.22;09:30:05;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:30:05;MainRight;Init;**************************************************************************************
+2020.05.22;09:30:05;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:30:05;Left;Step:-100;System Initial
+2020.05.22;09:30:05;Right;Step:-100;System Initial
+2020.05.22;09:30:05;Left;Step:-99;Initial Scanner
+2020.05.22;09:30:05;Left;Step:-99;Scanner is Disable
+2020.05.22;09:30:05;Right;Step:-99;Initial Scanner
+2020.05.22;09:30:05;Right;Step:-98;Init Scanner
+2020.05.22;09:30:05;Right;Step:-98;Init Scanner Pass
+2020.05.22;09:30:05;Right;Step:-97;Initial LineControl
+2020.05.22;09:30:05;Right;Step:-96;Start Receive Message
+2020.05.22;09:30:05;Right;Step:0;Home Position
+2020.05.22;09:30:10;Left;Dispose;Dispose Pass
+2020.05.22;09:30:10;Right;Dispose;Dispose Pass
+2020.05.22;09:30:10;MainLeft;Dispose;**************************************************************************************
+2020.05.22;09:30:10;MainRight;Dispose;**************************************************************************************
+2020.05.22;09:30:30;MainLeft;Init;**************************************************************************************
+2020.05.22;09:30:30;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:30:30;MainRight;Init;**************************************************************************************
+2020.05.22;09:30:30;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:30:30;Left;Step:-100;System Initial
+2020.05.22;09:30:30;Right;Step:-100;System Initial
+2020.05.22;09:30:30;Left;Step:-99;Initial Scanner
+2020.05.22;09:30:30;Left;Step:-99;Scanner is Disable
+2020.05.22;09:30:30;Right;Step:-99;Initial Scanner
+2020.05.22;09:30:30;Right;Step:-98;Init Scanner
+2020.05.22;09:30:30;Right;Step:-98;Init Scanner Pass
+2020.05.22;09:30:30;Right;Step:-97;Initial LineControl
+2020.05.22;09:30:31;Right;Step:-96;Start Receive Message
+2020.05.22;09:30:31;Right;Step:0;Home Position
+2020.05.22;09:36:38;MainLeft;Init;**************************************************************************************
+2020.05.22;09:36:38;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:36:38;MainRight;Init;**************************************************************************************
+2020.05.22;09:36:38;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:36:39;Left;Step:-100;System Initial
+2020.05.22;09:36:39;Right;Step:-100;System Initial
+2020.05.22;09:36:39;Left;Step:-99;Initial Scanner
+2020.05.22;09:36:39;Left;Step:-99;Scanner is Disable
+2020.05.22;09:36:39;Right;Step:-99;Initial Scanner
+2020.05.22;09:36:39;Right;Step:-98;Init Scanner
+2020.05.22;09:36:39;Right;Step:-98;Init Scanner Pass
+2020.05.22;09:36:39;Right;Step:-97;Initial LineControl
+2020.05.22;09:36:39;Right;Step:-96;Start Receive Message
+2020.05.22;09:36:39;Right;Step:0;Home Position
+2020.05.22;09:37:38;MainLeft;Init;**************************************************************************************
+2020.05.22;09:37:38;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:37:38;MainRight;Init;**************************************************************************************
+2020.05.22;09:37:38;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:37:38;Left;Step:-100;System Initial
+2020.05.22;09:37:38;Right;Step:-100;System Initial
+2020.05.22;09:37:38;Left;Step:-99;Initial Scanner
+2020.05.22;09:37:38;Left;Step:-99;Scanner is Disable
+2020.05.22;09:37:38;Right;Step:-99;Initial Scanner
+2020.05.22;09:37:38;Right;Step:-98;Init Scanner
+2020.05.22;09:37:38;Right;Step:-98;Init Scanner Pass
+2020.05.22;09:37:38;Right;Step:-97;Initial LineControl
+2020.05.22;09:37:38;Right;Step:-96;Start Receive Message
+2020.05.22;09:37:38;Right;Step:0;Home Position
+2020.05.22;09:38:49;MainLeft;Init;**************************************************************************************
+2020.05.22;09:38:49;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:38:49;MainRight;Init;**************************************************************************************
+2020.05.22;09:38:49;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:38:49;Left;Step:-100;System Initial
+2020.05.22;09:38:49;Right;Step:-100;System Initial
+2020.05.22;09:38:49;Left;Step:-99;Initial Scanner
+2020.05.22;09:38:49;Left;Step:-99;Scanner is Disable
+2020.05.22;09:38:49;Right;Step:-99;Initial Scanner
+2020.05.22;09:38:49;Right;Step:-98;Init Scanner
+2020.05.22;09:38:49;Right;Step:-98;Init Scanner Pass
+2020.05.22;09:38:49;Right;Step:-97;Initial LineControl
+2020.05.22;09:38:49;Right;Step:-96;Start Receive Message
+2020.05.22;09:38:49;Right;Step:0;Home Position
+2020.05.22;09:39:40;MainLeft;Init;**************************************************************************************
+2020.05.22;09:39:40;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:39:40;MainRight;Init;**************************************************************************************
+2020.05.22;09:39:40;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:39:40;Left;Step:-100;System Initial
+2020.05.22;09:39:40;Right;Step:-100;System Initial
+2020.05.22;09:39:40;Left;Step:-99;Initial Scanner
+2020.05.22;09:39:40;Left;Step:-99;Scanner is Disable
+2020.05.22;09:39:40;Right;Step:-99;Initial Scanner
+2020.05.22;09:39:40;Right;Step:-98;Init Scanner
+2020.05.22;09:39:40;Right;Step:-98;Init Scanner Pass
+2020.05.22;09:39:40;Right;Step:-97;Initial LineControl
+2020.05.22;09:39:40;Right;Step:-96;Start Receive Message
+2020.05.22;09:39:40;Right;Step:0;Home Position
+2020.05.22;09:42:01;MainLeft;Init;**************************************************************************************
+2020.05.22;09:42:01;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:42:01;MainRight;Init;**************************************************************************************
+2020.05.22;09:42:01;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;09:42:01;Left;Step:-100;System Initial
+2020.05.22;09:42:01;Right;Step:-100;System Initial
+2020.05.22;09:42:01;Left;Step:-99;Initial Scanner
+2020.05.22;09:42:01;Left;Step:-99;Scanner is Disable
+2020.05.22;09:42:01;Right;Step:-99;Initial Scanner
+2020.05.22;09:42:01;Right;Step:-98;Init Scanner
+2020.05.22;09:42:01;Right;Step:-98;Init Scanner Pass
+2020.05.22;09:42:01;Right;Step:-97;Initial LineControl
+2020.05.22;09:42:01;Right;Step:-96;Start Receive Message
+2020.05.22;09:42:01;Right;Step:0;Home Position
+2020.05.22;10:15:28;MainLeft;Init;**************************************************************************************
+2020.05.22;10:15:28;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;10:15:28;MainRight;Init;**************************************************************************************
+2020.05.22;10:15:28;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;10:15:28;Left;Step:-100;System Initial
+2020.05.22;10:15:28;Right;Step:-100;System Initial
+2020.05.22;10:15:28;Left;Step:-99;Initial Scanner
+2020.05.22;10:15:28;Left;Step:-99;Scanner is Disable
+2020.05.22;10:15:28;Right;Step:-99;Initial Scanner
+2020.05.22;10:15:28;Right;Step:-98;Init Scanner
+2020.05.22;10:15:28;Right;Step:-98;Init Scanner Pass
+2020.05.22;10:15:28;Right;Step:-97;Initial LineControl
+2020.05.22;10:15:28;Right;Step:-96;Start Receive Message
+2020.05.22;10:15:28;Right;Step:0;Home Position
+2020.05.22;10:16:21;Left;Dispose;Dispose Pass
+2020.05.22;10:16:21;Right;Dispose;Dispose Pass
+2020.05.22;10:16:21;MainLeft;Dispose;**************************************************************************************
+2020.05.22;10:16:21;MainRight;Dispose;**************************************************************************************
+2020.05.22;10:19:16;MainLeft;Init;**************************************************************************************
+2020.05.22;10:19:16;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;10:19:16;MainRight;Init;**************************************************************************************
+2020.05.22;10:19:16;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;10:19:17;Left;Step:-100;System Initial
+2020.05.22;10:19:17;Right;Step:-100;System Initial
+2020.05.22;10:19:17;Left;Step:-99;Initial Scanner
+2020.05.22;10:19:17;Left;Step:-99;Scanner is Disable
+2020.05.22;10:19:17;Right;Step:-99;Initial Scanner
+2020.05.22;10:19:17;Right;Step:-98;Init Scanner
+2020.05.22;10:19:17;Right;Step:-98;Init Scanner Pass
+2020.05.22;10:19:17;Right;Step:-97;Initial LineControl
+2020.05.22;10:19:17;Right;Step:-96;Start Receive Message
+2020.05.22;10:19:17;Right;Step:0;Home Position
+2020.05.22;10:19:37;Left;Dispose;Dispose Pass
+2020.05.22;10:19:37;Right;Dispose;Dispose Pass
+2020.05.22;10:19:37;MainLeft;Dispose;**************************************************************************************
+2020.05.22;10:19:37;MainRight;Dispose;**************************************************************************************
+2020.05.22;10:19:54;MainLeft;Init;**************************************************************************************
+2020.05.22;10:19:54;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;10:19:54;MainRight;Init;**************************************************************************************
+2020.05.22;10:19:54;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;10:19:54;Left;Step:-100;System Initial
+2020.05.22;10:19:54;Right;Step:-100;System Initial
+2020.05.22;10:19:55;Left;Step:-99;Initial Scanner
+2020.05.22;10:19:55;Left;Step:-99;Scanner is Disable
+2020.05.22;10:19:55;Right;Step:-99;Initial Scanner
+2020.05.22;10:19:55;Right;Step:-98;Init Scanner
+2020.05.22;10:19:55;Right;Step:-98;Init Scanner Pass
+2020.05.22;10:19:55;Right;Step:-97;Initial LineControl
+2020.05.22;10:19:55;Right;Step:-96;Start Receive Message
+2020.05.22;10:19:55;Right;Step:0;Home Position
+2020.05.22;10:20:21;Left;Dispose;Dispose Pass
+2020.05.22;10:20:21;Right;Dispose;Dispose Pass
+2020.05.22;10:20:21;MainLeft;Dispose;**************************************************************************************
+2020.05.22;10:20:21;MainRight;Dispose;**************************************************************************************
+2020.05.22;16:04:10;MainLeft;Init;**************************************************************************************
+2020.05.22;16:04:10;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;16:04:10;MainRight;Init;**************************************************************************************
+2020.05.22;16:04:10;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;16:04:10;Left;Step:-100;System Initial
+2020.05.22;16:04:10;Right;Step:-100;System Initial
+2020.05.22;16:04:10;Left;Step:-99;Initial Scanner
+2020.05.22;16:04:10;Left;Step:-99;Scanner is Disable
+2020.05.22;16:04:10;Right;Step:-99;Initial Scanner
+2020.05.22;16:04:10;Right;Step:-98;Init Scanner
+2020.05.22;16:04:10;Right;Step:-98;Init Scanner Pass
+2020.05.22;16:04:10;Right;Step:-97;Initial LineControl
+2020.05.22;16:04:10;Right;Step:-96;Start Receive Message
+2020.05.22;16:04:10;Right;Step:0;Home Position
+2020.05.22;16:04:15;Right;Step:0;Scan Result:12345678/SNYA016QEQ26530
+2020.05.22;16:04:15;Right;Step:1;Check Scan Result Length
+2020.05.22;16:04:15;Right;Step:1;Scan Result:12345678/SNYA016QEQ26530
+2020.05.22;16:04:15;Right;Step:2;Analyze Scan Result
+2020.05.22;16:04:15;Right;Step:3;Check SN and Article Length
+2020.05.22;16:04:15;Right;Step:3;Article：12345678 SerialNumber:YA016QEQ26530
+2020.05.22;16:04:26;Right;Step:4;Waiting for _ArticleStore not Run
+2020.05.22;16:05:10;MainLeft;Init;**************************************************************************************
+2020.05.22;16:05:10;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;16:05:10;MainRight;Init;**************************************************************************************
+2020.05.22;16:05:10;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;16:05:11;Left;Step:-100;System Initial
+2020.05.22;16:05:11;Right;Step:-100;System Initial
+2020.05.22;16:05:11;Left;Step:-99;Initial Scanner
+2020.05.22;16:05:11;Left;Step:-99;Scanner is Disable
+2020.05.22;16:05:11;Right;Step:-99;Initial Scanner
+2020.05.22;16:05:11;Right;Step:-98;Init Scanner
+2020.05.22;16:05:11;Right;Step:-98;Init Scanner Pass
+2020.05.22;16:05:11;Right;Step:-97;Initial LineControl
+2020.05.22;16:05:11;Right;Step:-96;Start Receive Message
+2020.05.22;16:05:11;Right;Step:0;Home Position
+2020.05.22;16:05:13;Right;Step:0;Scan Result:12345678/SNYA016QEQ26530
+2020.05.22;16:05:13;Right;Step:1;Check Scan Result Length
+2020.05.22;16:05:13;Right;Step:1;Scan Result:12345678/SNYA016QEQ26530
+2020.05.22;16:05:13;Right;Step:2;Analyze Scan Result
+2020.05.22;16:05:13;Right;Step:3;Check SN and Article Length
+2020.05.22;16:05:13;Right;Step:3;Article：12345678 SerialNumber:YA016QEQ26530
+2020.05.22;16:05:19;Left;Dispose;Dispose Pass
+2020.05.22;16:05:19;Right;Dispose;Dispose Pass
+2020.05.22;16:05:19;MainLeft;Dispose;**************************************************************************************
+2020.05.22;16:05:19;MainRight;Dispose;**************************************************************************************
+2020.05.22;16:05:40;MainLeft;Init;**************************************************************************************
+2020.05.22;16:05:40;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;16:05:40;MainRight;Init;**************************************************************************************
+2020.05.22;16:05:40;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;16:05:40;Left;Step:-100;System Initial
+2020.05.22;16:05:40;Right;Step:-100;System Initial
+2020.05.22;16:05:40;Left;Step:-99;Initial Scanner
+2020.05.22;16:05:40;Left;Step:-99;Scanner is Disable
+2020.05.22;16:05:40;Right;Step:-99;Initial Scanner
+2020.05.22;16:05:40;Right;Step:-98;Init Scanner
+2020.05.22;16:05:40;Right;Step:-98;Init Scanner Pass
+2020.05.22;16:05:40;Right;Step:-97;Initial LineControl
+2020.05.22;16:05:40;Right;Step:-96;Start Receive Message
+2020.05.22;16:05:40;Right;Step:0;Home Position
+2020.05.22;16:05:42;Right;Step:0;Scan Result:12345678/SNYA016QEQ26530
+2020.05.22;16:05:42;Right;Step:1;Check Scan Result Length
+2020.05.22;16:05:42;Right;Step:1;Scan Result:12345678/SNYA016QEQ26530
+2020.05.22;16:05:42;Right;Step:2;Analyze Scan Result
+2020.05.22;16:05:42;Right;Step:3;Check SN and Article Length
+2020.05.22;16:05:42;Right;Step:3;Article：12345678 SerialNumber:YA016QEQ26530
+2020.05.22;16:09:08;MainLeft;Init;**************************************************************************************
+2020.05.22;16:09:08;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;16:09:08;MainRight;Init;**************************************************************************************
+2020.05.22;16:09:08;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.05.22;16:09:08;Twicat Init Fail. Message:Twicat Run Fail. Message:Twicat SetDOBit Fail. Message:Ads-Error 0x7 : Taget machine could not be found.
+2020.05.22;16:09:18;Left;Dispose;Dispose Pass
+2020.05.22;16:09:18;Right;Dispose;Dispose Pass
+2020.05.22;16:09:18;MainLeft;Dispose;**************************************************************************************
+2020.05.22;16:09:18;MainRight;Dispose;**************************************************************************************

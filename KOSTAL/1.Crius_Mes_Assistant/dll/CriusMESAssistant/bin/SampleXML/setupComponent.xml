@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:r4="http://systemagmbh.com/manufacturing-automation/r4/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <r4:setupComponent>
+         <setupComponentRequest>
+            <resourceId></resourceId>
+            <barcodesHU>
+               <huId></huId>
+               <huId2></huId2>
+               <slotId></slotId>
+            </barcodesHU>
+            <materialId></materialId>
+            <materialRevision></materialRevision>
+            <operation></operation>
+            <shopOrder></shopOrder>
+            <slotConfigId></slotConfigId>
+         </setupComponentRequest>
+      </r4:setupComponent>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,5 @@
+H:\work project\2019\occ mes\MillingBarcodeRule\ErrorMessageManager\bin\Debug\ErrorMessageManager.dll
+H:\work project\2019\occ mes\MillingBarcodeRule\ErrorMessageManager\bin\Debug\ErrorMessageManager.pdb
+H:\work project\2019\occ mes\MillingBarcodeRule\ErrorMessageManager\obj\Debug\ErrorMessageManager.csprojResolveAssemblyReference.cache
+H:\work project\2019\occ mes\MillingBarcodeRule\ErrorMessageManager\obj\Debug\ErrorMessageManager.dll
+H:\work project\2019\occ mes\MillingBarcodeRule\ErrorMessageManager\obj\Debug\ErrorMessageManager.pdb

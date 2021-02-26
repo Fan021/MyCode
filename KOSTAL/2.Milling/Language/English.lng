@@ -1,0 +1,136 @@
+'English LanguageFile
+'Description
+'
+
+'==============================================================================
+[Controls]
+'==============================================================================
+GroupBox_SN                = SN:
+GroupBox_Scap              = Scrap Location£º
+GroupBox_ErrorMsg          = Error Message£º
+grpCounter                 = Production£º
+ShowDataToolStripMenuItem  = Article Count
+ShowArticleDataToolStripMenuItem  = No Mes Article
+ShowLineControlConfigToolStripMenuItem = LineCongtrol
+SMTNumberToolStripMenuItem = SMT Number
+BitNumberToolStripMenuItem = Bit
+PLCNumberToolStripMenuItem = PLC Number
+
+MenuLanguage               = Language
+Label_Total                = Total:
+Label_Pass                 = Good:
+Label_Fail                 = Fail:
+Button_Clean=Reset
+Button_Abort=Stop
+Button_Save		   = Confirm
+
+GroupBox_Check             = Query
+Label_ID                   = ID:
+Label_Article              = Article:
+Button_Reset               = Reset
+Button_Check               = Query
+Label_Edit_Id              = ID:
+Label_Edit_Article         = Aricle:
+Label_Edit_Count           = Count:
+Label_Edit_Config          = Config:
+Button_Add                 = Add
+Button_Modify              = Modify
+Button_Delete              = Delete
+ToolStripLabel1            = Previous Page
+ToolStripLabel2            = Next Page
+Label_SMT                  = SMT Number:
+Label_Edit_SMT             = SMT Number:
+Button_OK                  = Confirm
+
+'==============================================================================
+[Text]
+'==============================================================================
+
+MaxText = 100
+
+-100 = System Initial
+-99  = Initial Scanner
+-98  = Initial Scanner
+-97  = Initial LineControl
+-96  = Start Receive Message
+-94  = Goto Home
+0    = Waiting Scan Barcode
+1    = Check Scan Result Length
+2    = Analyze Scan Result
+3    = Check SerialNumber and Article Length
+4    = Waiting for _ArticleStore not Run
+5    = Check if need MES
+6    = Waiting for _DataStore  and  _ArticleCount not Run
+7    = Get Article Count
+8    = Check Article Count
+9    = Waiting for _ArticleCount not Run
+10    = Waiting Input Artice Count
+11    = Check Input Count
+12   = Waiting WebService Response
+13   = Query WebService
+14   = Display Scrap Location
+15   = Waiting _DataStore not Run
+16   = Store Article Count
+17   = Check if Need Linecontrol
+18   = Waiting _LinecontrolStore not Run
+19   = Get Linecontrol Ini
+20   = Waiting _DataStore  and  _ArticleCount not Run
+21   = Get Article Count
+22   = Get SN List
+23   = Initial LineControl
+24   = Waiting _Linecontrol not Run
+25   = Linecontrol ReadPreviousStamp
+26   = Check Linecontrol ReadPreviousStamp
+27   = Waiting Press Start Button
+28   = Open Output
+29   = Open Output
+30   = Waiting _TimeDelay not Run
+31   = Delay 1s
+32   = Waiting _TimeDelay not Run
+33   = Waiting Release OK Button
+34   = Off output
+35   = Waiting PLC off output
+36   = Check if need MES
+37   = Waiting WebService Response
+38   = startBoard WebService
+39   = Waiting _TimeDelay not Run
+40   = Waiting 1s
+41   = Waiting _TimeDelay not Run
+42   = Waiting _WebService not Run
+43   = WebService.completeBoard
+44   = Check if need Linecontrol
+45   = Get SN List
+46   = Waiting _Linecontrol not Run
+47   = Linecontrol WriteCurrentStamp
+48   = Check Linecontrol WriteCurrentStamp Result
+49   = Clean
+50   = End
+
+100 = Waiting _SMTStore not Run
+101 = Change SMT Number to Article
+102 = Creat New SN
+
+
+140 = Get Bit
+141 = Show Bit
+
+150 = Get PLC Address
+151 = Write PLC Address
+152 = Waiting PLC Address
+
+'==============================================================================
+[FailText]
+'==============================================================================
+1    = Scanner is Disable
+2    = Scan Result Length Fail
+3    = Article Length Fail
+4    = SerialNumber Length Fail
+5    = Get Article Count Fail
+6    = Input Article Count Fail
+7    = Get Linecontrol ini Fail£¬Please Call engineer .
+8    = Get SN List Fail
+9    = LineControl Init Fail£¬Please Call engineer .
+10   = LineControl Fail
+11   = Get Article Fail£¬Please Call engineer .
+20   = Bit Number:
+30   = Please Clean Machine.

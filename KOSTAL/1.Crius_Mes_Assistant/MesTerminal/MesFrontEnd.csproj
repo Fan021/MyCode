@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D228F80-D99F-443F-BEFD-35729DFEC72E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MesFrontEnd</RootNamespace>
+    <AssemblyName>MesFrontEnd</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CefSharp">
+      <HintPath>bin\CefSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.Core">
+      <HintPath>bin\CefSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.WinForms">
+      <HintPath>bin\CefSharp.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="IBaseScanner, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IBaseScanner.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MesStationCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NLog, Version=3.2.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\NLog.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="X1900, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\X1900.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="XmlConfigParameterManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\XmlConfigParameterManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="XmlExecutedSequenceManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\XmlExecutedSequenceManager.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="JsHelper.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="style\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="style\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="style\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="style\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="style\fonts\icomoon.eot" />
+    <None Include="style\fonts\icomoon.ttf" />
+    <None Include="style\fonts\icomoon.woff" />
+    <None Include="style\js\locale\bootstrap-table-en-US.js.template" />
+    <None Include="style\js\locale\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="html\Main.html" />
+    <Content Include="html\Produce.html" />
+    <Content Include="html\IO.html" />
+    <Content Include="html\SetParameter.html" />
+    <Content Include="img\discard\close2.png" />
+    <Content Include="img\discard\error.png" />
+    <Content Include="img\discard\F12Tool.png" />
+    <Content Include="img\discard\F5refresh2.png" />
+    <Content Include="img\discard\info1.png" />
+    <Content Include="img\discard\success.png" />
+    <Content Include="img\error-c.png" />
+    <Content Include="img\error.png" />
+    <Content Include="img\img_black.jpg" />
+    <Content Include="img\line-c.png" />
+    <Content Include="img\line.png" />
+    <Content Include="img\mark.png" />
+    <Content Include="img\noise.png" />
+    <Content Include="img\sss.xml" />
+    <Content Include="img\success-c.png" />
+    <Content Include="img\success.png" />
+    <Content Include="img\undo-c.png" />
+    <Content Include="img\undo.png" />
+    <Content Include="img\warning2.png" />
+    <Content Include="js\Produce.js" />
+    <Content Include="js\IO.js" />
+    <Content Include="js\SetParameter.js" />
+    <Content Include="style\css\bootstrap-table.css" />
+    <Content Include="style\css\bootstrap.css" />
+    <Content Include="style\css\btn.style.css" />
+    <Content Include="style\css\component.css" />
+    <Content Include="style\css\default.css" />
+    <Content Include="style\css\jquery.alertable.css" />
+    <Content Include="style\css\Main.css" />
+    <Content Include="style\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="style\fonts\icomoon.dev.svg" />
+    <Content Include="style\fonts\icomoon.svg" />
+    <Content Include="style\js\bootstrap-table.js" />
+    <Content Include="style\js\bootstrap.js" />
+    <Content Include="style\js\index.js" />
+    <Content Include="style\js\jquery-3.3.1.min.js" />
+    <Content Include="style\js\jquery.alertable.js" />
+    <Content Include="style\js\locale\bootstrap-table-af-ZA.js" />
+    <Content Include="style\js\locale\bootstrap-table-ar-SA.js" />
+    <Content Include="style\js\locale\bootstrap-table-ca-ES.js" />
+    <Content Include="style\js\locale\bootstrap-table-cs-CZ.js" />
+    <Content Include="style\js\locale\bootstrap-table-da-DK.js" />
+    <Content Include="style\js\locale\bootstrap-table-de-DE.js" />
+    <Content Include="style\js\locale\bootstrap-table-el-GR.js" />
+    <Content Include="style\js\locale\bootstrap-table-en-US.js" />
+    <Content Include="style\js\locale\bootstrap-table-es-AR.js" />
+    <Content Include="style\js\locale\bootstrap-table-es-CL.js" />
+    <Content Include="style\js\locale\bootstrap-table-es-CR.js" />
+    <Content Include="style\js\locale\bootstrap-table-es-ES.js" />
+    <Content Include="style\js\locale\bootstrap-table-es-MX.js" />
+    <Content Include="style\js\locale\bootstrap-table-es-NI.js" />
+    <Content Include="style\js\locale\bootstrap-table-es-SP.js" />
+    <Content Include="style\js\locale\bootstrap-table-et-EE.js" />
+    <Content Include="style\js\locale\bootstrap-table-eu-EU.js" />
+    <Content Include="style\js\locale\bootstrap-table-fa-IR.js" />
+    <Content Include="style\js\locale\bootstrap-table-fr-BE.js" />
+    <Content Include="style\js\locale\bootstrap-table-fr-FR.js" />
+    <Content Include="style\js\locale\bootstrap-table-he-IL.js" />
+    <Content Include="style\js\locale\bootstrap-table-hr-HR.js" />
+    <Content Include="style\js\locale\bootstrap-table-hu-HU.js" />
+    <Content Include="style\js\locale\bootstrap-table-id-ID.js" />
+    <Content Include="style\js\locale\bootstrap-table-it-IT.js" />
+    <Content Include="style\js\locale\bootstrap-table-ja-JP.js" />
+    <Content Include="style\js\locale\bootstrap-table-ka-GE.js" />
+    <Content Include="style\js\locale\bootstrap-table-ko-KR.js" />
+    <Content Include="style\js\locale\bootstrap-table-ms-MY.js" />
+    <Content Include="style\js\locale\bootstrap-table-nb-NO.js" />
+    <Content Include="style\js\locale\bootstrap-table-nl-NL.js" />
+    <Content Include="style\js\locale\bootstrap-table-pl-PL.js" />
+    <Content Include="style\js\locale\bootstrap-table-pt-BR.js" />
+    <Content Include="style\js\locale\bootstrap-table-pt-PT.js" />
+    <Content Include="style\js\locale\bootstrap-table-ro-RO.js" />
+    <Content Include="style\js\locale\bootstrap-table-ru-RU.js" />
+    <Content Include="style\js\locale\bootstrap-table-sk-SK.js" />
+    <Content Include="style\js\locale\bootstrap-table-sv-SE.js" />
+    <Content Include="style\js\locale\bootstrap-table-th-TH.js" />
+    <Content Include="style\js\locale\bootstrap-table-tr-TR.js" />
+    <Content Include="style\js\locale\bootstrap-table-uk-UA.js" />
+    <Content Include="style\js\locale\bootstrap-table-ur-PK.js" />
+    <Content Include="style\js\locale\bootstrap-table-uz-Latn-UZ.js" />
+    <Content Include="style\js\locale\bootstrap-table-vi-VN.js" />
+    <Content Include="style\js\locale\bootstrap-table-zh-CN.js" />
+    <Content Include="style\js\locale\bootstrap-table-zh-TW.js" />
+    <Content Include="style\js\modernizr.custom.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

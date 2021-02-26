@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{0AF0B839-956B-4F01-B65B-C43552A11445}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>Kostal.Mes.Milling</RootNamespace>
+    <AssemblyName>Kostal.Mes.Milling</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\</OutputPath>
+    <DocumentationFile>Kostal.Mes.Milling.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Kostal.Mes.Milling.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>people.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=5.1.2.2, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\MySQL\MySQL Connector Net 5.1.2\Binaries\.NET 2.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TwinCAT.Ads">
+      <HintPath>..\..\..\Lib\TwinCAT.Ads.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\BarCode.vb" />
+    <Compile Include="Common\FileHandler.vb" />
+    <Compile Include="Common\Language.vb" />
+    <Compile Include="Common\LineControl.vb" />
+    <Compile Include="Common\Logger.vb" />
+    <Compile Include="Common\Messager.vb" />
+    <Compile Include="Common\ProcessControl.vb" />
+    <Compile Include="Common\Setting.vb" />
+    <Compile Include="Common\Shift.vb" />
+    <Compile Include="Common\Station.vb" />
+    <Compile Include="Common\TimeDelay.vb" />
+    <Compile Include="Common\XmlHandler.vb" />
+    <Compile Include="Device\ArticleStore.vb" />
+    <Compile Include="Device\BaseInterface.vb" />
+    <Compile Include="Device\BitStore.vb" />
+    <Compile Include="Device\clsAlarm.vb" />
+    <Compile Include="Device\ConfigData.vb" />
+    <Compile Include="Device\Datalogic_Scanner.vb" />
+    <Compile Include="Device\DataStore.vb" />
+    <Compile Include="Device\DeviceComponents.vb" />
+    <Compile Include="Device\LinecontrolStore.vb" />
+    <Compile Include="Device\PLCStore.vb" />
+    <Compile Include="Device\SMTStore.vb" />
+    <Compile Include="Device\TwinCatAds.vb" />
+    <Compile Include="Device\UserData.vb" />
+    <Compile Include="Device\WebService.vb" />
+    <Compile Include="Device\WebService2.vb" />
+    <Compile Include="Form\AlarmMessage.Designer.vb">
+      <DependentUpon>AlarmMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AlarmMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ArticleCount.Designer.vb">
+      <DependentUpon>ArticleCount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ArticleCount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Bit.Designer.vb">
+      <DependentUpon>Bit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Bit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Count.Designer.vb">
+      <DependentUpon>Count.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Count.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ExceptionMsg.designer.vb">
+      <DependentUpon>ExceptionMsg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ExceptionMsg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\LinecontrolConfig.Designer.vb">
+      <DependentUpon>LinecontrolConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\LinecontrolConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\LoadScreen.designer.vb">
+      <DependentUpon>LoadScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\LoadScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Login.designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\NoArticleCount.Designer.vb">
+      <DependentUpon>NoArticleCount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\NoArticleCount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PassWordForm.designer.vb">
+      <DependentUpon>PassWordForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PassWordForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PLC.designer.vb">
+      <DependentUpon>PLC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PLC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SMTNumber.Designer.vb">
+      <DependentUpon>SMTNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SMTNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Station\MESStation.vb" />
+    <Compile Include="Station\StationComponents.vb" />
+    <Compile Include="UserControl\KeyPad.designer.vb">
+      <DependentUpon>KeyPad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\KeyPad.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UI.Designer.vb">
+      <DependentUpon>UI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UI.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form\AlarmMessage.resx">
+      <DependentUpon>AlarmMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ArticleCount.resx">
+      <DependentUpon>ArticleCount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Bit.resx">
+      <DependentUpon>Bit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Count.resx">
+      <DependentUpon>Count.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ExceptionMsg.resx">
+      <DependentUpon>ExceptionMsg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\LinecontrolConfig.resx">
+      <DependentUpon>LinecontrolConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\LoadScreen.resx">
+      <DependentUpon>LoadScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\NoArticleCount.resx">
+      <DependentUpon>NoArticleCount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PassWordForm.resx">
+      <DependentUpon>PassWordForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PLC.resx">
+      <DependentUpon>PLC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SMTNumber.resx">
+      <DependentUpon>SMTNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\KeyPad.resx">
+      <DependentUpon>KeyPad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UI.resx">
+      <DependentUpon>UI.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="people.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Linecontroller">
+      <Guid>{0BB4E32A-3A7D-4A55-BDD1-15351D4D3422}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

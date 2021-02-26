@@ -1,0 +1,47 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:r4="http://systemagmbh.com/manufacturing-automation/r4/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <r4:assemble>
+         <!--Optional:-->
+         <assembleRequest>
+            <!--Optional:-->
+            <resourceId></resourceId>
+            <!--Optional:-->
+            <softwareRevision></softwareRevision>
+            <!--Optional:-->
+            <timeStamp></timeStamp>
+            <!--Optional:-->
+            <operation></operation>
+            <!--Optional:-->
+            <sfc></sfc>
+            <!--Zero or more repetitions:-->
+            <componentDatas>
+               <!--Zero or more repetitions:-->
+               <bomParameters>
+                  <!--Optional:-->
+                  <name></name>
+                  <!--Optional:-->
+                  <value></value>
+               </bomParameters>
+               <!--Optional:-->
+               <identifier></identifier>
+               <!--Optional:-->
+               <inventory></inventory>
+               <!--Optional:-->
+               <location></location>
+               <!--Optional:-->
+               <materialId></materialId>
+               <!--Optional:-->
+               <materialRevision></materialRevision>
+               <!--Optional:-->
+               <quantity></quantity>
+               <!--Optional:-->
+               <referenceDesignator></referenceDesignator>
+            </componentDatas>
+            <!--Optional:-->
+            <quantity></quantity>
+         </assembleRequest>
+         <isWithoutQty></isWithoutQty>
+      </r4:assemble>
+   </soapenv:Body>
+</soapenv:Envelope>

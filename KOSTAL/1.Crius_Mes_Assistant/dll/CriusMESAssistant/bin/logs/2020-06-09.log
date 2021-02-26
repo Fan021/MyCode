@@ -1,0 +1,38 @@
+2020-06-09 10:19:36.4210 |      1 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2020-06-09 10:19:36.4430 |      1 | INFO  |      XmlWhiteList |                   load | load white list from configuration file .\config\whitelist.xml 
+2020-06-09 10:19:36.4920 |      1 | INFO  |              Main |                  .ctor | Initialize Instance Failed. 
+2020-06-09 10:19:43.0530 |      1 | ERROR |              Main |                  .ctor | could not create instance for each lib! 
+2020-06-09 10:19:46.4260 |      1 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2020-06-09 10:19:46.4480 |      1 | INFO  |      XmlWhiteList |                   load | load white list from configuration file .\config\whitelist.xml 
+2020-06-09 10:19:46.4950 |      1 | INFO  |              Main |                  .ctor | Initialize Instance Failed. 
+2020-06-09 10:19:49.2350 |      1 | ERROR |              Main |                  .ctor | could not create instance for each lib! 
+2020-06-09 10:20:09.4240 |      1 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2020-06-09 10:20:09.4460 |      1 | INFO  |      XmlWhiteList |                   load | load white list from configuration file .\config\whitelist.xml 
+2020-06-09 10:20:09.4930 |      1 | INFO  |              Main |                  .ctor | Initialize Instance Failed. 
+2020-06-09 10:20:10.4500 |      1 | ERROR |              Main |                  .ctor | could not create instance for each lib! 
+2020-06-09 10:26:53.0583 |      1 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2020-06-09 10:26:53.0803 |      1 | INFO  |      XmlWhiteList |                   load | load white list from configuration file .\config\whitelist.xml 
+2020-06-09 10:26:53.1273 |      1 | INFO  |              Main |                  .ctor | Initialize Instance Failed. 
+2020-06-09 10:26:58.1804 |      1 | ERROR |              Main |                  .ctor | could not create instance for each lib! 
+2020-06-09 11:56:35.7755 |      9 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2020-06-09 11:56:35.8405 |      9 | INFO  |      XmlWhiteList |                   load | load white list from configuration file .\config\whitelist.xml 
+2020-06-09 11:56:35.9165 |      9 | INFO  |              Main |                  .ctor | Initialize Instance Failed. 
+2020-06-09 11:56:38.3845 |      9 | ERROR |              Main |                  .ctor | could not create instance for each lib! 
+2020-06-09 11:57:18.8032 |      9 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2020-06-09 11:57:26.6562 |      9 | INFO  |      XmlWhiteList |                   load | load white list from configuration file .\config\whitelist.xml 
+2020-06-09 11:57:40.8371 |      9 | INFO  |              Main |                  .ctor | Initialize Instance Failed. 
+2020-06-09 12:44:18.2652 |     10 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2020-06-09 12:44:18.3522 |     10 | INFO  |              Main |                  .ctor | Initialize Instance Failed. 
+2020-06-09 12:44:23.2852 |     10 | ERROR |              Main |                  .ctor | could not create instance for each lib! 
+2020-06-09 12:46:36.1772 |      9 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2020-06-09 12:46:36.2152 |      9 | INFO  |              Main |                  .ctor | Initialize Interface. 
+2020-06-09 12:46:44.0282 |      9 | ERROR |              Main |                  .ctor | 未将对象引用设置到对象的实例。 
+2020-06-09 12:47:55.9002 |     10 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2020-06-09 12:47:55.9382 |     10 | INFO  |              Main |                  .ctor | Initialize Interface. 
+2020-06-09 12:47:57.0532 |     10 | ERROR |              Main |                  .ctor | 未将对象引用设置到对象的实例。 
+2020-06-09 12:48:24.6102 |     10 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2020-06-09 12:48:24.6472 |     10 | INFO  |              Main |                  .ctor | Initialize Interface. 
+2020-06-09 12:48:25.8752 |     10 | ERROR |              Main |                  .ctor | 未将对象引用设置到对象的实例。 
+2020-06-09 12:48:52.7172 |     10 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2020-06-09 12:48:52.7542 |     10 | INFO  |              Main |                  .ctor | Initialize Interface. 
+2020-06-09 12:48:54.1572 |     10 | ERROR |              Main |                  .ctor | 未将对象引用设置到对象的实例。 

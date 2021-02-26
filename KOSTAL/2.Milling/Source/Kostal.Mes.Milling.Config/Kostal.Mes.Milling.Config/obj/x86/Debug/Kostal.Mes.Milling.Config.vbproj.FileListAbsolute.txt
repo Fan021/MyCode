@@ -1,0 +1,80 @@
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Resources.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.vbproj.GenerateResource.Cache
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.exe
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.xml
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.pdb
+D:\Data\MES Data\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.exe
+D:\Data\MES Data\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.pdb
+D:\Data\MES Data\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.xml
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Login.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.FormConfig.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.ScannerControl.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.exe
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.xml
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.pdb
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.FormConfig.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Login.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Resources.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.ScannerControl.resources
+D:\KProject\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.exe
+D:\KProject\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.pdb
+D:\KProject\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.xml
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.exe
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.xml
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.pdb
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.FormConfig.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Login.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Resources.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.ScannerControl.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.exe
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.pdb
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.xml
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.exe
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.xml
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.pdb
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.FormConfig.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Login.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Resources.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.ScannerControl.resources
+D:\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.exe
+D:\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.pdb
+D:\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.xml
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.exe
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.xml
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.pdb
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.FormConfig.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Login.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Resources.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.ScannerControl.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.exe
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.pdb
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.xml
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.vbproj.GenerateResource.Cache
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.exe
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.xml
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.pdb
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.vbprojResolveAssemblyReference.cache
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.FormConfig.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Login.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Resources.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.ScannerControl.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.vbproj.GenerateResource.Cache
+C:\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.exe
+C:\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.pdb
+C:\Kostal.Mes.Milling\Kostal.Mes.Milling.Config.xml
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.exe
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.xml
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.pdb
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.FormConfig.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Login.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.Resources.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.ScannerControl.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling.Config\Kostal.Mes.Milling.Config\obj\x86\Debug\Kostal.Mes.Milling.Config.vbproj.GenerateResource.Cache
+D:\workdetails\8.Mes\2.Milling\Kostal.Mes.Milling.Config.exe
+D:\workdetails\8.Mes\2.Milling\Kostal.Mes.Milling.Config.pdb
+D:\workdetails\8.Mes\2.Milling\Kostal.Mes.Milling.Config.xml

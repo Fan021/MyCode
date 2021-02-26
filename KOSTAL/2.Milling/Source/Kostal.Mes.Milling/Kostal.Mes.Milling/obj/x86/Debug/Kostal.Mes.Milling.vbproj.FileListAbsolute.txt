@@ -1,0 +1,272 @@
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+D:\Data\MES Data\Kostal.Mes.Milling\Kostal.Mes.Milling.exe
+D:\Data\MES Data\Kostal.Mes.Milling\Kostal.Mes.Milling.pdb
+D:\Data\MES Data\Kostal.Mes.Milling\Kostal.Mes.Milling.xml
+D:\Data\MES Data\Kostal.Mes.Milling\Kostal.Mes.Milling.exe.config
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Kostal.Mes.Milling.exe.config
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Kostal.Mes.Milling.exe
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Kostal.Mes.Milling.pdb
+C:\Users\Administrator\Desktop\Kostal.Mes.Milling\Kostal.Mes.Milling.xml
+D:\Software\Kostal.Mes.Milling\Kostal.Mes.Milling.exe.config
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Software\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Software\Kostal.Mes.Milling\Kostal.Mes.Milling.exe
+D:\Software\Kostal.Mes.Milling\Kostal.Mes.Milling.pdb
+D:\Software\Kostal.Mes.Milling\Kostal.Mes.Milling.xml
+D:\KProject\Kostal.Mes.Milling\Kostal.Mes.Milling.exe.config
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+D:\KProject\Kostal.Mes.Milling\Kostal.Mes.Milling.exe
+D:\KProject\Kostal.Mes.Milling\Kostal.Mes.Milling.pdb
+D:\KProject\Kostal.Mes.Milling\Kostal.Mes.Milling.xml
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Count.resources
+C:\Users\wu068\Desktop\Milling\Kostal.Mes.Milling.exe.config
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Count.resources
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\Milling\Kostal.Mes.Milling.exe
+C:\Users\wu068\Desktop\Milling\Kostal.Mes.Milling.pdb
+C:\Users\wu068\Desktop\Milling\Kostal.Mes.Milling.xml
+C:\Users\wu068\Desktop\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.NoArticleCount.resources
+D:\Data\MES Data\Milling\Kostal.Mes.Milling.exe.config
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Count.resources
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.NoArticleCount.resources
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+D:\Data\MES Data\Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.GenerateResource.Cache
+D:\Data\MES Data\Milling\Kostal.Mes.Milling.exe
+D:\Data\MES Data\Milling\Kostal.Mes.Milling.pdb
+D:\Data\MES Data\Milling\Kostal.Mes.Milling.xml
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.NoArticleCount.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LinecontrolConfig.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Interop.Linecontroller.dll
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.ResolveComReference.cache
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Interop.Linecontroller.dll
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.ResolveComReference.cache
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Kostal.Mes.Milling.exe.config
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Count.resources
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LinecontrolConfig.resources
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.NoArticleCount.resources
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Kostal.Mes.Milling.exe
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Kostal.Mes.Milling.pdb
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Kostal.Mes.Milling.xml
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.SMTNumber.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.SMTNumber.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Interop.Linecontroller.dll
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.ResolveComReference.cache
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Count.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LinecontrolConfig.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.NoArticleCount.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.SMTNumber.resources
+D:\Data\MES Data\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Login.resources
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Login.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Interop.Linecontroller.dll
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.ResolveComReference.cache
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Kostal.Mes.Milling.exe.config
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Count.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LinecontrolConfig.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Login.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.NoArticleCount.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.SMTNumber.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Kostal.Mes.Milling.exe
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Kostal.Mes.Milling.pdb
+C:\Users\wu068\Desktop\Kostal.Mes.Milling\Kostal.Mes.Milling.xml
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\KProject\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Interop.Linecontroller.dll
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.ResolveComReference.cache
+D:\Kostal.Mes.Milling\Kostal.Mes.Milling.exe.config
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Count.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LinecontrolConfig.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Login.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.NoArticleCount.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.SMTNumber.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+D:\Kostal.Mes.Milling\Kostal.Mes.Milling.exe
+D:\Kostal.Mes.Milling\Kostal.Mes.Milling.pdb
+D:\Kostal.Mes.Milling\Kostal.Mes.Milling.xml
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Interop.Linecontroller.dll
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.ResolveComReference.cache
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Kostal.Mes.Milling.exe.config
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Bit.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Count.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LinecontrolConfig.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Login.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.NoArticleCount.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.SMTNumber.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Kostal.Mes.Milling.exe
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Kostal.Mes.Milling.pdb
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Kostal.Mes.Milling.xml
+C:\Users\wu068\Desktop\Daimler_MRA_BM200060519_s8_5_3_BS1189\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.AlarmMessage.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.AlarmMessage.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Bit.resources
+D:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PLC.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Interop.Linecontroller.dll
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.ResolveComReference.cache
+C:\Kostal.Mes.Milling\Kostal.Mes.Milling.exe.config
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbprojResolveAssemblyReference.cache
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.AlarmMessage.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Bit.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Count.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LinecontrolConfig.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Login.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.NoArticleCount.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PLC.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.SMTNumber.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+C:\Kostal.Mes.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.GenerateResource.Cache
+C:\Kostal.Mes.Milling\Kostal.Mes.Milling.exe
+C:\Kostal.Mes.Milling\Kostal.Mes.Milling.pdb
+C:\Kostal.Mes.Milling\Kostal.Mes.Milling.xml
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Interop.Linecontroller.dll
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.ResolveComReference.cache
+D:\workdetails\8.Mes\2.Milling\Kostal.Mes.Milling.exe.config
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.exe
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.xml
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.pdb
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbprojResolveAssemblyReference.cache
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.AlarmMessage.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ArticleCount.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Bit.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Count.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.ExceptionMsg.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LinecontrolConfig.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.LoadScreen.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Login.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.MainForm.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.NoArticleCount.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PassWordForm.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.PLC.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.SMTNumber.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.Resources.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.KeyPad.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.UI.resources
+D:\workdetails\8.Mes\2.Milling\Source\Kostal.Mes.Milling\Kostal.Mes.Milling\obj\x86\Debug\Kostal.Mes.Milling.vbproj.GenerateResource.Cache
+D:\workdetails\8.Mes\2.Milling\Kostal.Mes.Milling.exe
+D:\workdetails\8.Mes\2.Milling\Kostal.Mes.Milling.pdb
+D:\workdetails\8.Mes\2.Milling\Kostal.Mes.Milling.xml

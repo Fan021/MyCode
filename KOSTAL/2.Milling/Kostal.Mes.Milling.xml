@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kostal.Mes.Milling
+</name>
+</assembly>
+<members>
+<member name="M:Kostal.Mes.Milling.TwinCatAds.AddDeviceNotificationEx(System.Int64,System.Int64,System.String,System.Object)">
+ <summary>
+ 手动添加Notification.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Mes.Milling.TwinCatAds.AddNotificationEx(System.String,System.Object)">
+ <summary>
+ 手动添加Notification.
+ </summary>
+ <param name="VariableName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Mes.Milling.TwinCatAds.adsClient_AdsNotificationEx(System.Object,TwinCAT.Ads.AdsNotificationExEventArgs)">
+ <summary>
+ Notification回调函数.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Mes.Milling.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Kostal.Mes.Milling.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Kostal.Mes.Milling.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>

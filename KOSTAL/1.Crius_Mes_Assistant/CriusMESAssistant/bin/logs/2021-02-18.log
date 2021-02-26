@@ -1,0 +1,4 @@
+2021-02-18 16:19:35.6218 |      9 | INFO  |              Main |                  .ctor | Initialize Scanner. 
+2021-02-18 16:19:35.6928 |      9 | INFO  |      XmlWhiteList |                   load | load white list from configuration file .\config\whitelist.xml 
+2021-02-18 16:19:35.7958 |      9 | INFO  |              Main |                  .ctor | Initialize Instance Failed. 
+2021-02-18 16:19:37.5368 |      9 | ERROR |              Main |                  .ctor | could not create instance for each lib! 

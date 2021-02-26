@@ -1,0 +1,5 @@
+D:\workdetails\8.Mes\Crius_Mes_Assistant\CriusMESAssistant\bin\lib\BothTrigScanner.dll
+D:\workdetails\8.Mes\Crius_Mes_Assistant\CriusMESAssistant\bin\lib\BothTrigScanner.pdb
+D:\workdetails\8.Mes\Crius_Mes_Assistant\BothTrigScanner\obj\Debug\BothTrigScanner.csprojResolveAssemblyReference.cache
+D:\workdetails\8.Mes\Crius_Mes_Assistant\BothTrigScanner\obj\Debug\BothTrigScanner.dll
+D:\workdetails\8.Mes\Crius_Mes_Assistant\BothTrigScanner\obj\Debug\BothTrigScanner.pdb

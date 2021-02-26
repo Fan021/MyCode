@@ -1,0 +1,78 @@
+2020.06.29;10:59:51;MainLeft;Init;**************************************************************************************
+2020.06.29;10:59:51;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.06.29;10:59:51;MainRight;Init;**************************************************************************************
+2020.06.29;10:59:51;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.06.29;10:59:51;Left;Step:-100;System Initial
+2020.06.29;10:59:51;Right;Step:-100;System Initial
+2020.06.29;10:59:51;Left;Step:-99;Initial Scanner
+2020.06.29;10:59:51;Left;Step:-99;Scanner is Disable
+2020.06.29;10:59:51;Right;Step:-99;Initial Scanner
+2020.06.29;10:59:51;Right;Step:-98;Init Scanner
+2020.06.29;10:59:52;Station:Right;Step:-98;Message:由于目标计算机积极拒绝，无法连接。 127.0.0.1:9100
+2020.06.29;10:59:55;Left;Dispose;Dispose Pass
+2020.06.29;10:59:55;Right;Dispose;Dispose Pass
+2020.06.29;10:59:55;MainLeft;Dispose;**************************************************************************************
+2020.06.29;10:59:55;MainRight;Dispose;**************************************************************************************
+2020.06.29;11:00:15;MainLeft;Init;**************************************************************************************
+2020.06.29;11:00:15;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.06.29;11:00:15;MainRight;Init;**************************************************************************************
+2020.06.29;11:00:15;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.06.29;11:00:15;Left;Step:-100;System Initial
+2020.06.29;11:00:15;Right;Step:-100;System Initial
+2020.06.29;11:00:15;Left;Step:-99;Initial Scanner
+2020.06.29;11:00:15;Left;Step:-99;Scanner is Disable
+2020.06.29;11:00:15;Right;Step:-99;Initial Scanner
+2020.06.29;11:00:15;Right;Step:-98;Init Scanner
+2020.06.29;11:00:15;Right;Step:-98;Init Scanner Pass
+2020.06.29;11:00:15;Right;Step:-97;Initial LineControl
+2020.06.29;11:00:20;Right;Step:-97;Init LineControl Fail. Message:Init - Database cannot open Error Code:-3
+2020.06.29;11:00:20;Station:Right;Step:-97;Message:Init LineControl Fail. Message:Init - Database cannot open Error Code:-3
+2020.06.29;11:00:27;Left;Dispose;Dispose Pass
+2020.06.29;11:00:27;Right;Dispose;Dispose Pass
+2020.06.29;11:00:27;MainLeft;Dispose;**************************************************************************************
+2020.06.29;11:00:27;MainRight;Dispose;**************************************************************************************
+2020.06.29;11:00:57;MainLeft;Init;**************************************************************************************
+2020.06.29;11:00:57;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.06.29;11:00:57;MainRight;Init;**************************************************************************************
+2020.06.29;11:00:57;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.06.29;11:00:57;Left;Step:-100;System Initial
+2020.06.29;11:00:57;Right;Step:-100;System Initial
+2020.06.29;11:00:57;Left;Step:-99;Initial Scanner
+2020.06.29;11:00:57;Left;Step:-99;Scanner is Disable
+2020.06.29;11:00:57;Right;Step:-99;Initial Scanner
+2020.06.29;11:00:57;Right;Step:-98;Init Scanner
+2020.06.29;11:00:57;Right;Step:-98;Init Scanner Pass
+2020.06.29;11:00:57;Right;Step:-97;Initial LineControl
+2020.06.29;11:00:57;Right;Step:-96;Start Receive Message
+2020.06.29;11:00:57;Right;Step:0;Home Position
+2020.06.29;11:06:02;Left;Dispose;Dispose Pass
+2020.06.29;11:06:02;Right;Dispose;Dispose Pass
+2020.06.29;11:06:02;MainLeft;Dispose;**************************************************************************************
+2020.06.29;11:06:02;MainRight;Dispose;**************************************************************************************
+2020.06.29;11:06:07;MainLeft;Init;**************************************************************************************
+2020.06.29;11:06:07;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.06.29;11:06:07;MainRight;Init;**************************************************************************************
+2020.06.29;11:06:07;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.06.29;11:06:07;Left;Step:-100;System Initial
+2020.06.29;11:06:07;Right;Step:-100;System Initial
+2020.06.29;11:06:07;Left;Step:-99;Initial Scanner
+2020.06.29;11:06:07;Left;Step:-99;Scanner is Disable
+2020.06.29;11:06:07;Right;Step:-99;Initial Scanner
+2020.06.29;11:06:07;Right;Step:-98;Init Scanner
+2020.06.29;11:06:07;Right;Step:-98;Init Scanner Pass
+2020.06.29;11:06:07;Right;Step:-97;Initial LineControl
+2020.06.29;11:06:07;Right;Step:-96;Start Receive Message
+2020.06.29;11:06:07;Right;Step:0;Home Position
+2020.06.29;11:06:54;Left;Dispose;Dispose Pass
+2020.06.29;11:06:54;Right;Dispose;Dispose Pass
+2020.06.29;11:06:54;MainLeft;Dispose;**************************************************************************************
+2020.06.29;11:06:54;MainRight;Dispose;**************************************************************************************
+2020.06.29;11:08:47;MainLeft;Init;**************************************************************************************
+2020.06.29;11:08:47;MainLeft;GetSelectedLanguage;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.06.29;11:08:47;MainRight;Init;**************************************************************************************
+2020.06.29;11:08:47;MainRight;;System Version: V1.0.0.0 Build: 1.0.0.0
+2020.06.29;11:08:47;Twicat Init Fail. Message:Twicat Run Fail. Message:Twicat SetDOBit Fail. Message:Ads-Error 0x7 : Taget machine could not be found.
+2020.06.29;11:08:51;Left;Dispose;Dispose Pass
+2020.06.29;11:08:51;Right;Dispose;Dispose Pass
+2020.06.29;11:08:51;MainLeft;Dispose;**************************************************************************************
+2020.06.29;11:08:51;MainRight;Dispose;**************************************************************************************

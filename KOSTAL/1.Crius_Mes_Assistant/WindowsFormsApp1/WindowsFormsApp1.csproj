@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3EFEF90C-9CAB-46B4-BC6F-80DB75CAA5CB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\MES\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BeckhoffMechControl\BeckhoffMechControl.csproj">
+      <Project>{b80cbd02-9155-4e42-9090-aac33494cac3}</Project>
+      <Name>BeckhoffMechControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BeckhoffMechControl\BeckhoffMechControl.csproj">
+      <Project>{b80cbd02-9155-4e42-9090-aac33494cac3}</Project>
+      <Name>BeckhoffMechControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatalogicScanner\DatalogicScanner.csproj">
+      <Project>{62418efe-3486-4080-b192-24404ef67fe7}</Project>
+      <Name>DatalogicScanner</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmptyDataRouter\EmptyDataRouter.csproj">
+      <Project>{7c45984f-6c87-4325-a216-9c3d6a7a7fa3}</Project>
+      <Name>EmptyDataRouter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmptyResultDataExtractor\EmptyResultDataExtractor.csproj">
+      <Project>{c60743dc-8977-421d-91ad-2e526f2864f4}</Project>
+      <Name>EmptyResultDataExtractor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmptySequenceAdapter\EmptySequenceAdapter.csproj">
+      <Project>{9a2519a8-90c8-4afe-a0eb-182ea51eee74}</Project>
+      <Name>EmptySequenceAdapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HostSerialControlScanner\HostSerialControlScanner.csproj">
+      <Project>{ddc8e8a3-d4cd-42a2-9876-2cf892946326}</Project>
+      <Name>HostSerialControlScanner</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MesStationCommon\MesStationCommon.csproj">
+      <Project>{ae69214b-ba58-40e2-90f0-096a15a05808}</Project>
+      <Name>MesStationCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PiningResultDataExtractor\PiningResultDataExtractor.csproj">
+      <Project>{fa745ed2-d9a5-471d-afe4-76ff11e7a4dd}</Project>
+      <Name>PiningResultDataExtractor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QueneSequenceAdapter\QueneSequenceAdapter.csproj">
+      <Project>{e689c9d2-04e6-4da1-bab0-cf4779b1e267}</Project>
+      <Name>QueneSequenceAdapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StandardBarcodeRule\StandardBarcodeRule.csproj">
+      <Project>{f3c0dbc6-7ba7-4e19-9d02-59215bac4073}</Project>
+      <Name>StandardBarcodeRule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StringDataRouter\PinningDataRouter.csproj">
+      <Project>{9d7f32db-22cf-4f43-8400-ef00f561e595}</Project>
+      <Name>PinningDataRouter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlConfigParameterManager\XmlConfigParameterManager.csproj">
+      <Project>{6d15fc2a-5e0e-4a37-8824-e7d0b1d37de9}</Project>
+      <Name>XmlConfigParameterManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlExecutedSequenceManager\XmlExecutedSequenceManager.csproj">
+      <Project>{88250af3-065b-4c6a-8211-29c20f4013c2}</Project>
+      <Name>XmlExecutedSequenceManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlWhiteList\XmlWhiteList.csproj">
+      <Project>{ea0edb83-11b2-442e-b0c7-0c8a04b1f7b9}</Project>
+      <Name>XmlWhiteList</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

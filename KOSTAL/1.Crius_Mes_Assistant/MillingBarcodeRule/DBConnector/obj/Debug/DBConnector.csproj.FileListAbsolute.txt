@@ -1,0 +1,5 @@
+H:\work project\2019\occ mes\MillingBarcodeRule\DBConnector\bin\Debug\DBConnector.dll
+H:\work project\2019\occ mes\MillingBarcodeRule\DBConnector\bin\Debug\DBConnector.pdb
+H:\work project\2019\occ mes\MillingBarcodeRule\DBConnector\obj\Debug\DBConnector.dll
+H:\work project\2019\occ mes\MillingBarcodeRule\DBConnector\obj\Debug\DBConnector.pdb
+H:\work project\2019\occ mes\MillingBarcodeRule\DBConnector\obj\Debug\DBConnector.csprojResolveAssemblyReference.cache

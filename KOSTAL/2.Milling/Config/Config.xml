@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MesConfiguration>
+  <LanguageFiles>
+    <Language>
+      <Name>English</Name>
+    </Language>
+    <Language>
+      <Name>Chinese</Name>
+    </Language>
+  </LanguageFiles>
+  <SelLanguage>
+    <Language>Chinese</Language>
+  </SelLanguage>
+  <Scanner>
+    <SerialPort>
+      <Position>Left</Position>
+      <!--TCP or RS232-->
+      <Enable>true</Enable>
+      <Type>TCP</Type>
+      <Port>COM1</Port>
+      <Bandrate>115200</Bandrate>
+      <Parity>N</Parity>
+      <Databits>8</Databits>
+      <Stopbit>1</Stopbit>
+      <IP>169.254.157.100</IP>
+      <IPPort>51236</IPPort>
+    </SerialPort>
+    <SerialPort>
+      <Position>Right</Position>
+      <!--TCP or RS232-->
+      <Enable>true</Enable>
+      <Type>TCP</Type>
+      <Port>COM1</Port>
+      <Bandrate>115200</Bandrate>
+      <Parity>N</Parity>
+      <Databits>8</Databits>
+      <Stopbit>1</Stopbit>
+      <IP>169.254.200.101</IP>
+      <IPPort>51236</IPPort>
+    </SerialPort>
+    <PCBBarcode>
+      <StartChar>0x02</StartChar>
+      <StopChar>0x03</StopChar>
+      <DataLength>24</DataLength>
+    </PCBBarcode>
+  </Scanner>
+  <Twincat>
+    <AmsNetId>10.180.11.129.1.1</AmsNetId>
+    <TwinCatPort>300</TwinCatPort>
+    <ReadIndexGroup>81921</ReadIndexGroup>
+    <ReadIndexOffset>208</ReadIndexOffset>
+    <WriteIndexGroup>77825</WriteIndexGroup>
+    <WriteIndexOffset>208</WriteIndexOffset>
+    <LeftReadIO>0</LeftReadIO>
+    <LeftWriteIO>0</LeftWriteIO>
+    <RightReadIO>1</RightReadIO>
+    <RightWriteIO>1</RightWriteIO>
+  </Twincat>
+  <SQL>
+    <DBServer>127.0.0.1</DBServer>
+    <DBPort>3304</DBPort>
+    <DBUserName>root</DBUserName>
+    <DBPassWord>apb34eol</DBPassWord>
+    <DBName>MES</DBName>
+    <DBTable>Article</DBTable>
+    <DBArticleTable>NOArticle</DBArticleTable>
+    <DBLinecontrolTable>LineControlConfig</DBLinecontrolTable>
+  </SQL>
+  <MES>
+    <WebserviceUrl>http://cnshmes001.cn.kostal.int:1050/MillingIntegrationR1_5/MillingIntegrationBean5?WSDL</WebserviceUrl>
+    <LoginName>ECOSYS</LoginName>
+    <LoginPassword>m7atbQ0nn3Ae</LoginPassword>
+    <Timeout>1000</Timeout>
+    <Operation>MILL</Operation>
+    <Resource>100564</Resource>
+    <!--True or False-->
+    <LogEnable>True</LogEnable>
+    <PassiveMode>True</PassiveMode>
+    <!--c:\test-->
+    <LogPath>
+    </LogPath>
+    <!--AllLog or ErrorLog-->
+    <LogLevel>AllLog</LogLevel>
+  </MES>
+  <LineControl>
+    <DefaultLR>LR.ini</DefaultLR>
+    <TraceId>91789</TraceId>
+    <PreviousTest>ICT</PreviousTest>
+    <CurrentTest>MILL</CurrentTest>
+    <DefalutSection>SETTINGS_ICT</DefalutSection>
+    <!--True or False-->
+    <Enable>True</Enable>
+  </LineControl>
+</MesConfiguration>

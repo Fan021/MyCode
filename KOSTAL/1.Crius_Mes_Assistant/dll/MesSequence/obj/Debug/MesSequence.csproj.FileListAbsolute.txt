@@ -1,0 +1,20 @@
+H:\work project\2019\occ mes\MesSequence\MesSequence\obj\Debug\MesSequence.csprojResolveAssemblyReference.cache
+H:\work project\2019\occ mes\CriusMESAssistant\lib\MESSequence.dll
+H:\work project\2019\occ mes\CriusMESAssistant\lib\MESSequence.pdb
+H:\work project\2019\occ mes\MesSequence\MesSequence\obj\Debug\MESSequence.dll
+H:\work project\2019\occ mes\MesSequence\MesSequence\obj\Debug\MESSequence.pdb
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\lib\MESSequence.dll
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\lib\MESSequence.pdb
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\bin\MESSequence.dll
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\bin\MESSequence.pdb
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\bin\lib\MESSequence.dll
+H:\work project\2019\occ mes\CriusMESAssistant\CriusMESAssistant\bin\lib\MESSequence.pdb
+H:\work project\2019\occ mes\CriusMESAssistant\bin\lib\MESSequence.dll
+H:\work project\2019\occ mes\CriusMESAssistant\bin\lib\MESSequence.pdb
+D:\Crius_Mes_Assistant\MesSequence\obj\Debug\MesSequence.csprojResolveAssemblyReference.cache
+D:\Crius_Mes_Assistant\MesSequence\obj\Debug\MESSequence.dll
+D:\Crius_Mes_Assistant\MesSequence\obj\Debug\MESSequence.pdb
+D:\CriusMESAssistant\bin\lib\MESSequence.dll
+D:\CriusMESAssistant\bin\lib\MESSequence.pdb
+D:\Crius_Mes_Assistant\bin\MESSequence.dll
+D:\Crius_Mes_Assistant\bin\MESSequence.pdb

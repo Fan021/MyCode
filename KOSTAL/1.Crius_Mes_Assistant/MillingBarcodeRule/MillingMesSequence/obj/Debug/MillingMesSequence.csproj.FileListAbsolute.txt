@@ -1,0 +1,5 @@
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingMesSequence\bin\Debug\MillingMesSequence.dll
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingMesSequence\bin\Debug\MillingMesSequence.pdb
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingMesSequence\obj\Debug\MillingMesSequence.csprojResolveAssemblyReference.cache
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingMesSequence\obj\Debug\MillingMesSequence.dll
+H:\work project\2019\occ mes\MillingBarcodeRule\MillingMesSequence\obj\Debug\MillingMesSequence.pdb

@@ -1,0 +1,12 @@
+; LinecontrolAPI.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SerialComm"
+DESCRIPTION  'LinecontrolAPI Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+		Open	@1
+		Close	@2
+		ReadByte @3
+		GetInputBufferCount @4
+		

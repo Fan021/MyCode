@@ -1,0 +1,66 @@
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ControlUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.InitUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ShortCutUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ControlUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.InitUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ShortCutUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ControlUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.InitUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ShortCutUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ControlUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.InitUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ShortCutUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ControlUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ShortCutUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ControlUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.ShortCutUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.KeyenceScanner_Com\obj\Debug\Kochi.HMI.MainControl.Device.KeyenceScanner_Com.vbprojResolveAssemblyReference.cache

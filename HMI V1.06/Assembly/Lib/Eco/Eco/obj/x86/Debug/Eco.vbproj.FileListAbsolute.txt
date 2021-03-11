@@ -1,0 +1,15 @@
+D:\HMI\Assembly\Lib\Eco\Eco\bin\Debug\Eco.exe
+D:\HMI\Assembly\Lib\Eco\Eco\bin\Debug\Eco.pdb
+D:\HMI\Assembly\Lib\Eco\Eco\bin\Debug\Eco.xml
+D:\HMI\Assembly\Lib\Eco\Eco\bin\Debug\AutomationIntegrationBean5.dll
+D:\HMI\Assembly\Lib\Eco\Eco\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\HMI\Assembly\Lib\Eco\Eco\obj\x86\Debug\WindowsApplication1.Form1.resources
+D:\HMI\Assembly\Lib\Eco\Eco\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\HMI\Assembly\Lib\Eco\Eco\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\HMI\Assembly\Lib\Eco\Eco\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\HMI\Assembly\Lib\Eco\Eco\obj\x86\Debug\Eco.exe
+D:\HMI\Assembly\Lib\Eco\Eco\obj\x86\Debug\Eco.xml
+D:\HMI\Assembly\Lib\Eco\Eco\obj\x86\Debug\Eco.pdb
+D:\HMI V1.06\Assembly\Lib\Eco\Eco\obj\x86\Debug\Eco.exe
+D:\HMI V1.06\Assembly\Lib\Eco\Eco\obj\x86\Debug\Eco.xml
+D:\HMI V1.06\Assembly\Lib\Eco\Eco\obj\x86\Debug\Eco.pdb

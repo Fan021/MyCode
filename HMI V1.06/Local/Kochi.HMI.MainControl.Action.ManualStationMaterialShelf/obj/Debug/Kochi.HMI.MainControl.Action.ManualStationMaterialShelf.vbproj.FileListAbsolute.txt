@@ -1,0 +1,12 @@
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf.ActionUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf.ParameterUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationMaterialShelf\obj\Debug\GenerateResource.write.1.tlog

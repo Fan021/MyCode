@@ -1,0 +1,110 @@
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\bin\Debug\Kochi.HMI.MainControl.Device.AST11.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\bin\Debug\Kochi.HMI.MainControl.Device.AST11.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\bin\Debug\Kochi.HMI.MainControl.Device.AST11.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.InitUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ControlUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.IOForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ShortCutUI.resources
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ControlUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.InitUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.IOForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ShortCutUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ProgramUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ProgramUI.resources
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.dll
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ControlUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.InitUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.IOForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ProgramUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ShortCutUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ControlUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.InitUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.IOForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ProgramUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ShortCutUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ControlUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.InitUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.IOForm.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ProgramUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ShortCutUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\hmi\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbprojResolveAssemblyReference.cache
+D:\hmi\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ControlUI.resources
+D:\hmi\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.InitUI.resources
+D:\hmi\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.IOForm.resources
+D:\hmi\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.Resources.resources
+D:\hmi\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ProgramUI.resources
+D:\hmi\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ShortCutUI.resources
+D:\hmi\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbproj.GenerateResource.Cache
+D:\hmi\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.dll
+D:\hmi\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.xml
+D:\hmi\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ControlUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.IOForm.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ProgramUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ShortCutUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.AST11.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ControlUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.IOForm.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ProgramUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.ShortCutUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AST11\obj\Debug\Kochi.HMI.MainControl.Device.AST11.vbprojResolveAssemblyReference.cache

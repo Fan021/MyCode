@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:r4="http://systemagmbh.com/manufacturing-automation/r4/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <r4:getSfcStatus>
+         <getSfcStatusRequest>
+            <resourceId></resourceId>
+            <sfc></sfc>
+         </getSfcStatusRequest>
+      </r4:getSfcStatus>
+   </soapenv:Body>
+</soapenv:Envelope>

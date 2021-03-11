@@ -1,0 +1,75 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.ChildrenVisionForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.ChildrenVisionForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\HMI - 副本 (2)\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\HMI - 副本 (2)\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\HMI - 副本 (2)\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.ChildrenVisionForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\New folder\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\New folder\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.ChildrenVisionForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.ChildrenVisionForm.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.ChildrenVisionForm.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\HMI Old\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\HMI Old\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\HMI Old\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.ChildrenVisionForm.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.ChildrenVisionForm.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.Vision\obj\Debug\Kochi.HMI.MainControl.Statistics.Vision.vbprojResolveAssemblyReference.cache

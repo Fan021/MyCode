@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{9E9CD4A8-B1C7-4532-8A2D-8EE060EB720C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Kochi.HMI.MainControl.Device.AST11</RootNamespace>
+    <AssemblyName>Kochi.HMI.MainControl.Device.AST11</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Assembly\Device\</OutputPath>
+    <DocumentationFile>Kochi.HMI.MainControl.Device.AST11.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Kochi.HMI.MainControl.Device.AST11.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Kochi.HMI.MainControl.Action">
+      <HintPath>..\..\Assembly\Action\Kochi.HMI.MainControl.Action.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kochi.HMI.MainControl.Base">
+      <HintPath>..\..\Assembly\Lib\Kochi.HMI.MainControl.Base.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kochi.HMI.MainControl.Device, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Assembly\Device\Kochi.HMI.MainControl.Device.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kochi.HMI.MainControl.UI">
+      <HintPath>..\..\Assembly\Lib\Kochi.HMI.MainControl.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsAST11.vb" />
+    <Compile Include="ClsDataProcess.vb" />
+    <Compile Include="ControlUI.Designer.vb">
+      <DependentUpon>ControlUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DEPRAG_DataProcess.vb" />
+    <Compile Include="InitUI.Designer.vb">
+      <DependentUpon>InitUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InitUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IOForm.Designer.vb">
+      <DependentUpon>IOForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IOForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ProgramUI.Designer.vb">
+      <DependentUpon>ProgramUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShortCutUI.Designer.vb">
+      <DependentUpon>ShortCutUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShortCutUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ControlUI.resx">
+      <DependentUpon>ControlUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InitUI.resx">
+      <DependentUpon>InitUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IOForm.resx">
+      <DependentUpon>IOForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramUI.resx">
+      <DependentUpon>ProgramUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShortCutUI.resx">
+      <DependentUpon>ShortCutUI.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kochi.HMI.MainControl.LocalDevice\Kochi.HMI.MainControl.LocalDevice.vbproj">
+      <Project>{A8EEAC10-F17F-401E-B82D-C2495C6EB6B7}</Project>
+      <Name>Kochi.HMI.MainControl.LocalDevice</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Kochi.HMI.MainControl.Statistics.Screw\Kochi.HMI.MainControl.Statistics.Screw.vbproj">
+      <Project>{2E8E0469-0F83-4F73-B827-12BB4A4C41D1}</Project>
+      <Name>Kochi.HMI.MainControl.Statistics.Screw</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

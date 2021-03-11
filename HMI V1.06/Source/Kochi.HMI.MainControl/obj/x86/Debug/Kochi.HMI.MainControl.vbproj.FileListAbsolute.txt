@@ -1,0 +1,88 @@
+C:\Users\wu068\AppData\Local\Temporary Projects\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.exe
+C:\Users\wu068\AppData\Local\Temporary Projects\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.pdb
+C:\Users\wu068\AppData\Local\Temporary Projects\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.xml
+C:\Users\wu068\AppData\Local\Temporary Projects\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.MainForm.resources
+C:\Users\wu068\AppData\Local\Temporary Projects\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.Resources.resources
+C:\Users\wu068\AppData\Local\Temporary Projects\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.vbproj.GenerateResource.Cache
+C:\Users\wu068\AppData\Local\Temporary Projects\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.exe
+C:\Users\wu068\AppData\Local\Temporary Projects\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.xml
+C:\Users\wu068\AppData\Local\Temporary Projects\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.pdb
+C:\Users\wu068\Desktop\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.exe
+C:\Users\wu068\Desktop\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.xml
+C:\Users\wu068\Desktop\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.pdb
+C:\Users\wu068\Desktop\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.exe
+C:\Users\wu068\Desktop\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.pdb
+C:\Users\wu068\Desktop\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.xml
+C:\Users\wu068\Desktop\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.MainForm.resources
+C:\Users\wu068\Desktop\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.Resources.resources
+C:\Users\wu068\Desktop\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.UserControl1.resources
+C:\Users\wu068\Desktop\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.DevicesForm.resources
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.exe
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.xml
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.pdb
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.DevicesForm.resources
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.MainForm.resources
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.Resources.resources
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.UserControl1.resources
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.exe
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.pdb
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.xml
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Twincat.dll
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Twincat.pdb
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Twincat.xml
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Scanner.dll
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Scanner.pdb
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Scanner.xml
+C:\Users\wu068\Desktop\HMI\Kochi.HMI.MainControl\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.IOForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.exe
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Scanner.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Twincat.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Scanner.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Scanner.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Twincat.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.Twincat.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\bin\Debug\Kochi.HMI.MainControl.exe.config
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.AlarmForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.ArticleForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.CylinderForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.DevicesControlForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.DevicesManagerForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.MainForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.IOForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.MachineForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.Parameter.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.ParameterForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.ProductionForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.ProgramForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.ScrewForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.SubArticleForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.SubDebugForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.SubDevicesForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.SubMainForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.SubStatisticsForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.SubSystemForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.UserForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.HMILabel.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.HMITextBox.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.IOCylinder.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.IOInput.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.IOOutput.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.IOParameter.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.MainFunctionButton.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.MainLeftButton.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.MainRightButton.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Assembly\Kochi.HMI.MainControl.exe.config
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.exe
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\x86\Debug\Kochi.HMI.MainControl.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Kochi.HMI.MainControl.exe
+C:\Users\wu068\Desktop\HMI\Assembly\Kochi.HMI.MainControl.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Kochi.HMI.MainControl.xml

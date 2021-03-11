@@ -1,0 +1,274 @@
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.LoadScreenForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.MainForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ExceptionForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Assembly\Kochi.HMI.MainControl.exe.config
+C:\Users\wu068\Desktop\HMI\Assembly\Kochi.HMI.MainControl.exe
+C:\Users\wu068\Desktop\HMI\Assembly\Kochi.HMI.MainControl.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.exe
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenAlarmForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSystemParameterForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenLoginForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMainForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSelectVariantForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentMainForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenVariantForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCylinderForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenDevicesManagerForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenErrorCodeListForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenIOForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMachineForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPictureListForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPlcMessageListForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenProductionForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentProgramForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentDevicesForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentSystemForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenTextListForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenUserForm.resources
+C:\Users\wu068\Desktop\HMI\Assembly\Kochi.HMI.MainControl.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenShortCutForm.resources
+D:\HMI\Assembly\Kochi.HMI.MainControl.exe.config
+D:\HMI\Assembly\Kochi.HMI.MainControl.exe
+D:\HMI\Assembly\Kochi.HMI.MainControl.pdb
+D:\HMI\Assembly\Kochi.HMI.MainControl.xml
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenShortCutForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderGroupParameter.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOGroupParameter.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOParameter.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.LoadScreenForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenAlarmForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSystemParameterForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenLoginForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMainForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSelectVariantForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentMainForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenVariantForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCylinderForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenDevicesManagerForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.MainForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ExceptionForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenErrorCodeListForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenIOForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMachineForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPictureListForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPlcMessageListForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenProductionForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentProgramForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentDevicesForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentSystemForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenTextListForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenUserForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.exe
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.xml
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.pdb
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierErrorForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenStationErrorForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierTotalForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierDetailForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierDetailForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierErrorForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierTotalForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenStationErrorForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderGroupParameter.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderParameter.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOGroupParameter.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOParameter.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenActionForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenActionForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenGlobalProgramForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenGlobalProgramForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ProgramDebug.resources
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderParameter.resources
+D:\HMI - 副本 (2)\Assembly\Kochi.HMI.MainControl.exe.config
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.exe
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.pdb
+D:\HMI - 副本 (2)\Assembly\Kochi.HMI.MainControl.exe
+D:\HMI - 副本 (2)\Assembly\Kochi.HMI.MainControl.pdb
+D:\HMI - 副本 (2)\Assembly\Kochi.HMI.MainControl.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenActionForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierDetailForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierErrorForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierTotalForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenGlobalProgramForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenShortCutForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenStationErrorForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderGroupParameter.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderParameter.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOGroupParameter.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOParameter.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.LoadScreenForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenAlarmForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSystemParameterForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenLoginForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMainForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSelectVariantForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ProgramDebug.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentMainForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenVariantForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCylinderForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenDevicesManagerForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.MainForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ExceptionForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenErrorCodeListForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenIOForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMachineForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPictureListForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPlcMessageListForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenProductionForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentProgramForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentDevicesForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentSystemForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenTextListForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenUserForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOLock.resources
+D:\hmi\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Kochi.HMI.MainControl.exe.config
+D:\New folder\HMI\Assembly\Kochi.HMI.MainControl.exe
+D:\New folder\HMI\Assembly\Kochi.HMI.MainControl.pdb
+D:\New folder\HMI\Assembly\Kochi.HMI.MainControl.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenActionForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierDetailForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierErrorForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierTotalForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenGlobalProgramForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenShortCutForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenStationErrorForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderGroupParameter.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderParameter.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOGroupParameter.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOLock.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOParameter.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.LoadScreenForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenAlarmForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSystemParameterForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenLoginForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMainForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSelectVariantForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ProgramDebug.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentMainForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenVariantForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCylinderForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenDevicesManagerForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.MainForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ExceptionForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenErrorCodeListForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenIOForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMachineForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPictureListForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPlcMessageListForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenProductionForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentProgramForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentDevicesForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentSystemForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenTextListForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenUserForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.exe
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.pdb
+D:\HMI Old\HMI V1.06\Assembly\Kochi.HMI.MainControl.exe.config
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.exe
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.xml
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.pdb
+D:\HMI Old\HMI V1.06\Assembly\Kochi.HMI.MainControl.exe
+D:\HMI Old\HMI V1.06\Assembly\Kochi.HMI.MainControl.pdb
+D:\HMI Old\HMI V1.06\Assembly\Kochi.HMI.MainControl.xml
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenActionForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierDetailForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierErrorForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierTotalForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenGlobalProgramForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenShortCutForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenStationErrorForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderGroupParameter.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderParameter.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOGroupParameter.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOLock.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOParameter.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.LoadScreenForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenAlarmForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSystemParameterForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenLoginForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMainForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSelectVariantForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ProgramDebug.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentMainForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenVariantForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCylinderForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenDevicesManagerForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.MainForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.Resources.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ExceptionForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenErrorCodeListForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenIOForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMachineForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPictureListForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPlcMessageListForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenProductionForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentProgramForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentDevicesForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentSystemForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenTextListForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenUserForm.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Assembly\Kochi.HMI.MainControl.exe.config
+D:\HMI V1.06\Assembly\Kochi.HMI.MainControl.exe
+D:\HMI V1.06\Assembly\Kochi.HMI.MainControl.pdb
+D:\HMI V1.06\Assembly\Kochi.HMI.MainControl.xml
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.vbprojResolveAssemblyReference.cache
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenActionForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierDetailForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierErrorForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCarrierTotalForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenGlobalProgramForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenShortCutForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenStationErrorForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderGroupParameter.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.CylinderParameter.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOGroupParameter.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOLock.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.IOParameter.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.LoadScreenForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenAlarmForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSystemParameterForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenLoginForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMainForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenSelectVariantForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ProgramDebug.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentMainForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenVariantForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenCylinderForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenDevicesManagerForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.MainForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.Resources.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ExceptionForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenErrorCodeListForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenIOForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenMachineForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPictureListForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenPlcMessageListForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenProductionForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentProgramForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentDevicesForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ParentSystemForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenTextListForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.ChildrenUserForm.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.exe
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.xml
+D:\HMI V1.06\Source\Kochi.HMI.MainControl\obj\Debug\Kochi.HMI.MainControl.pdb

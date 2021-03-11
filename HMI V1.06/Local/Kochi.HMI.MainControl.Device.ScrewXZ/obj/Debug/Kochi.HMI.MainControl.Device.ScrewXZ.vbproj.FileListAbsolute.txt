@@ -1,0 +1,72 @@
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ControlUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.InitUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ProgramUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ShortCutUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ControlUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.InitUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ProgramUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ShortCutUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ControlUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.InitUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ProgramUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ShortCutUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ControlUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.InitUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ProgramUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ShortCutUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ControlUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ProgramUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ShortCutUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXZ.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ControlUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ProgramUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.ShortCutUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewXZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXZ.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKS.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKS.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKS.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKS\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKS\obj\Debug\Kochi.HMI.MainControl.Device.PKS.ControlUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKS\obj\Debug\Kochi.HMI.MainControl.Device.PKS.InitUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKS\obj\Debug\Kochi.HMI.MainControl.Device.PKS.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKS\obj\Debug\Kochi.HMI.MainControl.Device.PKS.ProgramUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKS\obj\Debug\Kochi.HMI.MainControl.Device.PKS.ShortCutUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKS\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKS\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKS\obj\Debug\Kochi.HMI.MainControl.Device.PKS.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKS\obj\Debug\Kochi.HMI.MainControl.Device.PKS.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKS\obj\Debug\Kochi.HMI.MainControl.Device.PKS.pdb

@@ -1,0 +1,36 @@
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.xml
+D:\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.dll
+D:\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.xml
+D:\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.LocalDevice.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.LocalDevice\obj\Debug\Kochi.HMI.MainControl.LocalDevice.vbprojResolveAssemblyReference.cache

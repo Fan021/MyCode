@@ -1,0 +1,72 @@
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ActionUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ParameterUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ActionUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ParameterUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ActionUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ParameterUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ActionUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ParameterUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ActionUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ParameterUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ActionUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ParameterUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ActionUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.ParameterUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewDiscard.vbprojResolveAssemblyReference.cache

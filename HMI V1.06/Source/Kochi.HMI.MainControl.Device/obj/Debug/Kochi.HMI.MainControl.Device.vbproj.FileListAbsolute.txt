@@ -1,0 +1,50 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.dll
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.xml
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.Resources.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.dll
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.xml
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.xml
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.Resources.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.dll
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.xml
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Device\obj\Debug\Kochi.HMI.MainControl.Device.pdb

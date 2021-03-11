@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD526582-5B2A-43FC-ACFF-AA29B861380B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>Kochi.HMI.MainControl</RootNamespace>
+    <AssemblyName>Kochi.HMI.MainControl</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Assembly\</OutputPath>
+    <DocumentationFile>Kochi.HMI.MainControl.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Kochi.HMI.MainControl.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>computer_72px.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=5.1.2.2, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\MySQL\MySQL Connector Net 5.1.2\Binaries\.NET 2.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.vb" />
+    <Compile Include="UI\ChildrenUI\ChildrenActionForm.Designer.vb">
+      <DependentUpon>ChildrenActionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenActionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenCarrierDetailForm.Designer.vb">
+      <DependentUpon>ChildrenCarrierDetailForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenCarrierDetailForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenCarrierErrorForm.Designer.vb">
+      <DependentUpon>ChildrenCarrierErrorForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenCarrierErrorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenCarrierTotalForm.Designer.vb">
+      <DependentUpon>ChildrenCarrierTotalForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenCarrierTotalForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenGlobalProgramForm.Designer.vb">
+      <DependentUpon>ChildrenGlobalProgramForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenGlobalProgramForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenShortCutForm.Designer.vb">
+      <DependentUpon>ChildrenShortCutForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenShortCutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenStationErrorForm.Designer.vb">
+      <DependentUpon>ChildrenStationErrorForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenStationErrorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\CylinderGroupParameter.Designer.vb">
+      <DependentUpon>CylinderGroupParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\CylinderGroupParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\CylinderParameter.Designer.vb">
+      <DependentUpon>CylinderParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\CylinderParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\IOGroupParameter.Designer.vb">
+      <DependentUpon>IOGroupParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\IOGroupParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\IOLock.Designer.vb">
+      <DependentUpon>IOLock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\IOLock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\LoadScreenForm.designer.vb">
+      <DependentUpon>LoadScreenForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\LoadScreenForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenAlarmForm.Designer.vb">
+      <DependentUpon>ChildrenAlarmForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenAlarmForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenSystemParameterForm.Designer.vb">
+      <DependentUpon>ChildrenSystemParameterForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenSystemParameterForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenLoginForm.Designer.vb">
+      <DependentUpon>ChildrenLoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenLoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenMainForm.Designer.vb">
+      <DependentUpon>ChildrenMainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenMainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenSelectVariantForm.Designer.vb">
+      <DependentUpon>ChildrenSelectVariantForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenSelectVariantForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\IOParameter.designer.vb">
+      <DependentUpon>IOParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\IOParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\ProgramDebug.Designer.vb">
+      <DependentUpon>ProgramDebug.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\Parameter\ProgramDebug.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ParentUI\ParentIOFrom.Designer.vb">
+      <DependentUpon>ParentIOFrom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ParentUI\ParentIOFrom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ParentUI\ParentMainForm.Designer.vb">
+      <DependentUpon>ParentMainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ParentUI\ParentMainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenVariantForm.Designer.vb">
+      <DependentUpon>ChildrenVariantForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenVariantForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenCylinderForm.Designer.vb">
+      <DependentUpon>ChildrenCylinderForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenCylinderForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenDevicesManagerForm.Designer.vb">
+      <DependentUpon>ChildrenDevicesManagerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenDevicesManagerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UI\OtherUI\ExceptionForm.designer.vb">
+      <DependentUpon>ExceptionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OtherUI\ExceptionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenErrorCodeListForm.Designer.vb">
+      <DependentUpon>ChildrenErrorCodeListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenErrorCodeListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenIOForm.Designer.vb">
+      <DependentUpon>ChildrenIOForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenIOForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenMachineForm.Designer.vb">
+      <DependentUpon>ChildrenMachineForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenMachineForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenPictureListForm.Designer.vb">
+      <DependentUpon>ChildrenPictureListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenPictureListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenPlcMessageListForm.Designer.vb">
+      <DependentUpon>ChildrenPlcMessageListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenPlcMessageListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenProductionForm.Designer.vb">
+      <DependentUpon>ChildrenProductionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenProductionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ParentUI\ParentProgramForm.Designer.vb">
+      <DependentUpon>ParentProgramForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ParentUI\ParentProgramForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ParentUI\ParentDevicesForm.Designer.vb">
+      <DependentUpon>ParentDevicesForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ParentUI\ParentDevicesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ParentUI\ParentSystemForm.Designer.vb">
+      <DependentUpon>ParentSystemForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ParentUI\ParentSystemForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenTextListForm.Designer.vb">
+      <DependentUpon>ChildrenTextListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenTextListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenUserForm.Designer.vb">
+      <DependentUpon>ChildrenUserForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ChildrenUI\ChildrenUserForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenActionForm.resx">
+      <DependentUpon>ChildrenActionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenCarrierDetailForm.resx">
+      <DependentUpon>ChildrenCarrierDetailForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenCarrierErrorForm.resx">
+      <DependentUpon>ChildrenCarrierErrorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenCarrierTotalForm.resx">
+      <DependentUpon>ChildrenCarrierTotalForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenGlobalProgramForm.resx">
+      <DependentUpon>ChildrenGlobalProgramForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenShortCutForm.resx">
+      <DependentUpon>ChildrenShortCutForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenStationErrorForm.resx">
+      <DependentUpon>ChildrenStationErrorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\Parameter\CylinderGroupParameter.resx">
+      <DependentUpon>CylinderGroupParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\Parameter\CylinderParameter.resx">
+      <DependentUpon>CylinderParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\Parameter\IOGroupParameter.resx">
+      <DependentUpon>IOGroupParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\Parameter\IOLock.resx">
+      <DependentUpon>IOLock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\LoadScreenForm.resx">
+      <DependentUpon>LoadScreenForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenAlarmForm.resx">
+      <DependentUpon>ChildrenAlarmForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenSystemParameterForm.resx">
+      <DependentUpon>ChildrenSystemParameterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenLoginForm.resx">
+      <DependentUpon>ChildrenLoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenMainForm.resx">
+      <DependentUpon>ChildrenMainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenSelectVariantForm.resx">
+      <DependentUpon>ChildrenSelectVariantForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\Parameter\IOParameter.resx">
+      <DependentUpon>IOParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\Parameter\ProgramDebug.resx">
+      <DependentUpon>ProgramDebug.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ParentUI\ParentMainForm.resx">
+      <DependentUpon>ParentMainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenVariantForm.resx">
+      <DependentUpon>ChildrenVariantForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenCylinderForm.resx">
+      <DependentUpon>ChildrenCylinderForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenDevicesManagerForm.resx">
+      <DependentUpon>ChildrenDevicesManagerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OtherUI\ExceptionForm.resx">
+      <DependentUpon>ExceptionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenErrorCodeListForm.resx">
+      <DependentUpon>ChildrenErrorCodeListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenIOForm.resx">
+      <DependentUpon>ChildrenIOForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenMachineForm.resx">
+      <DependentUpon>ChildrenMachineForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenPictureListForm.resx">
+      <DependentUpon>ChildrenPictureListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenPlcMessageListForm.resx">
+      <DependentUpon>ChildrenPlcMessageListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenProductionForm.resx">
+      <DependentUpon>ChildrenProductionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ParentUI\ParentProgramForm.resx">
+      <DependentUpon>ParentProgramForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ParentUI\ParentDevicesForm.resx">
+      <DependentUpon>ParentDevicesForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ParentUI\ParentSystemForm.resx">
+      <DependentUpon>ParentSystemForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenTextListForm.resx">
+      <DependentUpon>ChildrenTextListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ChildrenUI\ChildrenUserForm.resx">
+      <DependentUpon>ChildrenUserForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kochi.HMI.MainControl.Action\Kochi.HMI.MainControl.Action.vbproj">
+      <Project>{DA327964-DCA3-4237-8F25-2650A7383813}</Project>
+      <Name>Kochi.HMI.MainControl.Action</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Kochi.HMI.MainControl.Base\Kochi.HMI.MainControl.Base.vbproj">
+      <Project>{C4C50434-2F9E-4E54-9410-DBE6A9FE8707}</Project>
+      <Name>Kochi.HMI.MainControl.Base</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Kochi.HMI.MainControl.Device\Kochi.HMI.MainControl.Device.vbproj">
+      <Project>{B377E5E3-B4D0-4D27-A03B-4D43BF0DCE8A}</Project>
+      <Name>Kochi.HMI.MainControl.Device</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Kochi.HMI.MainControl.Runner\Kochi.HMI.MainControl.Runner.vbproj">
+      <Project>{A35AD4C8-0E94-485C-8B31-2C08DCE487C5}</Project>
+      <Name>Kochi.HMI.MainControl.Runner</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Kochi.HMI.MainControl.UI\Kochi.HMI.MainControl.UI.vbproj">
+      <Project>{70CF622D-515A-46C3-B34E-DDDC03F9766A}</Project>
+      <Name>Kochi.HMI.MainControl.UI</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_0974.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_screen_145px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="computer_72px.ico" />
+    <Content Include="ico1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

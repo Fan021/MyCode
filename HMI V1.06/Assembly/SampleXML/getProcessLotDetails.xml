@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:r4="http://systemagmbh.com/manufacturing-automation/r4/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <r4:getProcessLotDetails>
+         <getProcessLotDetailsRequest>
+            <resourceId></resourceId>
+            <processLot></processLot>
+         </getProcessLotDetailsRequest>
+      </r4:getProcessLotDetails>
+   </soapenv:Body>
+</soapenv:Envelope>

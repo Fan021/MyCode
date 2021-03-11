@@ -1,0 +1,91 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ControlUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.InitUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ShortCutUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ControlUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.InitUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ShortCutUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ControlUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.InitUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ShortCutUI.resources
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ControlUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.InitUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ShortCutUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ControlUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.InitUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ShortCutUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ControlUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.InitUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ShortCutUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ControlUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ShortCutUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbprojResolveAssemblyReference.cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ControlUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.ShortCutUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.Printer\obj\Debug\Kochi.HMI.MainControl.Device.ZebraPrinter.pdb

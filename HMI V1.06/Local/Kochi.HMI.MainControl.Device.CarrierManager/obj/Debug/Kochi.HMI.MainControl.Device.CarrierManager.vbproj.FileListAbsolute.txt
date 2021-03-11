@@ -1,0 +1,96 @@
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ControlUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.InitUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ControlUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.InitUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ShortCutUI.resources
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ControlUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.InitUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ShortCutUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbprojResolveAssemblyReference.cache
+D:\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbproj.GenerateResource.Cache
+D:\hmi\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.IOForm.resources
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ControlUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.InitUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.IOForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ShortCutUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ControlUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.InitUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.IOForm.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ShortCutUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ControlUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.InitUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.IOForm.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ShortCutUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ControlUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.IOForm.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ShortCutUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ControlUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.IOForm.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.ShortCutUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.CarrierManager\obj\Debug\Kochi.HMI.MainControl.Device.CarrierManager.vbprojResolveAssemblyReference.cache

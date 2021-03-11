@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{70CF622D-515A-46C3-B34E-DDDC03F9766A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Kochi.HMI.MainControl.UI</RootNamespace>
+    <AssemblyName>Kochi.HMI.MainControl.UI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Assembly\Lib\</OutputPath>
+    <DocumentationFile>Kochi.HMI.MainControl.UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Kochi.HMI.MainControl.UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\clsChangeSizeCfg.vb" />
+    <Compile Include="Common\clsCheckTreeNodes.vb" />
+    <Compile Include="Common\clsSystemColor.vb" />
+    <Compile Include="Common\clsUIName.vb" />
+    <Compile Include="Interface\IChildrenDevicesManagerUI.vb" />
+    <Compile Include="Interface\IChildrenMainUI.vb" />
+    <Compile Include="Interface\IMainUI.vb" />
+    <Compile Include="Interface\IParentMainUI.vb" />
+    <Compile Include="Interface\IParentProgramUI.vb" />
+    <Compile Include="Interface\IChildrenUI.vb" />
+    <Compile Include="Interface\IParentUI.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UserControl\ComboBoxEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIDataViewWithButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIPassFailButton.designer.vb">
+      <DependentUpon>HMIPassFailButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIPassFailButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIButtonWithIndicate.Designer.vb">
+      <DependentUpon>HMIButtonWithIndicate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIButtonWithIndicate.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMISensor.Designer.vb">
+      <DependentUpon>HMISensor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMISensor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMITabControl.Designer.vb">
+      <DependentUpon>HMITabControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMITabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMITextBoxWithButtonAnd2Layer.Designer.vb">
+      <DependentUpon>HMITextBoxWithButtonAnd2Layer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMITextBoxWithButtonAnd2Layer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\TextBoxEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\CylinderIO.Designer.vb">
+      <DependentUpon>CylinderIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\CylinderIO.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIButton.Designer.vb">
+      <DependentUpon>HMIButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIComboBox.Designer.vb">
+      <DependentUpon>HMIComboBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIComboBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIDataView.Designer.vb">
+      <DependentUpon>HMIDataView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIDataView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIDataViewPage.Designer.vb">
+      <DependentUpon>HMIDataViewPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIDataViewPage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIDateTime.Designer.vb">
+      <DependentUpon>HMIDateTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIDateTime.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIDateTimePick.Designer.vb">
+      <DependentUpon>HMIDateTimePick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIDateTimePick.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMILabel.Designer.vb">
+      <DependentUpon>HMILabel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMILabel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMITableLayoutPanel.Designer.vb">
+      <DependentUpon>HMITableLayoutPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMITableLayoutPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMITextBox.Designer.vb">
+      <DependentUpon>HMITextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMITextBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMITextBoxWithButton.Designer.vb">
+      <DependentUpon>HMITextBoxWithButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMITextBoxWithButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\InputIO.Designer.vb">
+      <DependentUpon>InputIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\InputIO.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\IOParameter.Designer.vb">
+      <DependentUpon>IOParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\IOParameter.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ListViewEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\MachineListView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\MainButton.Designer.vb">
+      <DependentUpon>MainButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\MainButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\MainFunctionButton.Designer.vb">
+      <DependentUpon>MainFunctionButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\MainFunctionButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\MainLeftButton.Designer.vb">
+      <DependentUpon>MainLeftButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\MainLeftButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\MainRightButton.Designer.vb">
+      <DependentUpon>MainRightButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\MainRightButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\OutputIO.Designer.vb">
+      <DependentUpon>OutputIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\OutputIO.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\TreeViewWidthCheckBox.Designer.vb">
+      <DependentUpon>TreeViewWidthCheckBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\TreeViewWidthCheckBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\TreeViewWidthKeyDown.Designer.vb">
+      <DependentUpon>TreeViewWidthKeyDown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\TreeViewWidthKeyDown.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\CylinderIO.resx">
+      <DependentUpon>CylinderIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMIButton.resx">
+      <DependentUpon>HMIButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMIComboBox.resx">
+      <DependentUpon>HMIComboBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMIDataViewPage.resx">
+      <DependentUpon>HMIDataViewPage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMIDateTime.resx">
+      <DependentUpon>HMIDateTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMIDateTimePick.resx">
+      <DependentUpon>HMIDateTimePick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMILabel.resx">
+      <DependentUpon>HMILabel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMISensor.resx">
+      <DependentUpon>HMISensor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMITextBox.resx">
+      <DependentUpon>HMITextBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMITextBoxWithButton.resx">
+      <DependentUpon>HMITextBoxWithButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\InputIO.resx">
+      <DependentUpon>InputIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\IOParameter.resx">
+      <DependentUpon>IOParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\MainButton.resx">
+      <DependentUpon>MainButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\MainFunctionButton.resx">
+      <DependentUpon>MainFunctionButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\MainLeftButton.resx">
+      <DependentUpon>MainLeftButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\MainRightButton.resx">
+      <DependentUpon>MainRightButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\OutputIO.resx">
+      <DependentUpon>OutputIO.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowDowbLastDisable.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowDownDisable.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowDownLast.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowUpDisable.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowUpFirst.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowUpFirstDisable.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Go.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoDisable.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

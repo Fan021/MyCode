@@ -1,0 +1,50 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.pdb
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.dll
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.pdb
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.dll
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.pdb
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.dll
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.xml
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.Resources.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.dll
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.xml
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.dll
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.xml
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.Resources.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.dll
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.xml
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Action\obj\Debug\Kochi.HMI.MainControl.Action.pdb

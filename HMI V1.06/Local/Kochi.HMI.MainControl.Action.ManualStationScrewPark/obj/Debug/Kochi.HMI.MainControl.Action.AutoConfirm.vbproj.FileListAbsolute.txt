@@ -1,0 +1,10 @@
+C:\Users\wu64\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoConfirm\obj\Debug\Kochi.HMI.MainControl.Action.AutoConfirm.vbprojResolveAssemblyReference.cache
+C:\Users\wu64\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoConfirm\obj\Debug\Kochi.HMI.MainControl.Action.AutoConfirm.vbproj.GenerateResource.Cache
+C:\Users\wu64\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+C:\Users\wu64\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb
+C:\Users\wu64\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+C:\Users\wu64\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoConfirm\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ActionUI.resources
+C:\Users\wu64\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoConfirm\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.Resources.resources
+C:\Users\wu64\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoConfirm\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+C:\Users\wu64\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoConfirm\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+C:\Users\wu64\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoConfirm\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb

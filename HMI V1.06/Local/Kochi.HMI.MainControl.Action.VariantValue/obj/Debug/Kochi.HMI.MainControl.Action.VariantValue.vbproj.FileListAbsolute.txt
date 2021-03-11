@@ -1,0 +1,11 @@
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.VariantValue\obj\Debug\Kochi.HMI.MainControl.Action.VariantValue.ActionUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.VariantValue\obj\Debug\Kochi.HMI.MainControl.Action.VariantValue.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.VariantValue\obj\Debug\Kochi.HMI.MainControl.Action.VariantValue.ParameterUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.VariantValue\obj\Debug\Kochi.HMI.MainControl.Action.VariantValue.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.VariantValue.dll
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.VariantValue.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.VariantValue.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.VariantValue\obj\Debug\Kochi.HMI.MainControl.Action.VariantValue.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.VariantValue\obj\Debug\Kochi.HMI.MainControl.Action.VariantValue.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.VariantValue\obj\Debug\Kochi.HMI.MainControl.Action.VariantValue.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.VariantValue\obj\Debug\Kochi.HMI.MainControl.Action.VariantValue.vbprojResolveAssemblyReference.cache

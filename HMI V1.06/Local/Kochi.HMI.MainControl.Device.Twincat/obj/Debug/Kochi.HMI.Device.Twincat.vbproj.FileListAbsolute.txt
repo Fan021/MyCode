@@ -1,0 +1,11 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.Device.Twincat.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.Device.Twincat.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.Device.Twincat.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.Twincat\obj\Debug\Kochi.HMI.Device.Twincat.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.Twincat\obj\Debug\Kochi.HMI.Device.Twincat.ControlUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.Twincat\obj\Debug\Kochi.HMI.Device.Twincat.InitUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.Twincat\obj\Debug\Kochi.HMI.Device.Twincat.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.Twincat\obj\Debug\Kochi.HMI.Device.Twincat.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.Twincat\obj\Debug\Kochi.HMI.Device.Twincat.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.Twincat\obj\Debug\Kochi.HMI.Device.Twincat.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.Twincat\obj\Debug\Kochi.HMI.Device.Twincat.pdb

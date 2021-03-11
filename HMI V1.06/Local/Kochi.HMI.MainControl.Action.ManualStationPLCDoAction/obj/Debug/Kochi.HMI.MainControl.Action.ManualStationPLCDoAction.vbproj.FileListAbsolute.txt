@@ -1,0 +1,91 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ActionUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ActionUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ParameterUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ParameterUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.AddForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.AddForm.resources
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ActionUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.AddForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ParameterUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ActionUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.AddForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ParameterUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ActionUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.AddForm.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ParameterUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ActionUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.AddForm.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ParameterUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ActionUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.AddForm.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ParameterUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ActionUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.AddForm.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.ParameterUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPLCDoAction.vbprojResolveAssemblyReference.cache

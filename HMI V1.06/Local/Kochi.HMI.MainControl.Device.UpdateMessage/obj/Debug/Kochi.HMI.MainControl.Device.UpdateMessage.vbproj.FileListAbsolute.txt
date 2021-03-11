@@ -1,0 +1,20 @@
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.UpdateMessage.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.UpdateMessage.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.UpdateMessage.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.pdb
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.vbprojResolveAssemblyReference.cache
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.UpdateMessage.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.UpdateMessage.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.UpdateMessage.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.UpdateMessage\obj\Debug\Kochi.HMI.MainControl.Device.UpdateMessage.vbprojResolveAssemblyReference.cache

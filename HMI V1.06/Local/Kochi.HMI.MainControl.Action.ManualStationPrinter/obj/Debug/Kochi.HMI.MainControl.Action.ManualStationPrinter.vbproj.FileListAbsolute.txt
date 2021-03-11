@@ -1,0 +1,86 @@
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\bin\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\bin\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\bin\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ActionUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ActionUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ParameterUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ParameterUI.resources
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ActionUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ParameterUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ActionUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ParameterUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ActionUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ParameterUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ActionUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ParameterUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ActionUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ParameterUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbprojResolveAssemblyReference.cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ActionUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.ParameterUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationPrinter\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationPrinter.pdb

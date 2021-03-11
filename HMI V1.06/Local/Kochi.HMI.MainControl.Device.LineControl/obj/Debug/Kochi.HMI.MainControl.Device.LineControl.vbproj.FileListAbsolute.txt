@@ -1,0 +1,91 @@
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Interop.Linecontroller.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.ResolveComReference.cache
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.InitUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Interop.Linecontroller.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.ResolveComReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.InitUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Interop.Linecontroller.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.ResolveComReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.InitUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Interop.Linecontroller.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.ResolveComReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.InitUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Interop.Linecontroller.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.ResolveComReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.InitUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Interop.Linecontroller.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.ResolveComReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.InitUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Interop.Linecontroller.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.ResolveComReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Interop.Linecontroller.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.ResolveComReference.cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LineControl\obj\Debug\Kochi.HMI.MainControl.Device.LineControl.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,66 @@
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ActionUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ParameterUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.PicturePosition.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.dll
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.pdb
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ActionUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ParameterUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.PicturePosition.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ActionUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ParameterUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.PicturePosition.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ActionUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ParameterUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.PicturePosition.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.dll
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ActionUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ParameterUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.PicturePosition.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.dll
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationConnect.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ActionUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.ParameterUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.PicturePosition.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationConnect\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationConnect.vbprojResolveAssemblyReference.cache

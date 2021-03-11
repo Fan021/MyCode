@@ -1,0 +1,99 @@
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ControlUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ProgramUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ShortCutUI.resources
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ControlUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ProgramUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ShortCutUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.InitUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.InitUI.resources
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ControlUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.InitUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ProgramUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ShortCutUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ControlUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.InitUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ProgramUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ShortCutUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ControlUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.InitUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ProgramUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ShortCutUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ControlUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.InitUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ProgramUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ShortCutUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ControlUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ProgramUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ShortCutUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ControlUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ProgramUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.ShortCutUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.PKP_Z\obj\Debug\Kochi.HMI.MainControl.Device.PKP_Z.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,35 @@
+D:\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine.dll
+D:\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine.pdb
+D:\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine.xml
+D:\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.dll
+D:\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.xml
+D:\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine.dll
+C:\Users\wu068\Desktop\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI\Source\Kochi.HMI.MainControl.UserDefine\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.Resources.resources
+D:\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.dll
+D:\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.xml
+D:\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.pdb
+D:\New folder\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.Resources.resources
+D:\New folder\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.dll
+D:\New folder\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.xml
+D:\New folder\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine\obj\Debug\Kochi.HMI.MainControl.UserDefine.pdb
+D:\New folder\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine.dll
+D:\New folder\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine.pdb
+D:\New folder\HMI\Assembly\UserDefine\Kochi.HMI.MainControl.UserDefine.xml

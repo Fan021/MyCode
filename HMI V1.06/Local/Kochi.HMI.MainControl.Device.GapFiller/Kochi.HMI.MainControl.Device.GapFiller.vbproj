@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{6FF16B99-909F-4376-AC27-A5606FCF2D09}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Kochi.HMI.MainControl.Device.GapFiller</RootNamespace>
+    <AssemblyName>Kochi.HMI.MainControl.Device.GapFiller</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Assembly\Device\</OutputPath>
+    <DocumentationFile>Kochi.HMI.MainControl.Device.GapFiller.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Kochi.HMI.MainControl.Device.GapFiller.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Kochi.HMI.MainControl.Action">
+      <HintPath>..\..\Assembly\Action\Kochi.HMI.MainControl.Action.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kochi.HMI.MainControl.Base">
+      <HintPath>..\..\Assembly\Lib\Kochi.HMI.MainControl.Base.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kochi.HMI.MainControl.Device, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Assembly\Device\Kochi.HMI.MainControl.Device.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kochi.HMI.MainControl.UI">
+      <HintPath>..\..\Assembly\Lib\Kochi.HMI.MainControl.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TwinCAT.Ads, Version=4.2.145.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Assembly\Device\TwinCAT.Ads.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BDTronic.Designer.vb">
+      <DependentUpon>BDTronic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BDTronic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clsGapFiller.vb" />
+    <Compile Include="ControlUI.Designer.vb">
+      <DependentUpon>ControlUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GapFillerButton.Designer.vb">
+      <DependentUpon>GapFillerButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GapFillerButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GFile.Designer.vb">
+      <DependentUpon>GFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HMIButtonWithIndicate.designer.vb">
+      <DependentUpon>HMIButtonWithIndicate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HMIButtonWithIndicate.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InitUI.Designer.vb">
+      <DependentUpon>InitUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InitUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MFunction.Designer.vb">
+      <DependentUpon>MFunction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MFunction.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NCI.Designer.vb">
+      <DependentUpon>NCI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NCI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parameter.Designer.vb">
+      <DependentUpon>Parameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Parameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterForm.Designer.vb">
+      <DependentUpon>ParameterForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterUI.designer.vb">
+      <DependentUpon>ParameterUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RParameterForm.Designer.vb">
+      <DependentUpon>RParameterForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RParameterForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShortCutUI.Designer.vb">
+      <DependentUpon>ShortCutUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShortCutUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeightUI.Designer.vb">
+      <DependentUpon>WeightUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WeightUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BDTronic.resx">
+      <DependentUpon>BDTronic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUI.resx">
+      <DependentUpon>ControlUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GFile.resx">
+      <DependentUpon>GFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InitUI.resx">
+      <DependentUpon>InitUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MFunction.resx">
+      <DependentUpon>MFunction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NCI.resx">
+      <DependentUpon>NCI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parameter.resx">
+      <DependentUpon>Parameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterForm.resx">
+      <DependentUpon>ParameterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterUI.resx">
+      <DependentUpon>ParameterUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RParameterForm.resx">
+      <DependentUpon>RParameterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShortCutUI.resx">
+      <DependentUpon>ShortCutUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeightUI.resx">
+      <DependentUpon>WeightUI.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kochi.HMI.MainControl.LocalDevice\Kochi.HMI.MainControl.LocalDevice.vbproj">
+      <Project>{A8EEAC10-F17F-401E-B82D-C2495C6EB6B7}</Project>
+      <Name>Kochi.HMI.MainControl.LocalDevice</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Kochi.HMI.MainControl.Statistics.GapFiller\Kochi.HMI.MainControl.Statistics.GapFiller.vbproj">
+      <Project>{D2332128-3BC5-43F2-A690-7BE18ABD99F7}</Project>
+      <Name>Kochi.HMI.MainControl.Statistics.GapFiller</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,13 @@
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.AIV.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.AIV.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.AIV.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AIV\obj\Debug\Kochi.HMI.MainControl.Device.AIV.ControlUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AIV\obj\Debug\Kochi.HMI.MainControl.Device.AIV.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AIV\obj\Debug\Kochi.HMI.MainControl.Device.AIV.IOForm.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AIV\obj\Debug\Kochi.HMI.MainControl.Device.AIV.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AIV\obj\Debug\Kochi.HMI.MainControl.Device.AIV.ShortCutUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AIV\obj\Debug\Kochi.HMI.MainControl.Device.AIV.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AIV\obj\Debug\Kochi.HMI.MainControl.Device.AIV.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AIV\obj\Debug\Kochi.HMI.MainControl.Device.AIV.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AIV\obj\Debug\Kochi.HMI.MainControl.Device.AIV.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.AIV\obj\Debug\Kochi.HMI.MainControl.Device.AIV.vbprojResolveAssemblyReference.cache

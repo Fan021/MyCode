@@ -1,0 +1,60 @@
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ActionUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ParameterUI.resources
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ActionUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ParameterUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ActionUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ParameterUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ActionUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ParameterUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ActionUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ParameterUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbprojResolveAssemblyReference.cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ActionUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.ParameterUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewPark.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewPark\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationAutoConfirm.pdb

@@ -1,0 +1,155 @@
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\bin\Debug\Kochi.HMI.MainControl.UI.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\bin\Debug\Kochi.HMI.MainControl.UI.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\bin\Debug\Kochi.HMI.MainControl.UI.xml
+C:\Users\wu068\Desktop\HMI\Assembly\Lib\Kochi.HMI.MainControl.UI.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Lib\Kochi.HMI.MainControl.UI.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Lib\Kochi.HMI.MainControl.UI.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.CylinderIO.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIButton.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIComboBox.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDataViewPage.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTime.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTimePick.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMILabel.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBox.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBoxWithButton.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.InputIO.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.IOParameter.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainButton.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainFunctionButton.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainLeftButton.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainRightButton.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.OutputIO.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMISensor.resources
+D:\HMI - 副本 (2)\Assembly\Lib\Kochi.HMI.MainControl.UI.dll
+D:\HMI - 副本 (2)\Assembly\Lib\Kochi.HMI.MainControl.UI.pdb
+D:\HMI - 副本 (2)\Assembly\Lib\Kochi.HMI.MainControl.UI.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.CylinderIO.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIButton.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIComboBox.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDataViewPage.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTime.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTimePick.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMILabel.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMISensor.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBox.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBoxWithButton.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.InputIO.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.IOParameter.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainButton.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainFunctionButton.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainLeftButton.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainRightButton.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.OutputIO.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.pdb
+D:\HMI\Assembly\Lib\Kochi.HMI.MainControl.UI.dll
+D:\HMI\Assembly\Lib\Kochi.HMI.MainControl.UI.pdb
+D:\HMI\Assembly\Lib\Kochi.HMI.MainControl.UI.xml
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.CylinderIO.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIButton.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIComboBox.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDataViewPage.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTime.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTimePick.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMILabel.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMISensor.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBox.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBoxWithButton.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.InputIO.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.IOParameter.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainButton.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainFunctionButton.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainLeftButton.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainRightButton.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.OutputIO.resources
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.dll
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.xml
+D:\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Lib\Kochi.HMI.MainControl.UI.dll
+D:\New folder\HMI\Assembly\Lib\Kochi.HMI.MainControl.UI.pdb
+D:\New folder\HMI\Assembly\Lib\Kochi.HMI.MainControl.UI.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.CylinderIO.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIButton.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIComboBox.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDataViewPage.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTime.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTimePick.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMILabel.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMISensor.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBox.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBoxWithButton.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.InputIO.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.IOParameter.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainButton.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainFunctionButton.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainLeftButton.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainRightButton.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.OutputIO.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.pdb
+D:\HMI Old\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.UI.dll
+D:\HMI Old\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.UI.pdb
+D:\HMI Old\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.UI.xml
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.Resources.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.CylinderIO.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIButton.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIComboBox.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDataViewPage.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTime.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTimePick.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMILabel.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMISensor.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBox.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBoxWithButton.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.InputIO.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.IOParameter.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainButton.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainFunctionButton.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainLeftButton.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainRightButton.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.OutputIO.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.dll
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.xml
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.pdb
+D:\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.UI.dll
+D:\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.UI.pdb
+D:\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.UI.xml
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.Resources.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.CylinderIO.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIButton.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIComboBox.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDataViewPage.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTime.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMIDateTimePick.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMILabel.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMISensor.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBox.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.HMITextBoxWithButton.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.InputIO.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.IOParameter.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainButton.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainFunctionButton.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainLeftButton.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.MainRightButton.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.OutputIO.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.dll
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.xml
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.UI\obj\Debug\Kochi.HMI.MainControl.UI.pdb

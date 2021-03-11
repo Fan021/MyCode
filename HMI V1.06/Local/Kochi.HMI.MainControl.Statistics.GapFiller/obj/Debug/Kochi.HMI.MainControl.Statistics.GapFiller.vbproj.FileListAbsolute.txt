@@ -1,0 +1,85 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.ChildrenGapFillerForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.ChildrenGapFillerForm.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\HMI - 副本 (2)\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\HMI - 副本 (2)\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\HMI - 副本 (2)\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.ChildrenGapFillerForm.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+C:\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+C:\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+C:\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+C:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbprojResolveAssemblyReference.cache
+C:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.Resources.resources
+C:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.ChildrenGapFillerForm.resources
+C:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbproj.GenerateResource.Cache
+C:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+C:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+C:\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\New folder\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\New folder\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.ChildrenGapFillerForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.ChildrenGapFillerForm.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.ChildrenGapFillerForm.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\HMI Old\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\HMI Old\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\HMI Old\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.ChildrenGapFillerForm.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.pdb
+D:\HMI V1.06\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbprojResolveAssemblyReference.cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.ChildrenGapFillerForm.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Statistics.GapFiller\obj\Debug\Kochi.HMI.MainControl.Statistics.GapFiller.pdb

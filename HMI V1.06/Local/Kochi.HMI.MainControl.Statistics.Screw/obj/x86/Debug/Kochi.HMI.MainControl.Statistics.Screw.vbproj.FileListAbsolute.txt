@@ -1,0 +1,10 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Screw.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Screw.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Statistics\Kochi.HMI.MainControl.Statistics.Screw.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Screw\obj\x86\Debug\Kochi.HMI.MainControl.Statistics.Screw.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Screw\obj\x86\Debug\Kochi.HMI.MainControl.Statistics.Screw.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Screw\obj\x86\Debug\Kochi.HMI.MainControl.Statistics.Screw.ChildrenScrewForm.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Screw\obj\x86\Debug\Kochi.HMI.MainControl.Statistics.Screw.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Screw\obj\x86\Debug\Kochi.HMI.MainControl.Statistics.Screw.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Screw\obj\x86\Debug\Kochi.HMI.MainControl.Statistics.Screw.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Statistics.Screw\obj\x86\Debug\Kochi.HMI.MainControl.Statistics.Screw.pdb

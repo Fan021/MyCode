@@ -1,0 +1,83 @@
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ActionUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ParameterUI.resources
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ActionUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ParameterUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ActionUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ParameterUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ActionUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ParameterUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ActionUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ParameterUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ActionUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ParameterUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ActionUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ParameterUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ActionUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.ParameterUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationScrewBit\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationScrewBit.vbprojResolveAssemblyReference.cache

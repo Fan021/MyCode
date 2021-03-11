@@ -1,0 +1,52 @@
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.dll
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.pdb
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.ActionUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.ParameterUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.ActionUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.ParameterUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.ActionUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.ParameterUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.dll
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.ActionUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.ParameterUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.dll
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.ActionUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.ParameterUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationHandScrewRework.vbprojResolveAssemblyReference.cache

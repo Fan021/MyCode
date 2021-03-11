@@ -1,0 +1,84 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.InitUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.InitUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.InitUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.InitUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.InitUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.InitUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.ControlUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.IOForm.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.ShortCutUI.resources
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.ControlUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.IOForm.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.ShortCutUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.ControlUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.IOForm.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.ShortCutUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewFeeder\obj\Debug\Kochi.HMI.MainControl.Device.ScrewFeeder.vbprojResolveAssemblyReference.cache

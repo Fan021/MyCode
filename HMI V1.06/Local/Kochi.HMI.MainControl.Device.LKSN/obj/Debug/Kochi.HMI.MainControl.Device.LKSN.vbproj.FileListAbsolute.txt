@@ -1,0 +1,75 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.InitUI.resources
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.InitUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.InitUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.InitUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.InitUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.InitUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbprojResolveAssemblyReference.cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.LKSN\obj\Debug\Kochi.HMI.MainControl.Device.LKSN.pdb

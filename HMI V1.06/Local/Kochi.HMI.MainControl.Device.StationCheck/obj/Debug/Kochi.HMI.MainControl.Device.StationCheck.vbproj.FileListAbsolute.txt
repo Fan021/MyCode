@@ -1,0 +1,93 @@
+D:\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.InitUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.Resources.resources
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.InitUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\HMI - 副本 (2)\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.InitUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ControlUI.resources
+D:\hmi\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.IOForm.resources
+D:\hmi\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ShortCutUI.resources
+D:\hmi\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ControlUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.InitUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.IOForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ShortCutUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ControlUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.InitUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.IOForm.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ShortCutUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ControlUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.InitUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.IOForm.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ShortCutUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ControlUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.IOForm.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ShortCutUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ControlUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.IOForm.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.ShortCutUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.StationCheck\obj\Debug\Kochi.HMI.MainControl.Device.StationCheck.vbprojResolveAssemblyReference.cache

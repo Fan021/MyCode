@@ -1,0 +1,91 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ActionUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.PicturePosition.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ActionUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.PicturePosition.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ParameterUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ParameterUI.resources
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ActionUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ParameterUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.PicturePosition.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ActionUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ParameterUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.PicturePosition.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ActionUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ParameterUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.PicturePosition.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ActionUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ParameterUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.PicturePosition.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ActionUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ParameterUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.PicturePosition.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ActionUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.ParameterUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.PicturePosition.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.AutoStationScrew\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationScrew.vbprojResolveAssemblyReference.cache

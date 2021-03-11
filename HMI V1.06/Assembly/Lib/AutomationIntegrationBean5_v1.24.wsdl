@@ -1,0 +1,3235 @@
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://systemagmbh.com/manufacturing-automation/r4/" targetNamespace="http://systemagmbh.com/manufacturing-automation/r4/">
+<wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.sap.com/me/common" version="1.0">
+<xs:simpleType name="TsmLifeUnit">
+<xs:restriction base="xs:string">
+<xs:enumeration value="MINUTES"/>
+<xs:enumeration value="HOURS"/>
+<xs:enumeration value="DAYS"/>
+<xs:enumeration value="MONTHS"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>
+<xs:schema xmlns:tns="http://www.sap.com/me/production" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.sap.com/me/production" version="1.0">
+<xs:complexType name="SplitSfcDetail">
+<xs:complexContent>
+<xs:extension base="tns:SerializeSfcDetail">
+<xs:sequence>
+<xs:element name="quantity" type="xs:decimal"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="SerializeSfcDetail">
+<xs:sequence>
+<xs:element minOccurs="0" name="sfc" type="xs:string"/>
+<xs:element minOccurs="0" name="location" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
+<xs:schema xmlns:ns1="http://www.sap.com/me/common" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.sap.com/me/inventory" version="1.0">
+<xs:import namespace="http://www.sap.com/me/common"/>
+<xs:complexType name="TsmDataResponse">
+<xs:sequence>
+<xs:element name="tsmInstanceRef" type="xs:string"/>
+<xs:element name="inventoryRef" type="xs:string"/>
+<xs:element minOccurs="0" name="inventory" type="xs:string"/>
+<xs:element minOccurs="0" name="sfcRef" type="xs:string"/>
+<xs:element minOccurs="0" name="sfc" type="xs:string"/>
+<xs:element name="itemRef" type="xs:string"/>
+<xs:element name="item" type="xs:string"/>
+<xs:element name="itemRevision" type="xs:string"/>
+<xs:element minOccurs="0" name="expirationDate" type="xs:dateTime"/>
+<xs:element minOccurs="0" name="expirationDateUnit" type="ns1:TsmLifeUnit"/>
+<xs:element minOccurs="0" name="maxFloorLife" type="xs:decimal"/>
+<xs:element minOccurs="0" name="maxFloorLifeUnits" type="ns1:TsmLifeUnit"/>
+<xs:element minOccurs="0" name="maxFloorLifeInUnit" type="xs:decimal"/>
+<xs:element minOccurs="0" name="currentTimeOutInUnit" type="xs:string"/>
+<xs:element name="checkedOut" type="xs:boolean"/>
+<xs:element minOccurs="0" name="remainingShelfLife" type="xs:string"/>
+<xs:element minOccurs="0" name="remainingFloorLife" type="xs:string"/>
+<xs:element minOccurs="0" name="currentTimeOut" type="xs:decimal"/>
+<xs:element minOccurs="0" name="cumulativeTimeOut" type="xs:decimal"/>
+<xs:element minOccurs="0" name="cumulativeTimeOutInUnit" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
+<xs:schema xmlns:ns1="http://www.sap.com/me/inventory" xmlns:ns2="http://www.sap.com/me/common" xmlns:ns3="http://www.sap.com/me/production" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://systemagmbh.com/manufacturing-automation/r4/" version="1.0">
+<xs:import namespace="http://www.sap.com/me/inventory"/>
+<xs:import namespace="http://www.sap.com/me/common"/>
+<xs:import namespace="http://www.sap.com/me/production"/>
+<xs:element name="AutomationException" type="tns:AutomationException"/>
+<xs:element name="addSfcToProcessLot" type="tns:addSfcToProcessLot"/>
+<xs:element name="addSfcToProcessLotResponse" type="tns:addSfcToProcessLotResponse"/>
+<xs:element name="assemble" type="tns:assemble"/>
+<xs:element name="assembleNonBomComponent" type="tns:assembleNonBomComponent"/>
+<xs:element name="assembleNonBomComponentResponse" type="tns:assembleNonBomComponentResponse"/>
+<xs:element name="assembleResponse" type="tns:assembleResponse"/>
+<xs:element name="assignImagerId" type="tns:assignImagerId"/>
+<xs:element name="assignImagerIdResponse" type="tns:assignImagerIdResponse"/>
+<xs:element name="assignSerialId" type="tns:assignSerialId"/>
+<xs:element name="assignSerialIdResponse" type="tns:assignSerialIdResponse"/>
+<xs:element name="changeResourceState" type="tns:changeResourceState"/>
+<xs:element name="changeResourceStateResponse" type="tns:changeResourceStateResponse"/>
+<xs:element name="checkAlternateComponents" type="tns:checkAlternateComponents"/>
+<xs:element name="checkAlternateComponentsResponse" type="tns:checkAlternateComponentsResponse"/>
+<xs:element name="checkIn" type="tns:checkIn"/>
+<xs:element name="checkInResponse" type="tns:checkInResponse"/>
+<xs:element name="checkOut" type="tns:checkOut"/>
+<xs:element name="checkOutResponse" type="tns:checkOutResponse"/>
+<xs:element name="checkRecipe" type="tns:checkRecipe"/>
+<xs:element name="checkRecipeResponse" type="tns:checkRecipeResponse"/>
+<xs:element name="checkUserCertificate" type="tns:checkUserCertificate"/>
+<xs:element name="checkUserCertificateResponse" type="tns:checkUserCertificateResponse"/>
+<xs:element name="closeContainer" type="tns:closeContainer"/>
+<xs:element name="closeContainerResponse" type="tns:closeContainerResponse"/>
+<xs:element name="closeProcessLot" type="tns:closeProcessLot"/>
+<xs:element name="closeProcessLotResponse" type="tns:closeProcessLotResponse"/>
+<xs:element name="complete" type="tns:complete"/>
+<xs:element name="completeICT" type="tns:completeICT"/>
+<xs:element name="completeICTResponse" type="tns:completeICTResponse"/>
+<xs:element name="completeResponse" type="tns:completeResponse"/>
+<xs:element name="completeSfcQuick" type="tns:completeSfcQuick"/>
+<xs:element name="completeSfcQuickResponse" type="tns:completeSfcQuickResponse"/>
+<xs:element name="createContainer" type="tns:createContainer"/>
+<xs:element name="createContainerResponse" type="tns:createContainerResponse"/>
+<xs:element name="getHUDetails" type="tns:getHUDetails"/>
+<xs:element name="getHUDetailsResponse" type="tns:getHUDetailsResponse"/>
+<xs:element name="getLabelDetails" type="tns:getLabelDetails"/>
+<xs:element name="getLabelDetailsResponse" type="tns:getLabelDetailsResponse"/>
+<xs:element name="getNCsByFilter" type="tns:getNCsByFilter"/>
+<xs:element name="getNCsByFilterResponse" type="tns:getNCsByFilterResponse"/>
+<xs:element name="getProcessLotDetails" type="tns:getProcessLotDetails"/>
+<xs:element name="getProcessLotDetailsResponse" type="tns:getProcessLotDetailsResponse"/>
+<xs:element name="getRenamedSfc" type="tns:getRenamedSfc"/>
+<xs:element name="getRenamedSfcResponse" type="tns:getRenamedSfcResponse"/>
+<xs:element name="getSFCOperation" type="tns:getSFCOperation"/>
+<xs:element name="getSFCOperationResponse" type="tns:getSFCOperationResponse"/>
+<xs:element name="getSFCPath" type="tns:getSFCPath"/>
+<xs:element name="getSFCPathResponse" type="tns:getSFCPathResponse"/>
+<xs:element name="getSFCRecipe" type="tns:getSFCRecipe"/>
+<xs:element name="getSFCRecipeResponse" type="tns:getSFCRecipeResponse"/>
+<xs:element name="getSfcStatus" type="tns:getSfcStatus"/>
+<xs:element name="getSfcStatusResponse" type="tns:getSfcStatusResponse"/>
+<xs:element name="getShopOrderDetails" type="tns:getShopOrderDetails"/>
+<xs:element name="getShopOrderDetailsResponse" type="tns:getShopOrderDetailsResponse"/>
+<xs:element name="getTimeSensitiveInventory" type="tns:getTimeSensitiveInventory"/>
+<xs:element name="getTimeSensitiveInventoryResponse" type="tns:getTimeSensitiveInventoryResponse"/>
+<xs:element name="getToolDetails" type="tns:getToolDetails"/>
+<xs:element name="getToolDetailsResponse" type="tns:getToolDetailsResponse"/>
+<xs:element name="handleException" type="tns:handleException"/>
+<xs:element name="handleExceptionResponse" type="tns:handleExceptionResponse"/>
+<xs:element name="handleGenericParams" type="tns:handleGenericParams"/>
+<xs:element name="handleGenericParamsResponse" type="tns:handleGenericParamsResponse"/>
+<xs:element name="isAlive" type="tns:isAlive"/>
+<xs:element name="isAliveResponse" type="tns:isAliveResponse"/>
+<xs:element name="isContainerEmpty" type="tns:isContainerEmpty"/>
+<xs:element name="isContainerEmptyResponse" type="tns:isContainerEmptyResponse"/>
+<xs:element name="logNonConformance" type="tns:logNonConformance"/>
+<xs:element name="logNonConformanceResponse" type="tns:logNonConformanceResponse"/>
+<xs:element name="logParameters" type="tns:logParameters"/>
+<xs:element name="logParametersResponse" type="tns:logParametersResponse"/>
+<xs:element name="logResourceState" type="tns:logResourceState"/>
+<xs:element name="logResourceStateResponse" type="tns:logResourceStateResponse"/>
+<xs:element name="nextJob" type="tns:nextJob"/>
+<xs:element name="nextJobResponse" type="tns:nextJobResponse"/>
+<xs:element name="openProcessLot" type="tns:openProcessLot"/>
+<xs:element name="openProcessLotResponse" type="tns:openProcessLotResponse"/>
+<xs:element name="pack" type="tns:pack"/>
+<xs:element name="packProcessLot" type="tns:packProcessLot"/>
+<xs:element name="packProcessLotResponse" type="tns:packProcessLotResponse"/>
+<xs:element name="packResponse" type="tns:packResponse"/>
+<xs:element name="rebookPanelEdgeNC" type="tns:rebookPanelEdgeNC"/>
+<xs:element name="rebookPanelEdgeNCResponse" type="tns:rebookPanelEdgeNCResponse"/>
+<xs:element name="reenterImagerId" type="tns:reenterImagerId"/>
+<xs:element name="reenterImagerIdResponse" type="tns:reenterImagerIdResponse"/>
+<xs:element name="removeComponent" type="tns:removeComponent"/>
+<xs:element name="removeComponentResponse" type="tns:removeComponentResponse"/>
+<xs:element name="removeSfcFromProcessLot" type="tns:removeSfcFromProcessLot"/>
+<xs:element name="removeSfcFromProcessLotResponse" type="tns:removeSfcFromProcessLotResponse"/>
+<xs:element name="reopenContainer" type="tns:reopenContainer"/>
+<xs:element name="reopenContainerResponse" type="tns:reopenContainerResponse"/>
+<xs:element name="setFloorLife" type="tns:setFloorLife"/>
+<xs:element name="setFloorLifeResponse" type="tns:setFloorLifeResponse"/>
+<xs:element name="setupComponent" type="tns:setupComponent"/>
+<xs:element name="setupComponentResponse" type="tns:setupComponentResponse"/>
+<xs:element name="setupTool" type="tns:setupTool"/>
+<xs:element name="setupToolResponse" type="tns:setupToolResponse"/>
+<xs:element name="signOff" type="tns:signOff"/>
+<xs:element name="signOffResponse" type="tns:signOffResponse"/>
+<xs:element name="splitSfc" type="tns:splitSfc"/>
+<xs:element name="splitSfcResponse" type="tns:splitSfcResponse"/>
+<xs:element name="start" type="tns:start"/>
+<xs:element name="startBomDetails" type="tns:startBomDetails"/>
+<xs:element name="startBomDetailsResponse" type="tns:startBomDetailsResponse"/>
+<xs:element name="startResponse" type="tns:startResponse"/>
+<xs:element name="startViscom" type="tns:startViscom"/>
+<xs:element name="startViscomResponse" type="tns:startViscomResponse"/>
+<xs:element name="unpackAllContainerMembers" type="tns:unpackAllContainerMembers"/>
+<xs:element name="unpackAllContainerMembersResponse" type="tns:unpackAllContainerMembersResponse"/>
+<xs:element name="validateBOM" type="tns:validateBOM"/>
+<xs:element name="validateBOMResponse" type="tns:validateBOMResponse"/>
+<xs:element name="validateComponent" type="tns:validateComponent"/>
+<xs:element name="validateComponentResponse" type="tns:validateComponentResponse"/>
+<xs:element name="validateRelease" type="tns:validateRelease"/>
+<xs:element name="validateReleaseResponse" type="tns:validateReleaseResponse"/>
+<xs:element name="validateSfc" type="tns:validateSfc"/>
+<xs:element name="validateSfcResponse" type="tns:validateSfcResponse"/>
+<xs:element name="validateStart" type="tns:validateStart"/>
+<xs:element name="validateStartResponse" type="tns:validateStartResponse"/>
+<xs:complexType name="getHUDetails">
+<xs:sequence>
+<xs:element minOccurs="0" name="setupMaterialRequest" type="tns:setupMaterialREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="setupMaterialREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="huCode1" type="xs:string"/>
+<xs:element minOccurs="0" name="huCode2" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="resourceId" type="xs:string"/>
+<xs:element minOccurs="0" name="softwareRevision" type="xs:string"/>
+<xs:element minOccurs="0" name="timeStamp" type="xs:dateTime"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getHUDetailsResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getHUDetailsRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getHUDetailsRSP">
+<xs:complexContent>
+<xs:extension base="tns:setupMaterialRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="remainingFloorLife" type="xs:string"/>
+<xs:element minOccurs="0" name="statusOfInventory" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="setupMaterialRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="huCustomData" nillable="true" type="tns:customData"/>
+<xs:element minOccurs="0" name="huId" type="xs:string"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="materialClassification" nillable="true" type="tns:customData"/>
+<xs:element minOccurs="0" name="materialId" type="xs:string"/>
+<xs:element minOccurs="0" name="materialRevision" type="xs:string"/>
+<xs:element minOccurs="0" name="quantity" type="xs:decimal"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="genericRSP">
+<xs:sequence>
+<xs:element name="resultCode" type="xs:int"/>
+<xs:element minOccurs="0" name="resultText" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="customData">
+<xs:sequence>
+<xs:element minOccurs="0" name="name" type="xs:string"/>
+<xs:element minOccurs="0" name="value" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="AutomationException">
+<xs:sequence>
+<xs:element name="errorCode" type="xs:int"/>
+<xs:element minOccurs="0" name="message" type="xs:string"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="suppressed" type="tns:throwable"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="throwable">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="stackTrace" nillable="true" type="tns:stackTraceElement"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType final="extension restriction" name="stackTraceElement">
+<xs:sequence/>
+</xs:complexType>
+<xs:complexType name="checkAlternateComponents">
+<xs:sequence>
+<xs:element minOccurs="0" name="checkAlternateComponentRequest" type="tns:checkAlternateComponentREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="checkAlternateComponentREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="alternateMaterialId" type="xs:string"/>
+<xs:element minOccurs="0" name="alternateMaterialRevision" type="xs:string"/>
+<xs:element minOccurs="0" name="currentMaterialId" type="xs:string"/>
+<xs:element minOccurs="0" name="currentMaterialRevision" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="operSFCREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="operation" type="xs:string"/>
+<xs:element minOccurs="0" name="sfc" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="checkAlternateComponentsResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:checkAlternateComponentRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="checkAlternateComponentRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="nextJob">
+<xs:sequence>
+<xs:element minOccurs="0" name="releaseNextMaterialRequest" type="tns:nextJobREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="nextJobREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="operation" type="xs:string"/>
+<xs:element minOccurs="0" name="recipe" type="xs:string"/>
+<xs:element minOccurs="0" name="recipeVersion" type="xs:string"/>
+<xs:element minOccurs="0" name="sfc" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="nextJobResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:nextJobRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="nextJobRSP">
+<xs:complexContent>
+<xs:extension base="tns:sfcMaterialRSP">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="bomDatas" nillable="true" type="tns:bomData"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="customDatas" nillable="true" type="tns:customData"/>
+<xs:element minOccurs="0" name="operation" type="xs:string"/>
+<xs:element minOccurs="0" name="recipe" type="xs:string"/>
+<xs:element minOccurs="0" name="recipeVersion" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="sfcMaterialRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="materialId" type="xs:string"/>
+<xs:element minOccurs="0" name="materialRevision" type="xs:string"/>
+<xs:element minOccurs="0" name="sfc" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="bomData">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="materialClassification" nillable="true" type="tns:customData"/>
+<xs:element minOccurs="0" name="materialId" type="xs:string"/>
+<xs:element minOccurs="0" name="materialRevision" type="xs:string"/>
+<xs:element minOccurs="0" name="operation" type="xs:string"/>
+<xs:element minOccurs="0" name="quantity" type="xs:decimal"/>
+<xs:element minOccurs="0" name="sequence" type="xs:decimal"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateRelease">
+<xs:sequence>
+<xs:element minOccurs="0" name="validateReleaseRequest" type="tns:validateReleaseREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateReleaseREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="operation" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="validateReleaseResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:validateReleaseRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateReleaseRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="bomDatas" nillable="true" type="tns:bomData"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="customDatas" nillable="true" type="tns:customData"/>
+<xs:element minOccurs="0" name="materialId" type="xs:string"/>
+<xs:element minOccurs="0" name="materialRevision" type="xs:string"/>
+<xs:element minOccurs="0" name="recipe" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="assignImagerId">
+<xs:sequence>
+<xs:element minOccurs="0" name="assignImagerIdRequest" type="tns:operSFCREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="assignImagerIdResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:sfcDetailRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="sfcDetailRSP">
+<xs:complexContent>
+<xs:extension base="tns:sfcMaterialRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="nextOperation" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="reenterImagerId">
+<xs:sequence>
+<xs:element minOccurs="0" name="reenterImagerIdRequest" type="tns:operSFCREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="reenterImagerIdResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:reenterImagerIdRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="reenterImagerIdRSP">
+<xs:complexContent>
+<xs:extension base="tns:sfcDetailRSP">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="bomDatas" nillable="true" type="tns:bomData"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="customDatas" nillable="true" type="tns:customData"/>
+<xs:element minOccurs="0" name="recipe" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="start">
+<xs:sequence>
+<xs:element minOccurs="0" name="startRequest" type="tns:startREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="startREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="carrierId" type="xs:string"/>
+<xs:element minOccurs="0" name="recipe" type="xs:string"/>
+<xs:element minOccurs="0" name="recipeVersion" type="xs:string"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="tools" nillable="true" type="tns:tool"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="tool">
+<xs:sequence>
+<xs:element minOccurs="0" name="toolId" type="xs:string"/>
+<xs:element name="toolPos" type="xs:int"/>
+<xs:element minOccurs="0" name="toolType" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="startResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:startRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="startRSP">
+<xs:complexContent>
+<xs:extension base="tns:sfcMaterialRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="recipe" type="xs:string"/>
+<xs:element minOccurs="0" name="recipeVersion" type="xs:string"/>
+<xs:element minOccurs="0" name="startDetail" type="xs:string"/>
+<xs:element minOccurs="0" name="workmap" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="startViscom">
+<xs:sequence>
+<xs:element minOccurs="0" name="startRequest" type="tns:startREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="startViscomResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:startViscomRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="startViscomRSP">
+<xs:complexContent>
+<xs:extension base="tns:startRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="validateStart">
+<xs:sequence>
+<xs:element minOccurs="0" name="startRequest" type="tns:startREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateStartResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:startRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="complete">
+<xs:sequence>
+<xs:element minOccurs="0" name="completeRequest" type="tns:operSFCREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="completeResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:sfcDetailRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="completeICT">
+<xs:sequence>
+<xs:element minOccurs="0" name="completeICTRequest" type="tns:completeICTRequest"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="completeICTRequest">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="boardStatusList" nillable="true" type="tns:boardstatus"/>
+<xs:element minOccurs="0" name="fileContent" type="xs:string"/>
+<xs:element minOccurs="0" name="ftpFileName" type="xs:string"/>
+<xs:element minOccurs="0" name="ftpPath" type="xs:string"/>
+<xs:element minOccurs="0" name="sfcStatus" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="boardstatus">
+<xs:sequence>
+<xs:element minOccurs="0" name="boardstatus" type="xs:string"/>
+<xs:element minOccurs="0" name="location" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="completeICTResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:sfcDetailRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="assemble">
+<xs:sequence>
+<xs:element minOccurs="0" name="assembleRequest" type="tns:assembleREQ"/>
+<xs:element name="isWithoutQty" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="assembleREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="componentDatas" nillable="true" type="tns:componentData"/>
+<xs:element minOccurs="0" name="quantity" type="xs:decimal"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="componentData">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="bomParameters" nillable="true" type="tns:bomParameter"/>
+<xs:element minOccurs="0" name="inventory" type="xs:string"/>
+<xs:element minOccurs="0" name="location" type="xs:string"/>
+<xs:element minOccurs="0" name="materialId" type="xs:string"/>
+<xs:element minOccurs="0" name="materialRevision" type="xs:string"/>
+<xs:element minOccurs="0" name="quantity" type="xs:decimal"/>
+<xs:element minOccurs="0" name="referenceDesignator" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="bomParameter">
+<xs:sequence>
+<xs:element minOccurs="0" name="name" type="xs:string"/>
+<xs:element minOccurs="0" name="value" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="assembleResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="logParameters">
+<xs:sequence>
+<xs:element minOccurs="0" name="logParametricDataRequest" type="tns:logParametersDCGroupREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="logParametersDCGroupREQ">
+<xs:complexContent>
+<xs:extension base="tns:logParametersREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="dcGroup" type="xs:string"/>
+<xs:element minOccurs="0" name="dcGroupVersion" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="logParametersREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="logParameters" nillable="true" type="tns:logParameter"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="logParameter">
+<xs:sequence>
+<xs:element minOccurs="0" name="compareMode" type="xs:string"/>
+<xs:element minOccurs="0" name="dataType" type="xs:string"/>
+<xs:element minOccurs="0" name="identifier" type="xs:string"/>
+<xs:element minOccurs="0" name="lowerLimit" type="xs:string"/>
+<xs:element name="passFailed" type="xs:boolean"/>
+<xs:element minOccurs="0" name="upperLimit" type="xs:string"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="userDefinedFields" nillable="true" type="tns:userDefinedField"/>
+<xs:element minOccurs="0" name="value" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="userDefinedField">
+<xs:sequence>
+<xs:element minOccurs="0" name="name" type="xs:string"/>
+<xs:element minOccurs="0" name="value" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="logParametersResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="logNonConformance">
+<xs:sequence>
+<xs:element minOccurs="0" name="logNCRequest" type="tns:logNCREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="logNCREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="ncDatas" nillable="true" type="tns:ncData"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="ncData">
+<xs:sequence>
+<xs:element minOccurs="0" name="compareMode" type="xs:string"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="customValues" nillable="true" type="tns:customData"/>
+<xs:element minOccurs="0" name="identifier" type="xs:string"/>
+<xs:element minOccurs="0" name="location" type="xs:string"/>
+<xs:element minOccurs="0" name="lowerLimit" type="xs:string"/>
+<xs:element minOccurs="0" name="ncComment" type="xs:string"/>
+<xs:element minOccurs="0" name="referenceDesignator" type="xs:string"/>
+<xs:element minOccurs="0" name="upperLimit" type="xs:string"/>
+<xs:element minOccurs="0" name="value" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="logNonConformanceResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="changeResourceState">
+<xs:sequence>
+<xs:element minOccurs="0" name="changeResourceStateRequest" type="tns:changeResourceStateREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="changeResourceStateREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="newState" type="xs:string"/>
+<xs:element minOccurs="0" name="rcComment" type="xs:string"/>
+<xs:element minOccurs="0" name="reasonCode" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="changeResourceStateResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="logResourceState">
+<xs:sequence>
+<xs:element minOccurs="0" name="logResourceDataRequest" type="tns:logResourceStateREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="logResourceStateREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="resourceStates" nillable="true" type="tns:resourceState"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="resourceState">
+<xs:sequence>
+<xs:element minOccurs="0" name="entryReasonId" type="xs:string"/>
+<xs:element minOccurs="0" name="entryReasonText" type="xs:string"/>
+<xs:element minOccurs="0" name="entryTimeStamp" type="xs:dateTime"/>
+<xs:element minOccurs="0" name="leaveTimeStamp" type="xs:dateTime"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="logResourceStateResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="signOff">
+<xs:sequence>
+<xs:element minOccurs="0" name="signOffRequest" type="tns:operSFCREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="signOffResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:sfcMaterialRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="assignSerialId">
+<xs:sequence>
+<xs:element minOccurs="0" name="assignSerialIdRequest" type="tns:assignSerialIdREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="assignSerialIdREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="recipe" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="assignSerialIdResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:sfcMaterialRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="isAlive">
+<xs:sequence>
+<xs:element minOccurs="0" name="isAliveRequest" type="tns:genericREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="isAliveResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:isAliveRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="isAliveRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="resourceId" type="xs:string"/>
+<xs:element minOccurs="0" name="resourceState" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="closeContainer">
+<xs:sequence>
+<xs:element minOccurs="0" name="closeContainerRequest" type="tns:closeContainerREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="closeContainerREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="container" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="closeContainerResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="pack">
+<xs:sequence>
+<xs:element minOccurs="0" name="packRequest" type="tns:packREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="packREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="container" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="packResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="packProcessLot">
+<xs:sequence>
+<xs:element minOccurs="0" name="packProcessLotRequest" type="tns:packREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="packProcessLotResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:packRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="packRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="container" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="createContainer">
+<xs:sequence>
+<xs:element minOccurs="0" name="createContainerRequest" type="tns:createContainerREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="createContainerREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="container" type="xs:string"/>
+<xs:element minOccurs="0" name="containerType" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="createContainerResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:containerRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="containerRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="container" type="xs:string"/>
+<xs:element minOccurs="0" name="containerType" type="xs:string"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="containerTypeCustomDatas" nillable="true" type="tns:customData"/>
+<xs:element name="containerWeight" type="xs:float"/>
+<xs:element name="height" type="xs:float"/>
+<xs:element name="length" type="xs:float"/>
+<xs:element name="maxFillWeight" type="xs:float"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="packItems" nillable="true" type="tns:packItem"/>
+<xs:element minOccurs="0" name="vendor" type="xs:string"/>
+<xs:element name="width" type="xs:float"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="packItem">
+<xs:sequence>
+<xs:element minOccurs="0" name="materialDescription" type="xs:string"/>
+<xs:element minOccurs="0" name="materialId" type="xs:string"/>
+<xs:element minOccurs="0" name="materialRevision" type="xs:string"/>
+<xs:element name="maximumQuantity" type="xs:int"/>
+<xs:element name="minimumQuantity" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="reopenContainer">
+<xs:sequence>
+<xs:element minOccurs="0" name="reopenContainerRequest" type="tns:reopenContainerREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="reopenContainerREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="container" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="reopenContainerResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:containerRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getSfcStatus">
+<xs:sequence>
+<xs:element minOccurs="0" name="getSfcStatusRequest" type="tns:getSfcStatusREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getSfcStatusREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="sfc" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getSfcStatusResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getSfcStatusRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getSfcStatusRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element name="done" type="xs:boolean"/>
+<xs:element name="hasBeenUsed" type="xs:boolean"/>
+<xs:element minOccurs="0" name="material" type="xs:string"/>
+<xs:element minOccurs="0" name="mesCompType" type="xs:string"/>
+<xs:element name="openNCs" type="xs:boolean"/>
+<xs:element name="qtyOnHand" type="xs:int"/>
+<xs:element minOccurs="0" name="revision" type="xs:string"/>
+<xs:element name="sfcNotFound" type="xs:boolean"/>
+<xs:element minOccurs="0" name="sfcStatus" type="xs:string"/>
+<xs:element minOccurs="0" name="status" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="assembleNonBomComponent">
+<xs:sequence>
+<xs:element minOccurs="0" name="assembleRequest" type="tns:assembleREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="assembleNonBomComponentResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="startBomDetails">
+<xs:sequence>
+<xs:element minOccurs="0" name="startBomDetailsRequest" type="tns:startREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="startBomDetailsResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:startBomDetailsRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="startBomDetailsRSP">
+<xs:complexContent>
+<xs:extension base="tns:startRSP">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="bomDatas" nillable="true" type="tns:bomData"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="customDatas" nillable="true" type="tns:customData"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getSFCOperation">
+<xs:sequence>
+<xs:element minOccurs="0" name="getSFCOperationRequest" type="tns:getSFCOperationREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getSFCOperationREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="sfc" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getSFCOperationResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getSFCOperationRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getSFCOperationRSP">
+<xs:complexContent>
+<xs:extension base="tns:sfcMaterialRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="operation" type="xs:string"/>
+<xs:element minOccurs="0" name="status" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getSFCPath">
+<xs:sequence>
+<xs:element minOccurs="0" name="getSFCPathRequest" type="tns:getSFCPathREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getSFCPathREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getSFCPathResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getSFCPathRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getSFCPathRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="operation" type="xs:string"/>
+<xs:element minOccurs="0" name="path" type="xs:string"/>
+<xs:element minOccurs="0" name="prefix" type="xs:string"/>
+<xs:element minOccurs="0" name="sfc" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getSFCRecipe">
+<xs:sequence>
+<xs:element minOccurs="0" name="getSFCRecipeRequest" type="tns:getSFCRecipeREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getSFCRecipeREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="materialID" type="xs:string"/>
+<xs:element minOccurs="0" name="materialRevision" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getSFCRecipeResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getSFCRecipeRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getSFCRecipeRSP">
+<xs:complexContent>
+<xs:extension base="tns:sfcMaterialRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="operation" type="xs:string"/>
+<xs:element minOccurs="0" name="recipe" type="xs:string"/>
+<xs:element minOccurs="0" name="resourceId" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="rebookPanelEdgeNC">
+<xs:sequence>
+<xs:element minOccurs="0" name="rebookPanelEdgeNCRequest" type="tns:operSFCREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="rebookPanelEdgeNCResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getNCsByFilter">
+<xs:sequence>
+<xs:element minOccurs="0" name="getNCsByFilterRequest" type="tns:getNCsByFilterREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getNCsByFilterREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="ncCategory" type="xs:string"/>
+<xs:element minOccurs="0" name="ncCode" type="xs:string"/>
+<xs:element minOccurs="0" name="ncMaterialId" type="xs:string"/>
+<xs:element minOccurs="0" name="ncMaterialRev" type="xs:string"/>
+<xs:element minOccurs="0" name="ncResource" type="xs:string"/>
+<xs:element minOccurs="0" name="ncStatus" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getNCsByFilterResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getNCsByFilterRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getNCsByFilterRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="ncList" nillable="true" type="tns:ncObj"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="ncObj">
+<xs:sequence>
+<xs:element minOccurs="0" name="actionCode" type="xs:string"/>
+<xs:element minOccurs="0" name="activity" type="xs:string"/>
+<xs:element minOccurs="0" name="assemblyIncidentNum" type="xs:string"/>
+<xs:element minOccurs="0" name="batchIncidentNum" type="xs:string"/>
+<xs:element minOccurs="0" name="closedDateTime" type="xs:anySimpleType"/>
+<xs:element minOccurs="0" name="closedUser" type="xs:string"/>
+<xs:element minOccurs="0" name="comments" type="xs:string"/>
+<xs:element minOccurs="0" name="componentSFCItemRef" type="xs:string"/>
+<xs:element minOccurs="0" name="componentSFCRef" type="xs:string"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="components" nillable="true" type="tns:ComponentIdentifier"/>
+<xs:element minOccurs="0" name="copiedFromNcDataRef" type="xs:string"/>
+<xs:element minOccurs="0" name="createdDateTime" type="xs:anySimpleType"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="customValues" nillable="true" type="tns:keyValuePair"/>
+<xs:element minOccurs="0" name="dataTypeRef" type="xs:string"/>
+<xs:element minOccurs="0" name="dateTime" type="xs:anySimpleType"/>
+<xs:element minOccurs="0" name="defectCount" type="xs:decimal"/>
+<xs:element minOccurs="0" name="dispositionFunctionRef" type="xs:string"/>
+<xs:element minOccurs="0" name="dispositionRouterRef" type="xs:string"/>
+<xs:element minOccurs="0" name="failureId" type="xs:string"/>
+<xs:element minOccurs="0" name="incidentDateTime" type="xs:anySimpleType"/>
+<xs:element minOccurs="0" name="incidentNumberRef" type="xs:string"/>
+<xs:element minOccurs="0" name="inventoryRef" type="xs:string"/>
+<xs:element minOccurs="0" name="location" type="xs:string"/>
+<xs:element minOccurs="0" name="materialId" type="xs:string"/>
+<xs:element minOccurs="0" name="materialRev" type="xs:string"/>
+<xs:element minOccurs="0" name="modifiedDateTime" type="xs:anySimpleType"/>
+<xs:element minOccurs="0" name="ncCode" type="xs:string"/>
+<xs:element minOccurs="0" name="ncCodeCategory" type="xs:string"/>
+<xs:element minOccurs="0" name="ncDateTime" type="xs:anySimpleType"/>
+<xs:element minOccurs="0" name="ncRef" type="xs:string"/>
+<xs:element minOccurs="0" name="ncStatus" type="xs:string"/>
+<xs:element minOccurs="0" name="operationId" type="xs:string"/>
+<xs:element minOccurs="0" name="parentNCRef" type="xs:string"/>
+<xs:element minOccurs="0" name="qty" type="xs:decimal"/>
+<xs:element minOccurs="0" name="rootCauseOperRef" type="xs:string"/>
+<xs:element minOccurs="0" name="routerRef" type="xs:string"/>
+<xs:element minOccurs="0" name="severity" type="xs:decimal"/>
+<xs:element minOccurs="0" name="stepId" type="xs:string"/>
+<xs:element minOccurs="0" name="timesProcessed" type="xs:decimal"/>
+<xs:element minOccurs="0" name="userRef" type="xs:string"/>
+<xs:element minOccurs="0" name="verifiedState" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="ComponentIdentifier">
+<xs:sequence>
+<xs:element minOccurs="0" name="refDes" type="xs:string"/>
+<xs:element minOccurs="0" name="componentRef" type="xs:string"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="assemblyRefs" nillable="true" type="xs:string"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="removedAssemblyRefs" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="keyValuePair">
+<xs:sequence>
+<xs:element minOccurs="0" name="key" type="xs:string"/>
+<xs:element minOccurs="0" name="value" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getTimeSensitiveInventory">
+<xs:sequence>
+<xs:element minOccurs="0" name="getTimeSensitiveInventoryRequest" type="tns:getTimeSensitiveInventoryREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getTimeSensitiveInventoryREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element name="inventory" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getTimeSensitiveInventoryResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getTimeSensitiveInventoryRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getTimeSensitiveInventoryRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element name="tsmData" type="ns1:TsmDataResponse"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="splitSfc">
+<xs:sequence>
+<xs:element minOccurs="0" name="splitSfcRequest" type="tns:splitREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="splitREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" name="newSfcs" type="ns3:SplitSfcDetail"/>
+<xs:element minOccurs="0" name="splitQuantitySource" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="splitSfcResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:splitRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="splitRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="newSplitSfcList" nillable="true" type="tns:newSplitSfc"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="newSplitSfc">
+<xs:sequence>
+<xs:element name="newSfc" type="xs:string"/>
+<xs:element name="quantity" type="xs:decimal"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="handleGenericParams">
+<xs:sequence>
+<xs:element minOccurs="0" name="arg0" type="tns:handleGenericParamsRequest"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="handleGenericParamsRequest">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" name="attributes" type="tns:keyValueDto"/>
+<xs:element minOccurs="0" name="genericXmlMode" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="keyValueDto">
+<xs:sequence>
+<xs:element name="key" type="xs:string"/>
+<xs:element name="value" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="handleGenericParamsResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getRenamedSfc">
+<xs:sequence>
+<xs:element minOccurs="0" name="arg0" type="tns:getRenamedSfcREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getRenamedSfcREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="sfc" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getRenamedSfcResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getRenamedSfcRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getRenamedSfcRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="renamedSfc" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="completeSfcQuick">
+<xs:sequence>
+<xs:element minOccurs="0" name="completeSfcQuickRequest" type="tns:completeSfcQuickREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="completeSfcQuickREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="completeSfcQuickResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:completeSfcQuickRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="completeSfcQuickRSP">
+<xs:complexContent>
+<xs:extension base="tns:sfcDetailRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="checkRecipe">
+<xs:sequence>
+<xs:element minOccurs="0" name="checkRecipeRequest" type="tns:checkRecipeREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="checkRecipeREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="operation" type="xs:string"/>
+<xs:element minOccurs="0" name="recipe" type="xs:string"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="recipeParameters" nillable="true" type="tns:keyValuePair"/>
+<xs:element minOccurs="0" name="recipeVersion" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="checkRecipeResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:checkRecipeRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="checkRecipeRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="recipe" type="xs:string"/>
+<xs:element minOccurs="0" name="recipeVersion" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="checkUserCertificate">
+<xs:sequence>
+<xs:element minOccurs="0" name="checkUserCertificateRequest" type="tns:checkUserCertificateREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="checkUserCertificateREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="userName" type="xs:string"/>
+<xs:element minOccurs="0" name="userPw" type="xs:string"/>
+<xs:element minOccurs="0" name="userRole" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="checkUserCertificateResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:checkUserCertificateRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="checkUserCertificateRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="userName" type="xs:string"/>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="userRoles" nillable="true" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="setupTool">
+<xs:sequence>
+<xs:element minOccurs="0" name="setupToolRequest" type="tns:setupToolREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="setupToolREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="tools" nillable="true" type="tns:eCoTool"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="eCoTool">
+<xs:sequence>
+<xs:element minOccurs="0" name="toolId" type="xs:string"/>
+<xs:element minOccurs="0" name="toolPos" type="xs:string"/>
+<xs:element minOccurs="0" name="toolType" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="setupToolResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:setupToolRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="setupToolRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getToolDetails">
+<xs:sequence>
+<xs:element minOccurs="0" name="getToolDetailsRequest" type="tns:getToolDetailsREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getToolDetailsREQ">
+<xs:complexContent>
+<xs:extension base="tns:toolREQ">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="toolREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="toolId" type="xs:string"/>
+<xs:element minOccurs="0" name="toolType" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getToolDetailsResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getToolDetailsRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getToolDetailsRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="handleException">
+<xs:sequence>
+<xs:element minOccurs="0" name="arg0" type="tns:operSFCREQ"/>
+<xs:element minOccurs="0" name="arg1" type="tns:exception"/>
+<xs:element name="arg2" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="exception">
+<xs:complexContent>
+<xs:extension base="tns:throwable">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="handleExceptionResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="unpackAllContainerMembers">
+<xs:sequence>
+<xs:element minOccurs="0" name="unpackAllContainerMembersRequest" type="tns:unpackAllContainerMembersREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="unpackAllContainerMembersREQ">
+<xs:complexContent>
+<xs:extension base="tns:containerRequest">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="containerRequest">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="container" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="unpackAllContainerMembersResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="isContainerEmpty">
+<xs:sequence>
+<xs:element minOccurs="0" name="isContainerEmptyRequest" type="tns:isContainerEmptyREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="isContainerEmptyREQ">
+<xs:complexContent>
+<xs:extension base="tns:containerRequest">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="isContainerEmptyResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:isContainerEmptyRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="isContainerEmptyRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element name="containerEmpty" type="xs:boolean"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getShopOrderDetails">
+<xs:sequence>
+<xs:element minOccurs="0" name="getShopOrderDetailsREQ" type="tns:getShopOrderDetailsREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getShopOrderDetailsREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="operation" type="xs:string"/>
+<xs:element minOccurs="0" name="recipeId" type="xs:string"/>
+<xs:element minOccurs="0" name="recipeVersion" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getShopOrderDetailsResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getShopOrderDetailsRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getShopOrderDetailsRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="materialId" type="xs:string"/>
+<xs:element minOccurs="0" name="materialRevision" type="xs:string"/>
+<xs:element minOccurs="0" name="quantity" type="xs:decimal"/>
+<xs:element minOccurs="0" name="recipeId" type="xs:string"/>
+<xs:element minOccurs="0" name="recipeVersion" type="xs:string"/>
+<xs:element minOccurs="0" name="shopOrder" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="validateBOM">
+<xs:sequence>
+<xs:element minOccurs="0" name="validateBOMRequest" type="tns:validateBOMREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateBOMREQ">
+<xs:complexContent>
+<xs:extension base="tns:operSFCREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="bom" nillable="true" type="tns:billOfMaterial"/>
+<xs:element minOccurs="0" name="shopOrder" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="billOfMaterial">
+<xs:sequence>
+<xs:element minOccurs="0" name="item" type="xs:string"/>
+<xs:element minOccurs="0" name="referenceDesignator" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateBOMResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:validateBOMRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateBOMRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="checkOut">
+<xs:sequence>
+<xs:element minOccurs="0" name="checkOutRequest" type="tns:checkOutREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="checkOutREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="inventory" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="checkOutResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:checkOutRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="checkOutRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="expiryDateTime" type="xs:dateTime"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="checkIn">
+<xs:sequence>
+<xs:element minOccurs="0" name="checkInRequest" type="tns:checkInREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="checkInREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element name="ignoreLimit" type="xs:boolean"/>
+<xs:element minOccurs="0" name="inventory" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="checkInResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getLabelDetails">
+<xs:sequence>
+<xs:element minOccurs="0" name="getLabelDetailsRequest" type="tns:getLabelDetailsREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getLabelDetailsREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="containerId" type="xs:string"/>
+<xs:element minOccurs="0" name="inventory" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getLabelDetailsResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getLabelDetailsRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getLabelDetailsRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="containerId" type="xs:string"/>
+<xs:element minOccurs="0" name="expiryDateTime" type="xs:string"/>
+<xs:element minOccurs="0" name="huIdentifier" type="xs:string"/>
+<xs:element minOccurs="0" name="huNumber" type="xs:string"/>
+<xs:element minOccurs="0" name="materialDescription" type="xs:string"/>
+<xs:element minOccurs="0" name="materialNumber" type="xs:string"/>
+<xs:element minOccurs="0" name="materialRevision" type="xs:string"/>
+<xs:element minOccurs="0" name="mslLevel" type="xs:string"/>
+<xs:element minOccurs="0" name="remainingFloorLife" type="xs:string"/>
+<xs:element minOccurs="0" name="statusOfInventory" type="xs:string"/>
+<xs:element minOccurs="0" name="vendor" type="xs:string"/>
+<xs:element minOccurs="0" name="vendorBatch" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="setFloorLife">
+<xs:sequence>
+<xs:element minOccurs="0" name="setFloorLifeRequest" type="tns:setFloorLifeREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="setFloorLifeREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="inventory" type="xs:string"/>
+<xs:element name="requiredFloorLife" type="xs:int"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="setFloorLifeResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:genericRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateComponent">
+<xs:sequence>
+<xs:element minOccurs="0" name="validateComponentRequest" type="tns:validateComponentREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateComponentREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="barcodeHU" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="validateComponentResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:validateComponentRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateComponentRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="setupComponent">
+<xs:sequence>
+<xs:element minOccurs="0" name="setupComponentRequest" type="tns:setupComponentREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="setupComponentREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="barcodeHU" type="xs:string"/>
+<xs:element minOccurs="0" name="slot" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="setupComponentResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:setupComponentRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="setupComponentRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="removeComponent">
+<xs:sequence>
+<xs:element minOccurs="0" name="removeComponentRequest" type="tns:removeComponentREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="removeComponentREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="barcodesHU" nillable="true" type="tns:handlingUnit"/>
+<xs:element minOccurs="0" name="slot" type="xs:string"/>
+<xs:element minOccurs="0" name="slotConfigId" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="handlingUnit">
+<xs:sequence>
+<xs:element minOccurs="0" name="huId" type="xs:string"/>
+<xs:element minOccurs="0" name="slotId" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="removeComponentResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:removeComponentRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="removeComponentRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="openProcessLot">
+<xs:sequence>
+<xs:element minOccurs="0" name="openProcessLotRequest" type="tns:openProcessLotREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="openProcessLotREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="processLot" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="openProcessLotResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:openProcessLotRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="openProcessLotRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="processLotStatus" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="closeProcessLot">
+<xs:sequence>
+<xs:element minOccurs="0" name="closeProcessLotRequest" type="tns:closeProcessLotREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="closeProcessLotREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="processLot" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="closeProcessLotResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:closeProcessLotRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="closeProcessLotRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element minOccurs="0" name="processLotStatus" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="addSfcToProcessLot">
+<xs:sequence>
+<xs:element minOccurs="0" name="addSfcToProcessLotRequest" type="tns:addSfcToProcessLotREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="addSfcToProcessLotREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="memberList" nillable="true" type="xs:string"/>
+<xs:element minOccurs="0" name="processLot" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="addSfcToProcessLotResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:addSfcToProcessLotRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="addSfcToProcessLotRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="removeSfcFromProcessLot">
+<xs:sequence>
+<xs:element minOccurs="0" name="removeSfcFromProcessLotRequest" type="tns:removeSfcFromProcessLotREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="removeSfcFromProcessLotREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="memberList" nillable="true" type="xs:string"/>
+<xs:element minOccurs="0" name="processLot" type="xs:string"/>
+<xs:element name="removeAll" type="xs:boolean"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="removeSfcFromProcessLotResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:removeSfcFromProcessLotRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="removeSfcFromProcessLotRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getProcessLotDetails">
+<xs:sequence>
+<xs:element minOccurs="0" name="getProcessLotDetailsRequest" type="tns:getProcessLotDetailsREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getProcessLotDetailsREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="processLot" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="getProcessLotDetailsResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:getProcessLotDetailsRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getProcessLotDetailsRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence>
+<xs:element maxOccurs="unbounded" minOccurs="0" name="memberList" nillable="true" type="xs:string"/>
+<xs:element minOccurs="0" name="processLotStatus" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="validateSfc">
+<xs:sequence>
+<xs:element minOccurs="0" name="validateSfcRequest" type="tns:validateSfcREQ"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateSfcREQ">
+<xs:complexContent>
+<xs:extension base="tns:genericREQ">
+<xs:sequence>
+<xs:element minOccurs="0" name="barcode" type="xs:string"/>
+<xs:element minOccurs="0" name="operation" type="xs:string"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="validateSfcResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="tns:validateSfcRSP"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validateSfcRSP">
+<xs:complexContent>
+<xs:extension base="tns:genericRSP">
+<xs:sequence/>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+</xs:schema>
+</wsdl:types>
+<wsdl:message name="getHUDetailsIn">
+<wsdl:part element="tns:getHUDetails" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getHUDetailsOut">
+<wsdl:part element="tns:getHUDetailsResponse" name="getHUDetailsResponse"/>
+</wsdl:message>
+<wsdl:message name="getHUDetailsFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="checkAlternateComponentsIn">
+<wsdl:part element="tns:checkAlternateComponents" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="checkAlternateComponentsOut">
+<wsdl:part element="tns:checkAlternateComponentsResponse" name="checkAlternateComponentsResponse"/>
+</wsdl:message>
+<wsdl:message name="checkAlternateComponentsFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="nextJobIn">
+<wsdl:part element="tns:nextJob" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="nextJobOut">
+<wsdl:part element="tns:nextJobResponse" name="nextJobResponse"/>
+</wsdl:message>
+<wsdl:message name="nextJobFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="validateReleaseIn">
+<wsdl:part element="tns:validateRelease" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="validateReleaseOut">
+<wsdl:part element="tns:validateReleaseResponse" name="validateReleaseResponse"/>
+</wsdl:message>
+<wsdl:message name="validateReleaseFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="assignImagerIdIn">
+<wsdl:part element="tns:assignImagerId" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="assignImagerIdOut">
+<wsdl:part element="tns:assignImagerIdResponse" name="assignImagerIdResponse"/>
+</wsdl:message>
+<wsdl:message name="assignImagerIdFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="reenterImagerIdIn">
+<wsdl:part element="tns:reenterImagerId" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="reenterImagerIdOut">
+<wsdl:part element="tns:reenterImagerIdResponse" name="reenterImagerIdResponse"/>
+</wsdl:message>
+<wsdl:message name="reenterImagerIdFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="startIn">
+<wsdl:part element="tns:start" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="startOut">
+<wsdl:part element="tns:startResponse" name="startResponse"/>
+</wsdl:message>
+<wsdl:message name="startFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="startViscomIn">
+<wsdl:part element="tns:startViscom" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="startViscomOut">
+<wsdl:part element="tns:startViscomResponse" name="startViscomResponse"/>
+</wsdl:message>
+<wsdl:message name="startViscomFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="validateStartIn">
+<wsdl:part element="tns:validateStart" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="validateStartOut">
+<wsdl:part element="tns:validateStartResponse" name="validateStartResponse"/>
+</wsdl:message>
+<wsdl:message name="validateStartFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="completeIn">
+<wsdl:part element="tns:complete" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="completeOut">
+<wsdl:part element="tns:completeResponse" name="completeResponse"/>
+</wsdl:message>
+<wsdl:message name="completeFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="completeICTIn">
+<wsdl:part element="tns:completeICT" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="completeICTOut">
+<wsdl:part element="tns:completeICTResponse" name="completeICTResponse"/>
+</wsdl:message>
+<wsdl:message name="completeICTFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="assembleIn">
+<wsdl:part element="tns:assemble" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="assembleOut">
+<wsdl:part element="tns:assembleResponse" name="assembleResponse"/>
+</wsdl:message>
+<wsdl:message name="assembleFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="logParametersIn">
+<wsdl:part element="tns:logParameters" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="logParametersOut">
+<wsdl:part element="tns:logParametersResponse" name="logParametersResponse"/>
+</wsdl:message>
+<wsdl:message name="logParametersFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="logNonConformanceIn">
+<wsdl:part element="tns:logNonConformance" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="logNonConformanceOut">
+<wsdl:part element="tns:logNonConformanceResponse" name="logNonConformanceResponse"/>
+</wsdl:message>
+<wsdl:message name="logNonConformanceFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="changeResourceStateIn">
+<wsdl:part element="tns:changeResourceState" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="changeResourceStateOut">
+<wsdl:part element="tns:changeResourceStateResponse" name="changeResourceStateResponse"/>
+</wsdl:message>
+<wsdl:message name="changeResourceStateFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="logResourceStateIn">
+<wsdl:part element="tns:logResourceState" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="logResourceStateOut">
+<wsdl:part element="tns:logResourceStateResponse" name="logResourceStateResponse"/>
+</wsdl:message>
+<wsdl:message name="logResourceStateFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="signOffIn">
+<wsdl:part element="tns:signOff" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="signOffOut">
+<wsdl:part element="tns:signOffResponse" name="signOffResponse"/>
+</wsdl:message>
+<wsdl:message name="signOffFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="assignSerialIdIn">
+<wsdl:part element="tns:assignSerialId" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="assignSerialIdOut">
+<wsdl:part element="tns:assignSerialIdResponse" name="assignSerialIdResponse"/>
+</wsdl:message>
+<wsdl:message name="assignSerialIdFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="isAliveIn">
+<wsdl:part element="tns:isAlive" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="isAliveOut">
+<wsdl:part element="tns:isAliveResponse" name="isAliveResponse"/>
+</wsdl:message>
+<wsdl:message name="isAliveFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="closeContainerIn">
+<wsdl:part element="tns:closeContainer" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="closeContainerOut">
+<wsdl:part element="tns:closeContainerResponse" name="closeContainerResponse"/>
+</wsdl:message>
+<wsdl:message name="closeContainerFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="packIn">
+<wsdl:part element="tns:pack" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="packOut">
+<wsdl:part element="tns:packResponse" name="packResponse"/>
+</wsdl:message>
+<wsdl:message name="packFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="packProcessLotIn">
+<wsdl:part element="tns:packProcessLot" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="packProcessLotOut">
+<wsdl:part element="tns:packProcessLotResponse" name="packProcessLotResponse"/>
+</wsdl:message>
+<wsdl:message name="packProcessLotFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="createContainerIn">
+<wsdl:part element="tns:createContainer" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="createContainerOut">
+<wsdl:part element="tns:createContainerResponse" name="createContainerResponse"/>
+</wsdl:message>
+<wsdl:message name="createContainerFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="reopenContainerIn">
+<wsdl:part element="tns:reopenContainer" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="reopenContainerOut">
+<wsdl:part element="tns:reopenContainerResponse" name="reopenContainerResponse"/>
+</wsdl:message>
+<wsdl:message name="reopenContainerFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="getSfcStatusIn">
+<wsdl:part element="tns:getSfcStatus" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getSfcStatusOut">
+<wsdl:part element="tns:getSfcStatusResponse" name="getSfcStatusResponse"/>
+</wsdl:message>
+<wsdl:message name="getSfcStatusFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="assembleNonBomComponentIn">
+<wsdl:part element="tns:assembleNonBomComponent" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="assembleNonBomComponentOut">
+<wsdl:part element="tns:assembleNonBomComponentResponse" name="assembleNonBomComponentResponse"/>
+</wsdl:message>
+<wsdl:message name="assembleNonBomComponentFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="startBomDetailsIn">
+<wsdl:part element="tns:startBomDetails" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="startBomDetailsOut">
+<wsdl:part element="tns:startBomDetailsResponse" name="startBomDetailsResponse"/>
+</wsdl:message>
+<wsdl:message name="getSFCOperationIn">
+<wsdl:part element="tns:getSFCOperation" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getSFCOperationOut">
+<wsdl:part element="tns:getSFCOperationResponse" name="getSFCOperationResponse"/>
+</wsdl:message>
+<wsdl:message name="getSFCPathIn">
+<wsdl:part element="tns:getSFCPath" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getSFCPathOut">
+<wsdl:part element="tns:getSFCPathResponse" name="getSFCPathResponse"/>
+</wsdl:message>
+<wsdl:message name="getSFCRecipeIn">
+<wsdl:part element="tns:getSFCRecipe" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getSFCRecipeOut">
+<wsdl:part element="tns:getSFCRecipeResponse" name="getSFCRecipeResponse"/>
+</wsdl:message>
+<wsdl:message name="rebookPanelEdgeNCIn">
+<wsdl:part element="tns:rebookPanelEdgeNC" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="rebookPanelEdgeNCOut">
+<wsdl:part element="tns:rebookPanelEdgeNCResponse" name="rebookPanelEdgeNCResponse"/>
+</wsdl:message>
+<wsdl:message name="getNCsByFilterIn">
+<wsdl:part element="tns:getNCsByFilter" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getNCsByFilterOut">
+<wsdl:part element="tns:getNCsByFilterResponse" name="getNCsByFilterResponse"/>
+</wsdl:message>
+<wsdl:message name="getTimeSensitiveInventoryIn">
+<wsdl:part element="tns:getTimeSensitiveInventory" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getTimeSensitiveInventoryOut">
+<wsdl:part element="tns:getTimeSensitiveInventoryResponse" name="getTimeSensitiveInventoryResponse"/>
+</wsdl:message>
+<wsdl:message name="getTimeSensitiveInventoryFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="splitSfcIn">
+<wsdl:part element="tns:splitSfc" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="splitSfcOut">
+<wsdl:part element="tns:splitSfcResponse" name="splitSfcResponse"/>
+</wsdl:message>
+<wsdl:message name="splitSfcFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="handleGenericParamsIn">
+<wsdl:part element="tns:handleGenericParams" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="handleGenericParamsOut">
+<wsdl:part element="tns:handleGenericParamsResponse" name="handleGenericParamsResponse"/>
+</wsdl:message>
+<wsdl:message name="getRenamedSfcIn">
+<wsdl:part element="tns:getRenamedSfc" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getRenamedSfcOut">
+<wsdl:part element="tns:getRenamedSfcResponse" name="getRenamedSfcResponse"/>
+</wsdl:message>
+<wsdl:message name="completeSfcQuickIn">
+<wsdl:part element="tns:completeSfcQuick" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="completeSfcQuickOut">
+<wsdl:part element="tns:completeSfcQuickResponse" name="completeSfcQuickResponse"/>
+</wsdl:message>
+<wsdl:message name="checkRecipeIn">
+<wsdl:part element="tns:checkRecipe" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="checkRecipeOut">
+<wsdl:part element="tns:checkRecipeResponse" name="checkRecipeResponse"/>
+</wsdl:message>
+<wsdl:message name="checkUserCertificateIn">
+<wsdl:part element="tns:checkUserCertificate" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="checkUserCertificateOut">
+<wsdl:part element="tns:checkUserCertificateResponse" name="checkUserCertificateResponse"/>
+</wsdl:message>
+<wsdl:message name="setupToolIn">
+<wsdl:part element="tns:setupTool" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="setupToolOut">
+<wsdl:part element="tns:setupToolResponse" name="setupToolResponse"/>
+</wsdl:message>
+<wsdl:message name="getToolDetailsIn">
+<wsdl:part element="tns:getToolDetails" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getToolDetailsOut">
+<wsdl:part element="tns:getToolDetailsResponse" name="getToolDetailsResponse"/>
+</wsdl:message>
+<wsdl:message name="handleExceptionIn">
+<wsdl:part element="tns:handleException" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="handleExceptionOut">
+<wsdl:part element="tns:handleExceptionResponse" name="handleExceptionResponse"/>
+</wsdl:message>
+<wsdl:message name="handleExceptionFault">
+<wsdl:part element="tns:AutomationException" name="AutomationException"/>
+</wsdl:message>
+<wsdl:message name="unpackAllContainerMembersIn">
+<wsdl:part element="tns:unpackAllContainerMembers" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="unpackAllContainerMembersOut">
+<wsdl:part element="tns:unpackAllContainerMembersResponse" name="unpackAllContainerMembersResponse"/>
+</wsdl:message>
+<wsdl:message name="isContainerEmptyIn">
+<wsdl:part element="tns:isContainerEmpty" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="isContainerEmptyOut">
+<wsdl:part element="tns:isContainerEmptyResponse" name="isContainerEmptyResponse"/>
+</wsdl:message>
+<wsdl:message name="getShopOrderDetailsIn">
+<wsdl:part element="tns:getShopOrderDetails" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getShopOrderDetailsOut">
+<wsdl:part element="tns:getShopOrderDetailsResponse" name="getShopOrderDetailsResponse"/>
+</wsdl:message>
+<wsdl:message name="validateBOMIn">
+<wsdl:part element="tns:validateBOM" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="validateBOMOut">
+<wsdl:part element="tns:validateBOMResponse" name="validateBOMResponse"/>
+</wsdl:message>
+<wsdl:message name="checkOutIn">
+<wsdl:part element="tns:checkOut" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="checkOutOut">
+<wsdl:part element="tns:checkOutResponse" name="checkOutResponse"/>
+</wsdl:message>
+<wsdl:message name="checkInIn">
+<wsdl:part element="tns:checkIn" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="checkInOut">
+<wsdl:part element="tns:checkInResponse" name="checkInResponse"/>
+</wsdl:message>
+<wsdl:message name="getLabelDetailsIn">
+<wsdl:part element="tns:getLabelDetails" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getLabelDetailsOut">
+<wsdl:part element="tns:getLabelDetailsResponse" name="getLabelDetailsResponse"/>
+</wsdl:message>
+<wsdl:message name="setFloorLifeIn">
+<wsdl:part element="tns:setFloorLife" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="setFloorLifeOut">
+<wsdl:part element="tns:setFloorLifeResponse" name="setFloorLifeResponse"/>
+</wsdl:message>
+<wsdl:message name="validateComponentIn">
+<wsdl:part element="tns:validateComponent" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="validateComponentOut">
+<wsdl:part element="tns:validateComponentResponse" name="validateComponentResponse"/>
+</wsdl:message>
+<wsdl:message name="setupComponentIn">
+<wsdl:part element="tns:setupComponent" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="setupComponentOut">
+<wsdl:part element="tns:setupComponentResponse" name="setupComponentResponse"/>
+</wsdl:message>
+<wsdl:message name="removeComponentIn">
+<wsdl:part element="tns:removeComponent" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="removeComponentOut">
+<wsdl:part element="tns:removeComponentResponse" name="removeComponentResponse"/>
+</wsdl:message>
+<wsdl:message name="openProcessLotIn">
+<wsdl:part element="tns:openProcessLot" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="openProcessLotOut">
+<wsdl:part element="tns:openProcessLotResponse" name="openProcessLotResponse"/>
+</wsdl:message>
+<wsdl:message name="closeProcessLotIn">
+<wsdl:part element="tns:closeProcessLot" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="closeProcessLotOut">
+<wsdl:part element="tns:closeProcessLotResponse" name="closeProcessLotResponse"/>
+</wsdl:message>
+<wsdl:message name="addSfcToProcessLotIn">
+<wsdl:part element="tns:addSfcToProcessLot" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="addSfcToProcessLotOut">
+<wsdl:part element="tns:addSfcToProcessLotResponse" name="addSfcToProcessLotResponse"/>
+</wsdl:message>
+<wsdl:message name="removeSfcFromProcessLotIn">
+<wsdl:part element="tns:removeSfcFromProcessLot" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="removeSfcFromProcessLotOut">
+<wsdl:part element="tns:removeSfcFromProcessLotResponse" name="removeSfcFromProcessLotResponse"/>
+</wsdl:message>
+<wsdl:message name="getProcessLotDetailsIn">
+<wsdl:part element="tns:getProcessLotDetails" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getProcessLotDetailsOut">
+<wsdl:part element="tns:getProcessLotDetailsResponse" name="getProcessLotDetailsResponse"/>
+</wsdl:message>
+<wsdl:message name="validateSfcIn">
+<wsdl:part element="tns:validateSfc" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="validateSfcOut">
+<wsdl:part element="tns:validateSfcResponse" name="validateSfcResponse"/>
+</wsdl:message>
+<wsdl:portType name="AutomationIntegrationServiceR4_5">
+<wsdl:operation name="getHUDetails" parameterOrder="parameters">
+<wsdl:input message="tns:getHUDetailsIn"/>
+<wsdl:output message="tns:getHUDetailsOut"/>
+<wsdl:fault message="tns:getHUDetailsFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="checkAlternateComponents" parameterOrder="parameters">
+<wsdl:input message="tns:checkAlternateComponentsIn"/>
+<wsdl:output message="tns:checkAlternateComponentsOut"/>
+<wsdl:fault message="tns:checkAlternateComponentsFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="nextJob" parameterOrder="parameters">
+<wsdl:input message="tns:nextJobIn"/>
+<wsdl:output message="tns:nextJobOut"/>
+<wsdl:fault message="tns:nextJobFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="validateRelease" parameterOrder="parameters">
+<wsdl:input message="tns:validateReleaseIn"/>
+<wsdl:output message="tns:validateReleaseOut"/>
+<wsdl:fault message="tns:validateReleaseFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="assignImagerId" parameterOrder="parameters">
+<wsdl:input message="tns:assignImagerIdIn"/>
+<wsdl:output message="tns:assignImagerIdOut"/>
+<wsdl:fault message="tns:assignImagerIdFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="reenterImagerId" parameterOrder="parameters">
+<wsdl:input message="tns:reenterImagerIdIn"/>
+<wsdl:output message="tns:reenterImagerIdOut"/>
+<wsdl:fault message="tns:reenterImagerIdFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="start" parameterOrder="parameters">
+<wsdl:input message="tns:startIn"/>
+<wsdl:output message="tns:startOut"/>
+<wsdl:fault message="tns:startFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="startViscom" parameterOrder="parameters">
+<wsdl:input message="tns:startViscomIn"/>
+<wsdl:output message="tns:startViscomOut"/>
+<wsdl:fault message="tns:startViscomFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="validateStart" parameterOrder="parameters">
+<wsdl:input message="tns:validateStartIn"/>
+<wsdl:output message="tns:validateStartOut"/>
+<wsdl:fault message="tns:validateStartFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="complete" parameterOrder="parameters">
+<wsdl:input message="tns:completeIn"/>
+<wsdl:output message="tns:completeOut"/>
+<wsdl:fault message="tns:completeFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="completeICT" parameterOrder="parameters">
+<wsdl:input message="tns:completeICTIn"/>
+<wsdl:output message="tns:completeICTOut"/>
+<wsdl:fault message="tns:completeICTFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="assemble" parameterOrder="parameters">
+<wsdl:input message="tns:assembleIn"/>
+<wsdl:output message="tns:assembleOut"/>
+<wsdl:fault message="tns:assembleFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="logParameters" parameterOrder="parameters">
+<wsdl:input message="tns:logParametersIn"/>
+<wsdl:output message="tns:logParametersOut"/>
+<wsdl:fault message="tns:logParametersFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="logNonConformance" parameterOrder="parameters">
+<wsdl:input message="tns:logNonConformanceIn"/>
+<wsdl:output message="tns:logNonConformanceOut"/>
+<wsdl:fault message="tns:logNonConformanceFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="changeResourceState" parameterOrder="parameters">
+<wsdl:input message="tns:changeResourceStateIn"/>
+<wsdl:output message="tns:changeResourceStateOut"/>
+<wsdl:fault message="tns:changeResourceStateFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="logResourceState" parameterOrder="parameters">
+<wsdl:input message="tns:logResourceStateIn"/>
+<wsdl:output message="tns:logResourceStateOut"/>
+<wsdl:fault message="tns:logResourceStateFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="signOff" parameterOrder="parameters">
+<wsdl:input message="tns:signOffIn"/>
+<wsdl:output message="tns:signOffOut"/>
+<wsdl:fault message="tns:signOffFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="assignSerialId" parameterOrder="parameters">
+<wsdl:input message="tns:assignSerialIdIn"/>
+<wsdl:output message="tns:assignSerialIdOut"/>
+<wsdl:fault message="tns:assignSerialIdFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="isAlive" parameterOrder="parameters">
+<wsdl:input message="tns:isAliveIn"/>
+<wsdl:output message="tns:isAliveOut"/>
+<wsdl:fault message="tns:isAliveFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="closeContainer" parameterOrder="parameters">
+<wsdl:input message="tns:closeContainerIn"/>
+<wsdl:output message="tns:closeContainerOut"/>
+<wsdl:fault message="tns:closeContainerFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="pack" parameterOrder="parameters">
+<wsdl:input message="tns:packIn"/>
+<wsdl:output message="tns:packOut"/>
+<wsdl:fault message="tns:packFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="packProcessLot" parameterOrder="parameters">
+<wsdl:input message="tns:packProcessLotIn"/>
+<wsdl:output message="tns:packProcessLotOut"/>
+<wsdl:fault message="tns:packProcessLotFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="createContainer" parameterOrder="parameters">
+<wsdl:input message="tns:createContainerIn"/>
+<wsdl:output message="tns:createContainerOut"/>
+<wsdl:fault message="tns:createContainerFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="reopenContainer" parameterOrder="parameters">
+<wsdl:input message="tns:reopenContainerIn"/>
+<wsdl:output message="tns:reopenContainerOut"/>
+<wsdl:fault message="tns:reopenContainerFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="getSfcStatus" parameterOrder="parameters">
+<wsdl:input message="tns:getSfcStatusIn"/>
+<wsdl:output message="tns:getSfcStatusOut"/>
+<wsdl:fault message="tns:getSfcStatusFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="assembleNonBomComponent" parameterOrder="parameters">
+<wsdl:input message="tns:assembleNonBomComponentIn"/>
+<wsdl:output message="tns:assembleNonBomComponentOut"/>
+<wsdl:fault message="tns:assembleNonBomComponentFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="startBomDetails" parameterOrder="parameters">
+<wsdl:input message="tns:startBomDetailsIn"/>
+<wsdl:output message="tns:startBomDetailsOut"/>
+</wsdl:operation>
+<wsdl:operation name="getSFCOperation" parameterOrder="parameters">
+<wsdl:input message="tns:getSFCOperationIn"/>
+<wsdl:output message="tns:getSFCOperationOut"/>
+</wsdl:operation>
+<wsdl:operation name="getSFCPath" parameterOrder="parameters">
+<wsdl:input message="tns:getSFCPathIn"/>
+<wsdl:output message="tns:getSFCPathOut"/>
+</wsdl:operation>
+<wsdl:operation name="getSFCRecipe" parameterOrder="parameters">
+<wsdl:input message="tns:getSFCRecipeIn"/>
+<wsdl:output message="tns:getSFCRecipeOut"/>
+</wsdl:operation>
+<wsdl:operation name="rebookPanelEdgeNC" parameterOrder="parameters">
+<wsdl:input message="tns:rebookPanelEdgeNCIn"/>
+<wsdl:output message="tns:rebookPanelEdgeNCOut"/>
+</wsdl:operation>
+<wsdl:operation name="getNCsByFilter" parameterOrder="parameters">
+<wsdl:input message="tns:getNCsByFilterIn"/>
+<wsdl:output message="tns:getNCsByFilterOut"/>
+</wsdl:operation>
+<wsdl:operation name="getTimeSensitiveInventory" parameterOrder="parameters">
+<wsdl:input message="tns:getTimeSensitiveInventoryIn"/>
+<wsdl:output message="tns:getTimeSensitiveInventoryOut"/>
+<wsdl:fault message="tns:getTimeSensitiveInventoryFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="splitSfc" parameterOrder="parameters">
+<wsdl:input message="tns:splitSfcIn"/>
+<wsdl:output message="tns:splitSfcOut"/>
+<wsdl:fault message="tns:splitSfcFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="handleGenericParams" parameterOrder="parameters">
+<wsdl:input message="tns:handleGenericParamsIn"/>
+<wsdl:output message="tns:handleGenericParamsOut"/>
+</wsdl:operation>
+<wsdl:operation name="getRenamedSfc" parameterOrder="parameters">
+<wsdl:input message="tns:getRenamedSfcIn"/>
+<wsdl:output message="tns:getRenamedSfcOut"/>
+</wsdl:operation>
+<wsdl:operation name="completeSfcQuick" parameterOrder="parameters">
+<wsdl:input message="tns:completeSfcQuickIn"/>
+<wsdl:output message="tns:completeSfcQuickOut"/>
+</wsdl:operation>
+<wsdl:operation name="checkRecipe" parameterOrder="parameters">
+<wsdl:input message="tns:checkRecipeIn"/>
+<wsdl:output message="tns:checkRecipeOut"/>
+</wsdl:operation>
+<wsdl:operation name="checkUserCertificate" parameterOrder="parameters">
+<wsdl:input message="tns:checkUserCertificateIn"/>
+<wsdl:output message="tns:checkUserCertificateOut"/>
+</wsdl:operation>
+<wsdl:operation name="setupTool" parameterOrder="parameters">
+<wsdl:input message="tns:setupToolIn"/>
+<wsdl:output message="tns:setupToolOut"/>
+</wsdl:operation>
+<wsdl:operation name="getToolDetails" parameterOrder="parameters">
+<wsdl:input message="tns:getToolDetailsIn"/>
+<wsdl:output message="tns:getToolDetailsOut"/>
+</wsdl:operation>
+<wsdl:operation name="handleException" parameterOrder="parameters">
+<wsdl:input message="tns:handleExceptionIn"/>
+<wsdl:output message="tns:handleExceptionOut"/>
+<wsdl:fault message="tns:handleExceptionFault" name="AutomationException"/>
+</wsdl:operation>
+<wsdl:operation name="unpackAllContainerMembers" parameterOrder="parameters">
+<wsdl:input message="tns:unpackAllContainerMembersIn"/>
+<wsdl:output message="tns:unpackAllContainerMembersOut"/>
+</wsdl:operation>
+<wsdl:operation name="isContainerEmpty" parameterOrder="parameters">
+<wsdl:input message="tns:isContainerEmptyIn"/>
+<wsdl:output message="tns:isContainerEmptyOut"/>
+</wsdl:operation>
+<wsdl:operation name="getShopOrderDetails" parameterOrder="parameters">
+<wsdl:input message="tns:getShopOrderDetailsIn"/>
+<wsdl:output message="tns:getShopOrderDetailsOut"/>
+</wsdl:operation>
+<wsdl:operation name="validateBOM" parameterOrder="parameters">
+<wsdl:input message="tns:validateBOMIn"/>
+<wsdl:output message="tns:validateBOMOut"/>
+</wsdl:operation>
+<wsdl:operation name="checkOut" parameterOrder="parameters">
+<wsdl:input message="tns:checkOutIn"/>
+<wsdl:output message="tns:checkOutOut"/>
+</wsdl:operation>
+<wsdl:operation name="checkIn" parameterOrder="parameters">
+<wsdl:input message="tns:checkInIn"/>
+<wsdl:output message="tns:checkInOut"/>
+</wsdl:operation>
+<wsdl:operation name="getLabelDetails" parameterOrder="parameters">
+<wsdl:input message="tns:getLabelDetailsIn"/>
+<wsdl:output message="tns:getLabelDetailsOut"/>
+</wsdl:operation>
+<wsdl:operation name="setFloorLife" parameterOrder="parameters">
+<wsdl:input message="tns:setFloorLifeIn"/>
+<wsdl:output message="tns:setFloorLifeOut"/>
+</wsdl:operation>
+<wsdl:operation name="validateComponent" parameterOrder="parameters">
+<wsdl:input message="tns:validateComponentIn"/>
+<wsdl:output message="tns:validateComponentOut"/>
+</wsdl:operation>
+<wsdl:operation name="setupComponent" parameterOrder="parameters">
+<wsdl:input message="tns:setupComponentIn"/>
+<wsdl:output message="tns:setupComponentOut"/>
+</wsdl:operation>
+<wsdl:operation name="removeComponent" parameterOrder="parameters">
+<wsdl:input message="tns:removeComponentIn"/>
+<wsdl:output message="tns:removeComponentOut"/>
+</wsdl:operation>
+<wsdl:operation name="openProcessLot" parameterOrder="parameters">
+<wsdl:input message="tns:openProcessLotIn"/>
+<wsdl:output message="tns:openProcessLotOut"/>
+</wsdl:operation>
+<wsdl:operation name="closeProcessLot" parameterOrder="parameters">
+<wsdl:input message="tns:closeProcessLotIn"/>
+<wsdl:output message="tns:closeProcessLotOut"/>
+</wsdl:operation>
+<wsdl:operation name="addSfcToProcessLot" parameterOrder="parameters">
+<wsdl:input message="tns:addSfcToProcessLotIn"/>
+<wsdl:output message="tns:addSfcToProcessLotOut"/>
+</wsdl:operation>
+<wsdl:operation name="removeSfcFromProcessLot" parameterOrder="parameters">
+<wsdl:input message="tns:removeSfcFromProcessLotIn"/>
+<wsdl:output message="tns:removeSfcFromProcessLotOut"/>
+</wsdl:operation>
+<wsdl:operation name="getProcessLotDetails" parameterOrder="parameters">
+<wsdl:input message="tns:getProcessLotDetailsIn"/>
+<wsdl:output message="tns:getProcessLotDetailsOut"/>
+</wsdl:operation>
+<wsdl:operation name="validateSfc" parameterOrder="parameters">
+<wsdl:input message="tns:validateSfcIn"/>
+<wsdl:output message="tns:validateSfcOut"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="AutomationIntegrationServiceR4_5Binding" type="tns:AutomationIntegrationServiceR4_5">
+<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="getHUDetails">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="checkAlternateComponents">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="nextJob">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="validateRelease">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="assignImagerId">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="reenterImagerId">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="start">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="startViscom">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="validateStart">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="complete">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="completeICT">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="assemble">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="logParameters">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="logNonConformance">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="changeResourceState">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="logResourceState">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="signOff">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="assignSerialId">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="isAlive">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="closeContainer">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="pack">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="packProcessLot">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="createContainer">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="reopenContainer">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="getSfcStatus">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="assembleNonBomComponent">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="startBomDetails">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getSFCOperation">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getSFCPath">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getSFCRecipe">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="rebookPanelEdgeNC">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getNCsByFilter">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getTimeSensitiveInventory">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="splitSfc">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="handleGenericParams">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getRenamedSfc">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="completeSfcQuick">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="checkRecipe">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="checkUserCertificate">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="setupTool">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getToolDetails">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="handleException">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="AutomationException">
+<soap:fault name="AutomationException" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="unpackAllContainerMembers">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="isContainerEmpty">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getShopOrderDetails">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="validateBOM">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="checkOut">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="checkIn">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getLabelDetails">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="setFloorLife">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="validateComponent">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="setupComponent">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="removeComponent">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="openProcessLot">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="closeProcessLot">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="addSfcToProcessLot">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="removeSfcFromProcessLot">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getProcessLotDetails">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="validateSfc">
+<soap:operation soapAction=""/>
+<wsdl:input>
+<soap:body parts="parameters" use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="AutomationIntegrationServiceR4_5">
+<wsdl:port binding="tns:AutomationIntegrationServiceR4_5Binding" name="AutomationIntegrationPort5">
+<soap:address xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" location="http://localhost:50000/AutomationIntegrationServiceR4_5/AutomationIntegrationBean5"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

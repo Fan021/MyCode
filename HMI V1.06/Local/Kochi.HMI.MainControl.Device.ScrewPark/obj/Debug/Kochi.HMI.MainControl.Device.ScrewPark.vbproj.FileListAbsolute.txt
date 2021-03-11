@@ -1,0 +1,62 @@
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.ControlUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.InitUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.IOForm.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.ShortCutUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.dll
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.pdb
+D:\New folder\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.ControlUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.InitUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.IOForm.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.ShortCutUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.dll
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.pdb
+D:\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.ControlUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.InitUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.IOForm.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.ShortCutUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.dll
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.pdb
+D:\HMI Old\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.ControlUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.InitUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.IOForm.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.ShortCutUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.dll
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.pdb
+D:\HMI V1.06\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewPark.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.ControlUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.InitUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.IOForm.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.ShortCutUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Device.ScrewPark\obj\Debug\Kochi.HMI.MainControl.Device.ScrewPark.vbprojResolveAssemblyReference.cache

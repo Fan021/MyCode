@@ -1,0 +1,11 @@
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Base\bin\Debug\Kochi.HMI.MainControl.Base.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Base\bin\Debug\Kochi.HMI.MainControl.Base.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Base\bin\Debug\Kochi.HMI.MainControl.Base.xml
+C:\Users\wu068\Desktop\HMI\Assembly\Lib\Kochi.HMI.MainControl.Base.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Lib\Kochi.HMI.MainControl.Base.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Lib\Kochi.HMI.MainControl.Base.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Base\obj\x86\Debug\Kochi.HMI.MainControl.Base.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Base\obj\x86\Debug\Kochi.HMI.MainControl.Base.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Base\obj\x86\Debug\Kochi.HMI.MainControl.Base.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Base\obj\x86\Debug\Kochi.HMI.MainControl.Base.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Base\obj\x86\Debug\Kochi.HMI.MainControl.Base.pdb

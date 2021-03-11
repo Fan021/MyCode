@@ -1,0 +1,35 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationMovePosition.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationMovePosition.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationMovePosition.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.ActionUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.ParameterUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationMovePosition.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationMovePosition.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationMovePosition.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.ActionUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.ParameterUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationMovePosition.dll
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationMovePosition.pdb
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.AutoStationMovePosition.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.ActionUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.ParameterUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.AutoStationMovePosition\obj\Debug\Kochi.HMI.MainControl.Action.AutoStationMovePosition.pdb

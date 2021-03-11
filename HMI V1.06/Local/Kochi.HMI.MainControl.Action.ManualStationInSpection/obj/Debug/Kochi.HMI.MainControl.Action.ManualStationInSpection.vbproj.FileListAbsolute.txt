@@ -1,0 +1,83 @@
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ActionUI.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ParameterUI.resources
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ActionUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ParameterUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\HMI - 副本 (2)\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ActionUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ParameterUI.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\New folder\HMI\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ActionUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ParameterUI.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ActionUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.Resources.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ParameterUI.resources
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\New folder\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbprojResolveAssemblyReference.cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ActionUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.Resources.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ParameterUI.resources
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbproj.GenerateResource.Cache
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\HMI\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\HMI Old\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ActionUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.Resources.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ParameterUI.resources
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\HMI Old\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\HMI V1.06\Assembly\Action\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ActionUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.Resources.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.ParameterUI.resources
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.dll
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.xml
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.pdb
+D:\HMI V1.06\Local\Kochi.HMI.MainControl.Action.ManualStationInSpection\obj\Debug\Kochi.HMI.MainControl.Action.ManualStationInSpection.vbprojResolveAssemblyReference.cache

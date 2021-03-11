@@ -1,0 +1,55 @@
+C:\Users\wu068\Desktop\HMI\Assembly\Lib\Kochi.HMI.MainControl.Runner.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Lib\Kochi.HMI.MainControl.Runner.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Lib\Kochi.HMI.MainControl.Runner.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.pdb
+D:\HMI\Assembly\Lib\Kochi.HMI.MainControl.Runner.dll
+D:\HMI\Assembly\Lib\Kochi.HMI.MainControl.Runner.pdb
+D:\HMI\Assembly\Lib\Kochi.HMI.MainControl.Runner.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.Resources.resources
+D:\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.dll
+D:\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.xml
+D:\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.pdb
+D:\HMI - 副本 (2)\Assembly\Lib\Kochi.HMI.MainControl.Runner.dll
+D:\HMI - 副本 (2)\Assembly\Lib\Kochi.HMI.MainControl.Runner.pdb
+D:\HMI - 副本 (2)\Assembly\Lib\Kochi.HMI.MainControl.Runner.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Runner\obj\Debug\ResolveAssemblyReference.cache
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.Resources.resources
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Runner\obj\Debug\GenerateResource.read.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Runner\obj\Debug\GenerateResource.write.1.tlog
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.dll
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.xml
+D:\HMI - 副本 (2)\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.pdb
+D:\hmi\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.vbprojResolveAssemblyReference.cache
+D:\hmi\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Assembly\Lib\Kochi.HMI.MainControl.Runner.dll
+D:\New folder\HMI\Assembly\Lib\Kochi.HMI.MainControl.Runner.pdb
+D:\New folder\HMI\Assembly\Lib\Kochi.HMI.MainControl.Runner.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.vbprojResolveAssemblyReference.cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.Resources.resources
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.vbproj.GenerateResource.Cache
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.dll
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.xml
+D:\New folder\HMI\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.pdb
+D:\HMI Old\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.Runner.dll
+D:\HMI Old\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.Runner.pdb
+D:\HMI Old\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.Runner.xml
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.vbprojResolveAssemblyReference.cache
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.Resources.resources
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.vbproj.GenerateResource.Cache
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.dll
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.xml
+D:\HMI Old\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.pdb
+D:\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.Runner.dll
+D:\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.Runner.pdb
+D:\HMI V1.06\Assembly\Lib\Kochi.HMI.MainControl.Runner.xml
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.vbprojResolveAssemblyReference.cache
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.Resources.resources
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.vbproj.GenerateResource.Cache
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.dll
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.xml
+D:\HMI V1.06\Source\Kochi.HMI.MainControl.Runner\obj\Debug\Kochi.HMI.MainControl.Runner.pdb

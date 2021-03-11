@@ -1,0 +1,14 @@
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXYZ\bin\Debug\Kochi.HMI.MainControl.Device.ScrewXYZ.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXYZ\bin\Debug\Kochi.HMI.MainControl.Device.ScrewXYZ.pdb
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXYZ\bin\Debug\Kochi.HMI.MainControl.Device.ScrewXYZ.xml
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXYZ.dll
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXYZ.pdb
+C:\Users\wu068\Desktop\HMI\Assembly\Device\Kochi.HMI.MainControl.Device.ScrewXYZ.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXYZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXYZ.vbprojResolveAssemblyReference.cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXYZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXYZ.ControlUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXYZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXYZ.InitUI.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXYZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXYZ.Resources.resources
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXYZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXYZ.vbproj.GenerateResource.Cache
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXYZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXYZ.dll
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXYZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXYZ.xml
+C:\Users\wu068\Desktop\HMI\Source\Kochi.HMI.MainControl.Device.ScrewXYZ\obj\Debug\Kochi.HMI.MainControl.Device.ScrewXYZ.pdb

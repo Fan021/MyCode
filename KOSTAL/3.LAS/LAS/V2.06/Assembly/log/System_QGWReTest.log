@@ -1,0 +1,121 @@
+[23.10.20 10:17:12][Inf][clsLogging          ] >**************************************************
+[23.10.20 10:17:12][Inf][clsLogging          ] * Init Logging-System
+[23.10.20 10:17:12][Inf][clsLogging          ] * App.Path     :C:\Program Files (x86)\Kostal\Linecontroller DLL
+[23.10.20 10:17:12][Inf][clsLogging          ] * App.ExeName  :Linecontroller
+[23.10.20 10:17:12][Inf][clsLogging          ] * App.Date(DLL):11/5/2012 11:07:12 AM
+[23.10.20 10:17:12][Inf][clsLogging          ] * App.Version  :1.4.3
+[23.10.20 10:17:12][Inf][clsLogging          ] * Log.File     :H:\EOLT\TestStand\LAS\V2.06_1\Assembly\log\System_QGWReTest.log
+[23.10.20 10:17:12][Inf][clsLogging          ] ***************************************************
+[23.10.20 10:17:12][Inf][Init                ] Linecontroller Inifile # H:\EOLT\TestStand\LAS\V2.06_1\Assembly\LineControl\Linecontroller.ini
+[23.10.20 10:17:12][Inf][Init                ] Linecontroller Inifilesection # System_QGWReTest_SETTINGS
+[23.10.20 10:17:12][Inf][Init                ] Reading result (GENERAL|UseOnlyTable) = lc_DAI_MRA2_LSF_Kochi
+[23.10.20 10:17:12][Dbg][MasterDB_Disconnect ] ->Entering Function MasterDB_Disconnect
+[23.10.20 10:17:12][Dbg][MasterDB_Disconnect ] <-Leaving Function MasterDB_Disconnect
+[23.10.20 10:17:12][Dbg][MasterDB_Disconnect ] ->Entering Function MasterDB_Disconnect
+[23.10.20 10:17:12][Dbg][MasterDB_Disconnect ] <-Leaving Function MasterDB_Disconnect
+[23.10.20 10:17:12][Dbg][MasterDB_Disconnect ] ->Entering Function MasterDB_Disconnect
+[23.10.20 10:17:12][Dbg][MasterDB_Disconnect ] <-Leaving Function MasterDB_Disconnect
+[23.10.20 10:17:12][Inf][Init                ] Master DB Server # 10.180.2.115
+[23.10.20 10:17:12][Inf][Init                ] Master DB Name # DAI_MRA2_LSF_Kochi
+[23.10.20 10:17:12][Inf][Init                ] Master DB User # dbmaster
+[23.10.20 10:17:12][Inf][Init                ] Master DB Password # masterdb
+[23.10.20 10:17:12][Inf][Init                ] When DB Connection is broken, i will try to reconnect after 20 written Stamps
+[23.10.20 10:17:12][Inf][Init                ] Start Checking Master DB Connection
+[23.10.20 10:17:12][Dbg][InitCheckDBConnectio] ->Entering Function InitCheckDBConnection
+[23.10.20 10:17:12][Inf][InitCheckDBConnectio] Checking Standalonemouds, try to establish connection to the DB
+[23.10.20 10:17:12][Dbg][CheckMasterDB       ] ->Entering Function CheckMasterDB
+[23.10.20 10:17:12][Dbg][MasterDB_Connect    ] ->Entering Function MasterDB_Connect
+[23.10.20 10:17:12][Dbg][MasterDB_Connect    ] MasterDB not connected, try to connect it
+[23.10.20 10:17:12][Dbg][MasterDB_Connect    ] Used Connection String Master Server # DRIVER={MySQL ODBC 3.51 Driver};SERVER=10.180.2.115;DATABASE=DAI_MRA2_LSF_Kochi;UID=dbmaster;PWD=masterdb;OPTION=18475
+[23.10.20 10:17:12][Dbg][MasterDB_Connect    ] <-Leaving Function MasterDB_Connect # 0
+[23.10.20 10:17:12][Inf][CheckMasterDB       ] Connection to the DB sucessfull established
+[23.10.20 10:17:12][Inf][CheckMasterDB       ] Check if Table lc_wedding exist
+[23.10.20 10:17:12][Dbg][MasterDB_SQLQuery   ] ->Entering Function MasterDB_SQLQuery
+[23.10.20 10:17:12][Dbg][MasterDB_SQLQuery   ] SQL Query i have to execute # SELECT * FROM lc_wedding LIMIT 1,1;
+[23.10.20 10:17:12][Dbg][MasterDB_SQLQuery   ] <-Leaving Function MasterDB_SQLQuery
+[23.10.20 10:17:12][Inf][CheckMasterDB       ] I have found Table lc_wedding
+[23.10.20 10:17:12][Dbg][CheckMasterDB       ] <-Leaving Function CheckMasterDB
+[23.10.20 10:17:12][Inf][InitCheckDBConnectio] Searching for Local SQL Data
+[23.10.20 10:17:12][Inf][InitCheckDBConnectio] Searching for Local SQL Data in Path # C:\DATA\LC\Linecontrolling.sql
+[23.10.20 10:17:12][Inf][InitCheckDBConnectio] Keine lokalen SQL Statements gefunden
+[23.10.20 10:17:12][Inf][InitCheckDBConnectio] I think everything is ok now, lets try start linecontrolling ;-)
+[23.10.20 10:17:12][Dbg][InitCheckDBConnectio] <-Leaving Function CheckDBConnection
+[23.10.20 10:17:12][Inf][Init                ] Database Connection checked sucessfull
+[23.10.20 10:17:12][Inf][Init                ] Start loading and checking entrys from linecontroller INI-File
+[23.10.20 10:17:12][Inf][Init                ] Reading result (System_QGWReTest_SETTINGS|UseOnlyTable) = [Nothing]
+[23.10.20 10:17:12][Dbg][Init                ] IniFile found
+[23.10.20 10:17:12][Inf][Init                ] No of previous tests found #1(LBound:0-UBound:256)
+[23.10.20 10:17:12][Inf][Init                ] previous test #1 = NONE
+[23.10.20 10:17:12][Inf][Init                ] Seach Mode: 0
+[23.10.20 10:17:12][Inf][Init                ] Current test: RETEST
+[23.10.20 10:17:12][Inf][Init                ] Mark_After_Test = NO
+[23.10.20 10:17:12][Dbg][PathReady           ] ->Entering Function PathReady
+[23.10.20 10:17:12][Dbg][DirExist            ] ->Entering Function DirExist (Path:C:\DATA\LC\)
+[23.10.20 10:17:12][Dbg][DirExist            ] <-Leaving Function DirExist #-1
+[23.10.20 10:17:12][Dbg][PathReady           ] <-Leaving Function PathReady #2
+[23.10.20 10:17:12][Inf][Init                ] Loading and checking entrys from linecontroller INI-File sucessfull
+[23.10.20 10:17:12][Dbg][Init                ] <-Leaving Function Init
+[23.10.20 10:17:26][Dbg][MasterDB_Disconnect ] ->Entering Function MasterDB_Disconnect
+[23.10.20 10:17:26][Dbg][MasterDB_Disconnect ] <-Leaving Function MasterDB_Disconnect
+[23.10.20 10:17:26][Dbg][SlaveDB_Disconnect  ] ->Entering Function SlaveDB_Disconnect
+[23.10.20 10:17:26][Dbg][SlaveDB_Disconnect  ] <-Leaving Function SlaveDB_Disconnect
+[23.10.20 10:17:26][Dbg][SlaveDB_Disconnect  ] ->Entering Function SlaveDB_Disconnect
+[23.10.20 10:17:26][Dbg][SlaveDB_Disconnect  ] <-Leaving Function SlaveDB_Disconnect
+[23.10.20 10:17:26][Dbg][Init                ] ->Entering Function Init
+[23.10.20 10:17:26][Inf][clsLogging          ] >**************************************************
+[23.10.20 10:17:26][Inf][clsLogging          ] * Init Logging-System
+[23.10.20 10:17:26][Inf][clsLogging          ] * App.Path     :C:\Program Files (x86)\Kostal\Linecontroller DLL
+[23.10.20 10:17:26][Inf][clsLogging          ] * App.ExeName  :Linecontroller
+[23.10.20 10:17:26][Inf][clsLogging          ] * App.Date(DLL):11/5/2012 11:07:12 AM
+[23.10.20 10:17:26][Inf][clsLogging          ] * App.Version  :1.4.3
+[23.10.20 10:17:26][Inf][clsLogging          ] * Log.File     :H:\EOLT\TestStand\LAS\V2.06_1\Assembly\log\ST040_QGW40WRITE.log
+[23.10.20 10:17:26][Inf][clsLogging          ] ***************************************************
+[23.10.20 10:17:26][Inf][Init                ] Linecontroller Inifile # H:\EOLT\TestStand\LAS\V2.06_1\Assembly\LineControl\Linecontroller.ini
+[23.10.20 10:17:26][Inf][Init                ] Linecontroller Inifilesection # ST040_QGW40WRITE_SETTINGS
+[23.10.20 10:17:26][Inf][Init                ] Reading result (GENERAL|UseOnlyTable) = lc_DAI_MRA2_LSF_Kochi
+[23.10.20 10:17:26][Dbg][MasterDB_Disconnect ] ->Entering Function MasterDB_Disconnect
+[23.10.20 10:17:26][Dbg][MasterDB_Disconnect ] <-Leaving Function MasterDB_Disconnect
+[23.10.20 10:17:26][Dbg][MasterDB_Disconnect ] ->Entering Function MasterDB_Disconnect
+[23.10.20 10:17:26][Dbg][MasterDB_Disconnect ] <-Leaving Function MasterDB_Disconnect
+[23.10.20 10:17:26][Dbg][MasterDB_Disconnect ] ->Entering Function MasterDB_Disconnect
+[23.10.20 10:17:26][Dbg][MasterDB_Disconnect ] <-Leaving Function MasterDB_Disconnect
+[23.10.20 10:17:26][Inf][Init                ] Master DB Server # 10.180.2.115
+[23.10.20 10:17:26][Inf][Init                ] Master DB Name # DAI_MRA2_LSF_Kochi
+[23.10.20 10:17:26][Inf][Init                ] Master DB User # dbmaster
+[23.10.20 10:17:26][Inf][Init                ] Master DB Password # masterdb
+[23.10.20 10:17:26][Inf][Init                ] When DB Connection is broken, i will try to reconnect after 20 written Stamps
+[23.10.20 10:17:26][Inf][Init                ] Start Checking Master DB Connection
+[23.10.20 10:17:26][Dbg][InitCheckDBConnectio] ->Entering Function InitCheckDBConnection
+[23.10.20 10:17:26][Inf][InitCheckDBConnectio] Checking Standalonemouds, try to establish connection to the DB
+[23.10.20 10:17:26][Dbg][CheckMasterDB       ] ->Entering Function CheckMasterDB
+[23.10.20 10:17:26][Dbg][MasterDB_Connect    ] ->Entering Function MasterDB_Connect
+[23.10.20 10:17:26][Dbg][MasterDB_Connect    ] MasterDB not connected, try to connect it
+[23.10.20 10:17:26][Dbg][MasterDB_Connect    ] Used Connection String Master Server # DRIVER={MySQL ODBC 3.51 Driver};SERVER=10.180.2.115;DATABASE=DAI_MRA2_LSF_Kochi;UID=dbmaster;PWD=masterdb;OPTION=18475
+[23.10.20 10:17:26][Dbg][MasterDB_Connect    ] <-Leaving Function MasterDB_Connect # 0
+[23.10.20 10:17:26][Inf][CheckMasterDB       ] Connection to the DB sucessfull established
+[23.10.20 10:17:26][Inf][CheckMasterDB       ] Check if Table lc_wedding exist
+[23.10.20 10:17:26][Dbg][MasterDB_SQLQuery   ] ->Entering Function MasterDB_SQLQuery
+[23.10.20 10:17:26][Dbg][MasterDB_SQLQuery   ] SQL Query i have to execute # SELECT * FROM lc_wedding LIMIT 1,1;
+[23.10.20 10:17:26][Dbg][MasterDB_SQLQuery   ] <-Leaving Function MasterDB_SQLQuery
+[23.10.20 10:17:26][Inf][CheckMasterDB       ] I have found Table lc_wedding
+[23.10.20 10:17:26][Dbg][CheckMasterDB       ] <-Leaving Function CheckMasterDB
+[23.10.20 10:17:26][Inf][InitCheckDBConnectio] Searching for Local SQL Data
+[23.10.20 10:17:26][Inf][InitCheckDBConnectio] Searching for Local SQL Data in Path # C:\DATA\LC\Linecontrolling.sql
+[23.10.20 10:17:26][Inf][InitCheckDBConnectio] Keine lokalen SQL Statements gefunden
+[23.10.20 10:17:26][Inf][InitCheckDBConnectio] I think everything is ok now, lets try start linecontrolling ;-)
+[23.10.20 10:17:26][Dbg][InitCheckDBConnectio] <-Leaving Function CheckDBConnection
+[23.10.20 10:17:26][Inf][Init                ] Database Connection checked sucessfull
+[23.10.20 10:17:26][Inf][Init                ] Start loading and checking entrys from linecontroller INI-File
+[23.10.20 10:17:26][Inf][Init                ] Reading result (ST040_QGW40WRITE_SETTINGS|UseOnlyTable) = [Nothing]
+[23.10.20 10:17:26][Dbg][Init                ] IniFile found
+[23.10.20 10:17:26][Inf][Init                ] No of previous tests found #1(LBound:0-UBound:256)
+[23.10.20 10:17:26][Inf][Init                ] previous test #1 = NONE
+[23.10.20 10:17:26][Inf][Init                ] Seach Mode: 0
+[23.10.20 10:17:26][Inf][Init                ] Current test: QGW40WRITE
+[23.10.20 10:17:26][Inf][Init                ] Mark_After_Test = NO
+[23.10.20 10:17:26][Dbg][PathReady           ] ->Entering Function PathReady
+[23.10.20 10:17:26][Dbg][DirExist            ] ->Entering Function DirExist (Path:C:\DATA\LC\)
+[23.10.20 10:17:26][Dbg][DirExist            ] <-Leaving Function DirExist #-1
+[23.10.20 10:17:26][Dbg][PathReady           ] <-Leaving Function PathReady #2
+[23.10.20 10:17:26][Inf][Init                ] Loading and checking entrys from linecontroller INI-File sucessfull
+[23.10.20 10:17:26][Dbg][Init                ] <-Leaving Function Init

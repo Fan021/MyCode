@@ -1,0 +1,462 @@
+Help application does not exist
+2021.04.14;08:40:03;Main;Init;**************************************************************************************
+2021.04.14;08:40:03;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.14;08:40:03;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.14;08:40:03;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.14;08:40:03;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.14;08:40:03;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.14;08:40:04;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.14;08:40:04;Main;Language.Init;Language Initial Successful
+2021.04.14;08:40:04;Main;Article.Init;Article Initial Successful
+2021.04.14;08:40:04;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.14;08:40:04;MainForm_Bosh;MainForm;Init Run
+2021.04.14;08:40:04;;WtStatusForm.Init;Initial Successful
+2021.04.14;08:40:04;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.14;08:40:04;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.14;08:40:04;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.14;08:40:05;Article40;Article.Init;Article Initial Successful
+2021.04.14;08:40:05;SR751_04;Article.Init;Article Initial Successful
+2021.04.14;08:40:05;QGW03;Article.Init;Article Initial Successful
+2021.04.14;08:40:05;QGW04;Article.Init;Article Initial Successful
+2021.04.14;08:40:05;SR1000_01;Article.Init;Article Initial Successful
+2021.04.14;08:40:06;QGWMB01;Article.Init;Article Initial Successful
+2021.04.14;08:40:06;Flash;Article.Init;Article Initial Successful
+2021.04.14;08:40:06;Main;Start TwinCat;Initial Successful
+2021.04.14;08:40:10;Article40;Step -100;Station Initial
+2021.04.14;08:40:10;SR751_04;Step -100;Station Initial
+2021.04.14;08:40:10;QGW03;Step -100;Station Initial
+2021.04.14;08:40:10;QGW04;Step -100;Station Initial
+2021.04.14;08:40:10;SR1000_01;Step -100;Station Initial
+2021.04.14;08:40:10;QGWMB01;Step -100;Station Initial
+2021.04.14;08:40:10;Flash;Step -100;Station Initial
+2021.04.14;08:40:10;Article40;Step -99;Waiting for Select Article
+2021.04.14;08:40:10;SR751_04;Step -99;Check Scanner Configuration
+2021.04.14;08:40:10;QGW03;Step -99;LineControl.Initial
+2021.04.14;08:40:11;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.14;08:40:11;QGW04;Step -99;LineControl.Initial
+2021.04.14;08:40:13;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.14;08:40:13;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.14;08:40:13;QGWMB01;Step -99;LineControl.Initial
+2021.04.14;08:40:14;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.14;08:40:14;Flash;Step -99;Flash.Initial
+2021.04.14;08:40:14;Flash;Flash.Init;Flash Initial Successful
+2021.04.14;08:40:14;Article40;Step -98;Update Column
+2021.04.14;08:40:14;SR751_04;Step -98;Scanner.Initial
+2021.04.14;08:40:15;SR751_04;Scanner.Init;Scanner Initial FAIL Message Interface_Connect;DEVICE_ERROR_WINDOWS_ERROR;由于目标计算机积极拒绝，无法连接。 169.254.157.151:9004
+2021.04.14;08:40:15;Station:SR751_04
+Step:-98
+Message:Function:Scanner.Init;Scanner Initial FAIL Message Interface_Connect;DEVICE_ERROR_WINDOWS_ERROR;由于目标计算机积极拒绝，无法连接。 169.254.157.151:9004
+2021.04.14;08:40:19;MainForm_Bosh;Exit;sucessfull
+2021.04.14;08:40:19;Article40;Step -98;Dispose Succeeded
+2021.04.14;08:40:19;SR751_04;Scanner.Init;Dispose Succeeded
+2021.04.14;08:40:19;QGW03;LineControl.Init;Dispose Succeeded
+2021.04.14;08:40:19;QGW04;LineControl.Init;Dispose Succeeded
+2021.04.14;08:40:19;SR1000_01;Step -99;Dispose Succeeded
+2021.04.14;08:40:19;QGWMB01;LineControl.Init;Dispose Succeeded
+2021.04.14;08:40:19;Flash;Flash.Init;Dispose Succeeded
+2021.04.14;08:40:19;Main;Exit;System Stop
+2021.04.14;08:40:19;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.14;08:40:27;Main;Init;**************************************************************************************
+2021.04.14;08:40:27;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.14;08:40:27;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.14;08:40:27;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.14;08:40:27;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.14;08:40:27;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.14;08:40:28;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.14;08:40:28;Main;Language.Init;Language Initial Successful
+2021.04.14;08:40:28;Main;Article.Init;Article Initial Successful
+2021.04.14;08:40:28;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.14;08:40:28;MainForm_Bosh;MainForm;Init Run
+2021.04.14;08:40:28;;WtStatusForm.Init;Initial Successful
+2021.04.14;08:40:28;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.14;08:40:28;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.14;08:40:28;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.14;08:40:28;Article40;Article.Init;Article Initial Successful
+2021.04.14;08:40:29;SR751_04;Article.Init;Article Initial Successful
+2021.04.14;08:40:29;QGW03;Article.Init;Article Initial Successful
+2021.04.14;08:40:29;QGW04;Article.Init;Article Initial Successful
+2021.04.14;08:40:29;SR1000_01;Article.Init;Article Initial Successful
+2021.04.14;08:40:30;QGWMB01;Article.Init;Article Initial Successful
+2021.04.14;08:40:30;Flash;Article.Init;Article Initial Successful
+2021.04.14;08:40:30;Main;Start TwinCat;Initial Successful
+2021.04.14;08:40:33;Article40;Step -100;Station Initial
+2021.04.14;08:40:33;SR751_04;Step -100;Station Initial
+2021.04.14;08:40:33;QGW03;Step -100;Station Initial
+2021.04.14;08:40:33;QGW04;Step -100;Station Initial
+2021.04.14;08:40:34;SR1000_01;Step -100;Station Initial
+2021.04.14;08:40:34;QGWMB01;Step -100;Station Initial
+2021.04.14;08:40:34;Flash;Step -100;Station Initial
+2021.04.14;08:40:34;Article40;Step -99;Waiting for Select Article
+2021.04.14;08:40:34;SR751_04;Step -99;Check Scanner Configuration
+2021.04.14;08:40:34;QGW03;Step -99;LineControl.Initial
+2021.04.14;08:40:34;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.14;08:40:34;QGW04;Step -99;LineControl.Initial
+2021.04.14;08:40:35;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.14;08:40:35;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.14;08:40:35;QGWMB01;Step -99;LineControl.Initial
+2021.04.14;08:40:36;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.14;08:40:36;Flash;Step -99;Flash.Initial
+2021.04.14;08:40:36;Flash;Flash.Init;Flash Initial Successful
+2021.04.14;08:40:36;Article40;Step -98;Update Column
+2021.04.14;08:40:36;SR751_04;Step -98;Scanner.Initial
+2021.04.14;08:40:36;SR751_04;Scanner.Init;Scanner Initial PASS
+2021.04.14;08:40:36;QGW03;Step -98;Initial Succeeded
+2021.04.14;08:40:36;QGW04;Step -98;Initial Succeeded
+2021.04.14;08:40:36;SR1000_01;Step -98;Scanner.Initial
+2021.04.14;08:40:36;SR1000_01;Scanner.Init;Scanner Initial PASS
+2021.04.14;08:40:36;QGWMB01;Step -98;Initial Succeeded
+2021.04.14;08:40:36;Flash;Step -98;Initial Succeeded
+2021.04.14;08:40:36;Article40;Step 0;Home Position
+2021.04.14;08:40:36;Article40;Step 0;Home Position. Wait For Trig
+2021.04.14;08:40:36;Article40;Step 0;Start Write Article
+2021.04.14;08:40:36;SR751_04;Step -97;Initial Succeeded
+2021.04.14;08:40:36;QGW03;Step -97;-97
+2021.04.14;08:40:36;QGW04;Step -97;-97
+2021.04.14;08:40:36;SR1000_01;Step -97;Initial Succeeded
+2021.04.14;08:40:36;QGWMB01;Step -97;-97
+2021.04.14;08:40:36;Flash;Step 0;Home Position
+2021.04.14;08:40:36;Article40;Step 1;Waiting for Select Article
+2021.04.14;08:40:36;SR751_04;Step 0;Home Position
+2021.04.14;08:40:36;QGW03;Step 0;Home Position
+2021.04.14;08:40:36;QGW04;Step 0;Home Position
+2021.04.14;08:40:36;SR1000_01;Step 0;Home Position
+2021.04.14;08:40:36;SR1000_01;Step 0;Scan Start
+2021.04.14;08:40:36;QGWMB01;Step 0;Home Position
+2021.04.14;08:40:37;Article40;Step 2;Change LocalArticle
+2021.04.14;08:40:37;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.14;08:40:37;SR1000_01;Step 1;CheckPLCInfo
+2021.04.14;08:40:37;SR1000_01;Article.GetArticle_FromID;Initial Successful
+2021.04.14;08:40:37;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.14;08:40:37;SR1000_01;Step 2;Waiting for UserDefine
+2021.04.14;08:40:37;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.14;08:40:37;Article40;Step 4;Completed Write Article
+2021.04.14;08:40:37;SR1000_01;Step 3;Scanner.Scan
+2021.04.14;08:40:37;SR1000_01;Step 3;Trig On
+2021.04.14;08:40:37;Article40;Step 0;Home Position
+2021.04.14;08:40:37;Article40;Step 0;Home Position. Wait For Trig
+2021.04.14;08:40:37;SR1000_01;Step 4;Waiting for Scan Completed
+2021.04.14;08:40:37;SR1000_01;Step 4;Barcode Receive. Result:True Data:12076970/SNYA946TH801141
+2021.04.14;08:40:37;SR1000_01;Step 4;Scan Result 12076970/SNYA946TH801141
+2021.04.14;08:40:37;SR1000_01;Step 5;Update Message
+2021.04.14;08:40:37;SR1000_01;Step 5;Trig Off
+2021.04.14;08:40:37;SR1000_01;Step 6;Update Message
+2021.04.14;08:40:37;SR1000_01;Step 7;Check Repeat Count
+2021.04.14;08:40:37;SR1000_01;Step 8;ScannerDefine.CheckScannerResult
+2021.04.14;08:40:37;QGWMB01;Step 0;Start LineControl
+2021.04.14;08:40:37;QGWMB01;Step 1;CheckPLCInfo
+2021.04.14;08:40:37;QGWMB01;Step 2;Check if Reference SN
+2021.04.14;08:40:37;QGWMB01;Step 3;Choose Step base on bulDoNegativeAction
+2021.04.14;08:40:37;QGWMB01;Step 4;ReadPrevious_LineControl
+2021.04.14;08:40:37;QGWMB01;Step 6;Check if need FailPrint
+2021.04.14;08:40:37;QGWMB01;Step 6;Disable Print
+2021.04.14;08:40:37;QGWMB01;Step 9;Write CAQ
+2021.04.14;08:40:37;QGWMB01;Step 10;Check if need Count
+2021.04.14;08:40:37;QGWMB01;Step 10;Disable Count
+2021.04.14;08:40:37;QGWMB01;Step 13;Check if need SaveProduction
+2021.04.14;08:40:37;QGWMB01;Step 16;Waiting FailPrint
+2021.04.14;08:40:37;QGWMB01;Step 17;Waiting CAQ
+2021.04.14;08:40:37;QGWMB01;Step 18;Waiting Counter
+2021.04.14;08:40:37;QGWMB01;Step 19;Waiting SaveProduction
+2021.04.14;08:40:37;QGWMB01;Step 20;Clear Child
+2021.04.14;08:40:37;QGWMB01;Step 21;LineControlDefine.LineControlDefine
+2021.04.14;08:40:37;QGWMB01;Step 22;Write LineControl
+2021.04.14;08:40:38;QGWMB01;Step 24;Check Pass or Fail
+2021.04.14;08:40:38;QGWMB01;Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.14;08:40:38;SR1000_01;Step 9;Check if need LineControl
+2021.04.14;08:40:38;SR1000_01;Step 9;LineControl Disable
+2021.04.14;08:40:38;QGWMB01;Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.14;08:40:38;SR1000_01;Step 13;Choose Step
+2021.04.14;08:40:38;QGWMB01;Step 0;Home Position
+2021.04.14;08:40:38;SR1000_01;Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.14;08:40:38;SR1000_01;Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.14;09:07:24;SR1000_01;Step 0;Home Position
+2021.04.14;09:07:27;SR1000_01;Step 0;Scan Start
+2021.04.14;09:07:27;SR1000_01;Step 1;CheckPLCInfo
+2021.04.14;09:07:27;SR1000_01;Article.GetArticle_FromID;Initial Successful
+2021.04.14;09:07:27;SR1000_01;Step 2;Waiting for UserDefine
+2021.04.14;09:07:27;SR1000_01;Step 3;Scanner.Scan
+2021.04.14;09:07:27;SR1000_01;Step 3;Trig On
+2021.04.14;09:07:27;SR1000_01;Step 4;Waiting for Scan Completed
+2021.04.14;09:07:30;SR1000_01;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.14;09:07:30;SR1000_01;Step 4;Scan Result TIMEOUT
+2021.04.14;09:07:30;SR1000_01;Step 5;Update Message
+2021.04.14;09:07:30;SR1000_01;Step 5;Trig Off
+2021.04.14;09:07:30;SR1000_01;Step 6;Update Message
+2021.04.14;09:07:30;SR1000_01;Step 7;Check Repeat Count
+2021.04.14;09:07:30;SR1000_01;Step 2;Waiting for UserDefine
+2021.04.14;09:07:30;SR1000_01;Step 3;Scanner.Scan
+2021.04.14;09:07:30;SR1000_01;Step 3;Trig On
+2021.04.14;09:07:30;SR1000_01;Step 4;Waiting for Scan Completed
+2021.04.14;09:07:33;SR1000_01;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.14;09:07:33;SR1000_01;Step 4;Scan Result TIMEOUT
+2021.04.14;09:07:33;SR1000_01;Step 5;Update Message
+2021.04.14;09:07:33;SR1000_01;Step 5;Trig Off
+2021.04.14;09:07:33;SR1000_01;Step 6;Update Message
+2021.04.14;09:07:33;SR1000_01;Step 7;Check Repeat Count
+2021.04.14;09:07:33;SR1000_01;Step 2;Waiting for UserDefine
+2021.04.14;09:07:33;SR1000_01;Step 3;Scanner.Scan
+2021.04.14;09:07:33;SR1000_01;Step 3;Trig On
+2021.04.14;09:07:33;SR1000_01;Step 4;Waiting for Scan Completed
+2021.04.14;09:07:36;SR1000_01;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.14;09:07:36;SR1000_01;Step 4;Scan Result TIMEOUT
+2021.04.14;09:07:36;SR1000_01;Step 5;Update Message
+2021.04.14;09:07:36;SR1000_01;Step 5;Trig Off
+2021.04.14;09:07:36;SR1000_01;Step 6;Update Message
+2021.04.14;09:07:36;SR1000_01;Step 7;Check Repeat Count
+2021.04.14;09:07:36;SR1000_01;Step 7;SR1000_01 Scan SN is TimeOut
+2021.04.14;09:07:36;SR1000_01;Step 9;Check if need LineControl
+2021.04.14;09:07:36;SR1000_01;Step 9;LineControl Disable
+2021.04.14;09:07:37;SR1000_01;Step 13;Choose Step
+2021.04.14;09:07:37;SR1000_01;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.14;09:07:37;SR1000_01;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.14;09:07:37;SR1000_01;Step 0;Home Position
+2021.04.14;09:09:06;SR1000_01;Step 0;Scan Start
+2021.04.14;09:09:07;SR1000_01;Step 1;CheckPLCInfo
+2021.04.14;09:09:07;SR1000_01;Article.GetArticle_FromID;Initial Successful
+2021.04.14;09:09:07;SR1000_01;Step 2;Waiting for UserDefine
+2021.04.14;09:09:07;SR1000_01;Step 3;Scanner.Scan
+2021.04.14;09:09:07;SR1000_01;Step 3;Trig On
+2021.04.14;09:09:07;SR1000_01;Step 4;Waiting for Scan Completed
+2021.04.14;09:09:07;SR1000_01;Step 4;Barcode Receive. Result:True Data:12076970/SNYA946TH801141
+2021.04.14;09:09:07;SR1000_01;Step 4;Scan Result 12076970/SNYA946TH801141
+2021.04.14;09:09:07;SR1000_01;Step 5;Update Message
+2021.04.14;09:09:07;SR1000_01;Step 5;Trig Off
+2021.04.14;09:09:07;SR1000_01;Step 6;Update Message
+2021.04.14;09:09:07;SR1000_01;Step 7;Check Repeat Count
+2021.04.14;09:09:07;SR1000_01;Step 8;ScannerDefine.CheckScannerResult
+2021.04.14;09:09:07;QGWMB01;Step 0;Start LineControl
+2021.04.14;09:09:07;QGWMB01;Step 1;CheckPLCInfo
+2021.04.14;09:09:07;QGWMB01;Step 2;Check if Reference SN
+2021.04.14;09:09:07;QGWMB01;Step 3;Choose Step base on bulDoNegativeAction
+2021.04.14;09:09:07;QGWMB01;Step 4;ReadPrevious_LineControl
+2021.04.14;09:09:07;QGWMB01;Step 6;Check if need FailPrint
+2021.04.14;09:09:07;QGWMB01;Step 6;Disable Print
+2021.04.14;09:09:07;QGWMB01;Step 9;Write CAQ
+2021.04.14;09:09:07;QGWMB01;Step 10;Check if need Count
+2021.04.14;09:09:07;QGWMB01;Step 10;Disable Count
+2021.04.14;09:09:07;QGWMB01;Step 13;Check if need SaveProduction
+2021.04.14;09:09:07;QGWMB01;Step 16;Waiting FailPrint
+2021.04.14;09:09:07;QGWMB01;Step 17;Waiting CAQ
+2021.04.14;09:09:07;QGWMB01;Step 18;Waiting Counter
+2021.04.14;09:09:07;QGWMB01;Step 19;Waiting SaveProduction
+2021.04.14;09:09:07;QGWMB01;Step 20;Clear Child
+2021.04.14;09:09:07;QGWMB01;Step 21;LineControlDefine.LineControlDefine
+2021.04.14;09:09:07;QGWMB01;Step 22;Write LineControl
+2021.04.14;09:09:07;QGWMB01;Step 24;Check Pass or Fail
+2021.04.14;09:09:07;QGWMB01;Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.14;09:09:07;SR1000_01;Step 9;Check if need LineControl
+2021.04.14;09:09:07;SR1000_01;Step 9;LineControl Disable
+2021.04.14;09:09:07;QGWMB01;Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.14;09:09:07;SR1000_01;Step 13;Choose Step
+2021.04.14;09:09:07;QGWMB01;Step 0;Home Position
+2021.04.14;09:09:08;SR1000_01;Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.14;09:09:08;SR1000_01;Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.14;09:09:09;SR1000_01;Step 0;Home Position
+2021.04.14;09:35:48;SR1000_01;Step 0;Barcode Receive. Result:True Data:12076970/SNYA946TH801141
+2021.04.14;09:36:02;Flash;Step 300;300
+2021.04.14;09:36:02;Flash;Step 301;Waiting for _flash.IsBusy is not run
+2021.04.14;09:36:02;Flash;Step 301;Command: FSEXIST
+2021.04.14;09:36:02;Flash;Step 302;Send Command
+2021.04.14;09:36:02;Flash;Step 302;Flash FAIL Message WindowsError;Function:Init SR610 FAIL
+2021.04.14;09:36:02;Flash;Step 302;Response:
+2021.04.14;09:36:02;Flash;Step 0;Home Position
+2021.04.14;09:36:25;SR751_04;Step 0;Barcode Receive. Result:True Data:10524109-0002/SN92905UA80000R/HW:19.38.00/SW:20.22.01
+2021.04.14;10:38:48;MainForm_Bosh;Exit;sucessfull
+2021.04.14;10:38:48;MainForm_Bosh;Exit;sucessfull
+2021.04.14;10:38:48;Article40;Step 0;Dispose Succeeded
+2021.04.14;10:38:48;SR751_04;Step 0;Dispose Succeeded
+2021.04.14;10:38:48;QGW03;Step 0;Dispose Succeeded
+2021.04.14;10:38:48;QGW04;Step 0;Dispose Succeeded
+2021.04.14;10:38:48;SR1000_01;Step 0;Dispose Succeeded
+2021.04.14;10:38:48;QGWMB01;Step 0;Dispose Succeeded
+2021.04.14;10:38:48;Flash;Step 0;Dispose Succeeded
+2021.04.14;10:38:48;Main;Exit;System Stop
+2021.04.14;10:38:48;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.14;14:36:58;Main;Init;**************************************************************************************
+2021.04.14;14:36:58;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.14;14:36:58;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.14;14:36:58;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.14;14:36:58;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.14;14:36:58;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.14;14:36:59;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.14;14:36:59;Main;Language.Init;Language Initial Successful
+2021.04.14;14:36:59;Main;Article.Init;Article Initial Successful
+2021.04.14;14:36:59;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.14;14:36:59;MainForm_Bosh;MainForm;Init Run
+2021.04.14;14:36:59;;WtStatusForm.Init;Initial Successful
+2021.04.14;14:37:00;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.14;14:37:00;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.14;14:37:00;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.14;14:37:00;Article40;Article.Init;Article Initial Successful
+2021.04.14;14:37:00;SR751_04;Article.Init;Article Initial Successful
+2021.04.14;14:37:00;QGW03;Article.Init;Article Initial Successful
+2021.04.14;14:37:01;QGW04;Article.Init;Article Initial Successful
+2021.04.14;14:37:01;SR1000_01;Article.Init;Article Initial Successful
+2021.04.14;14:37:01;QGWMB01;Article.Init;Article Initial Successful
+2021.04.14;14:37:01;Flash;Article.Init;Article Initial Successful
+2021.04.14;14:37:06;Main;Start TwinCat;PLC40TC;Ads-Error 0x745 : Timeout has elapsed.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.14;14:37:06;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x745 : Timeout has elapsed.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.14;14:37:14;MainForm_Bosh;Exit;sucessfull
+2021.04.14;14:37:14;Article40;Article.Init;Dispose Succeeded
+2021.04.14;14:37:14;SR751_04;Article.Init;Dispose Succeeded
+2021.04.14;14:37:14;QGW03;Article.Init;Dispose Succeeded
+2021.04.14;14:37:14;QGW04;Article.Init;Dispose Succeeded
+2021.04.14;14:37:14;SR1000_01;Article.Init;Dispose Succeeded
+2021.04.14;14:37:14;QGWMB01;Article.Init;Dispose Succeeded
+2021.04.14;14:37:14;Flash;Article.Init;Dispose Succeeded
+2021.04.14;14:37:14;Main;Exit;System Stop
+2021.04.14;14:37:14;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.14;14:37:37;Main;Init;**************************************************************************************
+2021.04.14;14:37:37;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.14;14:37:37;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.14;14:37:37;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.14;14:37:37;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.14;14:37:37;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.14;14:37:38;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.14;14:37:38;Main;Language.Init;Language Initial Successful
+2021.04.14;14:37:38;Main;Article.Init;Article Initial Successful
+2021.04.14;14:37:38;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.14;14:37:38;MainForm_Bosh;MainForm;Init Run
+2021.04.14;14:37:38;;WtStatusForm.Init;Initial Successful
+2021.04.14;14:37:38;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.14;14:37:38;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.14;14:37:38;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.14;14:37:39;Article40;Article.Init;Article Initial Successful
+2021.04.14;14:37:39;SR751_04;Article.Init;Article Initial Successful
+2021.04.14;14:37:39;QGW03;Article.Init;Article Initial Successful
+2021.04.14;14:37:39;QGW04;Article.Init;Article Initial Successful
+2021.04.14;14:37:40;SR1000_01;Article.Init;Article Initial Successful
+2021.04.14;14:37:40;QGWMB01;Article.Init;Article Initial Successful
+2021.04.14;14:37:40;Flash;Article.Init;Article Initial Successful
+2021.04.14;14:37:42;Main;Start TwinCat;PLC40TC;Ads-Error 0x1D : A unknown Ads-Error has occured.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.14;14:37:42;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x1D : A unknown Ads-Error has occured.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.14;14:37:54;MainForm_Bosh;Exit;sucessfull
+2021.04.14;14:37:54;Article40;Article.Init;Dispose Succeeded
+2021.04.14;14:37:54;SR751_04;Article.Init;Dispose Succeeded
+2021.04.14;14:37:54;QGW03;Article.Init;Dispose Succeeded
+2021.04.14;14:37:54;QGW04;Article.Init;Dispose Succeeded
+2021.04.14;14:37:54;SR1000_01;Article.Init;Dispose Succeeded
+2021.04.14;14:37:54;QGWMB01;Article.Init;Dispose Succeeded
+2021.04.14;14:37:54;Flash;Article.Init;Dispose Succeeded
+2021.04.14;14:37:54;Main;Exit;System Stop
+2021.04.14;14:37:54;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.14;14:38:39;Main;Init;**************************************************************************************
+2021.04.14;14:38:39;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.14;14:38:39;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.14;14:38:39;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.14;14:38:39;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.14;14:38:39;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.14;14:38:40;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.14;14:38:40;Main;Language.Init;Language Initial Successful
+2021.04.14;14:38:40;Main;Article.Init;Article Initial Successful
+2021.04.14;14:38:40;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.14;14:38:40;MainForm_Bosh;MainForm;Init Run
+2021.04.14;14:38:40;;WtStatusForm.Init;Initial Successful
+2021.04.14;14:38:40;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.14;14:38:40;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.14;14:38:40;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.14;14:38:41;Article40;Article.Init;Article Initial Successful
+2021.04.14;14:38:41;SR751_04;Article.Init;Article Initial Successful
+2021.04.14;14:38:41;QGW03;Article.Init;Article Initial Successful
+2021.04.14;14:38:42;QGW04;Article.Init;Article Initial Successful
+2021.04.14;14:38:42;SR1000_01;Article.Init;Article Initial Successful
+2021.04.14;14:38:42;QGWMB01;Article.Init;Article Initial Successful
+2021.04.14;14:38:42;Flash;Article.Init;Article Initial Successful
+2021.04.14;14:38:47;Main;Start TwinCat;PLC40TC;Ads-Error 0x745 : Timeout has elapsed.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.14;14:38:47;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x745 : Timeout has elapsed.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.14;14:39:16;MainForm_Bosh;Exit;sucessfull
+2021.04.14;14:39:16;Article40;Article.Init;Dispose Succeeded
+2021.04.14;14:39:16;SR751_04;Article.Init;Dispose Succeeded
+2021.04.14;14:39:16;QGW03;Article.Init;Dispose Succeeded
+2021.04.14;14:39:16;QGW04;Article.Init;Dispose Succeeded
+2021.04.14;14:39:16;SR1000_01;Article.Init;Dispose Succeeded
+2021.04.14;14:39:16;QGWMB01;Article.Init;Dispose Succeeded
+2021.04.14;14:39:16;Flash;Article.Init;Dispose Succeeded
+2021.04.14;14:39:16;Main;Exit;System Stop
+2021.04.14;14:39:16;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.14;14:39:51;Main;Init;**************************************************************************************
+2021.04.14;14:39:51;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.14;14:39:51;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.14;14:39:51;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.14;14:39:51;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.14;14:39:51;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.14;14:39:52;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.14;14:39:52;Main;Language.Init;Language Initial Successful
+2021.04.14;14:39:52;Main;Article.Init;Article Initial Successful
+2021.04.14;14:39:52;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.14;14:39:52;MainForm_Bosh;MainForm;Init Run
+2021.04.14;14:39:52;;WtStatusForm.Init;Initial Successful
+2021.04.14;14:39:53;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.14;14:39:53;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.14;14:39:53;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.14;14:39:53;Article40;Article.Init;Article Initial Successful
+2021.04.14;14:39:53;SR751_04;Article.Init;Article Initial Successful
+2021.04.14;14:39:53;QGW03;Article.Init;Article Initial Successful
+2021.04.14;14:39:54;QGW04;Article.Init;Article Initial Successful
+2021.04.14;14:39:54;SR1000_01;Article.Init;Article Initial Successful
+2021.04.14;14:39:54;QGWMB01;Article.Init;Article Initial Successful
+2021.04.14;14:39:54;Flash;Article.Init;Article Initial Successful
+2021.04.14;14:39:54;Main;Start TwinCat;Initial Successful
+2021.04.14;14:39:58;Article40;Step -100;Station Initial
+2021.04.14;14:39:58;SR751_04;Step -100;Station Initial
+2021.04.14;14:39:58;QGW03;Step -100;Station Initial
+2021.04.14;14:39:58;QGW04;Step -100;Station Initial
+2021.04.14;14:39:58;SR1000_01;Step -100;Station Initial
+2021.04.14;14:39:58;QGWMB01;Step -100;Station Initial
+2021.04.14;14:39:58;Flash;Step -100;Station Initial
+2021.04.14;14:39:58;Article40;Step -99;Waiting for Select Article
+2021.04.14;14:39:58;SR751_04;Step -99;Check Scanner Configuration
+2021.04.14;14:39:58;QGW03;Step -99;LineControl.Initial
+2021.04.14;14:39:59;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.14;14:39:59;QGW04;Step -99;LineControl.Initial
+2021.04.14;14:40:00;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.14;14:40:00;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.14;14:40:00;QGWMB01;Step -99;LineControl.Initial
+2021.04.14;14:40:00;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.14;14:40:00;Flash;Step -99;Flash.Initial
+2021.04.14;14:40:00;Flash;Flash.Init;Flash Initial Successful
+2021.04.14;14:40:01;Article40;Step -98;Update Column
+2021.04.14;14:40:01;SR751_04;Step -98;Scanner.Initial
+2021.04.14;14:40:22;SR751_04;Scanner.Init;Scanner Initial FAIL Message Interface_Connect;DEVICE_ERROR_WINDOWS_ERROR;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 169.254.157.151:9004
+2021.04.14;14:40:22;Station:SR751_04
+Step:-98
+Message:Function:Scanner.Init;Scanner Initial FAIL Message Interface_Connect;DEVICE_ERROR_WINDOWS_ERROR;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 169.254.157.151:9004
+2021.04.14;14:40:56;MainForm_Bosh;Exit;sucessfull
+2021.04.14;14:40:56;Article40;Step -98;Dispose Succeeded
+2021.04.14;14:40:56;SR751_04;Scanner.Init;Dispose Succeeded
+2021.04.14;14:40:56;QGW03;LineControl.Init;Dispose Succeeded
+2021.04.14;14:40:56;QGW04;LineControl.Init;Dispose Succeeded
+2021.04.14;14:40:56;SR1000_01;Step -99;Dispose Succeeded
+2021.04.14;14:40:56;QGWMB01;LineControl.Init;Dispose Succeeded
+2021.04.14;14:40:56;Flash;Flash.Init;Dispose Succeeded
+2021.04.14;14:40:56;Main;Exit;System Stop
+2021.04.14;14:40:56;Main;Exit;**************************************************************************************

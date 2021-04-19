@@ -1,0 +1,60 @@
+; ---------------------------------------------------------------------------
+;
+; SMH Technologies
+;
+; ---------------------------------------------------------------------------
+; Copyright (c) 2014 SMH Technologies
+; ALL RIGHTS RESERVED
+;
+; http://www.smh-tech.com/
+; ---------------------------------------------------------------------------
+;
+; FLASHRUNNER BINARY REPORT
+;
+; Use this text file as a starting point for your specific programming scripts
+;
+
+;
+; General Conversion Information:
+;
+
+  Creation Time and Date:	14:02:44 - Tuesday, 01 November 2016
+
+  Input file name :		C:\Users\Administrator\Desktop\Flash\Daimler flash with EOL\SVS\DAI_MFA2_SVS_Merge_3.0.hex
+
+  FlashRunner file path :	C:\Users\Administrator\Documents\ControlPanel\BINARIES\
+
+  FlashRunner file name:	DAI_MFA2_SVS_MERGE_3.0.FRB
+
+  File offset selected:		$00000000
+  Filling character selected:	$FF
+
+  Number of data blocks:	1
+  Number of filling blocks:	0
+
+
+;
+; Data Block Information *:
+;
+; ID	Type	Source offset	Target address	Length
+  0	DATA	$00000000	$00000000	$00008000
+
+;
+; *Note: this table is valid for 8-bit memories. For different memories,
+; data in the table must be converted accordingly.
+; (e.g. Atmel AVR8 family and Microchip PIC16, PIC12, PIC10 families
+; have 16-bit memories).
+;
+
+;
+; Use the information above to program one or more blocks inside your
+; scripts. On some devices, programming "filled" blocks may cause
+; undesired results.
+;
+
+;
+; Examples:
+; (command options may vary between programming algorithms)
+
+; TPCMD PROGRAM [Mem type] $00000000 $00000000 $00008000
+; TPCMD VERIFY [Mem type] R $00000000 $00000000 $00008000

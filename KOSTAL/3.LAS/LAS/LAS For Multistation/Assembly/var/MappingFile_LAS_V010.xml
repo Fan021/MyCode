@@ -1,0 +1,40 @@
+<CsvProviderParmetrisation xmlns="http://Kostal.com/Las/CsvProviderParametrisation">
+
+  <Mappings>
+    <KeyColumnMapping>
+      <!--<UseFirstColumnAsKey />-->
+      <UsingSpecificKeyColumn columnName="ID">
+        <StringModification >Unmodified</StringModification>
+      </UsingSpecificKeyColumn>
+    </KeyColumnMapping>
+    <!-- 
+      ArticleName
+      ArticleNumber
+      ArticleIndex
+      ArticleInfo
+      ArticleFamily
+      CustomerNumber
+      HardwareVersion
+      SoftwareVersion
+      Q
+      Picture
+      ValidFrom
+      ValidTo
+      LaserTemplateName
+      MaskFile
+      MaskName
+    -->
+    <ArticlePropertyMapping articleProperty ="MaskFile">
+      <SimpleMapping columnName ="MaskFile"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="MaskName">
+      <SimpleMapping columnName ="MaskName"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="Picture">
+      <SimpleMapping columnName ="Picture"/>
+    </ArticlePropertyMapping>
+  </Mappings>
+
+</CsvProviderParmetrisation>
+
+  

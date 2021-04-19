@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kostal.Las.UserInterface
+</name>
+</assembly>
+<members>
+<member name="T:Kostal.Las.UserInterface.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.Add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.ATCT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.automation_controller">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.Del">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.gray">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.green">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.Kostal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.LAC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.LAS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.logo_screen_145px2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.logo_screen_145px21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.on_ok">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.overview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.people">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.QR_Kostal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.Station">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.System">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.My.Resources.Resources.timg3123D70D">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Kostal.Las.UserInterface.Alarm.ApplicationAlarmController">
+ <summary>
+ AlarmController for the application
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.Alarm.ApplicationAlarmController.State">
+ <summary>
+ Gets the summary state of all AlarmChannels.
+ </summary>
+ <value>
+ The state.
+ </value>
+</member>
+<member name="M:Kostal.Las.UserInterface.Alarm.ApplicationAlarmController.Reset">
+ <summary>
+ Resets this alarm status.
+ </summary>
+ <returns>True, if successful, otherwise false.</returns>
+</member>
+<member name="P:Kostal.Las.UserInterface.Alarm.ApplicationAlarmController.PhysicalAlarms">
+ <summary>
+ Gets the descriptions of the active alarm channels.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Kostal.Las.UserInterface.Alarm.ApplicationAlarmController.Indications">
+ <summary>
+ Gets the descriptions of the active alarm channels.
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:Kostal.Las.UserInterface.Alarm.PredefinedAlarmTypes">
+ <summary>
+ Defines different types of alarms
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Alarm.PredefinedAlarmTypes.EmergencyStop">
+ <summary>
+ The alarm is generated by an emergency stop
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Alarm.PredefinedAlarmTypes.Safety">
+ <summary>
+ The alarm is generated by a safety indication
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Alarm.PredefinedAlarmTypes.Door">
+ <summary>
+ The alarm is generated by a security door
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Alarm.PredefinedAlarmTypes.LightCurtain">
+ <summary>
+ The alarm is generated by a light curtain
+ </summary>
+</member>
+<member name="T:Kostal.Las.UserInterface.Alarm.AlarmStates">
+ <summary>
+ States of Alarm
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Alarm.AlarmStates.NoAlarm">
+ <summary>
+ There is no alarm
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Alarm.AlarmStates.LogicalAlarm">
+ <summary>
+ The physical alarm is not present, bu the logical alarm was not resetted
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Alarm.AlarmStates.PhysicalAlarm">
+ <summary>
+ The physical alarm indicates an alarm signaled by hardware
+ </summary>
+</member>
+<member name="T:Kostal.Las.UserInterface.Alarm.IApplicationAlarmController">
+ <summary>
+ Defines the public members of the AlarmController
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.Alarm.IApplicationAlarmController.State">
+ <summary>
+ Gets the summary state of all AlarmChannels.
+ </summary>
+ <value>
+ The state.
+ </value>
+</member>
+<member name="M:Kostal.Las.UserInterface.Alarm.IApplicationAlarmController.Reset">
+ <summary>
+ Resets this alarm status.
+ </summary>
+ <returns>True, if successful, otherwise false.</returns>
+</member>
+<member name="P:Kostal.Las.UserInterface.Alarm.IApplicationAlarmController.PhysicalAlarms">
+ <summary>
+ Gets the collection of all active alarm channels.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Kostal.Las.UserInterface.Alarm.IApplicationAlarmController.Indications">
+ <summary>
+ Gets the collection of all active indications.
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:Kostal.Las.UserInterface.Alarm.IAlarmIndication">
+ <summary>
+ Defines a physical alarm
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.Alarm.IAlarmIndication.Id">
+ <summary>
+ Gets the identifier.
+ </summary>
+ <value>
+ The identifier.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Alarm.IAlarmIndication.TypeId">
+ <summary>
+ Gets the type of the alarm.
+ </summary>
+ <value>
+ The type.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Alarm.IAlarmIndication.Description">
+ <summary>
+ Gets the description.
+ </summary>
+ <value>
+ The description.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Alarm.IAlarmIndication.RaisedDateTime">
+ <summary>
+ Gets the date time of the raising of this alarm.
+ </summary>
+ <value>
+ The raised date time.
+ </value>
+</member>
+<member name="T:Kostal.Las.UserInterface.PromptsView">
+<summary>
+PromptsView
+</summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.PromptsView.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.MenuItemModel.MenuItems">
+ <summary>
+ Gets the menu items that are Visible = True
+ </summary>
+ <value>
+ The visible menu items.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.MenuItemModel.AllMenuItems">
+ <summary>
+ Gets all menu items. Also the Visible = False Items
+ </summary>
+ <value>
+ All menu items.
+ </value>
+</member>
+<member name="M:Kostal.Las.UserInterface.MenuItemModel.Dispose(System.Boolean)">
+ <summary>
+ Child classes can override this method to perform 
+ clean-up logic, such as removing event handlers.
+ </summary>
+</member>
+<member name="T:Kostal.Las.UserInterface.Design.Visibilities">
+ <summary>
+ Indicates the user dependent visibility of an ui element
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Design.Visibilities.None">
+ <summary>
+ Never visible
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Design.Visibilities.Operator">
+ <summary>
+ Visible only for the operator
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Design.Visibilities.Service">
+ <summary>
+ Visible only for the service
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Design.Visibilities.OperatorAndService">
+ <summary>
+ Visible for the operator and service
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Design.Visibilities.Developer">
+ <summary>
+ Visible only for the developer
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Design.Visibilities.OperatorAndDeveloper">
+ <summary>
+ Visible for the operator and developer
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Design.Visibilities.ServiceAndDeveloper">
+ <summary>
+ Visible for the service and developer
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Design.Visibilities.All">
+ <summary>
+ Visible for all user levels
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.Helper.Diagnostics.PrintStackFrames">
+ <summary>
+ Print the stackframes of the current thread to console
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Las.UserInterface.ExpressionMember">
+ <summary>
+ Helper class for converting expressions to members.
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.ExpressionMember.AsMethod(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert <see cref="T:System.Linq.Expressions.MethodCallExpression"/> to <see cref="T:Kostal.Las.UserInterface.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Las.UserInterface.Member"/></returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.ExpressionMember.AsMember(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert <see cref="T:System.Linq.Expressions.MemberExpression"/> to <see cref="T:Kostal.Las.UserInterface.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Las.UserInterface.Member"/></returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.ExpressionMember.AsMemberOrMethod(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert the member or method from <see cref="T:System.Linq.Expressions.LambdaExpression"/> to <see cref="T:Kostal.Las.UserInterface.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Las.UserInterface.Member"/></returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.ExpressionMember.AsMemberOrMethod(System.Linq.Expressions.Expression)">
+ <summary>
+ Convert the member or method from <see cref="T:System.Linq.Expressions.Expression"/> to <see cref="T:Kostal.Las.UserInterface.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Las.UserInterface.Member"/></returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.ExpressionMember.AsUnaryWrappedMember(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert the UnaryExpression from <see cref="T:System.Linq.Expressions.LambdaExpression"/> to <see cref="T:Kostal.Las.UserInterface.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Las.UserInterface.Member"/></returns>
+</member>
+<member name="T:Kostal.Las.UserInterface.Member">
+ <summary>
+ Class for easily getting information about a type member,
+ and referencing the member by name, or getting it as a
+ <see cref="T:System.Reflection.MemberInfo"/>, <see cref="T:System.Reflection.PropertyInfo"/>,
+ <see cref="T:System.Reflection.FieldInfo"/>, or <see cref="T:System.Reflection.MethodInfo"/>.
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.#ctor(System.Linq.Expressions.MemberExpression)">
+ <summary>
+ Initializes a new <see cref="T:Kostal.Las.UserInterface.Member"/> using the specified
+ <see cref="T:System.Linq.Expressions.MemberExpression"/>.
+ </summary>
+ <param name="expression">The expression that references the desired member.</param>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.#ctor(System.Reflection.MemberInfo)">
+ <summary>
+ Initializes a new <see cref="T:Kostal.Las.UserInterface.Member"/> using the specified
+ <see cref="T:System.Reflection.MemberInfo"/>.
+ </summary>
+ <param name="info">The member info that references the desired member.</param>
+</member>
+<member name="P:Kostal.Las.UserInterface.Member.Info">
+ <summary>
+ The <see cref="T:System.Reflection.MemberInfo"/> discovered for the member specified.
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.op_Implicit(Kostal.Las.UserInterface.Member)~System.String">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Las.UserInterface.Member"/> to a <see cref="T:System.String"/>, using the
+ <see cref="M:Kostal.Las.UserInterface.Member.ToString"/> method.
+ </summary>
+ <param name="member">The <see cref="T:Kostal.Las.UserInterface.Member"/> to cast to a string.</param>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.op_Implicit(Kostal.Las.UserInterface.Member)~System.Reflection.MemberInfo">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Las.UserInterface.Member"/> to a <see cref="T:System.Reflection.MemberInfo"/>, by
+ returning the <see cref="P:Kostal.Las.UserInterface.Member.Info"/> property value.
+ </summary>
+ <param name="member">The <see cref="T:Kostal.Las.UserInterface.Member"/> to cast to a <see cref="T:System.Reflection.MemberInfo"/>.</param>
+ <returns>The <see cref="P:Kostal.Las.UserInterface.Member.Info"/> of the specified member, or <c>null</c>.</returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.op_Implicit(Kostal.Las.UserInterface.Member)~System.Reflection.MethodInfo">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Las.UserInterface.Member"/> to a <see cref="T:System.Reflection.MethodInfo"/>, by
+ returning the <see cref="M:Kostal.Las.UserInterface.Member.AsMethod"/> result.
+ </summary>
+ <param name="member">
+ The <see cref="T:Kostal.Las.UserInterface.Member"/> to cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </param>
+ <returns>A <see cref="T:System.Reflection.MethodInfo"/> for the specified member.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.op_Implicit(System.Reflection.MemberInfo)~Kostal.Las.UserInterface.Member">
+ <summary>
+ Implicitly cast a <see cref="T:System.Reflection.MemberInfo"/> to a <see cref="T:Kostal.Las.UserInterface.Member"/>.
+ </summary>
+ <param name="memberInfo">The member info to use as a member.</param>
+ <returns>
+ A <see cref="T:System.Reflection.MemberInfo"/> representing the specified <paramref name="memberInfo"/>.
+ </returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.Of(System.Linq.Expressions.Expression{System.Action})">
+ <summary>
+ Create a <see cref="T:Kostal.Las.UserInterface.Member"/> using a method call expression.
+ </summary>
+ <remarks>
+ This is used for <c>void</c> methods.
+ </remarks>
+ <param name="methodCall">The method call expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Las.UserInterface.Member"/> for the specified method call expression.</returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.Of``1(System.Linq.Expressions.Expression{System.Action{``0}})">
+ <summary>
+ Create a <see cref="T:Kostal.Las.UserInterface.Member"/> using a method call expression
+ for the specified type.
+ </summary>
+ <typeparam name="T">The type of the Action parameter</typeparam>
+ <param name="methodCall"></param>
+ <returns>A <see cref="T:Kostal.Las.UserInterface.Member"/> for the specified method call expression.</returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.Of(System.Linq.Expressions.Expression{System.Func{System.Object}})">
+ <summary>
+ Create a <see cref="T:Kostal.Las.UserInterface.Member"/> using a property, field, or non-void
+ method call expression.
+ </summary>
+ <param name="member">The member expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Las.UserInterface.Member"/> for the specified member expression.</returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.Of``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+ <summary>
+ Create a <see cref="T:Kostal.Las.UserInterface.Member"/> using a property, field, or non-void
+ method call expression for the specified type.
+ </summary>
+ <typeparam name="T">The type containing the member specified.</typeparam>
+ <param name="member">The member expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Las.UserInterface.Member"/> for the specified member expression.</returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.AsProperty">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.PropertyInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.PropertyInfo"/> instance for the current member <see cref="P:Kostal.Las.UserInterface.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.PropertyInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.AsField">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.FieldInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.FieldInfo"/> instance for the current member <see cref="P:Kostal.Las.UserInterface.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.FieldInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.AsMethod">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.MethodInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.MethodInfo"/> instance for the current member <see cref="P:Kostal.Las.UserInterface.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Las.UserInterface.Member.ToString">
+ <summary>
+ Returns the current member name as the string representation of a <see cref="T:Kostal.Las.UserInterface.Member"/>.
+ </summary>
+ <returns>The name of the current member <see cref="P:Kostal.Las.UserInterface.Member.Info"/>.</returns>
+</member>
+<member name="T:Kostal.Las.UserInterface.Globalization.Localizer">
+ <summary>
+ Class the get localized strings out of a translation file
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.Globalization.Localizer.#ctor(System.Boolean,System.Int32)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Las.UserInterface.Globalization.Localizer"/> class.
+ </summary>
+ <param name="isFrameworkDllBetweenInCallStack">if set to <c>true</c> [is framework DLL in call stack].</param>
+</member>
+<member name="P:Kostal.Las.UserInterface.Helpers.ColorHelper.CounterStateGoodColor">
+ <summary>
+ Gets the color of the counter state good.
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.Helpers.ColorHelper.CounterStateBadColor">
+ <summary>
+ Gets the color of the counter state bad.
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.Helpers.ColorHelper.CounterStateIgnoredColor">
+ <summary>
+ Gets the color of the counter state ignored.
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.Helpers.ColorHelper.CounterStateInnerFrameColor">
+ <summary>
+ Gets the color of the counter innerframe.
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.Helpers.ColorHelper.CounterStateNoneColor">
+ <summary>
+ Gets the color of the counter state none or in testing
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.Helpers.ColorHelper.CounterPPMBorderColor">
+ <summary>
+ Gets the color of border of the PPM view.
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.PropertyHelper.GetPropertyName(System.Object)">
+ <summary>
+ </summary>
+ <param name="o">object</param>
+</member>
+<member name="T:Kostal.Las.UserInterface.Prompts.DisplayOptions">
+ <summary>
+ Display options for the prompt
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Prompts.DisplayOptions.None">
+ <summary>
+ The are no special display options
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Prompts.DisplayOptions.WithBeep">
+ <summary>
+ The prompt does a windows beep, if set fresh
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Las.UserInterface.Prompts.DisplayOptions.Local">
+ <summary>
+ The prompt is only indicated at the station
+ </summary>
+ <remarks>
+ UserRepsones are not allowed to add
+ </remarks>
+</member>
+<member name="F:Kostal.Las.UserInterface.Prompts.DisplayOptions.Input">
+ <summary>
+ The prompt asks for an input
+ </summary>
+</member>
+<member name="T:Kostal.Las.UserInterface.Prompts.IPrompt">
+ <summary>
+ Interface for user prompt
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.TypeOfPrompt">
+ <summary>
+ Gets the type of the prompt.
+ </summary>
+ <value>
+ The type of the prompt.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.DisplayOption">
+ <summary>
+ Gets the display options.
+ </summary>
+ <value>
+ The display options.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.Raised">
+ <summary>
+ Gets the datetime of creation.
+ </summary>
+ <value>
+ The datetime of creation.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.RaisedTimeText">
+ <summary>
+ Gets the datetime of creation.
+ </summary>
+ <value>
+ The datetime of creation.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.ErrorCode">
+ <summary>
+ Gets the datetime of creation.
+ </summary>
+ <value>
+ The datetime of creation.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.StationText">
+ <summary>
+ Gets the station text.
+ </summary>
+ <value>
+ The station text.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.PromptText">
+ <summary>
+ Gets the prompt text.
+ </summary>
+ <value>
+ The prompt text.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.PossibleResponses">
+ <summary>
+ Gets the possible responses.
+ </summary>
+ <value>
+ The possible responses.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.DigitalOutputChannelIds">
+ <summary>
+ Gets the digital output channel ids.
+ </summary>
+ <value>
+ The digital output channel ids.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.BlinkTimeOn">
+ <summary>
+ Gets the time in milliseconds for the on state in blink Mode.
+ </summary>
+ <value>
+ The time for on in blink mode.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.BlinkTimeOff">
+ <summary>
+ Gets the time in milliseconds for the off state in blink Mode.
+ </summary>
+ <value>
+ The time for off in blink mode.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.ResponseId">
+ <summary>
+ Gets the id of the response.
+ </summary>
+ <value>
+ The response id.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.IPrompt.IsTimedOut">
+ <summary>
+ Gets <c>True</c> if a time out occur when wait for the response.
+ </summary>
+ <value>
+ The boolean value if the time out occur
+ </value>
+</member>
+<member name="M:Kostal.Las.UserInterface.Prompts.IPrompt.SetResponse(System.String)">
+ <summary>
+ Sets the response id for this prompt.
+ </summary>
+ <param name="responseId">The response id.</param>
+ <returns>True, if succesful otherwise false</returns>
+ <remarks>Can only be called once, until the repsonse is cleared.</remarks>
+</member>
+<member name="M:Kostal.Las.UserInterface.Prompts.IPrompt.ClearResponse">
+ <summary>
+ Clears the response id for this prompt.
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.Prompts.IPrompt.WaitForResponse(System.Int32,System.Boolean)">
+ <summary>
+ Waits for response on this prompt for a maximum time (in milliseconds).
+ Blocks the current thread until the response or the timeout occur.
+ </summary>
+ <param name="millisecondsTimeout">The number of milliseconds to wait, or <see cref="F:System.Threading.Timeout.Infinite" /> (-1) to wait indefinitely. </param>
+ <param name="clearMessageWhenTimedOut">If set to <c>true</c> the message is cleared after the timeout occur.</param>
+ <returns>
+ The id of the reponse
+ </returns>
+</member>
+<member name="T:Kostal.Las.UserInterface.Prompts.PromptTypes">
+ <summary>
+ Types of prompt
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Prompts.PromptTypes.None">
+ <summary>
+ No special type
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Las.UserInterface.Prompts.PromptTypes.Alarm">
+ <summary>
+ The prompt indicates an alarm
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Prompts.PromptTypes.Problem">
+ <summary>
+ The prompt indicates a problem
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Prompts.PromptTypes.Warning">
+ <summary>
+ The prompt indicates a warning
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Prompts.PromptTypes.Information">
+ <summary>
+ The prompt indicates an information
+ </summary>
+</member>
+<member name="F:Kostal.Las.UserInterface.Prompts.PromptTypes.Question">
+ <summary>
+ The prompt indicates a question
+ </summary>
+</member>
+<member name="T:Kostal.Las.UserInterface.Prompts.UserResponse">
+ <summary>
+ Class for user responses used by prompts
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.Prompts.UserResponse.#ctor(System.String,System.String)">
+ <summary>
+ Create a new UserResponse
+ </summary>
+ <param name="id">The identifier of the User Response</param>
+ <param name="text">The shown text of the UserResponse</param>
+</member>
+<member name="M:Kostal.Las.UserInterface.Prompts.UserResponse.#ctor(System.String,System.String,System.String)">
+ <summary>
+ Create a new UserResponse
+ </summary>
+ <param name="id">The identifier of the User Response</param>
+ <param name="text">The shown text of the UserResponse</param>
+ <param name="channelId">The name of the (digital input) channel. It is also possible to add more channels names separated by a comma.</param>
+</member>
+<member name="M:Kostal.Las.UserInterface.Prompts.UserResponse.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+ <summary>
+ Create a new UserResponse
+ </summary>
+ <param name="id">The identifier of the User Response</param>
+ <param name="text">The shown text of the UserResponse</param>
+ <param name="channelIds">The list of names of the (digital input) channel(s).</param>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.UserResponse.Id">
+ <summary>
+ The identifier of the user response
+ </summary>
+ <returns>The identifier</returns>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.UserResponse.Text">
+ <summary>
+ The shown text of the user response.
+ </summary>
+ <returns>The text, if empty the id is returned.</returns>
+</member>
+<member name="P:Kostal.Las.UserInterface.Prompts.UserResponse.ChannelIds">
+ <summary>
+ The list of the channels names
+ </summary>
+ <returns>A string array with the names of the channels.</returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.Prompts.UserResponse.ToString">
+ <summary>Returns a string that represents the current object.</summary>
+ <returns>A string that represents the current object.</returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.Prompts.StationPromptsController.Reset">
+ <summary>
+ Resets this alarm status.
+ </summary>
+ <returns>True, if successful, otherwise false.</returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.Prompts.StationPromptsController.Clear">
+ <summary>
+ Removes the current message for this station.
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.UserPrompt.ResponseId">
+ <summary>
+ Gets the id of the response.
+ </summary>
+ <value>
+ The response id.
+ </value>
+</member>
+<member name="P:Kostal.Las.UserInterface.UserPrompt.ClearMessageWhenTimedOut">
+ <summary>
+ Gets a value indicating whether ClearMessageWhenTimedOut was set when WaitForResponse is called.
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.UserPrompt.IsTimedOut">
+ <summary>
+ Gets <c>True</c> if a time out occur when WaitForResponse is called.
+ </summary>
+ <value>
+ The boolean value if the time out occur
+ </value>
+</member>
+<member name="M:Kostal.Las.UserInterface.UserPrompt.ClearResponse">
+ <summary>
+ Clears the response id for this prompt.
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.UserPrompt.WaitForResponse(System.Int32,System.Boolean)">
+ <summary>
+ Waits for response on this prompt for a maximum time (in milliseconds).
+ Blocks the current thread until the response or the timeout occur.
+ </summary>
+ <param name="millisecondsTimeout">The number of milliseconds to wait, or <see cref="F:System.Threading.Timeout.Infinite" /> (-1) to wait indefinitely. </param>
+ <param name="clearMessageWhenTimedOut">If set to <c>true</c> the message is cleared after  the timeout occur.</param>
+ <returns>
+ The id of the reponse
+ </returns>
+</member>
+<member name="M:Kostal.Las.UserInterface.ViewModelBase.#ctor">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Las.UserInterface.ViewModelBase"/> class.
+ The uiDispatcher will be initialized with the CurrentDispatcher Thread
+ If you did not create this class from the main (UI) thread you get an exeption
+ </summary>
+ <exception cref="T:System.NotSupportedException">Creating a ViewModelBase class is not allowed, if not done via UI-thread.</exception>
+</member>
+<member name="M:Kostal.Las.UserInterface.ViewModelBase.#ctor(System.Boolean)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Las.UserInterface.ViewModelBase"/> class.
+ The uiDispatcher will be initialized with the CurrentDispatcher Thread
+ </summary>
+ <param name="preventCrossThreadCheck">if set to <c>true</c> there is no check if this class is created from a UI-thread.</param>
+ <exception cref="T:System.NotSupportedException">Creating a ViewModelBase class is not allowed, if not done via UI-thread.</exception>
+</member>
+<member name="M:Kostal.Las.UserInterface.ViewModelBase.#ctor(System.Windows.Threading.Dispatcher)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Las.UserInterface.ViewModelBase"/> class.
+ </summary>
+ <param name="uiDispatcher">The UI dispatcher.</param>
+</member>
+<member name="P:Kostal.Las.UserInterface.ViewModelBase.Localizer">
+ <summary>
+ Gets the localizer of this viewmodel
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.ViewModelBase.UiDispatcher">
+ <summary>
+ Gets the UI Dispatcher of the viewmodel
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.ViewModelBase.DisplayName">
+ <summary>
+ Returns the user-friendly name of this object.
+ Child classes can set this property to a new value,
+ or override it to determine the value on-demand.
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.ViewModelBase.ToString">
+ <summary>
+ Returns a string that represents the current object.
+ </summary>
+ <returns>
+ A string that represents the current object.
+ </returns>
+ <filterpriority>2</filterpriority>
+</member>
+<member name="M:Kostal.Las.UserInterface.ViewModelBaseDisposable.#ctor">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Las.UserInterface.ViewModelBase"/> class.
+ The uiDispatcher will be initialized with the CurrentDispatcher Thread
+ If you did not create this class from the main (UI) thread you get an exeption
+ </summary>
+ <exception cref="T:System.NotSupportedException">Creating a ViewModelBase class is not allowed, if not done via UI-thread.</exception>
+</member>
+<member name="M:Kostal.Las.UserInterface.ViewModelBaseDisposable.#ctor(System.Boolean)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Las.UserInterface.ViewModelBase"/> class.
+ The uiDispatcher will be initialized with the CurrentDispatcher Thread
+ </summary>
+ <param name="preventCrossThreadCheck">if set to <c>true</c> there is no check if this class is created from a UI-thread.</param>
+ <exception cref="T:System.NotSupportedException">Creating a ViewModelBase class is not allowed, if not done via UI-thread.</exception>
+</member>
+<member name="M:Kostal.Las.UserInterface.ViewModelBaseDisposable.#ctor(System.Windows.Threading.Dispatcher)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Las.UserInterface.ViewModelBase"/> class.
+ </summary>
+ <param name="uiDispatcher">The UI dispatcher.</param>
+</member>
+<member name="P:Kostal.Las.UserInterface.ViewModelBaseDisposable.Localizer">
+ <summary>
+ Gets the localizer of this viewmodel
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.ViewModelBaseDisposable.UiDispatcher">
+ <summary>
+ Gets the UI Dispatcher of the viewmodel
+ </summary>
+</member>
+<member name="P:Kostal.Las.UserInterface.ViewModelBaseDisposable.DisplayName">
+ <summary>
+ Returns the user-friendly name of this object.
+ Child classes can set this property to a new value,
+ or override it to determine the value on-demand.
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.ViewModelBaseDisposable.Dispose(System.Boolean)">
+ <summary>
+ Child classes can override this method to perform 
+ clean-up logic, such as removing event handlers.
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.ViewModelBaseDisposable.Finalize">
+ <summary>
+ Useful for ensuring that ViewModel objects are properly garbage collected.
+ </summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.ViewModelBaseDisposable.ToString">
+ <summary>
+ Returns a string that represents the current object.
+ </summary>
+ <returns>
+ A string that represents the current object.
+ </returns>
+ <filterpriority>2</filterpriority>
+</member>
+<member name="T:Kostal.Las.UserInterface.CounterView">
+ <summary>
+ Gui for the counters Success, Failed, Percent and PPM
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Las.UserInterface.AlarmPromptControl">
+<summary>
+AlarmPromptControl
+</summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.AlarmPromptControl.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Kostal.Las.UserInterface.NoPromptControl">
+<summary>
+NoPromptControl
+</summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.NoPromptControl.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Kostal.Las.UserInterface.SinglePromptControl">
+<summary>
+SinglePromptControl
+</summary>
+</member>
+<member name="M:Kostal.Las.UserInterface.SinglePromptControl.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

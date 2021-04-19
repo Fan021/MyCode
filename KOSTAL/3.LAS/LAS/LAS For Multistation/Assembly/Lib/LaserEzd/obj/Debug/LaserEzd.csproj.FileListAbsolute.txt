@@ -1,0 +1,22 @@
+C:\Users\Administrator\Desktop\开发库 单头\开发库\LaserEzd\bin\Debug\LaserEzd.exe.config
+C:\Users\Administrator\Desktop\开发库 单头\开发库\LaserEzd\obj\Debug\LaserEzd.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\开发库 单头\开发库\LaserEzd\bin\Debug\LaserEzd.exe
+C:\Users\Administrator\Desktop\开发库 单头\开发库\LaserEzd\bin\Debug\LaserEzd.pdb
+C:\Users\Administrator\Desktop\开发库 单头\开发库\LaserEzd\obj\Debug\LaserEzd.exe
+C:\Users\Administrator\Desktop\开发库 单头\开发库\LaserEzd\obj\Debug\LaserEzd.pdb
+C:\Users\zhu57\Desktop\laser\LaserEzd\obj\Debug\LaserEzd.pdb
+C:\Users\zhu57\Desktop\laser\LaserEzd\bin\Debug\LaserEzd.pdb
+C:\Users\zhu57\Desktop\laser\LaserEzd\obj\Debug\LaserEzd.csprojResolveAssemblyReference.cache
+C:\Users\zhu57\Desktop\laser\LaserEzd\obj\Debug\LaserEzd.Debug.resources
+C:\Users\zhu57\Desktop\laser\LaserEzd\obj\Debug\LaserEzd.csproj.GenerateResource.Cache
+C:\Users\zhu57\Desktop\laser\LaserEzd\bin\Debug\LaserEzd.exe.config
+C:\Users\zhu57\Desktop\laser\LaserEzd\bin\Debug\LaserEzd.exe
+C:\Users\zhu57\Desktop\laser\LaserEzd\obj\Debug\LaserEzd.exe
+D:\LAS For Multistation\Assembly\Lib\LaserEzd\bin\Debug\LaserEzd.exe.config
+D:\LAS For Multistation\Assembly\Lib\LaserEzd\obj\Debug\LaserEzd.exe
+D:\LAS For Multistation\Assembly\Lib\LaserEzd\obj\Debug\LaserEzd.pdb
+D:\LAS For Multistation\Assembly\Lib\LaserEzd\bin\Debug\LaserEzd.exe
+D:\LAS For Multistation\Assembly\Lib\LaserEzd\bin\Debug\LaserEzd.pdb
+D:\LAS For Multistation\Assembly\Lib\LaserEzd\obj\Debug\LaserEzd.csprojResolveAssemblyReference.cache
+D:\LAS For Multistation\Assembly\Lib\LaserEzd\obj\Debug\LaserEzd.Debug.resources
+D:\LAS For Multistation\Assembly\Lib\LaserEzd\obj\Debug\LaserEzd.csproj.GenerateResource.Cache

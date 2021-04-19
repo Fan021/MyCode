@@ -1,0 +1,61 @@
+<CsvProviderParmetrisation xmlns="http://Kostal.com/Las/CsvProviderParametrisation">
+
+  <Mappings>
+    <KeyColumnMapping>
+      <!-- <UseFirstColumnAsKey />-->
+      <UsingSpecificKeyColumn columnName="ID">
+        <StringModification>Unmodified</StringModification>
+      </UsingSpecificKeyColumn>
+    </KeyColumnMapping>
+    <ArticleScheduleMapping articleProperty="ScheduleName" >
+      <UsingSpecificScheduleMode scheduleName="ProductionMode"/>
+    </ArticleScheduleMapping>
+    <!-- 
+      ArticleName
+      ArticleNumber
+      ArticleIndex
+      ArticleInfo
+      ArticleFamily
+      CustomerNumber
+      HardwareVersion
+      SoftwareVersion
+      Q
+      Picture
+      ValidFrom
+      ValidTo
+      LaserTemplateName
+      MaskFile
+      MaskName
+    -->
+
+	
+	<ArticleRowElementMapping articleProperty="ArticleNumber" delimiter="-" index="0" />
+	<ArticleRowElementMapping articleProperty="ArticleIndex" delimiter="-" index="1" />
+	<ArticleRowElementMapping articleProperty="ArticleName" delimiter="-" index="0" />
+	<ArticlePropertyMapping articleProperty="ArticleFamily">
+     <SimpleMapping columnName="T_CAR_SIDE"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty="ArticleInfo">
+      <SimpleMapping columnName="PCF_Variant_Folder"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty="CustomerNumber">
+      <SimpleMapping columnName="Customer no."/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty="HardwareVersion">
+      <SimpleMapping columnName="HW_Stand"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty="SoftwareVersion">
+      <SimpleMapping columnName="SW_Stand"/>
+    </ArticlePropertyMapping>
+  </Mappings>
+
+  <AdditionalGlobalParameter>
+    <ArticleParameter name="ValidFrom">2014.12.12</ArticleParameter>
+    <ArticleParameter name="ValidTo">2099.12.12</ArticleParameter>
+	<ArticleParameter name="MaskFile">10344498.txt</ArticleParameter>
+	<ArticleParameter name="MaskName">10344498</ArticleParameter>
+    <Parameter name="pcb_sn_prefix">YB016</Parameter>
+    <Parameter name="src_sn_prefix">01391</Parameter>
+  </AdditionalGlobalParameter>
+
+</CsvProviderParmetrisation>

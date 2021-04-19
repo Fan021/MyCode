@@ -1,0 +1,757 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kostal.Las.ArticleProvider.Csv
+</name>
+</assembly>
+<members>
+<member name="M:Kostal.Las.ArticleProvider.Condition.#ctor(Kostal.Las.ArticleProvider.Mapping.Mapping,System.String)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Condition"/>
+	</summary>
+	<param name="mapping">Mapping of a value.</param>
+	<param name="criterium">Criterium the mapped value has to be compared with.</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Condition.IsMatch(System.String)">
+	<summary>
+ Compares a mapped value with the specified criterium.
+ </summary>
+	<param name="csvRow">A row of the csv. The value of this row will be compared.</param>
+	<returns>TRUE if mapped value matches the specified criterium, otherwise FALSE. A FALSE will be also returned if the mapped value should not be added to article configuration.</returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Condition">
+	<summary>
+ Represents a condition that provides functionality to decide whether a mapped value matches a criterium or not.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.ConfigurationFactory.ConfigureUsingFile(System.String)">
+	<summary>
+ Assigns name and path of the csv file containing the article definitions
+ </summary>
+	<param name="csvFile">name and path of csv file to use</param>
+	<returns>a incomplete configuration containing a file already</returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.ConfigurationFactory">
+	<summary>
+ Used to create a new <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/> using the fluent definition aproach.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Kostal.Las.ArticleProvider.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Kostal.Las.ArticleProvider.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:Kostal.Las.ArticleProvider.ArticleKeyReference.FirstColumn">
+	<summary>
+ Uses the first column of the csv file as key of /&gt;
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Kostal.Las.ArticleProvider.ArticleKeyReference.SpecificColumn">
+	<summary>
+ Uses a specific column referenced by a <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvKeyColumnMapping"/> as key of /&gt;
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.ArticleKeyReference">
+	<summary>
+ Defines the kind column used as the key (main identifier) of the /&gt;
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CsvColumnBooleanMapping.#ctor(System.String,Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription,Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnBooleanMapping"/>
+	</summary>
+	<param name="columnHeader">name of the column as defined in csv header line. This is case sensitive</param>
+	<param name="trueDescription">A description of the <see cref="T:System.String"/> representing a <see cref="T:System.Boolean"/> true</param>
+	<param name="falseDescription">A description of the <see cref="T:System.String"/> representing a <see cref="T:System.Boolean"/> false</param>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.Mapping.CsvColumnBooleanMapping.TrueDescription">
+	<summary>
+ A description of the <see cref="T:System.String"/> representing a <see cref="T:System.Boolean"/> true
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.Mapping.CsvColumnBooleanMapping.FalseDescription">
+	<summary>
+ A description of the <see cref="T:System.String"/> representing a <see cref="T:System.Boolean"/> false
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnBooleanMapping">
+	<summary>
+ References a column in csv file containing a data representing a <see cref="T:System.Boolean"/>
+		<example>
+ Mapped field can contain:  +,-,true,false,yes,no,...
+ </example>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CsvColumnArticleNumberMapping.#ctor(System.String)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnArticleNumberMapping"/>
+ The <see cref="F:Kostal.Las.ArticleProvider.Mapping.StringModification.Unmodified"/> strategy is used for <see cref="T:Kostal.Las.ArticleProvider.Mapping.StringModification"/>.
+ </summary>
+	<param name="columnHeader">name of the column as defined in csv header line. This is case sensitive</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CsvColumnArticleNumberMapping.#ctor(System.String,Kostal.Las.ArticleProvider.Mapping.StringModification)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnArticleNumberMapping"/>.
+ </summary>
+	<param name="columnHeader">name of the column as defined in csv header line. This is case sensitive</param>
+	<param name="modificationStrategy">The strategy applied to the <see cref="T:System.String"/> after it has been extracted from csv file.</param>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnArticleNumberMapping">
+	<summary>
+ References a column in csv file containing a material number including index.
+ This mapping only maps the article number without the index.
+ <example>
+ Mapped field contains:  1234567890123-00
+ This mapping returns:   1234567890123
+ </example>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.BooleanValueMatcher.IsMatch(System.String,Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription)">
+	<summary>
+ Checks weather a string is matching a booleanValueDescription or not
+ </summary>
+	<param name="value">the string to be checked</param>
+	<param name="valueDescription">the description to check against</param>
+	<returns>true if value matches the description, false in case of no match</returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.BooleanValueMatcher.GetValue(System.String,Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription,Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription)">
+	<summary>
+ Checks wether a value is matching either the true or false description.
+ </summary>
+	<param name="value">value to be checked</param>
+	<param name="trueValueDescription">true description to check against</param>
+	<param name="falseValueDescription">false description to check against</param>
+	<returns>true in case of match with true description, false in case of match with false description</returns>
+	<exception cref="T:System.ArgumentException">If value matches non of the provided descriptions.</exception>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CommonUnitMapping.GetValue(System.String)">
+	<summary>
+ Returns a value depending on specified conditions.
+ </summary>
+	<param name="sRawValue">A row of the csv the value has to be mapped from.</param>
+	<returns>A row value if all AND-Associated conditions produce a TRUE, otherwise NOTHING.</returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping.#ctor(System.String)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping"/>
+	</summary>
+	<param name="constantString">the constant value that will be replied by this mapping as <see cref="T:System.String"/></param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping.#ctor(System.Int32)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping"/>
+	</summary>
+	<param name="constant">the constant value that will be replied by this mapping as <see cref="T:System.Int32"/></param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping.#ctor(System.Double)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping"/>
+	</summary>
+	<param name="constant">the constant value that will be replied by this mapping as <see cref="T:System.Double"/></param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping.#ctor(System.Boolean)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping"/>
+	</summary>
+	<param name="constant">the constant value that will be replied by this mapping as <see cref="T:System.Boolean"/></param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping.#ctor(System.DateTime)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping"/>
+	</summary>
+	<param name="constant">the constant value that will be replied by this mapping as <see cref="T:System.DateTime"/></param>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping.Value">
+	<summary>
+ The constant value replied by this mapping
+ </summary>
+	<returns>the replied value as <see cref="T:System.String"/></returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.ConstantValueMapping">
+	<summary>
+ Maps to a constant value that is inserted in constructor
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.CsvArticleProvider.#ctor">
+	<summary>
+ Creates a new instance of the <see cref="T:Kostal.Las.ArticleProvider.CsvArticleProvider"/>
+	</summary>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.CsvArticleProvider.Configuration">
+	<summary>
+ Gets or sets the <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/> used by the <see cref="T:Kostal.Las.ArticleProvider.CsvArticleProvider"/>.
+ </summary>
+	<value>the <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/> used to load articles from csv file.</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.CsvArticleProvider">
+	<summary>
+ Article provider that can be used by Testman to create a / out of a csv file.
+ The provider must have a strict configuration mapping csv columns to article properties.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.ConditionalMappingAnd.#ctor(System.String,Kostal.Las.ArticleProvider.Condition[])">
+	<summary>
+ Creates new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.ConditionalMappingAnd"/>
+	</summary>
+	<param name="info">Info to be mapped.</param>
+	<param name="conditions">Conditions to be AND-Associated.</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.ConditionalMappingAnd.GetValue(System.String)">
+	<summary>
+ Returns a value depending on specified conditions.
+ </summary>
+	<param name="sRawValue">A row of the csv the value has to be mapped from.</param>
+	<returns>A row value if all AND-Associated conditions produce a TRUE, otherwise NOTHING.</returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.ConditionalMappingAnd">
+	<summary>
+ Represents a conditional value mapping of type AND.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping.#ctor(System.String)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping"/>.
+ The <see cref="F:Kostal.Las.ArticleProvider.Mapping.StringModification.Unmodified"/> strategy is used for <see cref="T:Kostal.Las.ArticleProvider.Mapping.StringModification"/>.
+ </summary>
+	<param name="columnHeader">name of the column as defined in csv header line. This is case sensitive</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping.#ctor(System.String,Kostal.Las.ArticleProvider.Mapping.StringModification)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping"/>.
+ </summary>
+	<param name="columnHeader">name of the column as defined in csv header line. This is case sensitive</param>
+	<param name="modificationStrategy">The strategy applied to the <see cref="T:System.String"/> after it has been extracted from csv file.</param>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping.SameHeaderWithKey">
+	<summary>
+ The indicator indicates if the <see cref="P:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping.ColumnHeader"/> has the same name with key column of csv or not. value should be <see cref="T:System.Boolean"/>
+	</summary>
+	<value>true/false</value>
+	<returns>true/false</returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping.ModificationStrategy">
+	<summary>
+ The strategy applied to the <see cref="T:System.String"/> after it has been extracted from csv.
+ This only works when using <see cref="F:Kostal.Las.ArticleProvider.ArticleKeyReference.FirstColumn"/>. Otherwise the strategy of the inserted <see cref="T:Kostal.Las.ArticleProvider.Mapping.Mapping"/> is used.
+ </summary>
+	<value>the new strategy</value>
+	<returns>current strategy</returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping.ColumnHeader">
+	<summary>
+ The <see cref="T:System.String"/> representing the column header of the mapped column in csv file
+ </summary>
+	<returns>name of mapped column</returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping">
+	<summary>
+ References a column of a csv file
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.Mapping.SetupHeaders(System.String[])">
+	<summary>
+ Inserts all available headers into the mapping.
+ Used once when a new csv file is opened and the header row is read. 
+ As all upcoming cvs data is values only this routine can be used to evaluate the index of the mapped csv column.
+ </summary>
+	<param name="headers">list of headers as read from csv file</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.Mapping.GetValue(System.String)">
+	<summary>
+ Inserts a single line of values read from csv file and expectes a single value extracted based on mapping configuration.
+ </summary>
+	<param name="sRawValue">all values of a single row read from csv file</param>
+	<returns>the single value evaluated by the mapping</returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.Mapping">
+	<summary>
+ Defines a mapping between a column in a csv file and an article property in /&gt;
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.StringModifier.Modify(System.String,Kostal.Las.ArticleProvider.Mapping.StringModification)">
+	<summary>
+ Mofidies a <see cref="T:System.String"/> based on the strategy provided by <see cref="T:Kostal.Las.ArticleProvider.Mapping.StringModification"/>
+	</summary>
+	<param name="value">the <see cref="T:System.String"/> to be modified</param>
+	<param name="strategy">the strategy applied to the <see cref="T:System.String"/></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.StringModifier">
+	<summary>
+ Contains routines to modify a <see cref="T:System.String"/>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CsvColumnArticleIndexMapping.#ctor(System.String)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnArticleIndexMapping"/>
+ The <see cref="F:Kostal.Las.ArticleProvider.Mapping.StringModification.Unmodified"/> strategy is used for <see cref="T:Kostal.Las.ArticleProvider.Mapping.StringModification"/>.
+ </summary>
+	<param name="columnHeader">name of the column as defined in csv header line. This is case sensitive</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CsvColumnArticleIndexMapping.#ctor(System.String,Kostal.Las.ArticleProvider.Mapping.StringModification)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnArticleIndexMapping"/>.
+ </summary>
+	<param name="columnHeader">name of the column as defined in csv header line. This is case sensitive</param>
+	<param name="modificationStrategy">The strategy applied to the <see cref="T:System.String"/> after it has been extracted from csv file.</param>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnArticleIndexMapping">
+	<summary>
+ References a column in csv file containing a material number including index.
+ This mapping only maps the index/revision without the article number in front.
+ <example>
+ Mapped field contains:  1234567890123-00
+ This mapping returns:   00
+ </example>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CsvKeyColumnMapping.#ctor(System.String,Kostal.Las.ArticleProvider.Mapping.StringModification)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvKeyColumnMapping"/> which uses the first column (<see cref="F:Kostal.Las.ArticleProvider.ArticleKeyReference.FirstColumn"/>) of the csv file
+ </summary>
+	<param name="modificationStrategy">The strategy applied to the <see cref="T:System.String"/> after it has been extracted from csv file.</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CsvKeyColumnMapping.#ctor(System.String)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvKeyColumnMapping"/> which uses a custom (<see cref="T:Kostal.Las.ArticleProvider.Mapping.Mapping"/>) to get a value from csv file.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.Mapping.CsvKeyColumnMapping.Reference">
+	<summary>
+ The type of this reference
+ </summary>
+	<returns>the type of this <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvKeyColumnMapping"/></returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.CsvKeyColumnMapping">
+	<summary>
+ References the column of a csv file that will be used as / of /&gt;
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.CsvParser.#ctor(Kostal.Las.ArticleProvider.ReaderConfiguration)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.CsvParser"/>
+	</summary>
+	<param name="configuration">The configuration to be used by the parser</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.CsvParser.Read">
+	<summary>
+ Starts the parsing process based on the configuration inserted in constructor.
+ This routine opens the csv file, reads the content and creates the /
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.CsvParser.CreateCsvCustomEntryColumns(System.String[],System.Boolean)">
+	<summary>
+ Extends the current <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/> to handle the unused columns as custom entries.
+ For every unused header an additional <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping"/> is created. The column name is used as the name of the custom tag.
+ </summary>
+	<param name="headers">the headers available in the csv file</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.CsvParser.GetUnusedHeaders(System.String[],System.Collections.Generic.IEnumerable{Kostal.Las.ArticleProvider.Mapping.Mapping})">
+	<summary>
+ Checks the list of headers against the list of available mappings to get all headers that are not used within any mapping.
+ </summary>
+	<param name="headers">list of headers to be checked</param>
+	<param name="existingMappings">list of available mappings</param>
+	<returns>all items that occured in <paramref name="headers"/> but was not used in <paramref name="existingMappings"/>.</returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.CsvParser">
+	<summary>
+ Uses the inserted <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/> object to parse a csv file into a / usable by Testman Framework.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.CsvFileConfiguration.#ctor(Kostal.Las.ArticleProvider.ReaderConfiguration)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.CsvFileConfiguration"/>
+	</summary>
+	<param name="config">the config to extend already containing a configuration for csv file.</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.CsvFileConfiguration.UsingFirstColumnAsKey">
+	<summary>
+ Sets the configuration to use the first column of the csv file as key column.
+ This requires that the referenced column contains unique values in every row.
+ </summary>
+	<returns>A still incomplete configuration</returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.CsvFileConfiguration.UsingFirstColumnAsKey(Kostal.Las.ArticleProvider.Mapping.StringModification)">
+	<summary>
+ Sets the configuration to use the first column of the csv file as key column.
+ This requires that the referenced column contains unique values in every row.
+ </summary>
+	<param name="strategy">The strategy applied to the <see cref="T:System.String"/> after it has been extracted from csv file.</param>
+	<returns>A still incomplete configuration</returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.CsvFileConfiguration.UsingSpecificKeyColumn(Kostal.Las.ArticleProvider.Mapping.CsvKeyColumnMapping)">
+	<summary>
+ Sets the configuration to use a specific column of the csv file assigned by a <see cref="N:Kostal.Las.ArticleProvider.Mapping"/> as key column.
+ This requires that the referenced column contains unique values in every row.
+ </summary>
+	<returns>A still incomplete configuration</returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.CsvFileConfiguration">
+	<summary>
+ Represents a temporary step in creating a <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/>.
+ Only the file in configured yet. Additional steps of fluent configuration are required to complete the configuration.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.IncompleteConfiguration.#ctor(Kostal.Las.ArticleProvider.ReaderConfiguration)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.IncompleteConfiguration"/>
+	</summary>
+	<param name="config">a incomplete configuration where only key column and file reference is setup</param>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.IncompleteConfiguration.GetConfig">
+	<summary>
+ Get current configration"/&gt;
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.IncompleteConfiguration.SetCsvArticleProperty(Kostal.Las.ArticleProvider.ArticleAttribute,Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping)">
+	<summary>
+ Adds a mapping for a <see cref="T:Kostal.Las.ArticleProvider.ArticleAttribute"/> used when configuring /
+ </summary>
+	<param name="articleProperty">the article attribute that is mapped</param>
+	<param name="mapping">The <see cref="N:Kostal.Las.ArticleProvider.Mapping"/> used to assign a value</param>
+	<returns>a still incomplete configuration</returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.IncompleteConfiguration.SetCsvCustomField(System.String,Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping)">
+	<summary>
+ Adds a mapping for a <see cref="T:Kostal.Las.ArticleProvider.ArticleAttribute"/> used when configuring /
+ </summary>
+	<param name="customEntryName">the custom field to be created.</param>
+	<param name="mapping">The <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping"/> used to assign a value</param>
+	<returns>a still incomplete configuration</returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.IncompleteConfiguration.SetXmlCustomField(System.String,Kostal.Las.ArticleProvider.Mapping.CommonUnitMapping)">
+	<summary>
+ Adds a mapping for a <see cref="T:Kostal.Las.ArticleProvider.ArticleAttribute"/> used when configuring /
+ </summary>
+	<param name="customEntryName">the custom field to be created.</param>
+	<param name="mapping">The <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping"/> used to assign a value</param>
+	<returns>a still incomplete configuration</returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.IncompleteConfiguration.ThrowAdditionalColumnsAway">
+	<summary>
+ Sets the configuration to throw away / ignore all columns that are not explicitly assigned by one of the mappings.
+ This is the last step when setting up configuration. The created <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/> can be assigned to the <see cref="P:Kostal.Las.ArticleProvider.CsvArticleProvider.Configuration"/>
+	</summary>
+	<returns>a completly configured and ready to use <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/></returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.IncompleteConfiguration.UseAdditionalColumnsAsCustomEntries">
+	<summary>
+ Sets the configuration to map all columns that are not explicitly assigned by one of the mappings as /.
+ This is the last step when setting up configuration. The created <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/> can be assigned to the <see cref="P:Kostal.Las.ArticleProvider.CsvArticleProvider.Configuration"/>
+	</summary>
+	<returns>a completly configured and ready to use <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/></returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.IncompleteConfiguration.UseAdditionalColumnsAsCustomEntries(System.Boolean)">
+	<summary>
+ Sets the configuration to map all columns that are not explicitly assigned by one of the mappings as /.
+ This is the last step when setting up configuration. The created <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/> can be assigned to the <see cref="P:Kostal.Las.ArticleProvider.CsvArticleProvider.Configuration"/>
+	</summary>
+	<returns>a completly configured and ready to use <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/></returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.IncompleteConfiguration">
+	<summary>
+ Represents a temporary step in creating a <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/>.
+ At least file and keycolumn have to be configured yet. Additional steps of fluent configuration are required to complete the configuration.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.ReaderConfiguration.#ctor(System.String)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/>.
+ </summary>
+	<param name="filename">the csv file to parse</param>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.ReaderConfiguration.FisrtColumnHeader">
+	<summary>
+ Name of the First Column in csv file
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.ReaderConfiguration.CsvHeaders">
+	<summary>
+ Name of the First Column in csv file
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.ReaderConfiguration.Filename">
+	<summary>
+ Name of csv file to parse.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.ReaderConfiguration.CsvMappings">
+	<summary>
+ Dictionary of all properties that are mapped.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.ReaderConfiguration.XmlMappings">
+	<summary>
+ Dictionary of all properties that are mapped.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.ReaderConfiguration.Files">
+	<summary>
+ List of all files that are mapped.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.ReaderConfiguration.GetUsedCsvMappings">
+	<summary>
+ All mappings used within this configuration
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.ReaderConfiguration.ValidateBasicParameters">
+	<summary>
+ Checks the configuration of completeness.
+ If a parameter required for a /&gt; is missing an exception is raised
+ </summary>
+	<remarks></remarks>
+	<exception cref="T:System.ArgumentException">Raised if one of the required parameters describing a /&gt; is missing.</exception>
+</member><member name="M:Kostal.Las.ArticleProvider.ReaderConfiguration.CreateCsvCustomEntryColumns">
+	<summary>
+ Extends the current <see cref="T:Kostal.Las.ArticleProvider.ReaderConfiguration"/> to handle the unused columns as custom entries.
+ For every unused header an additional <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping"/> is created. The column name is used as the name of the custom tag.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.ReaderConfiguration.GetUnusedHeaders(System.String[],System.Collections.Generic.IEnumerable{Kostal.Las.ArticleProvider.Mapping.CsvColumnMapping})">
+	<summary>
+ Checks the list of headers against the list of available mappings to get all headers that are not used within any mapping.
+ </summary>
+	<param name="headers">list of headers to be checked</param>
+	<param name="existingMappings">list of available mappings</param>
+	<returns>all items that occured in <paramref name="headers"/> but was not used in <paramref name="existingMappings"/>.</returns>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.ReaderConfiguration.ReadHeadersFromCsv(System.String)">
+	<summary>
+ Reads and saves all of headers of specified csv.
+ If a file name is invalid an exception is raised
+ </summary>
+	<remarks></remarks>
+	<exception cref="T:System.IO.FileLoadException">Raised if no any header can be read.</exception>
+</member><member name="M:Kostal.Las.ArticleProvider.ReaderConfiguration.CheckAllHeadersAreValid">
+	<summary>
+ Reads and saves all of headers of specified csv.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.ReaderConfiguration.CsvKeyColumn">
+	<summary>
+ Mapping used as key when creating a new /&gt;
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.ReaderConfiguration.UseAdditionalColumnsAsCustomEntries">
+	<summary>
+ Indicates wehter columns in the csv file that are not explicitly 
+ mapped to a property of /&gt; are used as / or not.
+ </summary>
+	<value>true is mapped, false if thrown away</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.ReaderConfiguration">
+	<summary>
+ Complete configuration defining how a specified csv file will be parsed into /
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CsvColumnDateMapping.#ctor(System.String)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnDateMapping"/>
+ The <see cref="F:Kostal.Las.ArticleProvider.Mapping.StringModification.Unmodified"/> strategy is used for <see cref="T:Kostal.Las.ArticleProvider.Mapping.StringModification"/>.
+ </summary>
+	<param name="columnHeader">name of the column as defined in csv header line. This is case sensitive</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.CsvColumnDateMapping.#ctor(System.String,Kostal.Las.ArticleProvider.Mapping.StringModification)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnDateMapping"/>.
+ </summary>
+	<param name="columnHeader">name of the column as defined in csv header line. This is case sensitive</param>
+	<param name="modificationStrategy">The strategy applied to the <see cref="T:System.String"/> after it has been extracted from csv file.</param>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.CsvColumnDateMapping">
+	<summary>
+ References a column in csv file containing a date like ValidFrom or ValidTo.
+ <example>
+ Mapped field contains:  1998.12.31 13:42
+ This mapping returns:   31.12.1998 13:42:00
+ </example>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.MappingValue.#ctor(System.String,System.Boolean)">
+	<summary>
+ Creates new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.MappingValue"/>
+	</summary>
+	<param name="value">The mapped value.</param>
+	<param name="addToConfiguration">A boolean flag that decides whether the specified value will be added to the article configuration or not.</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.MappingValue.#ctor(System.String)">
+	<summary>
+ Creates new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.MappingValue"/>
+	</summary>
+	<param name="value">The mapped value.</param>
+	<remarks>The specified value will always be added to the article configuration.</remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.MappingValue">
+	<summary>
+ Represents a mapping value.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.CsvMapper.#ctor(System.String,System.String,System.String)">
+	<summary>
+ Creates a new instance of the <see cref="T:Kostal.Las.ArticleProvider.CsvArticleProvider"/>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.EncodingDetector.GetFileEncoding(System.String)">
+	<summary>
+ Detects the byte order mark of a file and returns
+ an appropriate encoding for the file.
+ </summary>
+	<param name="srcFile">the file to be checked</param>
+	<returns></returns>
+</member><member name="T:Kostal.Las.ArticleProvider.EncodingDetector">
+	<summary>
+ Contains routines to check the encoding of a file by analysing the 'Byte Order Mask' (BOM) of a file
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.ConditionalMappingOr.#ctor(System.String,Kostal.Las.ArticleProvider.Condition[])">
+	<summary>
+ Creates new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.ConditionalMappingAnd"/>
+	</summary>
+	<param name="info">Info to be mapped.</param>
+	<param name="conditions">Conditions to be AND-Associated.</param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.ConditionalMappingOr.GetValue(System.String)">
+	<summary>
+ Returns a value depending on specified conditions.
+ </summary>
+	<param name="sRawValue">A row of the csv the value has to be mapped from.</param>
+	<returns>A row value if all AND-Associated conditions produce a TRUE, otherwise NOTHING.</returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.ConditionalMappingOr">
+	<summary>
+ Represents a conditional value mapping of type OR.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription.#ctor(System.String)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription"/>
+	</summary>
+	<param name="characters">the sequence of characters representing a boolean value</param>
+	<remarks>this can be values like True,false,+,-,yes,no etc...</remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription.#ctor(System.String,Kostal.Las.ArticleProvider.Mapping.StringModification)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription"/>
+	</summary>
+	<param name="characters">the sequence of characters representing a boolean value</param>
+	<param name="strategy">the strategy applied to the read value before it is checked against the character sequence</param>
+	<remarks>this can be values like True,false,+,-,yes,no etc...</remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription.#ctor(System.String,System.StringComparison)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription"/>
+	</summary>
+	<param name="characters">the sequence of characters representing a boolean value</param>
+	<param name="comparisonOption">the options used when comparing the string from csv with the characters sequence</param>
+	<remarks>this can be values like True,false,+,-,yes,no etc...</remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription.#ctor(System.String,Kostal.Las.ArticleProvider.Mapping.StringModification,System.StringComparison)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription"/>
+	</summary>
+	<param name="characters">the sequence of characters representing a boolean value</param>
+	<param name="strategy">the strategy applied to the read value before it is checked against the character sequence</param>
+	<param name="comparisonOption">the options used when comparing the string from csv with the characters sequence</param>
+	<remarks>this can be values like True,false,+,-,yes,no etc...</remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription.#ctor(System.String,System.Boolean)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription"/>
+	</summary>
+	<param name="characters">the sequence of characters representing a boolean value</param>
+	<param name="acceptsEmptyString">if true this identifier is accepting a empty or null value as a valid match, false is not accepting empty or null strings</param>
+	<remarks>this can be values like True,false,+,-,yes,no etc...</remarks>
+</member><member name="M:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription.#ctor(System.String,Kostal.Las.ArticleProvider.Mapping.StringModification,System.StringComparison,System.Boolean)">
+	<summary>
+ Creates a new instance of <see cref="T:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription"/>
+	</summary>
+	<param name="characters">the sequence of characters representing a boolean value</param>
+	<param name="strategy">the strategy applied to the read value before it is checked against the character sequence</param>
+	<param name="comparisonOption">the options used when comparing the string from csv with the characters sequence</param>
+	<param name="acceptsEmptyString">if true this identifier is accepting a empty or null value as a valid match, false is not accepting empty or null strings</param>
+	<remarks>this can be values like True,false,+,-,yes,no etc...</remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription.Characters">
+	<summary>
+ The character sequence representing the boolean value
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription.Strategy">
+	<summary>
+ The strategy to apply to a value before it is compared to character sequence
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription.ComparisonOption">
+	<summary>
+ The options used to compare the value to the character sequence
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription.AcceptsEmptyString">
+	<summary>
+ If true a null value or empty string will be a match for this value indicator. If false the value will not be accepted.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.BooleanValueDescription">
+	<summary>
+ Class to describe the encoding of a boolean value.
+ Includes the characterstring representing the value including allowed interpretations (e.g ignore case)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Kostal.Las.ArticleProvider.Mapping.StringModification.Unmodified">
+	<summary>
+ The string is used without any modification.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Kostal.Las.ArticleProvider.Mapping.StringModification.Trim">
+	<summary>
+ All whitespaces at start and end of the string are removed.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Kostal.Las.ArticleProvider.Mapping.StringModification.RemoveWhitespaces">
+	<summary>
+ All whitespaces at start, end and within the string are removed.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Kostal.Las.ArticleProvider.Mapping.StringModification">
+	<summary>
+ Strategy how a string is parsed and outputted
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,9 @@
+ID;ScheduleIndex;ScheduleName;ScheduleDescription;UserVerification;SecurityChecksum;PassST1;FailST1;PassST2;FailST2;PassST3;FailST3;PassST4;FailST4;PassST5;FailST5;PassST6;FailST6;PassST7;FailST7;PassST8;FailST8;PassST9;FailST9;PassST10;FailST10;PassST11;FailST11;PassST12;FailST12;PassST13;FailST13;PassST14;FailST14;PassST15;FailST15;PassST16;FailST16;PassST17;FailST17;PassST18;FailST18;PassST19;FailST19;PassST20;FailST20;PassST21;FailST21;PassST22;FailST22;PassST23;FailST23;PassST24;FailST24;PassST25;FailST25;PassST26;FailST26;PassST27;FailST27;PassST28;FailST28;PassST29;FailST29
+SM1;10;ProductionMode;Production Mode;ArticleUsed;1023;2;29;3;29;4;29;5;29;7;29;0;0;8;29;9;29;10;29;11;29;12;29;13;29;14;29;18;29;0;0;0;0;0;0;19;29;20;29;21;29;23;29;0;0;24;25;25;29;26;29;27;29;28;29;29;29;1;1
+SM2;2;RetestMode;Repair Test;;318;11;29;;;;;;;;;;;;;;;;;;;21;29;;;;;;;;;;;;;;;;;;;26;29;;;;;;;;;27;29;28;29;29;29;1;1
+SM3;3;SelfResistanceTest;Self Resistance Test;;168;26;29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;28;26;;;29;28;1;1
+SM4;4;MasterPartTest;Good Masterpart Test;;244;11;29;;;;;;;;;;;;;;;;;;;26;11;;;;;;;;;;;;;;;;;;;;;;;;;;;;;27;26;28;27;29;28;1;1
+SM5;11;AssemblyOnly;Just do assembly;Password=54321;1029;2;29;4;29;4;29;5;29;7;29;0;0;8;29;9;29;10;29;12;29;12;29;13;29;14;29;18;29;0;0;0;0;0;0;19;29;20;29;21;29;23;29;0;0;24;29;25;29;26;29;27;29;28;29;29;29;1;1
+SM6;6;ClearMode;Clear Mode;;2;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM7;7;UserDefined;defined for APP engineers;;268;11;29;;;;;;;;;;;;;;;;;;;26;29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;27;29;28;29;29;29;1;1
+SM8;8;StandAlone;Stand Alone Mode;ArticleUsed;0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

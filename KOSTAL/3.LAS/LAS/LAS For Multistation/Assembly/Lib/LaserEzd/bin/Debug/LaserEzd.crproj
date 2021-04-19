@@ -1,0 +1,8 @@
+<project outputDir="C:\Users\zhu57\Desktop\laser\LaserEzd\bin\Debug\Confused" baseDir="C:\Users\zhu57\Desktop\laser\LaserEzd\bin\Debug" xmlns="http://confuser.codeplex.com">
+  <module path="LaserEzd.dll">
+    <rule pattern="true" preset="maximum" inherit="false">
+      <protection id="anti ildasm" />
+      <protection id="invalid metadata" />
+    </rule>
+  </module>
+</project>

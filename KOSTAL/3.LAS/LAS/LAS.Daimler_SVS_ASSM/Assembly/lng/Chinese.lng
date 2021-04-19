@@ -1,0 +1,1678 @@
+'Chinese LanguageFile
+'Description
+'
+'==============================================================================
+[MainUI]
+'==============================================================================
+
+btnStart						= 开 始
+btnClear						= 清盘模式
+
+
+btnCurrentArticle				= 当前变种
+btnCurrentSchedule				= 当前测试模式
+lblSnMessage					= 序列号
+
+btnSystem						= 系统
+btnStation						= 站别
+btnDebug						= 调试
+btnLogin						= 登陆
+btnShortCut						= 快捷
+
+Label_Article					= 变种:
+Label_Name						= 变种名称:
+Label_Index						= 变种索引:
+Label_HW						= 硬件版本:
+Label_SW						= 软件版本:
+Label_Customer					= 客户号:
+Label_User						= 用户:
+Label_Level						= 等级:
+Auto							= 自动
+Manual							= 手动
+
+'==============================================================================
+[Controls]
+'==============================================================================
+MainForm = LAS of Damiler SVS *IP:169.254.157.101* 
+
+WtData = Data of WT in first Station
+ArticleCounter = Counter refering to Articles
+StationColumnHeader = 工站名称
+
+btnArticleScan  = 使用扫描枪选择变种
+
+MainMenu = 主菜单
+FileToolStripMenuItem = 文件
+ScheduleToolStripMenuItem = 测试模式
+
+MenuLanguage = 语言选择
+MenuLanguage_German = German
+MenuLanguage_English = English
+MenuLanguage_Chinese = 中 文
+
+MenuChangePassword = 密码修改
+
+MenuExit = 退出
+
+MainBox =
+
+AboutToolStripMenuItem = 关于
+
+HelpToolStripMenuItem = 帮助 
+HelpFile_1 = IP
+HelpFile_2 = Staubli文档
+HelpFile_3 = 螺丝位置图示
+
+DocumentationToolStripMenuItem = Documentation
+RoboterToolStripMenuItem = Staubli用户文档
+
+ShowWtDataToolStripMenuItem = 托盘数据
+ShowCounterToolStripMenuItem = 计数器
+ShowMaintainToolStripMenuItem = 维修
+ScheduleMode = 测试模式
+ShowScheduleToolStripMenuItem=生产模式
+ShowStationOverViewToolStripMenuItem=设备状态
+ShowProductionViewToolStripMenuItem=生产数据
+
+
+lblStatusName_01        = Station01 新产品入料与打印
+lblStatusName_02        = Station11 PCBA
+lblStatusName_03        = Station13 Flash
+lblStatusName_04        = Station15 装配件数据处理 - Linecontroller
+lblStatusName_05        = Station21 扫描
+lblStatusName_06        = Station22 成品数据处理 - Linecontroller
+lblStatusName_07        = 
+lblStatusName_08        = 
+lblStatusName_09        = 
+lblStatusName_10        = 
+lblStatusName_11        = 
+lblStatusName_12        = 
+lblStatusName_13        = 
+lblStatusName_14        = 
+lblStatusName_15        = 
+lblStatusName_16        =
+
+grpPicture =线体
+btnArticle=确认变种选择
+gbArticle=变种
+grpCounter = 计数
+Label_Total  = 总数
+Label_Pass     = 合格
+Label_Fail     = 不良
+Button_Reset  = 清空计数
+gbActualSerialNumber_01         = 当前唯一且有效的序列号
+
+
+'=====================================================
+
+'=====================================================
+'Schedule
+
+Label_Mode						= 请选择模式:
+lblCurrentSchedule		 		= 当前测试模式：
+btnScheduleSelected		 		= 确定选择
+btnAlternateScheduleAbort	 	= 退出模式
+
+'=====================================================
+Label_SN                        = 序列号：     
+'=====================================================
+'Reference
+
+Label1                          = 步骤：
+Label2                          = 信息：
+
+
+'=====================================================
+'Scanner
+_btnON                         =触发
+_btnOFF                        =结束
+
+'=====================================================
+cbClearMask                    =重新加载模板
+btnReprint                     =重新打印 
+Label_Count                    =数量:
+
+'=====================================================
+'Manual
+TrigON                         =开始
+TrigOFF                        =结束
+
+'=====================================================
+'Laser
+lblTemplate                    =请选择命令:
+btnChangeTemplate              =确定
+Button_Start                   =手动光刻
+
+'=====================================================
+'Flash
+lblCmd                         =请选择命令:
+btnCmd                         =确定
+  
+
+'==============================================================================
+'WT Form
+
+lblWtName               = WT
+rbSource_WT             = Source WT
+rbSource_Station        = Source Station
+btnWtReset              = 复位
+btnWtAbort              = 放弃
+
+'==============================================================================
+'Fail Print
+Button_Send                 = 确定
+
+'ShowPicture
+GroupBox_NewPart_Type               = 当前模式
+GroupBox_NewPart_Msg                = 状态信息
+ToolStripMenuItem_Open              = 打开图片
+ToolStripMenuItem_Select            = 选择图片
+ToolStripMenuItem_Cut               = 裁切图片
+ToolStripMenuItem_Save              = 保存设置
+ToolStripMenuItem_StretchImage      = 图片拉伸
+ToolStripMenuItem_AutoSize          = 图片自动
+ToolStripMenuItem_CenterImage       = 图片居中
+ToolStripMenuItem_Zoom              = 图片缩放
+ToolStripMenuItem_Move              = 边框移动
+ToolStripMenuItem_Style_Zoom        = 边框缩放
+ToolStripMenuItemd_Default          = 恢复设置
+
+'==============================================================================
+ToolStripMenuItem_Hide_Row=隐藏行
+ToolStripMenuItem_Hide_Column=隐藏列
+ToolStripMenuItem_Reset=复位
+
+[MainUI]
+textAuto						= 自 动
+textManual						= 手 动
+
+'==============================================================================
+[Schedule]
+'==============================================================================
+ProductionMode                         = 正常生产
+RetestMode                             = 复测模式
+SelfResistanceTest                     = 自校验样件
+MasterPartTest                         = 功能测试样件
+DummyTest                              = Dummy Test
+POKAYOKE1                              = POKAYOKE1
+POKAYOKE2                              = POKAYOKE2
+POKAYOKE3                              = POKAYOKE3
+POKAYOKE4                              = POKAYOKE4
+AssemblyOnly                           = 装配模式
+ClearMode                              = 清盘模式
+UserDefined                            = 用户定制
+StandAlone                             = 脱机模式
+ProductionModeLaser                    = 光刻
+
+'==============================================================================
+[ProductionDataManager]
+'==============================================================================
+ID=ID
+Variant=变种
+SFC=序列号
+CarrierId=托盘
+Result=结果
+ErrorCode=错误代码
+LowerLimit=下限
+Value=值
+UpperLimit=上限
+ErrorStation=失败站别
+TestStep=失败步骤
+ErrorMessage=错误内容
+Time=时间
+
+
+'==============================================================================
+[ProductionDataView]
+'==============================================================================
+HmiLabel_StartDate=开始日期
+HmiLabel_EndDate=结束日期
+HmiButton_Search=搜索
+HmiButton_Cancel=取消
+HmiButton_Export=导出
+HmiLabel_Variant=变种
+HmiLabel_CarrierId=托盘
+HmiLabel_Result=结果
+HmiLabel_SFC=序列号
+HmiLabel_TestStep=步骤
+TabPage1=数据
+TabPage2=统计
+TabPage3=托盘
+Variant=变种
+Total=总数
+Pass=成功数量
+Fail=失败数量
+Percent=Percent(%)
+PPM=PPM
+Carrier=托盘
+
+
+'============工位信息==========================================================
+
+ID=Key
+ScheduleIndex=ScheduleIndex
+ScheduleName=ScheduleName
+ScheduleDescription=ScheduleDescription
+PassST1=
+FailST1=
+
+DescriptionST1=Assembly1
+DescriptionST2=Assembly2
+DescriptionST3=Assembly3
+DescriptionST4=Assembly4
+DescriptionST5=Assembly5
+DescriptionST6=Assembly6
+DescriptionST7=Assembly7
+DescriptionST8=Assembly8
+DescriptionST9=Assembly9
+DescriptionST10=Assembly10
+DescriptionST11=Assembly11
+DescriptionST12=Assembly12
+DescriptionST13=Assembly13
+DescriptionST14=Assembly14
+DescriptionST15=Assembly15
+DescriptionST16=Assembly16
+DescriptionST17=Assembly17
+DescriptionST18=Assembly18
+DescriptionST19=Haptic
+DescriptionST20=
+DescriptionST21=Vision
+DescriptionST22=RedBox
+
+
+'==============================================================================
+[Article]
+'==============================================================================
+
+ID                      = Identifier
+ArticleNumber        	= LK Article Number
+ArticleIndex			= LK Article Index
+ArticleName	        	= LK Article Name
+ArticleInfo	        	= LK Article Information
+ArticleFamily			= Product Family
+
+CustomerNumber         	= Customer Number
+HardwareVersion			= Hardware Version
+SoftwareVersion    	    = Software Version
+Q				        = Q-Index
+Color_Number			= Color Number
+SN                      = Serial Number
+
+DAG_Farbcode            = DAG Color code
+SCHEDULE                = Schedule
+MECHATRONIC             = Machinen specified Data
+
+MASKFILE                = Mask File
+MASKNAME                = Mask Name
+FAILMASKFILE            = Fail Mask File
+FAILMASKNAME            = Fail Mask Name
+
+
+ALTERNATE_SCHEDULE			=  Alternate Schedule
+
+
+Station_05_Mask    = Station 05 ScrewMask
+Station_06_Mask    = Station 06 ScrewMask
+
+REPAIR                  = REPAIR
+WT_NUMBER               = WT NUMMER
+
+
+
+'==============================================================================
+[OverviewInfoForm]
+'==============================================================================
+
+dgView.Columns(0).HeaderCell = StationName
+dgView.Columns(1).HeaderCell = ArticleNumber
+dgView.Columns(2).HeaderCell = SerialNumber
+dgView.Columns(3).HeaderCell = ScheduleName
+dgView.Columns(4).HeaderCell = CarrierNumber
+dgView.Columns(5).HeaderCell = DestinationStation
+dgView.Columns(6).HeaderCell = StepNumber
+dgView.Columns(7).HeaderCell = Manual/Auto
+dgView.Columns(8).HeaderCell = Alarm
+dgView.Columns(9).HeaderCell = AlarmNumber
+dgView.Columns(10).HeaderCell = MessageNumber
+dgView.Columns(11).HeaderCell = ProcessTime
+dgView.Columns(12).HeaderCell = TotalNumber	
+dgView.Columns(13).HeaderCell = PassNumber
+dgView.Columns(14).HeaderCell = FailNumber
+dgView.Columns(15).HeaderCell = Percent(%)
+dgView.Columns(16).HeaderCell =      PPM 
+
+
+'==============================================================================
+[ArticleCounter]
+'==============================================================================
+
+DG_Counter.Columns(0).HeaderCell = Reset Article
+DG_Counter.Columns(1).HeaderCell = Article
+DG_Counter.Columns(2).HeaderCell = In Work
+DG_Counter.Columns(3).HeaderCell = PASS
+DG_Counter.Columns(4).HeaderCell = FAIL
+
+'==============================================================================
+[Maintenance]
+'==============================================================================
+
+DG_Maintain.Columns(0).HeaderCell = 站别
+DG_Maintain.Columns(1).HeaderCell = 器件说明
+DG_Maintain.Columns(2).HeaderCell = 提示上限
+DG_Maintain.Columns(3).HeaderCell = 报警上限
+DG_Maintain.Columns(4).HeaderCell = 提示信息
+DG_Maintain.Columns(5).HeaderCell = 报警信息
+DG_Maintain.Columns(6).HeaderCell = 当前计数
+DG_Maintain.Columns(7).HeaderCell = 清零复位
+
+'==============================================================================
+[WtData]
+'==============================================================================
+btnWtReset=复位
+btnWtAbort=放弃
+rbSource_WT=Modify
+rbSource_Station=View
+lblWtName=Number:
+
+Name = WT
+Article = Articlenumber
+SerialNumber = Serialnumber
+Status = Status
+Station = Failed Station
+TestStepNumber = Failed Teststep
+Code = Failed Code
+Text = Failed Text
+TargetAddress = Target Address
+Value = Value
+LowerLimit = LowerLimit
+UpperLimit = UpperLimit
+'==============================================================================
+[ChildrenErrorCodeListForm]
+'==============================================================================
+HmiLabel_Key=ErrorCode:
+HmiLabel_Message=Message:
+HmiButton_Search=Search
+HmiButton_Cancel=Reset
+HmiLabel_Function_ID=ID:
+HmiLabel_Function_Key=ErrorCode:
+HmiLabel_Function_Message=Message(Chinese):
+HmiLabel_Function_Message2=Message(English):
+HmiButton_Function_Add=Add
+HmiButton_Function_Del=Delete
+HmiButton_Function_Modify=Modify
+
+1=Key is empty.
+2=Key:$1 has existed.
+3=ID is empty.
+4=Key is empty.
+5=Key:$1 not existed.
+
+'==============================================================================
+[ChildrenPlcMessageListForm]
+'==============================================================================
+HmiLabel_Key=Key:
+HmiLabel_Message=Message:
+HmiButton_Search=Search
+HmiButton_Cancel=Reset
+HmiLabel_Function_ID=ID:
+HmiLabel_Function_Key=Key:
+HmiLabel_Function_Message=Message(Chinese):
+HmiLabel_Function_Message2=Message(English):
+HmiButton_Function_Add=Add
+HmiButton_Function_Del=Delete
+HmiButton_Function_Modify=Modify
+
+1=Key is empty.
+2=Key:$1 has existed.
+3=ID is empty.
+4=Key is empty.
+5=Key:$1 not existed.
+'==============================================================================
+[ChildrenUserForm]
+'==============================================================================
+HmiLabel_Name=Name:
+HmiLabel_Level=Level:
+HmiButton_Search=Search
+HmiButton_Cancel=Reset
+HmiLabel_Function_ID=ID:
+HmiLabel_Function_Name=Name:
+HmiLabel_Function_Level=Level:
+HmiLabel_Function_Password=Password:
+HmiButton_Function_Add=Add
+HmiButton_Function_Del=Delete
+HmiButton_Function_Modify=Modify
+
+1=Name is empty.
+2=Password is empty.
+3=Level is empty.
+4=Name:$1 has existed.
+5=ID is empty.
+6=Name is empty.
+7=PassWord is empty.
+8=Level is empty.
+9=Name:$1 not existed
+
+'==============================================================================
+[ChildrenLoginForm]
+'==============================================================================
+Label_Title=请登录:
+Button_Login=登录
+Button_Cancel=取消
+TextBox_UserName=UserName
+TextBox_PassWord=PassWord
+1=UserName is empty.
+2=PassWord is empty.
+3=UserName:$1 not existed.
+4=UserName:$1 PassWord is Wrong.
+
+'==============================================================================
+[ChildrenIOForm]
+'==============================================================================
+Label_Input=Input
+Label_Output=Output
+ReadOnly=ReadOnly
+Debug=Debug
+Edit=Edit
+Reserve=Reserve
+1=Name is empty.
+2=Mode is empty.
+
+'==============================================================================
+[ChildrenCylinderForm]
+'==============================================================================
+Label_Input=Input
+Label_Output=Output
+ReadOnly=ReadOnly
+Debug=Debug
+Edit=Edit
+1=NameA is empty.
+2=NameB is empty.
+3=SensorA is empty.
+4=SensorB is empty.
+5=Name is empty.
+
+'==============================================================================
+[IOGroupParameter]
+'==============================================================================
+Label_ID=ID:
+Label_Position=Position:
+Label_Model=Mode:
+Button_Save=Save
+Button_Cancel=Cancel
+Label_NameA=Test(Chinese)
+Label_NameA2=Test(English)
+
+'==============================================================================
+[IOParameter]
+'==============================================================================
+Label_ID=ID:
+Label_Trigger=Trigger:
+Label_Reserve=Reserve:
+RadioButton_Toggle=Toggle
+RadioButton_Tap=Tap
+RadioButton_Y=Y
+RadioButton_N=N
+TabPage1=IO
+TabPage2=Lock
+Label_Type=Type:
+RadioButton_Input=Input
+RadioButton_Output=Output
+Button_Save=Save
+Button_Cancel=Cancel
+Label_NameA=Test(Chinese)
+Label_NameA2=Test(English)
+ID=ID
+Type=Type
+Name=Name
+Value=Value
+Level=Level:
+
+'==============================================================================
+[CylinderGroupParameter]
+'==============================================================================
+Label_Position=Position:
+Label_Model=Mode:
+Button_Save=Save
+Button_Cancel=Cancel
+Label_NameA=Test(Chinese)
+Label_NameA2=Test(English)
+
+'==============================================================================
+[CylinderParameter]
+'==============================================================================
+Label_ID=ID:
+Label_Trigger=Trigger:
+Label_ReserveA=Reserve(A):
+Label_ReserveB=Reserve(B):
+RadioButton_Toggle=Toggle
+RadioButton_Tap=Tap
+RadioButton_Y=Y
+RadioButton_N=N
+Label_SensorA=SensorA:
+Label_SensorB=SensorB:
+Label_OneCylinder=OneCylinder:
+TabPage1=IO
+TabPage2=Lock(A)
+TabPage3=Lock(B)
+Label_Type=Type:
+RadioButton_Input=Input
+RadioButton_Output=Output
+Button_Save=Save
+Button_Cancel=Cancel
+Label_NameA=Test.A(Chinese)
+Label_NameA2=Test.A(English)
+Label_NameB=Test.B(Chinese)
+Label_NameB2=Test.B(English)
+ID=ID
+Type=Type
+Name=Name
+Value=Value
+
+'==============================================================================
+[IOLockManager]
+'==============================================================================
+1=TypeName is empty.
+2=Index is empty.
+3=ID:$1 TypeName is nothing.
+4=ID:$1 $2 Value is nothing.
+5=$1 must be $2.
+
+'==============================================================================
+[ArticleSelectView]
+'==============================================================================
+lblMessage=请选择一个变种:
+btnOK=确认
+btnCancel=取消
+DG_Name=Name
+DG_Value=Value
+
+'==============================================================================
+[ScheduleSelectView]
+'==============================================================================
+lblMessage=请选择一个模式:
+btnOK=确认
+btnCancel=取消
+btnAbort=放弃
+lblCurrentSchedule=当前模式:
+
+'==============================================================================
+[StationView]
+'==============================================================================
+HmiButton_Cancal=Cancel
+Log=Log
+WtStatus=WtStatus
+Counters=Counters
+Maintenance=Maintenance
+Schedule=Schedule
+Language=Language
+ErrorCode=ErrorCode
+PlcMessage=PlcMessage
+User=User
+IO=IO
+Cylinder=Cylinder
+
+'==============================================================================
+[OverView]
+'==============================================================================
+StationName=StationName
+Result=Result
+AutoManual=AutoManual
+WT=WT
+DS=DS
+SerialNumber=SerialNumber
+PlcStatus=PlcStatus
+Enable=Enable
+StationName=StationName
+ScheduleName=ScheduleName
+TestmanStatus=TestmanStatus
+
+
+'==============================================================================
+[ChildrenShortCutForm]
+'==============================================================================
+btnReset=重置
+btnResetFail=重置不良
+btnResetReference=重置样件
+'==============================================================================
+[ChildrenParameterForm]
+'==============================================================================
+ID=ID
+Name=Name
+Value=Value
+Save=保存
+
+
+'==============================================================================
+[CaqInfo]
+'==============================================================================
+
+'ShortPlcName = Full stationname
+
+St.1    = Manual Station
+St.2    = Manual Station
+St.3    = Mechanic Test
+
+St.4.1  = Manual Station
+St.4.2  = Plug mounting
+
+St.5.1  = Screw Station 1
+St.5.2  = Shift mounting
+St.5.3  = Axis Control
+St.5.4  = Screw Driver
+St.5.5  = Separating
+
+St.6.1  = Screw Station 2
+St.6.2  = Schieberpr黤ung
+St.6.3  = Axis Control
+St.6.4  = Screw Driver
+St.6.5  = Separating
+
+St.7    = Manual Station
+St.8    = Robot Glass
+
+St.9.1  = Manual Station
+St.9.2  = Cleaner
+St.9.3  = Railway Station
+
+St.10   = Clips
+St.10.2 = Railway Station
+
+St.11   = VTA Test
+St.12   = Vision Test
+
+St.13   = Haptic Test
+St.13.2 = Railway Station
+
+St.14   = EOL Test
+St.14.2 = Railway Station
+
+St.15   = Virtual Bad Remove
+
+[NewPartStation]
+-100  = Station Initial
+-99   = CheckSN Initial
+-98   = Waiting for Select AppArticle
+-97   = Initial Succeeded
+0     = Home Position
+1     = Waiting for Select AppArticle
+2     = LocalArticle Initial
+3     = Check Schedule Name
+4     = Waiting for Change Schedule Name
+5     = Create SN
+6     = Start Check SN
+7     = Waiting for CheckSN.IsReadRun is not run
+8     = CheckSN.EndCheckSN
+9     = CheckSN.StartSaveSN
+10    = Waiting for CheckSN.IsWriteRun is not run
+11    = CheckSN.EndSaveSN
+12    = Display SN
+13    = Check Reference SN
+14    = Evaluation LocalArticle SN
+15    = VariantInfoDefine.GetVariantInfo
+16    = WritebulArticleInfo
+17    = Waiting for PLC WritebulArticleInfo
+18    = UIStation.AddRow
+19    = Check if need Print Label
+20    = Waiting for PrinterSation.isRun is not run
+21    = Printer Initial 
+22    = Waiting for Print Completed
+23    = Check if need LineControl
+24    = Waiting for LineControl.isRun is not run
+25    = LineControl Initial
+26    = Waiting for LineControl Completed
+27    = Waiting for PLC Send NewPart Signal
+28    = InitScheduleInfo
+29    = PC Send WritebulNewPartAvailable Signal to PLC
+
+300   = Waiting for Refs.RefreshingOK Completed
+301   = Refs.RefreshingOK
+302   = Waiting for Scan Completed
+303   = Change LocalArticle
+304   = VariantInfoDefine.GetVariantInfo
+305   = InitScheduleInfo
+306   = Waiting for PLC off WritebulArticleInfo
+307   = Waiting for PLC Send NewPart Signal
+308   = InitScheduleInfo
+309   = PC Send WritebulNewPartAvailable Signal to PLC
+310   = Disable OKArticle button
+311   = Waiting for PLC off WritebulNewPartAvailable and ReadGetNewPart
+
+400   = Waiting for Scan Retest Part
+401   = Change LocalArticle
+402   = VariantInfoDefine.GetVariantInfo
+403   = InitScheduleInfo
+404   = Waiting for PLC off WritebulArticleInfo
+405    = Check if need LineControl
+406    = Waiting for LineControl.isRun is not run
+407    = LineControl Initial
+408    = Waiting for LineControl Completed
+409   = Waiting for PLC Send NewPart Signal
+410   = InitScheduleInfo
+411   = PC Send WritebulNewPartAvailable Signal to PLC
+412   = Go to Home
+
+500   = Waiting for select AppArticle
+501   = Change LocalArticle
+502   = Check Schedule Name
+503   = Waiting for Change Schedule Name 
+504   = Create SN
+505   = Start Check SN
+506   = Waiting for CheckSN.IsReadRun is not run
+507   = CheckSN.EndCheckSN
+508   = CheckSN.StartSaveSN
+509   = Waiting for CheckSN.IsWriteRun is not run
+510   = CheckSN.EndSaveSN
+511   = Display SN
+512   = Check Reference SN
+513   = Evaluation LocalArticle SN
+514   = VariantInfoDefine.GetVariantInfo
+515   = Waiting for PrinterSation.isRun is not run
+516   = Print Initial 
+517   = Waiting for Print Completed
+518   = Printer Completed
+519    = Check if need LineControl
+520    = Waiting for LineControl.isRun is not run
+521    = LineControl Initial
+522    = Waiting for LineControl Completed
+523   = Choose step
+
+600   = Waiting for Userdefine
+601   = Write Article Information
+
+1000  = Reset Variable
+1001  = Waiting for PLC off WritebulNewPartAvailable and ReadGetNewPart signal
+
+2000  = Reset Variable
+2001  = Waiting for PLC off WritebulNewPartAvailable and ReadGetNewPart signal
+
+[ArticleStation]
+-100  = Station Initial
+-99   = Waiting for Select Article
+-98   = Update Column
+
+0     = Home Position
+1     = Waiting for Select Article
+2     = Change LocalArticle
+3     = VariantInfoDefine.GetVariantInfo
+4     = Waiting for PLC off WriteArticle signal
+
+[CounterStation]
+-100  = Station Initial
+-99   = Initial Succeeded
+
+0     = Home Position
+1     = CheckPLCInfo
+2     = Update Count
+3     = Go to Home
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+
+2000  = PC send bulActionIsFail Signal to PLC
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+
+
+[FailPrinterStation]
+-100  = Station Initial
+-99   = FailPrinter.Initial
+-98   = Initial Succeeded
+
+0     = Home Position
+1     = CheckPLCInfo
+2     = FailPrinter.Printer
+3     = Waiting for FailPrinter.Running
+4     = Position Home
+
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+2000  = PC send bulActionIsFail Signal to PLC
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+
+[LaserStation]
+-100  = Station Initial
+-99   = Laser.Initial
+-98   = Initial Succeeded
+
+0     = Home Position
+1     = CheckPLCInfo
+2     = Check if need Create SN
+3     = Waiting for SNStation.isRun is not run
+4     = SNStation.StartCreatSN
+5     = Waiting for SNStation.isRun is not run
+6     = LaserDefine.GetSeqentialCommands
+7     = Check KEY_LASER_TEMPLATE is Null
+8     = Laser.ResetLastResponse
+9     = Laser.GetStatus
+10    = Laser.GetStatusReady
+11    = Laser.SetAndGetTemplate
+12    = Laser.SetTemplateReady
+13    = Null
+14    = Laser.SetAnyCommand
+15    = Choose StartMode Step
+16    = Laser.Start
+17    = Laser.StartReady
+18    = Laser.GetStatus
+19    = Laser.GetStatusReady
+20    = Home Position
+
+300   = Choose Step
+301   = Laser.GetStatus
+302   = Laser.GetStatusReady
+303   = Choose Step
+304   = Laser.GetVar
+305   = Laser.GetVarReady
+306   = Choose Step
+307   = Laser.GetGetTemplate
+308   = Laser.GetGetTemplateReady
+309   = Position Home
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+2000  = PC send bulActionIsFail to PLC 
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+[FlashStation]
+-100  = Station Initial
+-99   = Flash.Initial
+-98   = Initial Succeeded
+
+0     = Home Position
+1     = CheckPLCInfo
+2     = Check Reference SN
+3     = Waiting for _flash.IsBusy is not run
+4     = FlashDefine.GetSeqentialCommands
+5     = Send Command
+6     = Check Response
+7     = Check Repeat
+8     = Check if need LineControl
+9     = Waiting for LineControl.isRun is not run
+10    = LineControl Initial
+11    = Waiting for LineControl Completed
+12    = Choose Step
+
+301   = Waiting for _flash.IsBusy is not run
+302   = Send Command
+303   = Check Response
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+2000  = PC send bulActionIsFail 
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+[LineControlStation]
+-100  = Station Initial
+-99   = LineControl.Initial
+-98   = Initial Succeeded
+
+0     = Home Position
+1     = CheckPLCInfo
+2     = Check if Reference SN
+3     = Choose Step base on bulDoNegativeAction
+4     = ReadPrevious_LineControl
+5     = Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+6     = Check if need FailPrint
+7     = Waiting for FailPrinter.isRun
+8     = FailPrint
+9     = Write CAQ
+10    = Check if need Count
+11    = Waiting for Counter.isRun is not run
+12    = Count
+13    = Check if need SaveProduction
+14    = Waiting for SaveProduction.isRun is not run
+15    = SaveProduction
+16    = Waiting FailPrint
+17    = Waiting CAQ
+18    = Waiting Counter
+19    = Waiting SaveProduction
+20    = Clear Child
+21    = LineControlDefine.LineControlDefine
+22    = Write LineControl
+23    = Waiting for LineControl.WriteCurrentStamp_RUN is not run
+24    = Check Pass or Fail
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+
+2000  = PC send bulActionIsFail 
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+
+[ManualScannerStation]
+-100  = Station Initial
+-99   = Waiting for Select Article
+-98   = Initial Succeeded
+
+0     = Home Position
+1     = CheckPLCInfo
+2     = Waiting for UserDefine
+3     = Check Scanner Configuration
+4     = Waiting for _ScannerSation.isRun And _ScannerSation.WriteScanEnd is not run
+5     = Waiting for Scan Part
+6     = Reset ScannerSation.ReadStartScan 
+7     = Waiting for ScannerSation.WriteScanEnd
+8     = ManualScanDefine.GetBarcode
+9     = Check if need LineControl
+10    = Waiting for LineControl.isRun is not run
+11    = LineControl Initial
+12    = Waiting for LineControl Completed
+13    = Choose Step
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+2000  = PC send bulActionIsFail Signal to PLC
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+[ManualStation]
+-100  = Station Initial
+-99   = Waiting for Select Article
+-98   = Initial Succeeded
+
+0     = Home Position
+1     = Change LocalArticle
+2     = Check Scanner Configuration
+3     = Waiting for _ScannerSation.isRun And _ScannerSation.WriteScanEnd is not run
+4     = Waiting for Scan Part
+5     = Reset ScannerSation.ReadStartScan 
+6     = Waiting for ScannerSation.WriteScanEnd
+7     = ManualScanDefine.GetBarcode
+8     = InitvariantInfo
+9     = Check if need LineControl
+10    = Waiting for LineControl.isRun
+11    = LineControl Initial
+12    = Waiting for LineControl Completed
+13    = Choose Step
+
+
+1000  = Reset Variable
+
+2000  = Reset Variable
+
+[PrinterStation]
+-100  = Station Initial
+-99   = Printer.Initial
+-98   = Waiting for Select Article
+-97   = Choose Step base on Printer.PrintMode
+-96   = Printer.ChangePrintModeTo
+-95   = Printer.Calibration
+-94   = Waiting for Printer.Running is not run
+-93   = TimeDelay.Run
+-92   = Waiting for TimeDelay.Running is not run
+-91   = Waiting for Printer.Calibration Completed
+-90   = Printer.ChangePrintModeTo
+-89   = Waiting for Printer.Running is not run
+-88   = Initial Succeeded
+
+0     = Home Position
+1     = CheckPLCInfo
+2     = Check Reference SN
+3     = Check if need Create SN
+4     = Waiting for SNStation.isRun
+5     = SNStation.StartCreatSN
+6     = Waiting for SNStation.isRun
+7     = Choose Step base on Printer.GetLabelStatus
+8     = Printer.ChangePrintModeTo
+9     = Printer.Calibration
+10    = Waiting for Printer.Running
+11    = TimeDelay.Run
+12    = Waiting for TimeDelay.Running
+13    = Waiting for Printer.Calibration Completed
+14    = Printer.ChangePrintModeTo
+15    = Waiting for Printer.Running
+16    = PrinterDefine.GetAllFieldsOfPrintFile
+17    = Check Mask File
+18    = Update Message
+19    = Printer.SendData
+20    = Choose Step base on Printer.Status
+21    = Go to Pass
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+2000  = PC send bulActionIsFail Signal to PLC
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+[ReferenceStation]
+-100  = Station Initial
+-99   = InitREF
+-98   = AddColumns
+-97   = Waiting for Select Article
+-96   = Initial Succeeded
+
+0     = Home Position
+1     = Change LocalArticle
+2     = Shift.CheckRefWithNowTime
+3     = Refs.RefreshingCheckList
+4     = Choose Step base on Refs.Count
+5     = Check Reference Part Shift.CheckRefWithNowTime
+6     = Change LocalArticle
+7     = Check AppSchedule
+8     = Change AppSchedule
+9     = Update Message
+10     = Check Scanner Configuration
+11    = Waiting for _ScannerSation.isRun And _ScannerSation.WriteScanEnd is not run
+12    = Waiting for Scan Part
+13    = Reset ScannerSation.ReadStartScan 
+14    = Waiting for ScannerSation.WriteScanEnd Completed
+15    = ManualScanDefine.GetBarcode
+16    = Check Reference SN
+17    = Waiting for _Refs.currentRef.ScannerOK Completed
+
+
+
+1000  = Reset Variable
+1001  = Go to Home
+
+2000  = Reset Variable
+2001  = Go to Home
+
+[ReTestStation]
+-100  = Station Initial
+-99   = AddColumns
+-98   = Waiting for Select Article
+-97   = Initial Succeeded
+
+0     = Home Position
+1     = Change LocalArticle
+2     = Check Scanner Configuration
+3     = Waiting for _ScannerSation.isRun And _ScannerSation.WriteScanEnd is not run
+4     = Waiting for Scan Part
+5     = Reset ScannerSation.ReadStartScan 
+6     = Waiting for ScannerSation.WriteScanEnd
+7     = ManualScanDefine.GetBarcode
+8     = InitvariantInfo
+9     = Check if need LineControl
+10    = Waiting for LineControl.isRun is not run
+11    = LineControl Initial
+12    = Waiting for LineControl Completed
+13    = ReTestDefine.ReTest
+14    = Update Message
+15    = Go to Pass
+
+1000  = Reset Variable
+1001  = Go to Home
+
+2000  = Reset Variable
+2001  = Go to Home
+
+[ScannerStation]
+-100  = Station Initial
+-99   = Check Scanner Configuration
+-98   = Scanner.Initial
+-97   = Initial Succeeded
+
+0     = Home Position
+1     = CheckPLCInfo
+2     = Waiting for UserDefine
+3     = Scanner.Scan
+4     = Waiting for Scan Completed
+5     = Update Message 
+6     = Update Message 
+7     = Check Repeat Count
+8     = ScannerDefine.CheckScannerResult
+9     = Check if need LineControl
+10    = Waiting for LineControl.isRun is not run
+11    = LineControl Initial
+12    = Waiting for LineControl Completed
+13    = Choose Step
+
+300   = Waiting for Scan Part
+301   = Waiting for Scanner.Running is not run
+302   = Scanner.Beep
+303   = WriteScanEnd
+304   = Waiting for WriteScanEnd and ReadStartScan Completed
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+2000  = PC send bulActionIsFail Signal to PLC
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+[ShowPicStation]
+-100  = Station Initial
+-99   = Pic.Initial
+-98   = Check Pic.DisplayScanner
+-97   = Initial Succeeded
+
+0     = Home Position
+1     = CheckPLCInfo
+2     = Check Reference SN
+3     = ShowPicDefine.GetAllFieldsOfFileName
+4     = Pic.ShowPic
+5     = Go to Pass
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+2000  = PC send bulActionIsFail Signal to PLC
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+[SNStation]
+-100  = Station Initial
+-99   = CheckSN.Initial
+-98   = Waiting for Select Article
+-97   = Initial Succeeded
+
+0     = Home Position
+1     = Waiting for Select Article
+2     = Change LocalArticle
+3     = Create SN
+4     = Start Check SN
+5     = Waiting for CheckSN.IsReadRun is not run
+6     = CheckSN.EndCheckSN
+7     = CheckSN.StartSaveSN
+8     = Waiting for CheckSN.IsWriteRun is not run
+9     = CheckSN.EndSaveSN
+10    = Go to Pass
+
+1000  = Reset Variable
+
+2000  = Reset Variable
+
+[ManualReTestStation]
+-100  = Station Initial
+-99   = CheckSN.Initial
+-98   = Waiting for Select Article
+-97   = Initial Succeeded
+
+0     = Home Position
+1     = Waiting for Select Article
+2     = Get Display Message
+3     = Waiting for PLC send signal
+4     = Waiting for PLC off signal
+5     = Get Display Message
+6     = Waiting for PLC send signal
+7     = Waiting for PLC off signal
+8     = Check if need LineControl 
+9     = Waiting for LineControl.isRun is not run 
+10    = Start LineControl
+11    = Waiting for LineControl
+12    = Check if need FailPrinter
+13    = Waiting for FailPrinter.isRun is not run
+14    = Start Fail Printer
+15    = Waiting for Fail Printer
+16    = Choose Step
+17    = Change schedule
+18    = Update Message
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+1002  = Waiting for Retest Station Completed
+
+2000  = PC send bulActionIsFail 
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+[UpdateReference]
+-100  = Station Initial
+-99   = Null
+-98   = Null
+-97   = Initial Succeeded
+
+0     = Home Position
+1     = Check PLC Information
+2     = Check bulDoPositiveAction
+3     = RefreshingSchedule
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+1002  = Waiting for Retest Station Completed
+
+2000  = PC send bulActionIsFail 
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+[SaveProductionStation]
+-100  = Station Initial
+-99   = Database.Initial
+-98   = Initial Succeeded
+
+0     = Home Position
+1     = Check PLC Information
+2     = Waiting not Run
+3     = Insert Data
+4     = Waiting not Run
+
+
+1000  = PC send bulActionIsPass Signal to PLC
+1001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+2000  = PC send bulActionIsFail 
+2001  = Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+
+'==============================================================================
+[Text]
+'==============================================================================
+'#          = Zeilenumbruch
+'$1 - $9    = Textvariable 0 - 9
+
+MaxText = 5000
+
+1 = First Usertext from $1
+2 = Invalid TextNumber >> $1
+
+
+'System
+10 = Initial $1
+11 = Invalid Articlenumber from PLC;$1
+12 = Invalid Serialnumber from PLC;$1
+13 = Invalid Customernumber from PLC;$1
+14 = Check All Information from PLC is $1
+15 = Home Position. Wait For Trig
+16 = Dispose Succeeded
+17 = Part is Reference
+18 = Change Article $1 Succeeded
+19 = Counter Fail Name $1 Line $2
+20 = Step not at Home
+21 = Command is Null
+22 = bulDoNegativeAction is True and bulDoPositiveAction is True
+
+
+'Article
+100 = Article Initial $1
+101 = Initial $1
+102 = Result:$1 Message:$2
+103 = IndicatedName $1
+104 = Invalid ElmentNames >$1<
+
+'Read Base
+110 = $1 The same key >$2< have exist
+111 = $1 No Find key >$2<  from >$3<
+112 = $1 No Find IndicatedName from List
+113 = $1 No Find >$2< from >$3< Message $4
+
+'Article Read
+120 = $1 Message $2
+121 = The same Article Element:$1 have exist
+122 = Please Add Base Article Element:$1
+
+'Schedule
+130 = Schedule Initial $1
+
+'Schedule Read
+140 = Schedule Read $1
+
+'Language
+200 = Section_LanguageFileNames doesn't exist or no language is defined
+201 = KeyWord_SelectedLanguage or Section_LanguageFileNames
+202 = No valid entry in LanguageFiles
+203 = Language Initial $1
+
+'Reference
+210 = Reference Initial $1
+211 = Invalid Article Family
+212 = Remove >$1< $2
+213 = Add One >$1< $2. $3 
+214 = Remove Schedule Name >$1< $2 $3 
+
+'ReTest
+220 = ReTest Initial $1
+221 = Add One >$1< $2 $3 
+222 = Remove >$1< $2 $3
+
+'Shift Counter
+230 = Read $1 Counter. Result $2 $3
+231 = Write $1 Counter. Result $2 $3
+232 = Add $1 Counter $2 Message $3
+233 = ShiftChange_$1
+
+
+'Surface Counter
+240 = Read $1 Counter. Result $2 $3
+241 = Total > $1 Pass > $2 Fail > $3 Succeeded
+242 = Add $1 Counter $2 Message $3
+243 = Reset Counter. Pass > $1 Fail > $2
+244 = ShiftChange_$1
+
+'WT 
+250 = Reset WT Number
+
+'ShowPicture
+260 = $1 Value is Wrong Type. Value is:$
+261 = Configuration Count is $1 but UseDefine Count is $2
+262 = The Same Key $1 have existed
+
+'Counter Station
+1000 = Start Counter
+1001 = Add Pass Number
+1002 = Add Fail Number
+1003 = Counter Completed
+1004 = Counter Failure
+
+'Fail Printer Station
+1010 = Fail Print Initial $1
+1011 = Fail Print Initial $1 Message $2
+1012 = Start Fail Print
+1013 = Print $1 Message $2
+1014 = Print Completed--Pass
+1015 = Print Completed--Fail
+
+'Laser Station
+1020 = Lase Initial $1
+1021 = Lase Initial $1 Message $2
+1022 = Start Lase
+1023 = Lase Reset Last Response
+1024 = Lase GetStatus $1 Message $2
+1025 = Lase GetStatusReady $1 Message $2
+1026 = Lase Set Template $1 Message $2
+1027 = Lase Set Template Ready $1 Message $2
+1028 = Lase Set AnyCommand $1 Message $2
+1029 = Lase Set AnyCommand Ready $1 Message $2
+1030 = Lase Completed--Pass
+1031 = Lase Completed--Fail
+1032 = Lase GetDefined $1 Message $2
+1033 = Start GetStatus
+1034 = Start Template: $1
+1035 = Set Vars: $1
+1036 = Start GetVar
+1037 = Lase GetVar $1 Message $2
+1038 = Start Marking
+1039 = Start Marking $1 Message $2
+
+'LineControl Station
+1040 = LineControl Initial $1
+1041 = LineControl Initial $1 Message $2
+1042 = Start LineControl
+1043 = $1 Count
+1044 = Count Completed
+1045 = $1 Print
+1046 = Print Completed
+1047 = LineControl ReadPrevious Start
+1048 = LineControl ReadPrevious Succeeded
+1049 = LineControl ReadPrevious $1 Message $2
+1050 = Write LineControl $1
+1051 = LineControl Write Succeeded
+1052 = LineControl Write $1 Message $2
+1053 = LineControl Completed--Pass
+1054 = LineControl Completed--Fail
+
+'LineControl Station
+1040 = LineControl Initial $1
+1041 = LineControl Initial $1 Message $2
+1042 = Start LineControl
+1043 = $1 Count
+1044 = Count Completed
+1045 = $1 Print
+1046 = Print Completed
+1047 = LineControl ReadPrevious Start
+1048 = LineControl ReadPrevious Succeeded
+1049 = LineControl ReadPrevious $1 Message $2
+1050 = Write LineControl $1
+1051 = LineControl Write Succeeded
+1052 = LineControl Write $1 Message $2
+1053 = LineControl Completed--Pass
+1054 = LineControl Completed--Fail
+1055 = Add Child Article: $1 SN: $2
+1056 = LineControl GetDefined $1 Message $2
+1057 = $1 Writing CAQ
+1058 = Writing CAQ Completed
+1059 = SaveProduction is Nothing
+'Manual Station
+1060 = Start Manual
+1061 = Not Find Scanner Configuration
+1062 = Scan Result >$1<
+1063 = GetBarcode $1 Message $2
+1064 = Not Find LineControl Configuration
+1065 = LineControl Completed
+1066 = Manual Completed--Pass
+1067 = Manual Completed--Fail
+1068 = Please Scan SN!
+1069 = Scan SN $1 $2
+
+
+'New Part Station
+1070 = CheckSN Initial $1
+1071 = CheckSN Initial $1 Message $2
+1072 = Start $1 Mode
+1073 = Waiting for Select Article
+1074 = SN >$1< have exist
+1075 = Create New SN >$1<
+1076 = Waiting for PLC Send New Part Signal
+1077 = Start New Part
+1078 = $1 Print
+1079 = Print $1
+1080 = $1 LineControl
+1081 = LineControl $1
+1082 = Waiting for Scan Reference SN
+1083 = Get Article Number $1
+1084 = Waiting for Scan ReTest SN
+1085 = New Part Completed--Pass
+1086 = New Part Completed--Fail
+1087 = New Get Variant Define $1 Message $2
+1088 = New SN:$1
+1089 = Start Check SN:$1
+1090 = Check SN Completed:$1
+1091 = Save SN:$1
+1092 = Save SN Completed:$1
+
+
+'Print Station
+1100 = Print Initial $1
+1101 = Print Initial $1 Message $2
+1102 = Start Print
+1103 = GetAllFieldsOfPrintFile $1 Message $2
+1104 = Field$1 Value > $2 
+1105 = Send Data $1 Message $2
+1106 = Print Completed
+1107 = Print Completed--Pass
+1108 = Print Completed--Fail
+1109 = Mask File:$1
+1110 = Start Print Calibration
+1111 = Wait Calibration Completed
+
+'Reference Station
+1120 = Reference Initial $1
+1121 = Reference Initial $1 Message $2
+1122 = Start Reference Shift_$1
+1123 = Start Reference SN $1 Article $2
+1124 = Not Find Reference Part >$1< Article >$2< From Local Article List
+1125 = Please Scan Part  $1
+1126 = Waiting for Insert Part  $1
+1127 = No Find Scanner Configuration
+1128 = Scan Result >$1<
+1129 = GetBarcode $1 Message $2
+1130 = Reference >$1< $2
+1131 = Reference Scan Fail. SN: $1 Reference SN: $2
+1132 = Reference Completed--Pass
+1133 = Reference Completed--Fail
+1134 = Shift: $1 Family: $2 Reference Change $3. Please Add Reference Part at Las.xml
+1135 = Reference is Disable. Please Check Reference Part at Las.xml
+1136 = Reference Step Fail. Step is:$1
+
+'ReTest Station
+1140 = Start ReTest Mode
+1141 = No Find Scanner Configuration
+1142 = Scan Result $1
+1143 = GetBarcode $1 Message $2
+1144 = LineControl $1
+1145 = ReTest Completed--Pass
+1146 = ReTest Completed--Fail
+1147 = Scan OK,Wait New Part $1
+1148 = Scan SN $1 $2
+1149 = ReTest $1 Message $2
+
+'Scanner Station
+1160 = Scanner is Wrong Type
+1161 = Scanner Initial $1 Message $2
+1162 = Scanner Initial $1 
+1163 = Scan Start
+1164 = Manual Scan Start
+1165 = Trig On
+1166 = Trig Off
+1167 = Scan Result $1
+1168 = GetBarCode $1 Message $2
+1169 = LineControl $1
+1170 = Scan Completed--Pass
+1171 = Scan Completed--Fail
+1172 = Receive Data. Result:$1 Data:$2
+1173 = Receive Data. Result:$1 Message:$2 Data:$3
+1174 = $1 Scan SN is TimeOut
+
+'Show Pic
+1180 = Start Show Picture
+1181 = Show Picture Name $1
+1182 = ShowPicture Completed--Pass
+1183 = ShowPicture Completed--Fail
+1184 = ShowPicture Configuration $1 Configuration is $2
+1185 = GetAllFieldsOfFileName $1 Message $2
+1186 = Not Find Scanner Key $1
+
+
+1190 = Start Write Article
+1191 = Completed Write Article
+
+1200 = Start Create SN
+
+'Flash Station
+1210 = Flash Initial $1
+1211 = Flash Initial $1 Message $2
+1212 = Start Flash
+1213 = Flash Define $1 Message $2
+1214 = Flash $1 Message $2
+1215 = Flash Response $1 Message $2
+1216 = Command: $1
+1217 = LineControl $1 
+1218 = Response:$1
+
+1300 = 等待选择变种
+1301 = 生成序列号完毕
+1302 = 打印中....
+1303 = 打印失败
+1304 = 打印完成
+1305 = 等待放入产品
+1306 = LineControl中....
+1307 = LineControl失败
+1308 = LineControl成功
+1309 = 等待PLC关闭信号
+1310 = 放料完成
+1311 = 请手持扫描$1样件
+1312 = 请放入样件至托盘
+1313 = 样件放入完成
+1314 = 请扫描待复测产品
+1315 = 请放入复测产品至托盘
+1316 = 复测产品放入完成
+1317 = 手动重打标签
+1318 = 手动打印标签完成
+1319 = 清盘模式
+
+1340 = 请扫描待复测产品
+1341 = 请放入复测产品至托盘
+1342 = 序列号:
+1343 = 扫描失败
+1344 = 错误 信息:
+1345 = LineControl失败
+1346 = 产品扫描成功
+1347 = 产品扫描失败
+
+1348 = 请扫描:
+1349 = 请放入$1至托盘
+1350 = 样件扫描失败
+1351 = 样件条码：
+1352 = 扫描条码：
+1353 = 错误 信息:
+
+1354 = 请扫描不良产品
+1355 = 扫描失败
+1356 = 错误 信息:
+1357 = LineControl失败
+1358 = 扫描成功
+1359 = 扫描失败
+1360 = ReTest失败
+1361 = 错误 信息:
+1362 = 请扫描条码
+
+1363 = 样件扫描超时,请取出样件.
+1364 = 请取出样件.
+1365 = 样件扫描进行中...
+1366 = 扫描超时,请取出产品.
+1367 = 扫描进行中...
+1368 = 请取出产品.
+
+1370 = 请按下按钮确认图片信息
+1371 = PLC 报警.错误信息:代码$1 # 请检查PLC状态
+
+1500 = Invalid ParentIdString
+1501 = Invalid LineControllerName;$1_$2_SETTINGS
+1502 = Invalid IniFile > ;$1;$2_$3_SETTINGS
+1503 = Invalid Trace ID > ;$1;$2_$3_SETTINGS
+1504 = Invalid IineControl Section ID > ;$1
+1505 = Init - No Error
+1506 = Init - Database IP Address invalid
+1507 = Init - Parameter failed
+1508 = Init - Database cannot open
+1509 = Init - No previous Tests found
+1510 = Init - Failed entry in ini file
+1511 = Init - Configuration File nor found
+1512 = Init - Local path not available
+1513 = Init - Fail durind initialization of Loggin modul
+1514 = Init - Ini File not found
+1515 = Init - Invalid Servermode
+1516 = Init - Undocumentated Error
+
+1530 = MasterDB_Name=$1
+1531 = SlaveDB_Name=$2
+1532 = ReadCurrentStamp - No Error
+1533 = ReadCurrentStamp - No entry to article or serialnumber found
+1534 = ReadCurrentStamp - No Connection to database
+1535 = ReadCurrentStamp - Parameter fail
+1536 = ReadCurrentStamp - DLL is not initialized
+1537 = ReadCurrentStamp - No Entries in database to this article
+1538 = ReadCurrentStamp - Undocumentated Error
+
+1540 = MasterDB_Name=$1
+1541 = SlaveDB_Name=$2
+1542 = ReadPreviousStamp - No Error
+1543 = ReadPreviousStamp - No entry to article or serialnumber found
+1544 = ReadPreviousStamp - No Connection to database
+1545 = ReadPreviousStamp - Parameter fail
+1546 = ReadPreviousStamp - Bad Part detected
+1547 = ReadPreviousStamp - DLL is not initialized
+1548 = ReadPreviousStamp - No Entries in database to this article
+1549 = ReadPreviousStamp - Previous Station Error
+1550 = ReadPreviousStamp - Undocumentated Error:$1
+
+1560 = MasterDB_Name=$1
+1561 = SlaveDB_Name=$2
+1562 = WriteCurrentStamp - No Error
+1563 = WriteCurrentStamp - Parameter fail
+1564 = WriteCurrentStamp - DLL is not initialized
+1565 = WriteCurrentStamp - Record was not writed
+1566 = WriteCurrentStamp - Undocumentated Error
+
+1580 = $1;step:$2
+1581 = $1;$2
+1582 = _CheckIp;$1;$2
+1583 = $1;Port:$2
+
+1600 = Receive Time Out
+1601 = Receive DataFrame not Find STX: Chr($1) Data STX Chr($2)
+1602 = Receive DataFrame not Find EXT: Chr($1) Data EXT Chr($2)
+1603 = Interface_Init;$1;$2
+1604 = Interface_Receive;$1;$2
+1605 = Interface_DataReceived;$1;$2
+1606 = Interface_Transmit;$1;$2
+1607 = Interface_Connect;$1;$2
+1608 = _CheckIp;$1;$2
+
+1610 = $1
+
+1620 = Fild$1 is Nothing
+1621 = SendMask;$1;$2
+1622 = IsFontAvailable_IP;$1;$2
+1623 = CheckLabelStatus;$1;Lable have existed
+1624 = GetLabelStatus;$1;$2
+
+
+1640 = $1 $2
+1641 = $1
+1642 = AmsNetId invalid:$1
+1643 = The same ads key:$1 have existed
+1644 = Station:$1 the same ads key:$2 have existed
+1645 = Station:$1 ads key:$2 Message:$3
+1646 = Server is not connected!, please connect to server by Init first!
+1647 = Variable:$1 handle is not created!, please create it by AddVariable first!
+1648 = ReadAny--AdsVairables Name:$1 Message:$2
+1649 = WriteAny--Variable handle is not created!, please create it at first!
+1650 = WriteAny--AdsVairables Name:$1 Message:$2

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LasConfiguration xmlns="http://www.kostal.com/Testman/config">
+  <!-- If Display NewPart Message -->
+  <GeneralInformation>
+    <!-- If Configure zebra by Program -->
+    <ExternalInterface>False</ExternalInterface>
+	<!-- Print Empty Label -->
+    <EmptyLable>False</EmptyLable>
+	<!-- IP Address -->
+    <PrinterIP>169.254.157.120</PrinterIP>
+	<!-- IP Port or COM Port, for example 9100 or COM1 -->
+    <Port>9100</Port>
+	<!-- COM Port Baud rate -->
+    <Baud>9600</Baud>
+	<!-- 
+	    'ZEBRA_LANGUAGE_ENGLISH = 1
+        'ZEBRA_LANGUAGE_SPANISH = 2
+        'ZEBRA_LANGUAGE_FRENCH = 3
+        'ZEBRA_LANGUAGE_GERMAN = 4
+        'ZEBRA_LANGUAGE_ITALIAN = 5
+        'ZEBRA_LANGUAGE_NORWEGIAN = 6
+        'ZEBRA_LANGUAGE_PORTUGUESE = 7
+        'ZEBRA_LANGUAGE_SWEDISH = 8
+        'ZEBRA_LANGUAGE_DANISH = 9
+        'ZEBRA_LANGUAGE_SPANISH2 = 10
+        'ZEBRA_LANGUAGE_DUTCH = 11
+        'ZEBRA_LANGUAGE_FINNISH = 12
+        'ZEBRA_LANGUAGE_JAPANESE = 13
+        'ZEBRA_LANGUAGE_KOREAN = 14
+        'ZEBRA_LANGUAGE_CHINESE_SPECIFIED = 15
+        'ZEBRA_LANGUAGE_CHINESE_TRADITIONAL = 16
+	-->
+    <Language>15</Language>
+	<!-- 
+	    'ZEBRA_PRINT_MODE_TEAR_OFF = 0
+        'ZEBRA_PRINT_MODE_PEEL_OFF = 1
+        'ZEBRA_PRINT_MODE_REWIND = 2
+        'ZEBRA_PRINT_MODE_CUTTER = 3
+        'ZEBRA_PRINT_MODE_DELAYED_CUT = 4
+	-->
+	<PrintMode>0</PrintMode>
+	<!--TearOffEdge Unit:Long-->
+	<TearOffEdge>-56</TearOffEdge>
+	<!--LabelTop Unit:Single-->
+	<LabelTop>0.4</LabelTop>
+	<!--LabelLeft Unit:Single. about 11.8 dots/mm In Z400  0.4*11.8=4.72 -->
+	<LabelLeft>-0.4</LabelLeft>
+	<!--Darkness Unit:Long. -->
+	<Darkness>16</Darkness>
+  </GeneralInformation>
+</LasConfiguration>

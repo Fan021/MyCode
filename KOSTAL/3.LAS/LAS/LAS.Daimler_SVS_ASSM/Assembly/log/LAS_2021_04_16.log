@@ -1,0 +1,2415 @@
+Help application does not exist
+2021.04.16;14:55:34;Main;Init;**************************************************************************************
+2021.04.16;14:55:34;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;14:55:34;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;14:55:34;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;14:55:34;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;14:55:34;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;14:55:35;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;14:55:35;Main;Language.Init;Language Initial Successful
+2021.04.16;14:55:36;Main;Article.Init;Article Initial Successful
+2021.04.16;14:55:36;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;14:55:36;MainForm_Bosh;MainForm;Init Run
+2021.04.16;14:55:36;;WtStatusForm.Init;Initial Successful
+2021.04.16;14:55:36;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;14:55:36;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.16;14:55:36;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;14:55:36;Article40;Article.Init;Article Initial Successful
+2021.04.16;14:55:36;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;14:55:37;QGW03;Article.Init;Article Initial Successful
+2021.04.16;14:55:37;QGW04;Article.Init;Article Initial Successful
+2021.04.16;14:55:37;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;14:55:37;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;14:55:38;Flash;Article.Init;Article Initial Successful
+2021.04.16;14:55:43;Main;Start TwinCat;PLC40TC;Ads-Error 0x745 : Timeout has elapsed.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.16;14:55:43;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x745 : Timeout has elapsed.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.16;14:55:51;MainForm_Bosh;Exit;sucessfull
+2021.04.16;14:55:51;Article40;Article.Init;Dispose Succeeded
+2021.04.16;14:55:51;SR751_04;Article.Init;Dispose Succeeded
+2021.04.16;14:55:51;QGW03;Article.Init;Dispose Succeeded
+2021.04.16;14:55:51;QGW04;Article.Init;Dispose Succeeded
+2021.04.16;14:55:51;SR1000_01;Article.Init;Dispose Succeeded
+2021.04.16;14:55:51;QGWMB01;Article.Init;Dispose Succeeded
+2021.04.16;14:55:51;Flash;Article.Init;Dispose Succeeded
+2021.04.16;14:55:51;Main;Exit;System Stop
+2021.04.16;14:55:51;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.16;14:56:03;Main;Init;**************************************************************************************
+2021.04.16;14:56:03;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;14:56:03;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;14:56:03;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;14:56:03;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;14:56:03;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;14:56:04;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;14:56:04;Main;Language.Init;Language Initial Successful
+2021.04.16;14:56:04;Main;Article.Init;Article Initial Successful
+2021.04.16;14:56:04;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;14:56:04;MainForm_Bosh;MainForm;Init Run
+2021.04.16;14:56:04;;WtStatusForm.Init;Initial Successful
+2021.04.16;14:56:04;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;14:56:04;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.16;14:56:04;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;14:56:05;Article40;Article.Init;Article Initial Successful
+2021.04.16;14:56:05;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;14:56:05;QGW03;Article.Init;Article Initial Successful
+2021.04.16;14:56:05;QGW04;Article.Init;Article Initial Successful
+2021.04.16;14:56:06;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;14:56:06;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;14:56:06;Flash;Article.Init;Article Initial Successful
+2021.04.16;14:56:06;Main;Start TwinCat;Initial Successful
+2021.04.16;14:56:09;Article40;Step -100;Station Initial
+2021.04.16;14:56:09;SR751_04;Step -100;Station Initial
+2021.04.16;14:56:09;QGW03;Step -100;Station Initial
+2021.04.16;14:56:09;QGW04;Step -100;Station Initial
+2021.04.16;14:56:09;SR1000_01;Step -100;Station Initial
+2021.04.16;14:56:09;QGWMB01;Step -100;Station Initial
+2021.04.16;14:56:09;Flash;Step -100;Station Initial
+2021.04.16;14:56:09;Article40;Step -99;Waiting for Select Article
+2021.04.16;14:56:09;SR751_04;Step -99;Check Scanner Configuration
+2021.04.16;14:56:09;QGW03;Step -99;LineControl.Initial
+2021.04.16;14:56:10;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.16;14:56:10;QGW04;Step -99;LineControl.Initial
+2021.04.16;14:56:10;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.16;14:56:10;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.16;14:56:10;QGWMB01;Step -99;LineControl.Initial
+2021.04.16;14:56:10;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.16;14:56:10;Flash;Step -99;Flash.Initial
+2021.04.16;14:56:11;Flash;Flash.Init;Flash Initial Successful
+2021.04.16;14:56:11;Article40;Step -98;Update Column
+2021.04.16;14:56:11;SR751_04;Step -98;Scanner.Initial
+2021.04.16;14:56:32;SR751_04;Scanner.Init;Scanner Initial FAIL Message Interface_Connect;DEVICE_ERROR_WINDOWS_ERROR;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 169.254.157.151:9004
+2021.04.16;14:56:32;Station:SR751_04
+Step:-98
+Message:Function:Scanner.Init;Scanner Initial FAIL Message Interface_Connect;DEVICE_ERROR_WINDOWS_ERROR;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 169.254.157.151:9004
+2021.04.16;14:56:37;MainForm_Bosh;Exit;sucessfull
+2021.04.16;14:56:37;Article40;Step -98;Dispose Succeeded
+2021.04.16;14:56:37;SR751_04;Scanner.Init;Dispose Succeeded
+2021.04.16;14:56:38;QGW03;LineControl.Init;Dispose Succeeded
+2021.04.16;14:56:38;QGW04;LineControl.Init;Dispose Succeeded
+2021.04.16;14:56:38;SR1000_01;Step -99;Dispose Succeeded
+2021.04.16;14:56:38;QGWMB01;LineControl.Init;Dispose Succeeded
+2021.04.16;14:56:38;Flash;Flash.Init;Dispose Succeeded
+2021.04.16;14:56:38;Main;Exit;System Stop
+2021.04.16;14:56:38;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.16;14:57:16;Main;Init;**************************************************************************************
+2021.04.16;14:57:16;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;14:57:16;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;14:57:16;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;14:57:16;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;14:57:16;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;14:57:17;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;14:57:17;Main;Language.Init;Language Initial Successful
+2021.04.16;14:57:17;Main;Article.Init;Article Initial Successful
+2021.04.16;14:57:17;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;14:57:17;MainForm_Bosh;MainForm;Init Run
+2021.04.16;14:57:17;;WtStatusForm.Init;Initial Successful
+2021.04.16;14:57:17;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;14:57:17;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.16;14:57:17;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;14:57:18;Article40;Article.Init;Article Initial Successful
+2021.04.16;14:57:18;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;14:57:18;QGW03;Article.Init;Article Initial Successful
+2021.04.16;14:57:18;QGW04;Article.Init;Article Initial Successful
+2021.04.16;14:57:19;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;14:57:19;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;14:57:19;Flash;Article.Init;Article Initial Successful
+2021.04.16;14:57:19;Main;Start TwinCat;Initial Successful
+2021.04.16;14:57:22;Article40;Step -100;Station Initial
+2021.04.16;14:57:22;SR751_04;Step -100;Station Initial
+2021.04.16;14:57:22;QGW03;Step -100;Station Initial
+2021.04.16;14:57:22;QGW04;Step -100;Station Initial
+2021.04.16;14:57:22;SR1000_01;Step -100;Station Initial
+2021.04.16;14:57:22;QGWMB01;Step -100;Station Initial
+2021.04.16;14:57:22;Flash;Step -100;Station Initial
+2021.04.16;14:57:22;Article40;Step -99;Waiting for Select Article
+2021.04.16;14:57:22;SR751_04;Step -99;Check Scanner Configuration
+2021.04.16;14:57:22;QGW03;Step -99;LineControl.Initial
+2021.04.16;14:57:22;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.16;14:57:22;QGW04;Step -99;LineControl.Initial
+2021.04.16;14:57:23;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.16;14:57:23;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.16;14:57:23;QGWMB01;Step -99;LineControl.Initial
+2021.04.16;14:57:23;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.16;14:57:23;Flash;Step -99;Flash.Initial
+2021.04.16;14:57:24;Flash;Flash.Init;Flash Initial Successful
+2021.04.16;14:57:24;Article40;Step -98;Update Column
+2021.04.16;14:57:24;SR751_04;Step -98;Scanner.Initial
+2021.04.16;14:57:24;SR751_04;Scanner.Init;Scanner Initial PASS
+2021.04.16;14:57:24;QGW03;Step -98;Initial Succeeded
+2021.04.16;14:57:24;QGW04;Step -98;Initial Succeeded
+2021.04.16;14:57:24;SR1000_01;Step -98;Scanner.Initial
+2021.04.16;14:57:24;SR1000_01;Scanner.Init;Scanner Initial PASS
+2021.04.16;14:57:24;QGWMB01;Step -98;Initial Succeeded
+2021.04.16;14:57:24;Flash;Step -98;Initial Succeeded
+2021.04.16;14:57:24;Article40;Step 0;Home Position
+2021.04.16;14:57:24;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;14:57:24;Article40;Step 0;Start Write Article
+2021.04.16;14:57:24;SR751_04;Step -97;Initial Succeeded
+2021.04.16;14:57:24;QGW03;Step -97;-97
+2021.04.16;14:57:24;QGW04;Step -97;-97
+2021.04.16;14:57:24;SR1000_01;Step -97;Initial Succeeded
+2021.04.16;14:57:24;QGWMB01;Step -97;-97
+2021.04.16;14:57:24;Flash;Step 0;Home Position
+2021.04.16;14:57:24;Article40;Step 1;Waiting for Select Article
+2021.04.16;14:57:24;SR751_04;Step 0;Home Position
+2021.04.16;14:57:24;QGW03;Step 0;Home Position
+2021.04.16;14:57:24;QGW04;Step 0;Home Position
+2021.04.16;14:57:24;SR1000_01;Step 0;Home Position
+2021.04.16;14:57:24;QGWMB01;Step 0;Home Position
+2021.04.16;14:57:24;Article40;Step 2;Change LocalArticle
+2021.04.16;14:57:24;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.16;14:57:24;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.16;14:57:24;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.16;14:57:24;Article40;Step 4;Completed Write Article
+2021.04.16;14:57:24;Article40;Step 0;Home Position
+2021.04.16;14:57:24;Article40;Step 0;Home Position. Wait For Trig
+Help application does not exist
+2021.04.16;15:12:42;Main;Init;**************************************************************************************
+2021.04.16;15:12:42;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;15:12:42;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;15:12:42;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;15:12:42;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;15:12:42;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;15:12:43;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;15:12:43;Main;Language.Init;Language Initial Successful
+2021.04.16;15:12:43;Main;Article.Init;Article Initial Successful
+2021.04.16;15:12:43;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;15:12:43;MainForm_Bosh;MainForm;Init Run
+2021.04.16;15:12:43;;WtStatusForm.Init;Initial Successful
+2021.04.16;15:12:44;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:12:44;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.16;15:12:44;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;15:12:44;Article40;Article.Init;Article Initial Successful
+2021.04.16;15:12:44;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;15:12:44;QGW03;Article.Init;Article Initial Successful
+2021.04.16;15:12:45;QGW04;Article.Init;Article Initial Successful
+2021.04.16;15:12:45;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;15:12:45;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;15:12:45;Flash;Article.Init;Article Initial Successful
+2021.04.16;15:12:50;Main;Start TwinCat;PLC40TC;Ads-Error 0x745 : Timeout has elapsed.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.16;15:12:50;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x745 : Timeout has elapsed.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.16;15:12:53;MainForm_Bosh;Exit;sucessfull
+2021.04.16;15:12:53;Article40;Article.Init;Dispose Succeeded
+2021.04.16;15:12:54;SR751_04;Article.Init;Dispose Succeeded
+2021.04.16;15:12:54;QGW03;Article.Init;Dispose Succeeded
+2021.04.16;15:12:54;QGW04;Article.Init;Dispose Succeeded
+2021.04.16;15:12:54;SR1000_01;Article.Init;Dispose Succeeded
+2021.04.16;15:12:54;QGWMB01;Article.Init;Dispose Succeeded
+2021.04.16;15:12:54;Flash;Article.Init;Dispose Succeeded
+2021.04.16;15:12:54;Main;Exit;System Stop
+2021.04.16;15:12:54;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.16;15:13:08;Main;Init;**************************************************************************************
+2021.04.16;15:13:08;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;15:13:08;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;15:13:08;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;15:13:08;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;15:13:08;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;15:13:09;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;15:13:09;Main;Language.Init;Language Initial Successful
+2021.04.16;15:13:09;Main;Article.Init;Article Initial Successful
+2021.04.16;15:13:09;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;15:13:09;MainForm_Bosh;MainForm;Init Run
+2021.04.16;15:13:09;;WtStatusForm.Init;Initial Successful
+2021.04.16;15:13:09;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:13:09;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.16;15:13:09;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;15:13:10;Article40;Article.Init;Article Initial Successful
+2021.04.16;15:13:10;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;15:13:10;QGW03;Article.Init;Article Initial Successful
+2021.04.16;15:13:10;QGW04;Article.Init;Article Initial Successful
+2021.04.16;15:13:11;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;15:13:11;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;15:13:11;Flash;Article.Init;Article Initial Successful
+2021.04.16;15:13:11;Main;Start TwinCat;Initial Successful
+2021.04.16;15:13:14;Article40;Step -100;Station Initial
+2021.04.16;15:13:14;SR751_04;Step -100;Station Initial
+2021.04.16;15:13:14;QGW03;Step -100;Station Initial
+2021.04.16;15:13:14;QGW04;Step -100;Station Initial
+2021.04.16;15:13:14;SR1000_01;Step -100;Station Initial
+2021.04.16;15:13:14;QGWMB01;Step -100;Station Initial
+2021.04.16;15:13:14;Flash;Step -100;Station Initial
+2021.04.16;15:13:14;Article40;Step -99;Waiting for Select Article
+2021.04.16;15:13:14;SR751_04;Step -99;Check Scanner Configuration
+2021.04.16;15:13:14;QGW03;Step -99;LineControl.Initial
+2021.04.16;15:13:15;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.16;15:13:15;QGW04;Step -99;LineControl.Initial
+2021.04.16;15:13:15;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.16;15:13:15;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.16;15:13:15;QGWMB01;Step -99;LineControl.Initial
+2021.04.16;15:13:16;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.16;15:13:16;Flash;Step -99;Flash.Initial
+2021.04.16;15:13:16;Flash;Flash.Init;Flash Initial Successful
+2021.04.16;15:13:16;Article40;Step -98;Update Column
+2021.04.16;15:13:16;SR751_04;Step -98;Scanner.Initial
+2021.04.16;15:13:16;SR751_04;Scanner.Init;Scanner Initial PASS
+2021.04.16;15:13:16;QGW03;Step -98;Initial Succeeded
+2021.04.16;15:13:16;QGW04;Step -98;Initial Succeeded
+2021.04.16;15:13:16;SR1000_01;Step -98;Scanner.Initial
+2021.04.16;15:13:16;SR1000_01;Scanner.Init;Scanner Initial PASS
+2021.04.16;15:13:16;QGWMB01;Step -98;Initial Succeeded
+2021.04.16;15:13:16;Flash;Step -98;Initial Succeeded
+2021.04.16;15:13:16;Article40;Step 0;Home Position
+2021.04.16;15:13:16;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;15:13:16;Article40;Step 0;Start Write Article
+2021.04.16;15:13:16;SR751_04;Step -97;Initial Succeeded
+2021.04.16;15:13:16;QGW03;Step -97;-97
+2021.04.16;15:13:16;QGW04;Step -97;-97
+2021.04.16;15:13:16;SR1000_01;Step -97;Initial Succeeded
+2021.04.16;15:13:16;QGWMB01;Step -97;-97
+2021.04.16;15:13:16;Flash;Step 0;Home Position
+2021.04.16;15:13:16;Article40;Step 1;Waiting for Select Article
+2021.04.16;15:13:16;SR751_04;Step 0;Home Position
+2021.04.16;15:13:16;QGW03;Step 0;Home Position
+2021.04.16;15:13:16;QGW04;Step 0;Home Position
+2021.04.16;15:13:16;SR1000_01;Step 0;Home Position
+2021.04.16;15:13:16;QGWMB01;Step 0;Home Position
+2021.04.16;15:13:16;Article40;Step 2;Change LocalArticle
+2021.04.16;15:13:16;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:13:16;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.16;15:13:16;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.16;15:13:16;Article40;Step 4;Completed Write Article
+2021.04.16;15:13:16;Article40;Step 0;Home Position
+2021.04.16;15:13:16;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;15:14:15;SR751_04;Step 0;Scan Start
+2021.04.16;15:14:15;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;15:14:15;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:14:15;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;15:14:15;SR751_04;Step 3;Scanner.Scan
+2021.04.16;15:14:15;SR751_04;Step 3;Trig On
+2021.04.16;15:14:15;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;15:14:15;SR751_04;Step 4;Barcode Receive. Result:True Data:10524131-0002/SN92905UCP00017/HW:19.38.00/SW:20.22.01
+2021.04.16;15:14:15;SR751_04;Step 4;Scan Result 10524131-0002/SN92905UCP00017/HW:19.38.00/SW:20.22.01
+2021.04.16;15:14:16;SR751_04;Step 5;Update Message
+2021.04.16;15:14:16;SR751_04;Step 5;Trig Off
+2021.04.16;15:14:16;SR751_04;Step 6;Update Message
+2021.04.16;15:14:16;SR751_04;Step 7;Check Repeat Count
+2021.04.16;15:14:16;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;15:14:16;SR751_04;Step 8;GetBarCode FAIL Message SR751_04  Article Number Match is Wrong. Label Article Nr: 10524131-0002 PLC Article: 10524109
+2021.04.16;15:14:16;SR751_04;Step 9;Check if need LineControl
+2021.04.16;15:14:16;SR751_04;Step 9;LineControl Disable
+2021.04.16;15:14:16;SR751_04;Step 13;Choose Step
+2021.04.16;15:14:16;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;15:14:16;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;15:14:17;SR751_04;Step 0;Home Position
+2021.04.16;15:14:46;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:14:46;MainForm_Bosh;_btnArticle_Click;Change Article 10524131-0002 Succeeded
+2021.04.16;15:14:47;Article40;Step 0;Start Write Article
+2021.04.16;15:14:47;Article40;Step 1;Waiting for Select Article
+2021.04.16;15:14:47;Article40;Step 2;Change LocalArticle
+2021.04.16;15:14:47;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:14:47;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.16;15:14:47;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.16;15:14:47;Article40;Step 4;Completed Write Article
+2021.04.16;15:14:47;Article40;Step 0;Home Position
+2021.04.16;15:14:47;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;15:15:29;SR751_04;Step 0;Scan Start
+2021.04.16;15:15:29;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;15:15:29;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:15:29;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;15:15:29;SR751_04;Step 3;Scanner.Scan
+2021.04.16;15:15:29;SR751_04;Step 3;Trig On
+2021.04.16;15:15:29;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;15:15:29;SR751_04;Step 4;Barcode Receive. Result:True Data:10524131-0002/SN92905UCP00017/HW:19.38.00/SW:20.22.01
+2021.04.16;15:15:29;SR751_04;Step 4;Scan Result 10524131-0002/SN92905UCP00017/HW:19.38.00/SW:20.22.01
+2021.04.16;15:15:29;SR751_04;Step 5;Update Message
+2021.04.16;15:15:29;SR751_04;Step 5;Trig Off
+2021.04.16;15:15:29;SR751_04;Step 6;Update Message
+2021.04.16;15:15:29;SR751_04;Step 7;Check Repeat Count
+2021.04.16;15:15:29;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;15:15:29;SR751_04;Step 9;Check if need LineControl
+2021.04.16;15:15:29;SR751_04;Step 9;LineControl Disable
+2021.04.16;15:15:29;SR751_04;Step 13;Choose Step
+2021.04.16;15:15:29;SR751_04;Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;15:15:29;SR751_04;Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;15:15:30;SR751_04;Step 0;Home Position
+2021.04.16;15:15:48;MainForm_Bosh;Exit;sucessfull
+2021.04.16;15:15:48;MainForm_Bosh;Exit;sucessfull
+2021.04.16;15:15:48;Article40;Step 0;Dispose Succeeded
+2021.04.16;15:15:48;SR751_04;Step 0;Dispose Succeeded
+2021.04.16;15:15:48;QGW03;Step 0;Dispose Succeeded
+2021.04.16;15:15:48;QGW04;Step 0;Dispose Succeeded
+2021.04.16;15:15:48;SR1000_01;Step 0;Dispose Succeeded
+2021.04.16;15:15:48;QGWMB01;Step 0;Dispose Succeeded
+2021.04.16;15:15:48;Flash;Step 0;Dispose Succeeded
+2021.04.16;15:15:48;Main;Exit;System Stop
+2021.04.16;15:15:48;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.16;15:16:18;Main;Init;**************************************************************************************
+2021.04.16;15:16:18;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;15:16:18;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;15:16:19;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;15:16:19;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;15:16:19;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;15:16:20;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;15:16:20;Main;Language.Init;Language Initial Successful
+2021.04.16;15:16:20;Main;Article.Init;Article Initial Successful
+2021.04.16;15:16:20;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;15:16:20;MainForm_Bosh;MainForm;Init Run
+2021.04.16;15:16:20;;WtStatusForm.Init;Initial Successful
+2021.04.16;15:16:20;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:16:20;MainForm_Bosh;InitCurrentArticle :10524131-0002;Successful
+2021.04.16;15:16:20;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;15:16:21;Article40;Article.Init;Article Initial Successful
+2021.04.16;15:16:21;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;15:16:22;QGW03;Article.Init;Article Initial Successful
+2021.04.16;15:16:22;QGW04;Article.Init;Article Initial Successful
+2021.04.16;15:16:22;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;15:16:23;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;15:16:23;Flash;Article.Init;Article Initial Successful
+2021.04.16;15:16:23;Main;Start TwinCat;Initial Successful
+2021.04.16;15:16:26;Article40;Step -100;Station Initial
+2021.04.16;15:16:26;SR751_04;Step -100;Station Initial
+2021.04.16;15:16:26;QGW03;Step -100;Station Initial
+2021.04.16;15:16:26;QGW04;Step -100;Station Initial
+2021.04.16;15:16:26;SR1000_01;Step -100;Station Initial
+2021.04.16;15:16:26;QGWMB01;Step -100;Station Initial
+2021.04.16;15:16:26;Flash;Step -100;Station Initial
+2021.04.16;15:16:27;Article40;Step -99;Waiting for Select Article
+2021.04.16;15:16:27;SR751_04;Step -99;Check Scanner Configuration
+2021.04.16;15:16:27;QGW03;Step -99;LineControl.Initial
+2021.04.16;15:16:27;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.16;15:16:27;QGW04;Step -99;LineControl.Initial
+2021.04.16;15:16:28;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.16;15:16:28;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.16;15:16:28;QGWMB01;Step -99;LineControl.Initial
+2021.04.16;15:16:28;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.16;15:16:28;Flash;Step -99;Flash.Initial
+2021.04.16;15:16:28;Flash;Flash.Init;Flash Initial Successful
+2021.04.16;15:16:28;Article40;Step -98;Update Column
+2021.04.16;15:16:28;SR751_04;Step -98;Scanner.Initial
+2021.04.16;15:16:28;SR751_04;Scanner.Init;Scanner Initial PASS
+2021.04.16;15:16:28;QGW03;Step -98;Initial Succeeded
+2021.04.16;15:16:28;QGW04;Step -98;Initial Succeeded
+2021.04.16;15:16:28;SR1000_01;Step -98;Scanner.Initial
+2021.04.16;15:16:28;SR1000_01;Scanner.Init;Scanner Initial PASS
+2021.04.16;15:16:28;QGWMB01;Step -98;Initial Succeeded
+2021.04.16;15:16:28;Flash;Step -98;Initial Succeeded
+2021.04.16;15:16:29;Article40;Step 0;Home Position
+2021.04.16;15:16:29;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;15:16:29;Article40;Step 0;Start Write Article
+2021.04.16;15:16:29;SR751_04;Step -97;Initial Succeeded
+2021.04.16;15:16:29;QGW03;Step -97;-97
+2021.04.16;15:16:29;QGW04;Step -97;-97
+2021.04.16;15:16:29;SR1000_01;Step -97;Initial Succeeded
+2021.04.16;15:16:29;QGWMB01;Step -97;-97
+2021.04.16;15:16:29;Flash;Step 0;Home Position
+2021.04.16;15:16:29;Article40;Step 1;Waiting for Select Article
+2021.04.16;15:16:29;SR751_04;Step 0;Home Position
+2021.04.16;15:16:29;QGW03;Step 0;Home Position
+2021.04.16;15:16:29;QGW04;Step 0;Home Position
+2021.04.16;15:16:29;SR1000_01;Step 0;Home Position
+2021.04.16;15:16:29;QGWMB01;Step 0;Home Position
+2021.04.16;15:16:29;Article40;Step 2;Change LocalArticle
+2021.04.16;15:16:29;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:16:29;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.16;15:16:29;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.16;15:16:29;Article40;Step 4;Completed Write Article
+2021.04.16;15:16:29;Article40;Step 0;Home Position
+2021.04.16;15:16:29;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;15:18:16;SR751_04;Step 0;Scan Start
+2021.04.16;15:18:16;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;15:18:16;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:18:16;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;15:18:16;SR751_04;Step 3;Scanner.Scan
+2021.04.16;15:18:16;SR751_04;Step 3;Trig On
+2021.04.16;15:18:16;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;15:18:16;SR751_04;Step 4;Barcode Receive. Result:True Data:10524131-0002/SN92905UCP00017/HW:19.38.00/SW:20.22.01
+2021.04.16;15:18:16;SR751_04;Step 4;Scan Result 10524131-0002/SN92905UCP00017/HW:19.38.00/SW:20.22.01
+2021.04.16;15:18:16;SR751_04;Step 5;Update Message
+2021.04.16;15:18:16;SR751_04;Step 5;Trig Off
+2021.04.16;15:18:16;SR751_04;Step 6;Update Message
+2021.04.16;15:18:16;SR751_04;Step 7;Check Repeat Count
+2021.04.16;15:18:16;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;15:31:34;SR751_04;Step 9;Check if need LineControl
+2021.04.16;15:31:34;SR751_04;Step 9;LineControl Disable
+2021.04.16;15:31:34;SR751_04;Step 13;Choose Step
+2021.04.16;15:31:34;SR751_04;Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;15:31:34;SR751_04;Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;15:32:08;值不能为 null。
+参数名: image
+2021.04.16;15:32:12;MainForm_Bosh;Exit;sucessfull
+2021.04.16;15:32:12;Article40;Step 0;Dispose Succeeded
+2021.04.16;15:32:13;SR751_04;Step 1001;Dispose Succeeded
+2021.04.16;15:32:13;QGW03;Step 0;Dispose Succeeded
+2021.04.16;15:32:13;QGW04;Step 0;Dispose Succeeded
+2021.04.16;15:32:13;SR1000_01;Step 0;Dispose Succeeded
+2021.04.16;15:32:13;QGWMB01;Step 0;Dispose Succeeded
+2021.04.16;15:32:13;Flash;Step 0;Dispose Succeeded
+2021.04.16;15:32:13;Main;Exit;System Stop
+2021.04.16;15:32:13;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.16;15:32:19;Main;Init;**************************************************************************************
+2021.04.16;15:32:19;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;15:32:19;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;15:32:19;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;15:32:19;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;15:32:19;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;15:32:20;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;15:32:20;Main;Language.Init;Language Initial Successful
+2021.04.16;15:32:21;Main;Article.Init;Article Initial Successful
+2021.04.16;15:32:21;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;15:32:21;MainForm_Bosh;MainForm;Init Run
+2021.04.16;15:32:21;;WtStatusForm.Init;Initial Successful
+2021.04.16;15:32:21;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:32:21;MainForm_Bosh;InitCurrentArticle :10524131-0002;Successful
+2021.04.16;15:32:21;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;15:32:28;Article40;Article.Init;Article Initial Successful
+2021.04.16;15:32:29;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;15:32:29;QGW03;Article.Init;Article Initial Successful
+2021.04.16;15:32:29;QGW04;Article.Init;Article Initial Successful
+2021.04.16;15:32:30;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;15:32:30;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;15:32:31;Flash;Article.Init;Article Initial Successful
+2021.04.16;15:32:31;Main;Start TwinCat;Initial Successful
+2021.04.16;15:32:34;Article40;Step -100;Station Initial
+2021.04.16;15:32:34;SR751_04;Step -100;Station Initial
+2021.04.16;15:32:34;QGW03;Step -100;Station Initial
+2021.04.16;15:32:34;QGW04;Step -100;Station Initial
+2021.04.16;15:32:34;SR1000_01;Step -100;Station Initial
+2021.04.16;15:32:34;QGWMB01;Step -100;Station Initial
+2021.04.16;15:32:34;Flash;Step -100;Station Initial
+2021.04.16;15:32:34;Article40;Step -99;Waiting for Select Article
+2021.04.16;15:32:34;SR751_04;Step -99;Check Scanner Configuration
+2021.04.16;15:32:34;QGW03;Step -99;LineControl.Initial
+2021.04.16;15:32:34;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.16;15:32:34;QGW04;Step -99;LineControl.Initial
+2021.04.16;15:32:35;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.16;15:32:35;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.16;15:32:35;QGWMB01;Step -99;LineControl.Initial
+2021.04.16;15:32:35;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.16;15:32:35;Flash;Step -99;Flash.Initial
+2021.04.16;15:32:35;Flash;Flash.Init;Flash Initial Successful
+2021.04.16;15:32:36;Article40;Step -98;Update Column
+2021.04.16;15:32:36;SR751_04;Step -98;Scanner.Initial
+2021.04.16;15:32:36;SR751_04;Scanner.Init;Scanner Initial PASS
+2021.04.16;15:32:36;QGW03;Step -98;Initial Succeeded
+2021.04.16;15:32:36;QGW04;Step -98;Initial Succeeded
+2021.04.16;15:32:36;SR1000_01;Step -98;Scanner.Initial
+2021.04.16;15:32:36;SR1000_01;Scanner.Init;Scanner Initial PASS
+2021.04.16;15:32:36;QGWMB01;Step -98;Initial Succeeded
+2021.04.16;15:32:36;Flash;Step -98;Initial Succeeded
+2021.04.16;15:32:36;Article40;Step 0;Home Position
+2021.04.16;15:32:36;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;15:32:36;Article40;Step 0;Start Write Article
+2021.04.16;15:32:36;SR751_04;Step -97;Initial Succeeded
+2021.04.16;15:32:36;QGW03;Step -97;-97
+2021.04.16;15:32:36;QGW04;Step -97;-97
+2021.04.16;15:32:36;SR1000_01;Step -97;Initial Succeeded
+2021.04.16;15:32:36;QGWMB01;Step -97;-97
+2021.04.16;15:32:36;Flash;Step 0;Home Position
+2021.04.16;15:32:36;Article40;Step 1;Waiting for Select Article
+2021.04.16;15:32:36;SR751_04;Step 0;Home Position
+2021.04.16;15:32:36;SR751_04;Step 0;Scan Start
+2021.04.16;15:32:36;QGW03;Step 0;Home Position
+2021.04.16;15:32:36;QGW04;Step 0;Home Position
+2021.04.16;15:32:36;SR1000_01;Step 0;Home Position
+2021.04.16;15:32:36;QGWMB01;Step 0;Home Position
+2021.04.16;15:32:36;Article40;Step 2;Change LocalArticle
+2021.04.16;15:32:36;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:32:36;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;15:32:36;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:32:36;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.16;15:32:36;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;15:32:36;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.16;15:32:36;Article40;Step 4;Completed Write Article
+2021.04.16;15:32:36;SR751_04;Step 3;Scanner.Scan
+2021.04.16;15:32:36;SR751_04;Step 3;Trig On
+2021.04.16;15:32:36;Article40;Step 0;Home Position
+2021.04.16;15:32:36;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;15:32:36;SR751_04;Step 3;Barcode Receive. Result:True Data:10524131-0002/SN92905UCP00017/HW:19.38.00/SW:20.22.01
+2021.04.16;15:32:36;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;15:32:36;SR751_04;Step 4;Scan Result 10524131-0002/SN92905UCP00017/HW:19.38.00/SW:20.22.01
+2021.04.16;15:32:36;SR751_04;Step 5;Update Message
+2021.04.16;15:32:36;SR751_04;Step 5;Trig Off
+2021.04.16;15:32:36;SR751_04;Step 6;Update Message
+2021.04.16;15:32:36;SR751_04;Step 7;Check Repeat Count
+2021.04.16;15:32:37;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;15:32:37;SR751_04;Step 9;Check if need LineControl
+2021.04.16;15:32:37;SR751_04;Step 9;LineControl Disable
+2021.04.16;15:32:37;SR751_04;Step 13;Choose Step
+2021.04.16;15:32:37;SR751_04;Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;15:32:37;SR751_04;Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;15:55:50;SR751_04;Step 0;Home Position
+2021.04.16;15:55:53;SR751_04;Step 0;Scan Start
+2021.04.16;15:55:53;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;15:55:53;SR751_04;Article.GetArticle_FromID;Result:FAIL Message:Article List Not ContainsKey:10524131
+2021.04.16;15:55:53;SR751_04;Step 1;CheckTrigInfo.CheckTrigInfoAndSelectLocalArticle Fail. Message:Function:Article.GetArticle_FromID;Result:FAIL Message:Article List Not ContainsKey:10524131
+2021.04.16;15:55:53;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;15:55:53;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;15:59:01;SR751_04;Step 0;Home Position
+2021.04.16;15:59:04;SR751_04;Step 0;Scan Start
+2021.04.16;15:59:05;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;15:59:05;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;15:59:05;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;15:59:05;SR751_04;Step 3;Scanner.Scan
+2021.04.16;15:59:05;SR751_04;Step 3;Trig On
+2021.04.16;15:59:05;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;15:59:26;SR751_04;Step 4;Barcode Receive. Result:False Message:Interface_Connect;DEVICE_ERROR_WINDOWS_ERROR;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 169.254.157.151:9004 Data:
+2021.04.16;15:59:26;SR751_04;Step 4;Scan Result 
+2021.04.16;15:59:26;SR751_04;Step 5;Update Message
+2021.04.16;15:59:26;SR751_04;Step 5;Trig Off
+2021.04.16;15:59:26;SR751_04;Step 6;Update Message
+2021.04.16;15:59:26;SR751_04;Step 7;Check Repeat Count
+2021.04.16;15:59:26;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;15:59:26;SR751_04;Step 3;Scanner.Scan
+2021.04.16;15:59:26;SR751_04;Step 3;Trig On
+2021.04.16;15:59:26;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;15:59:26;SR751_04;Step 4;Barcode Receive. Result:True Data:10524131-0002/SN92905UCP00017/HW:19.38.00/SW:20.22.01
+2021.04.16;15:59:26;SR751_04;Step 4;Scan Result 10524131-0002/SN92905UCP00017/HW:19.38.00/SW:20.22.01
+2021.04.16;15:59:26;SR751_04;Step 5;Update Message
+2021.04.16;15:59:26;SR751_04;Step 5;Trig Off
+2021.04.16;15:59:26;SR751_04;Step 6;Update Message
+2021.04.16;15:59:26;SR751_04;Step 7;Check Repeat Count
+2021.04.16;15:59:26;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;15:59:26;SR751_04;Step 9;Check if need LineControl
+2021.04.16;15:59:26;SR751_04;Step 9;LineControl Disable
+2021.04.16;15:59:26;SR751_04;Step 13;Choose Step
+2021.04.16;15:59:26;SR751_04;Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;15:59:26;SR751_04;Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;15:59:26;SR751_04;Step 0;Home Position
+2021.04.16;16:03:08;MainForm_Bosh;Exit;sucessfull
+2021.04.16;16:03:08;MainForm_Bosh;Exit;sucessfull
+2021.04.16;16:03:08;Article40;Step 0;Dispose Succeeded
+2021.04.16;16:03:08;SR751_04;Step 0;Dispose Succeeded
+2021.04.16;16:03:09;QGW03;Step 0;Dispose Succeeded
+2021.04.16;16:03:09;QGW04;Step 0;Dispose Succeeded
+2021.04.16;16:03:09;SR1000_01;Step 0;Dispose Succeeded
+2021.04.16;16:03:09;QGWMB01;Step 0;Dispose Succeeded
+2021.04.16;16:03:09;Flash;Step 0;Dispose Succeeded
+2021.04.16;16:03:09;Main;Exit;System Stop
+2021.04.16;16:03:09;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.16;16:09:53;Main;Init;**************************************************************************************
+2021.04.16;16:09:53;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;16:09:53;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;16:09:53;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;16:09:53;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;16:09:53;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;16:09:54;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;16:09:54;Main;Language.Init;Language Initial Successful
+2021.04.16;16:09:54;Main;Article.Init;Article Initial Successful
+2021.04.16;16:09:54;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;16:09:54;MainForm_Bosh;MainForm;Init Run
+2021.04.16;16:09:54;;WtStatusForm.Init;Initial Successful
+2021.04.16;16:09:54;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:09:54;MainForm_Bosh;InitCurrentArticle :10524131-0002;Successful
+2021.04.16;16:09:54;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;16:09:55;Article40;Article.Init;Article Initial Successful
+2021.04.16;16:09:55;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;16:09:55;QGW03;Article.Init;Article Initial Successful
+2021.04.16;16:09:56;QGW04;Article.Init;Article Initial Successful
+2021.04.16;16:09:56;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;16:09:56;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;16:09:56;Flash;Article.Init;Article Initial Successful
+2021.04.16;16:09:56;Main;Start TwinCat;Initial Successful
+2021.04.16;16:09:59;Article40;Step -100;Station Initial
+2021.04.16;16:09:59;SR751_04;Step -100;Station Initial
+2021.04.16;16:09:59;QGW03;Step -100;Station Initial
+2021.04.16;16:09:59;QGW04;Step -100;Station Initial
+2021.04.16;16:09:59;SR1000_01;Step -100;Station Initial
+2021.04.16;16:09:59;QGWMB01;Step -100;Station Initial
+2021.04.16;16:09:59;Flash;Step -100;Station Initial
+2021.04.16;16:09:59;Article40;Step -99;Waiting for Select Article
+2021.04.16;16:09:59;SR751_04;Step -99;Check Scanner Configuration
+2021.04.16;16:09:59;QGW03;Step -99;LineControl.Initial
+2021.04.16;16:10:02;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:10:02;QGW04;Step -99;LineControl.Initial
+2021.04.16;16:10:07;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:10:07;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.16;16:10:07;QGWMB01;Step -99;LineControl.Initial
+2021.04.16;16:10:11;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:10:11;Flash;Step -99;Flash.Initial
+2021.04.16;16:10:11;Flash;Flash.Init;Flash Initial Successful
+2021.04.16;16:10:11;Article40;Step -98;Update Column
+2021.04.16;16:10:11;SR751_04;Step -98;Scanner.Initial
+2021.04.16;16:10:11;SR751_04;Scanner.Init;Scanner Initial PASS
+2021.04.16;16:10:11;QGW03;Step -98;Initial Succeeded
+2021.04.16;16:10:11;QGW04;Step -98;Initial Succeeded
+2021.04.16;16:10:11;SR1000_01;Step -98;Scanner.Initial
+2021.04.16;16:10:32;SR1000_01;Scanner.Init;Scanner Initial FAIL Message Interface_Connect;DEVICE_ERROR_WINDOWS_ERROR;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 169.254.157.152:9004
+2021.04.16;16:10:32;Station:SR1000_01
+Step:-98
+Message:Function:Scanner.Init;Scanner Initial FAIL Message Interface_Connect;DEVICE_ERROR_WINDOWS_ERROR;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 169.254.157.152:9004
+2021.04.16;16:10:49;MainForm_Bosh;Exit;sucessfull
+2021.04.16;16:10:49;Article40;Step -98;Dispose Succeeded
+2021.04.16;16:10:49;SR751_04;Scanner.Init;Dispose Succeeded
+2021.04.16;16:10:49;QGW03;Step -98;Dispose Succeeded
+2021.04.16;16:10:49;QGW04;Step -98;Dispose Succeeded
+2021.04.16;16:10:49;SR1000_01;Scanner.Init;Dispose Succeeded
+2021.04.16;16:10:49;QGWMB01;LineControl.Init;Dispose Succeeded
+2021.04.16;16:10:49;Flash;Flash.Init;Dispose Succeeded
+2021.04.16;16:10:49;Main;Exit;System Stop
+2021.04.16;16:10:49;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.16;16:10:52;Main;Init;**************************************************************************************
+2021.04.16;16:10:52;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;16:10:52;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;16:10:52;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;16:10:52;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;16:10:52;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;16:10:53;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;16:10:53;Main;Language.Init;Language Initial Successful
+2021.04.16;16:10:54;Main;Article.Init;Article Initial Successful
+2021.04.16;16:10:54;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;16:10:54;MainForm_Bosh;MainForm;Init Run
+2021.04.16;16:10:54;;WtStatusForm.Init;Initial Successful
+2021.04.16;16:10:54;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:10:54;MainForm_Bosh;InitCurrentArticle :10524131-0002;Successful
+2021.04.16;16:10:54;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;16:10:54;Article40;Article.Init;Article Initial Successful
+2021.04.16;16:10:54;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;16:10:55;QGW03;Article.Init;Article Initial Successful
+2021.04.16;16:10:55;QGW04;Article.Init;Article Initial Successful
+2021.04.16;16:10:55;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;16:10:55;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;16:10:56;Flash;Article.Init;Article Initial Successful
+2021.04.16;16:10:56;Main;Start TwinCat;Initial Successful
+2021.04.16;16:10:59;Article40;Step -100;Station Initial
+2021.04.16;16:10:59;SR751_04;Step -100;Station Initial
+2021.04.16;16:10:59;QGW03;Step -100;Station Initial
+2021.04.16;16:10:59;QGW04;Step -100;Station Initial
+2021.04.16;16:10:59;SR1000_01;Step -100;Station Initial
+2021.04.16;16:10:59;QGWMB01;Step -100;Station Initial
+2021.04.16;16:10:59;Flash;Step -100;Station Initial
+2021.04.16;16:11:00;Article40;Step -99;Waiting for Select Article
+2021.04.16;16:11:00;SR751_04;Step -99;Check Scanner Configuration
+2021.04.16;16:11:00;QGW03;Step -99;LineControl.Initial
+2021.04.16;16:11:00;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:11:00;QGW04;Step -99;LineControl.Initial
+2021.04.16;16:11:01;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:11:01;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.16;16:11:01;QGWMB01;Step -99;LineControl.Initial
+2021.04.16;16:11:01;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:11:01;Flash;Step -99;Flash.Initial
+2021.04.16;16:11:01;Flash;Flash.Init;Flash Initial Successful
+2021.04.16;16:11:02;Article40;Step -98;Update Column
+2021.04.16;16:11:02;SR751_04;Step -98;Scanner.Initial
+2021.04.16;16:11:02;SR751_04;Scanner.Init;Scanner Initial PASS
+2021.04.16;16:11:02;QGW03;Step -98;Initial Succeeded
+2021.04.16;16:11:02;QGW04;Step -98;Initial Succeeded
+2021.04.16;16:11:02;SR1000_01;Step -98;Scanner.Initial
+2021.04.16;16:11:02;SR1000_01;Scanner.Init;Scanner Initial PASS
+2021.04.16;16:11:02;QGWMB01;Step -98;Initial Succeeded
+2021.04.16;16:11:02;Flash;Step -98;Initial Succeeded
+2021.04.16;16:11:02;Article40;Step 0;Home Position
+2021.04.16;16:11:02;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;16:11:02;Article40;Step 0;Start Write Article
+2021.04.16;16:11:02;SR751_04;Step -97;Initial Succeeded
+2021.04.16;16:11:02;QGW03;Step -97;-97
+2021.04.16;16:11:02;QGW04;Step -97;-97
+2021.04.16;16:11:02;SR1000_01;Step -97;Initial Succeeded
+2021.04.16;16:11:02;QGWMB01;Step -97;-97
+2021.04.16;16:11:02;Flash;Step 0;Home Position
+2021.04.16;16:11:02;Article40;Step 1;Waiting for Select Article
+2021.04.16;16:11:02;SR751_04;Step 0;Home Position
+2021.04.16;16:11:02;QGW03;Step 0;Home Position
+2021.04.16;16:11:02;QGW04;Step 0;Home Position
+2021.04.16;16:11:02;SR1000_01;Step 0;Home Position
+2021.04.16;16:11:02;QGWMB01;Step 0;Home Position
+2021.04.16;16:11:02;Article40;Step 2;Change LocalArticle
+2021.04.16;16:11:02;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:11:02;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.16;16:11:02;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.16;16:11:02;Article40;Step 4;Completed Write Article
+2021.04.16;16:11:02;Article40;Step 0;Home Position
+2021.04.16;16:11:02;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;16:16:33;SR1000_01;Step 0;Scan Start
+2021.04.16;16:16:33;SR1000_01;Step 1;CheckPLCInfo
+2021.04.16;16:16:33;SR1000_01;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:16:33;SR1000_01;Step 2;Waiting for UserDefine
+2021.04.16;16:16:33;SR1000_01;Step 3;Scanner.Scan
+2021.04.16;16:16:33;SR1000_01;Step 3;Trig On
+2021.04.16;16:16:33;SR1000_01;Step 4;Waiting for Scan Completed
+2021.04.16;16:16:36;SR1000_01;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.16;16:16:36;SR1000_01;Step 4;Scan Result TIMEOUT
+2021.04.16;16:16:36;SR1000_01;Step 5;Update Message
+2021.04.16;16:16:36;SR1000_01;Step 5;Trig Off
+2021.04.16;16:16:36;SR1000_01;Step 6;Update Message
+2021.04.16;16:16:36;SR1000_01;Step 7;Check Repeat Count
+2021.04.16;16:16:36;SR1000_01;Step 2;Waiting for UserDefine
+2021.04.16;16:16:36;SR1000_01;Step 3;Scanner.Scan
+2021.04.16;16:16:36;SR1000_01;Step 3;Trig On
+2021.04.16;16:16:36;SR1000_01;Step 4;Waiting for Scan Completed
+2021.04.16;16:16:39;SR1000_01;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.16;16:16:39;SR1000_01;Step 4;Scan Result TIMEOUT
+2021.04.16;16:16:39;SR1000_01;Step 5;Update Message
+2021.04.16;16:16:39;SR1000_01;Step 5;Trig Off
+2021.04.16;16:16:39;SR1000_01;Step 6;Update Message
+2021.04.16;16:16:40;SR1000_01;Step 7;Check Repeat Count
+2021.04.16;16:16:40;SR1000_01;Step 2;Waiting for UserDefine
+2021.04.16;16:16:40;SR1000_01;Step 3;Scanner.Scan
+2021.04.16;16:16:40;SR1000_01;Step 3;Trig On
+2021.04.16;16:16:40;SR1000_01;Step 4;Waiting for Scan Completed
+2021.04.16;16:16:43;SR1000_01;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.16;16:16:43;SR1000_01;Step 4;Scan Result TIMEOUT
+2021.04.16;16:16:43;SR1000_01;Step 5;Update Message
+2021.04.16;16:16:43;SR1000_01;Step 5;Trig Off
+2021.04.16;16:16:43;SR1000_01;Step 6;Update Message
+2021.04.16;16:16:43;SR1000_01;Step 7;Check Repeat Count
+2021.04.16;16:16:43;SR1000_01;Step 7;SR1000_01 Scan SN is TimeOut
+2021.04.16;16:16:43;SR1000_01;Step 9;Check if need LineControl
+2021.04.16;16:16:43;SR1000_01;Step 9;LineControl Disable
+2021.04.16;16:16:43;SR1000_01;Step 13;Choose Step
+2021.04.16;16:16:43;SR1000_01;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;16:16:43;SR1000_01;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:20:37;SR1000_01;Step 0;Home Position
+2021.04.16;16:20:59;SR751_04;Step 0;Scan Start
+2021.04.16;16:20:59;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;16:20:59;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:20:59;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;16:20:59;SR751_04;Step 3;Scanner.Scan
+2021.04.16;16:20:59;SR751_04;Step 3;Trig On
+2021.04.16;16:20:59;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;16:20:59;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:20:59;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:20:59;SR751_04;Step 5;Update Message
+2021.04.16;16:20:59;SR751_04;Step 5;Trig Off
+2021.04.16;16:20:59;SR751_04;Step 6;Update Message
+2021.04.16;16:20:59;SR751_04;Step 7;Check Repeat Count
+2021.04.16;16:20:59;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;16:20:59;SR751_04;Step 8;GetBarCode FAIL Message SR751_04  Article Number Match is Wrong. Label Article Nr: 10524109-0001 PLC Article: 10524131
+2021.04.16;16:20:59;SR751_04;Step 9;Check if need LineControl
+2021.04.16;16:20:59;SR751_04;Step 9;LineControl Disable
+2021.04.16;16:20:59;SR751_04;Step 13;Choose Step
+2021.04.16;16:20:59;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;16:20:59;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:21:01;SR751_04;Step 0;Home Position
+2021.04.16;16:21:41;MainForm_Bosh;Exit;sucessfull
+2021.04.16;16:21:41;MainForm_Bosh;Exit;sucessfull
+2021.04.16;16:21:41;Article40;Step 0;Dispose Succeeded
+2021.04.16;16:21:41;SR751_04;Step 0;Dispose Succeeded
+2021.04.16;16:21:41;QGW03;Step 0;Dispose Succeeded
+2021.04.16;16:21:41;QGW04;Step 0;Dispose Succeeded
+2021.04.16;16:21:41;SR1000_01;Step 0;Dispose Succeeded
+2021.04.16;16:21:41;QGWMB01;Step 0;Dispose Succeeded
+2021.04.16;16:21:41;Flash;Step 0;Dispose Succeeded
+2021.04.16;16:21:41;Main;Exit;System Stop
+2021.04.16;16:21:41;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.16;16:21:44;Main;Init;**************************************************************************************
+2021.04.16;16:21:44;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;16:21:44;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;16:21:44;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;16:21:44;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;16:21:44;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;16:21:45;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;16:21:45;Main;Language.Init;Language Initial Successful
+2021.04.16;16:21:45;Main;Article.Init;Article Initial Successful
+2021.04.16;16:21:45;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;16:21:45;MainForm_Bosh;MainForm;Init Run
+2021.04.16;16:21:45;;WtStatusForm.Init;Initial Successful
+2021.04.16;16:21:45;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:21:45;MainForm_Bosh;InitCurrentArticle :10524131-0002;Successful
+2021.04.16;16:21:45;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;16:21:45;Article40;Article.Init;Article Initial Successful
+2021.04.16;16:21:46;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;16:21:46;QGW03;Article.Init;Article Initial Successful
+2021.04.16;16:21:46;QGW04;Article.Init;Article Initial Successful
+2021.04.16;16:21:46;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;16:21:47;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;16:21:47;Flash;Article.Init;Article Initial Successful
+2021.04.16;16:21:47;Main;Start TwinCat;Initial Successful
+2021.04.16;16:21:50;Article40;Step -100;Station Initial
+2021.04.16;16:21:50;SR751_04;Step -100;Station Initial
+2021.04.16;16:21:50;QGW03;Step -100;Station Initial
+2021.04.16;16:21:50;QGW04;Step -100;Station Initial
+2021.04.16;16:21:50;SR1000_01;Step -100;Station Initial
+2021.04.16;16:21:50;QGWMB01;Step -100;Station Initial
+2021.04.16;16:21:50;Flash;Step -100;Station Initial
+2021.04.16;16:21:50;Article40;Step -99;Waiting for Select Article
+2021.04.16;16:21:50;SR751_04;Step -99;Check Scanner Configuration
+2021.04.16;16:21:50;QGW03;Step -99;LineControl.Initial
+2021.04.16;16:21:50;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:21:50;QGW04;Step -99;LineControl.Initial
+2021.04.16;16:21:51;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:21:51;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.16;16:21:51;QGWMB01;Step -99;LineControl.Initial
+2021.04.16;16:21:51;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:21:51;Flash;Step -99;Flash.Initial
+2021.04.16;16:21:52;Flash;Flash.Init;Flash Initial Successful
+2021.04.16;16:21:52;Article40;Step -98;Update Column
+2021.04.16;16:21:52;SR751_04;Step -98;Scanner.Initial
+2021.04.16;16:21:52;SR751_04;Scanner.Init;Scanner Initial PASS
+2021.04.16;16:21:52;QGW03;Step -98;Initial Succeeded
+2021.04.16;16:21:52;QGW04;Step -98;Initial Succeeded
+2021.04.16;16:21:52;SR1000_01;Step -98;Scanner.Initial
+2021.04.16;16:21:52;SR1000_01;Scanner.Init;Scanner Initial PASS
+2021.04.16;16:21:52;QGWMB01;Step -98;Initial Succeeded
+2021.04.16;16:21:52;Flash;Step -98;Initial Succeeded
+2021.04.16;16:21:52;Article40;Step 0;Home Position
+2021.04.16;16:21:52;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;16:21:52;Article40;Step 0;Start Write Article
+2021.04.16;16:21:52;SR751_04;Step -97;Initial Succeeded
+2021.04.16;16:21:52;QGW03;Step -97;-97
+2021.04.16;16:21:52;QGW04;Step -97;-97
+2021.04.16;16:21:52;SR1000_01;Step -97;Initial Succeeded
+2021.04.16;16:21:52;QGWMB01;Step -97;-97
+2021.04.16;16:21:52;Flash;Step 0;Home Position
+2021.04.16;16:21:52;Article40;Step 1;Waiting for Select Article
+2021.04.16;16:21:52;SR751_04;Step 0;Home Position
+2021.04.16;16:21:52;QGW03;Step 0;Home Position
+2021.04.16;16:21:52;QGW04;Step 0;Home Position
+2021.04.16;16:21:52;SR1000_01;Step 0;Home Position
+2021.04.16;16:21:52;QGWMB01;Step 0;Home Position
+2021.04.16;16:21:52;Article40;Step 2;Change LocalArticle
+2021.04.16;16:21:52;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:21:52;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.16;16:21:52;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.16;16:21:52;Article40;Step 4;Completed Write Article
+2021.04.16;16:21:52;Article40;Step 0;Home Position
+2021.04.16;16:21:52;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;16:22:46;SR751_04;Step 0;Scan Start
+2021.04.16;16:22:46;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;16:22:46;SR1000_01;Step 0;Scan Start
+2021.04.16;16:22:46;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:22:46;SR1000_01;Step 1;CheckPLCInfo
+2021.04.16;16:22:46;SR1000_01;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:22:46;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;16:22:46;SR1000_01;Step 2;Waiting for UserDefine
+2021.04.16;16:22:46;SR751_04;Step 3;Scanner.Scan
+2021.04.16;16:22:46;SR751_04;Step 3;Trig On
+2021.04.16;16:22:46;SR1000_01;Step 3;Scanner.Scan
+2021.04.16;16:22:46;SR1000_01;Step 3;Trig On
+2021.04.16;16:22:46;SR751_04;Step 3;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:22:46;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;16:22:46;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:22:46;SR1000_01;Step 4;Waiting for Scan Completed
+2021.04.16;16:22:46;SR751_04;Step 5;Update Message
+2021.04.16;16:22:46;SR751_04;Step 5;Trig Off
+2021.04.16;16:22:46;SR751_04;Step 6;Update Message
+2021.04.16;16:22:46;SR751_04;Step 7;Check Repeat Count
+2021.04.16;16:22:46;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;16:22:46;SR751_04;Step 8;GetBarCode FAIL Message SR751_04  Article Number Match is Wrong. Label Article Nr: 10524109-0001 PLC Article: 10524131
+2021.04.16;16:22:47;SR751_04;Step 9;Check if need LineControl
+2021.04.16;16:22:47;SR751_04;Step 9;LineControl Disable
+2021.04.16;16:22:47;SR751_04;Step 13;Choose Step
+2021.04.16;16:22:47;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;16:22:47;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:22:49;SR751_04;Step 0;Home Position
+2021.04.16;16:22:49;SR1000_01;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.16;16:22:49;SR1000_01;Step 4;Scan Result TIMEOUT
+2021.04.16;16:22:49;SR1000_01;Step 5;Update Message
+2021.04.16;16:22:49;SR1000_01;Step 5;Trig Off
+2021.04.16;16:22:49;SR1000_01;Step 6;Update Message
+2021.04.16;16:22:49;SR1000_01;Step 7;Check Repeat Count
+2021.04.16;16:22:49;SR1000_01;Step 2;Waiting for UserDefine
+2021.04.16;16:22:49;SR1000_01;Step 3;Scanner.Scan
+2021.04.16;16:22:49;SR1000_01;Step 3;Trig On
+2021.04.16;16:22:50;SR1000_01;Step 4;Waiting for Scan Completed
+2021.04.16;16:22:52;SR1000_01;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.16;16:22:53;SR1000_01;Step 4;Scan Result TIMEOUT
+2021.04.16;16:22:53;SR1000_01;Step 5;Update Message
+2021.04.16;16:22:53;SR1000_01;Step 5;Trig Off
+2021.04.16;16:22:53;SR1000_01;Step 6;Update Message
+2021.04.16;16:22:53;SR1000_01;Step 7;Check Repeat Count
+2021.04.16;16:22:53;SR1000_01;Step 2;Waiting for UserDefine
+2021.04.16;16:22:53;SR1000_01;Step 3;Scanner.Scan
+2021.04.16;16:22:53;SR1000_01;Step 3;Trig On
+2021.04.16;16:22:53;SR1000_01;Step 4;Waiting for Scan Completed
+2021.04.16;16:22:56;SR1000_01;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.16;16:22:56;SR1000_01;Step 4;Scan Result TIMEOUT
+2021.04.16;16:22:56;SR1000_01;Step 5;Update Message
+2021.04.16;16:22:56;SR1000_01;Step 5;Trig Off
+2021.04.16;16:22:56;SR1000_01;Step 6;Update Message
+2021.04.16;16:22:56;SR1000_01;Step 7;Check Repeat Count
+2021.04.16;16:22:56;SR1000_01;Step 7;SR1000_01 Scan SN is TimeOut
+2021.04.16;16:22:56;SR1000_01;Step 9;Check if need LineControl
+2021.04.16;16:22:56;SR1000_01;Step 9;LineControl Disable
+2021.04.16;16:22:56;SR1000_01;Step 13;Choose Step
+2021.04.16;16:22:56;SR1000_01;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;16:22:56;SR1000_01;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:28:26;SR751_04;Step 0;Scan Start
+2021.04.16;16:28:26;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;16:28:26;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:28:27;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;16:28:27;SR751_04;Step 3;Scanner.Scan
+2021.04.16;16:28:27;SR751_04;Step 3;Trig On
+2021.04.16;16:28:27;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;16:28:27;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:28:27;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:28:27;SR751_04;Step 5;Update Message
+2021.04.16;16:28:27;SR751_04;Step 5;Trig Off
+2021.04.16;16:28:27;SR751_04;Step 6;Update Message
+2021.04.16;16:28:27;SR751_04;Step 7;Check Repeat Count
+2021.04.16;16:28:27;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;16:28:27;SR751_04;Step 8;GetBarCode FAIL Message SR751_04  Article Number Match is Wrong. Label Article Nr: 10524109-0001 PLC Article: 10524131
+2021.04.16;16:28:27;SR751_04;Step 9;Check if need LineControl
+2021.04.16;16:28:27;SR751_04;Step 9;LineControl Disable
+2021.04.16;16:28:27;SR751_04;Step 13;Choose Step
+2021.04.16;16:28:27;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;16:28:27;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:31:12;SR751_04;Step 0;Home Position
+2021.04.16;16:31:12;SR1000_01;Step 0;Home Position
+2021.04.16;16:31:22;SR751_04;Step 0;Scan Start
+2021.04.16;16:31:22;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;16:31:22;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:31:22;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;16:31:22;SR751_04;Step 3;Scanner.Scan
+2021.04.16;16:31:22;SR751_04;Step 3;Trig On
+2021.04.16;16:31:23;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;16:31:23;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:31:23;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:31:23;SR751_04;Step 5;Update Message
+2021.04.16;16:31:23;SR751_04;Step 5;Trig Off
+2021.04.16;16:31:23;SR751_04;Step 6;Update Message
+2021.04.16;16:31:23;SR751_04;Step 7;Check Repeat Count
+2021.04.16;16:31:23;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;16:31:23;SR751_04;Step 8;GetBarCode FAIL Message SR751_04  Article Number Match is Wrong. Label Article Nr: 10524109-0001 PLC Article: 10524131
+2021.04.16;16:31:23;SR751_04;Step 9;Check if need LineControl
+2021.04.16;16:31:23;SR751_04;Step 9;LineControl Disable
+2021.04.16;16:31:23;SR751_04;Step 13;Choose Step
+2021.04.16;16:31:23;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;16:31:23;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:31:47;MainForm_Bosh;frmPassword.CheckEntry;UserPassWord is invalid
+2021.04.16;16:31:51;MainForm_Bosh;Exit;sucessfull
+2021.04.16;16:31:51;MainForm_Bosh;Exit;sucessfull
+2021.04.16;16:31:51;Article40;Step 0;Dispose Succeeded
+2021.04.16;16:31:51;SR751_04;Step 2001;Dispose Succeeded
+2021.04.16;16:31:51;QGW03;Step 0;Dispose Succeeded
+2021.04.16;16:31:51;QGW04;Step 0;Dispose Succeeded
+2021.04.16;16:31:51;SR1000_01;Step 0;Dispose Succeeded
+2021.04.16;16:31:51;QGWMB01;Step 0;Dispose Succeeded
+2021.04.16;16:31:51;Flash;Step 0;Dispose Succeeded
+2021.04.16;16:31:51;Main;Exit;System Stop
+2021.04.16;16:31:51;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.16;16:31:55;Main;Init;**************************************************************************************
+2021.04.16;16:31:55;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;16:31:55;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;16:31:55;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;16:31:55;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;16:31:55;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;16:31:56;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;16:31:56;Main;Language.Init;Language Initial Successful
+2021.04.16;16:31:56;Main;Article.Init;Article Initial Successful
+2021.04.16;16:31:56;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;16:31:56;MainForm_Bosh;MainForm;Init Run
+2021.04.16;16:31:56;;WtStatusForm.Init;Initial Successful
+2021.04.16;16:31:56;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:31:56;MainForm_Bosh;InitCurrentArticle :10524131-0002;Successful
+2021.04.16;16:31:56;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;16:31:57;Article40;Article.Init;Article Initial Successful
+2021.04.16;16:31:57;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;16:31:57;QGW03;Article.Init;Article Initial Successful
+2021.04.16;16:31:57;QGW04;Article.Init;Article Initial Successful
+2021.04.16;16:31:58;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;16:31:58;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;16:31:58;Flash;Article.Init;Article Initial Successful
+2021.04.16;16:31:58;Main;Start TwinCat;Initial Successful
+2021.04.16;16:32:01;Article40;Step -100;Station Initial
+2021.04.16;16:32:01;SR751_04;Step -100;Station Initial
+2021.04.16;16:32:01;QGW03;Step -100;Station Initial
+2021.04.16;16:32:01;QGW04;Step -100;Station Initial
+2021.04.16;16:32:01;SR1000_01;Step -100;Station Initial
+2021.04.16;16:32:01;QGWMB01;Step -100;Station Initial
+2021.04.16;16:32:01;Flash;Step -100;Station Initial
+2021.04.16;16:32:01;Article40;Step -99;Waiting for Select Article
+2021.04.16;16:32:01;SR751_04;Step -99;Check Scanner Configuration
+2021.04.16;16:32:01;QGW03;Step -99;LineControl.Initial
+2021.04.16;16:32:02;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:32:02;QGW04;Step -99;LineControl.Initial
+2021.04.16;16:32:02;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:32:02;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.16;16:32:02;QGWMB01;Step -99;LineControl.Initial
+2021.04.16;16:32:03;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:32:03;Flash;Step -99;Flash.Initial
+2021.04.16;16:32:03;Flash;Flash.Init;Flash Initial Successful
+2021.04.16;16:32:03;Article40;Step -98;Update Column
+2021.04.16;16:32:03;SR751_04;Step -98;Scanner.Initial
+2021.04.16;16:32:03;SR751_04;Scanner.Init;Scanner Initial PASS
+2021.04.16;16:32:03;QGW03;Step -98;Initial Succeeded
+2021.04.16;16:32:03;QGW04;Step -98;Initial Succeeded
+2021.04.16;16:32:03;SR1000_01;Step -98;Scanner.Initial
+2021.04.16;16:32:03;SR1000_01;Scanner.Init;Scanner Initial PASS
+2021.04.16;16:32:03;QGWMB01;Step -98;Initial Succeeded
+2021.04.16;16:32:03;Flash;Step -98;Initial Succeeded
+2021.04.16;16:32:03;Article40;Step 0;Home Position
+2021.04.16;16:32:03;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;16:32:03;Article40;Step 0;Start Write Article
+2021.04.16;16:32:03;SR751_04;Step -97;Initial Succeeded
+2021.04.16;16:32:03;QGW03;Step -97;-97
+2021.04.16;16:32:03;QGW04;Step -97;-97
+2021.04.16;16:32:03;SR1000_01;Step -97;Initial Succeeded
+2021.04.16;16:32:03;QGWMB01;Step -97;-97
+2021.04.16;16:32:03;Flash;Step 0;Home Position
+2021.04.16;16:32:03;Article40;Step 1;Waiting for Select Article
+2021.04.16;16:32:03;SR751_04;Step 0;Home Position
+2021.04.16;16:32:03;SR751_04;Step 0;Scan Start
+2021.04.16;16:32:03;QGW03;Step 0;Home Position
+2021.04.16;16:32:03;QGW04;Step 0;Home Position
+2021.04.16;16:32:03;SR1000_01;Step 0;Home Position
+2021.04.16;16:32:03;QGWMB01;Step 0;Home Position
+2021.04.16;16:32:03;Article40;Step 2;Change LocalArticle
+2021.04.16;16:32:03;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:32:03;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;16:32:03;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:32:04;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.16;16:32:04;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;16:32:04;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.16;16:32:04;Article40;Step 4;Completed Write Article
+2021.04.16;16:32:04;SR751_04;Step 3;Scanner.Scan
+2021.04.16;16:32:04;SR751_04;Step 3;Trig On
+2021.04.16;16:32:04;Article40;Step 0;Home Position
+2021.04.16;16:32:04;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;16:32:04;SR751_04;Step 3;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:32:04;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;16:32:04;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:32:04;SR751_04;Step 5;Update Message
+2021.04.16;16:32:04;SR751_04;Step 5;Trig Off
+2021.04.16;16:32:04;SR751_04;Step 6;Update Message
+2021.04.16;16:32:04;SR751_04;Step 7;Check Repeat Count
+2021.04.16;16:32:04;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;16:32:04;SR751_04;Step 8;GetBarCode FAIL Message SR751_04  Article Number Match is Wrong. Label Article Nr: 10524109-0001 PLC Article: 10524131
+2021.04.16;16:32:04;SR751_04;Step 9;Check if need LineControl
+2021.04.16;16:32:04;SR751_04;Step 9;LineControl Disable
+2021.04.16;16:32:04;SR751_04;Step 13;Choose Step
+2021.04.16;16:32:04;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;16:32:04;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:32:48;SR751_04;Step 0;Home Position
+2021.04.16;16:32:57;SR751_04;Step 0;Scan Start
+2021.04.16;16:32:57;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;16:32:57;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:32:57;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;16:32:57;SR751_04;Step 3;Scanner.Scan
+2021.04.16;16:32:57;SR751_04;Step 3;Trig On
+2021.04.16;16:32:57;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;16:32:57;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:32:57;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:32:57;SR751_04;Step 5;Update Message
+2021.04.16;16:32:57;SR751_04;Step 5;Trig Off
+2021.04.16;16:32:57;SR751_04;Step 6;Update Message
+2021.04.16;16:32:57;SR751_04;Step 7;Check Repeat Count
+2021.04.16;16:32:57;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;16:32:57;SR751_04;Step 8;GetBarCode FAIL Message SR751_04  Article Number Match is Wrong. Label Article Nr: 10524109-0001 PLC Article: 10524131
+2021.04.16;16:32:57;SR751_04;Step 9;Check if need LineControl
+2021.04.16;16:32:57;SR751_04;Step 9;LineControl Disable
+2021.04.16;16:32:57;SR751_04;Step 13;Choose Step
+2021.04.16;16:32:57;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;16:32:57;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:34:33;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:34:33;MainForm_Bosh;_btnArticle_Click;Change Article 10524109-0002 Succeeded
+2021.04.16;16:34:33;Article40;Step 0;Start Write Article
+2021.04.16;16:34:33;Article40;Step 1;Waiting for Select Article
+2021.04.16;16:34:33;SR751_04;Step 0;Home Position
+2021.04.16;16:34:33;Article40;Step 2;Change LocalArticle
+2021.04.16;16:34:33;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:34:33;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.16;16:34:34;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.16;16:34:34;Article40;Step 4;Completed Write Article
+2021.04.16;16:34:34;Article40;Step 0;Home Position
+2021.04.16;16:34:34;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;16:34:43;SR751_04;Step 0;Scan Start
+2021.04.16;16:34:43;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;16:34:43;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:34:43;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;16:34:43;SR751_04;Step 3;Scanner.Scan
+2021.04.16;16:34:43;SR751_04;Step 3;Trig On
+2021.04.16;16:34:43;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;16:34:43;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:34:43;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:34:43;SR751_04;Step 5;Update Message
+2021.04.16;16:34:43;SR751_04;Step 5;Trig Off
+2021.04.16;16:34:43;SR751_04;Step 6;Update Message
+2021.04.16;16:34:43;SR751_04;Step 7;Check Repeat Count
+2021.04.16;16:34:43;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;16:34:43;SR751_04;Step 8;GetBarCode FAIL Message SR751_04  Article Index Match is Wrong. Label Index Nr: 0001 PLC Index: 0002
+2021.04.16;16:34:43;SR751_04;Step 9;Check if need LineControl
+2021.04.16;16:34:43;SR751_04;Step 9;LineControl Disable
+2021.04.16;16:34:43;SR751_04;Step 13;Choose Step
+2021.04.16;16:34:43;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;16:34:43;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:36:22;MainForm_Bosh;Exit;sucessfull
+2021.04.16;16:36:22;MainForm_Bosh;Exit;sucessfull
+2021.04.16;16:36:22;Article40;Step 0;Dispose Succeeded
+2021.04.16;16:36:22;SR751_04;Step 2001;Dispose Succeeded
+2021.04.16;16:36:22;QGW03;Step 0;Dispose Succeeded
+2021.04.16;16:36:22;QGW04;Step 0;Dispose Succeeded
+2021.04.16;16:36:22;SR1000_01;Step 0;Dispose Succeeded
+2021.04.16;16:36:22;QGWMB01;Step 0;Dispose Succeeded
+2021.04.16;16:36:22;Flash;Step 0;Dispose Succeeded
+2021.04.16;16:36:22;Main;Exit;System Stop
+2021.04.16;16:36:22;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.16;16:36:24;Main;Init;**************************************************************************************
+2021.04.16;16:36:24;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.16;16:36:24;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.16;16:36:24;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.16;16:36:24;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.16;16:36:24;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.16;16:36:25;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.16;16:36:25;Main;Language.Init;Language Initial Successful
+2021.04.16;16:36:25;Main;Article.Init;Article Initial Successful
+2021.04.16;16:36:25;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.16;16:36:25;MainForm_Bosh;MainForm;Init Run
+2021.04.16;16:36:25;;WtStatusForm.Init;Initial Successful
+2021.04.16;16:36:25;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:36:25;MainForm_Bosh;InitCurrentArticle :10524146-0002;Successful
+2021.04.16;16:36:25;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.16;16:36:26;Article40;Article.Init;Article Initial Successful
+2021.04.16;16:36:26;SR751_04;Article.Init;Article Initial Successful
+2021.04.16;16:36:26;QGW03;Article.Init;Article Initial Successful
+2021.04.16;16:36:27;QGW04;Article.Init;Article Initial Successful
+2021.04.16;16:36:27;SR1000_01;Article.Init;Article Initial Successful
+2021.04.16;16:36:27;QGWMB01;Article.Init;Article Initial Successful
+2021.04.16;16:36:27;Flash;Article.Init;Article Initial Successful
+2021.04.16;16:36:27;Main;Start TwinCat;Initial Successful
+2021.04.16;16:36:30;Article40;Step -100;Station Initial
+2021.04.16;16:36:30;SR751_04;Step -100;Station Initial
+2021.04.16;16:36:30;QGW03;Step -100;Station Initial
+2021.04.16;16:36:30;QGW04;Step -100;Station Initial
+2021.04.16;16:36:30;SR1000_01;Step -100;Station Initial
+2021.04.16;16:36:30;QGWMB01;Step -100;Station Initial
+2021.04.16;16:36:30;Flash;Step -100;Station Initial
+2021.04.16;16:36:30;Article40;Step -99;Waiting for Select Article
+2021.04.16;16:36:30;SR751_04;Step -99;Check Scanner Configuration
+2021.04.16;16:36:30;QGW03;Step -99;LineControl.Initial
+2021.04.16;16:36:31;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:36:31;QGW04;Step -99;LineControl.Initial
+2021.04.16;16:36:31;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:36:31;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.16;16:36:31;QGWMB01;Step -99;LineControl.Initial
+2021.04.16;16:36:32;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.16;16:36:32;Flash;Step -99;Flash.Initial
+2021.04.16;16:36:32;Flash;Flash.Init;Flash Initial Successful
+2021.04.16;16:36:32;Article40;Step -98;Update Column
+2021.04.16;16:36:32;SR751_04;Step -98;Scanner.Initial
+2021.04.16;16:36:32;SR751_04;Scanner.Init;Scanner Initial PASS
+2021.04.16;16:36:32;QGW03;Step -98;Initial Succeeded
+2021.04.16;16:36:32;QGW04;Step -98;Initial Succeeded
+2021.04.16;16:36:32;SR1000_01;Step -98;Scanner.Initial
+2021.04.16;16:36:32;SR1000_01;Scanner.Init;Scanner Initial PASS
+2021.04.16;16:36:32;QGWMB01;Step -98;Initial Succeeded
+2021.04.16;16:36:32;Flash;Step -98;Initial Succeeded
+2021.04.16;16:36:32;Article40;Step 0;Home Position
+2021.04.16;16:36:32;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;16:36:32;Article40;Step 0;Start Write Article
+2021.04.16;16:36:32;SR751_04;Step -97;Initial Succeeded
+2021.04.16;16:36:32;QGW03;Step -97;-97
+2021.04.16;16:36:32;QGW04;Step -97;-97
+2021.04.16;16:36:32;SR1000_01;Step -97;Initial Succeeded
+2021.04.16;16:36:32;QGWMB01;Step -97;-97
+2021.04.16;16:36:32;Flash;Step 0;Home Position
+2021.04.16;16:36:32;Article40;Step 1;Waiting for Select Article
+2021.04.16;16:36:32;SR751_04;Step 0;Home Position
+2021.04.16;16:36:32;QGW03;Step 0;Home Position
+2021.04.16;16:36:32;QGW04;Step 0;Home Position
+2021.04.16;16:36:32;SR1000_01;Step 0;Home Position
+2021.04.16;16:36:32;QGWMB01;Step 0;Home Position
+2021.04.16;16:36:33;Article40;Step 2;Change LocalArticle
+2021.04.16;16:36:33;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:36:33;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.16;16:36:33;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.16;16:36:33;Article40;Step 4;Completed Write Article
+2021.04.16;16:36:33;Article40;Step 0;Home Position
+2021.04.16;16:36:33;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;16:36:39;SR751_04;Step 0;Scan Start
+2021.04.16;16:36:39;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;16:36:39;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:36:39;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;16:36:39;SR751_04;Step 3;Scanner.Scan
+2021.04.16;16:36:39;SR751_04;Step 3;Trig On
+2021.04.16;16:36:39;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;16:36:39;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:36:39;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:36:39;SR751_04;Step 5;Update Message
+2021.04.16;16:36:39;SR751_04;Step 5;Trig Off
+2021.04.16;16:36:39;SR751_04;Step 6;Update Message
+2021.04.16;16:36:39;SR751_04;Step 7;Check Repeat Count
+2021.04.16;16:36:39;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;16:36:39;SR751_04;Step 8;GetBarCode FAIL Message SR751_04  Article Number Match is Wrong. Label Article Nr: 10524109-0001 PLC Article: 10524146
+2021.04.16;16:36:39;SR751_04;Step 9;Check if need LineControl
+2021.04.16;16:36:39;SR751_04;Step 9;LineControl Disable
+2021.04.16;16:36:39;SR751_04;Step 13;Choose Step
+2021.04.16;16:36:39;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;16:36:39;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:36:44;SR751_04;Step 0;Home Position
+2021.04.16;16:38:53;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:38:53;MainForm_Bosh;_btnArticle_Click;Change Article 10524109-0001 Succeeded
+2021.04.16;16:38:54;Article40;Step 0;Start Write Article
+2021.04.16;16:38:54;Article40;Step 1;Waiting for Select Article
+2021.04.16;16:38:54;Article40;Step 2;Change LocalArticle
+2021.04.16;16:38:54;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:38:54;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.16;16:38:54;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.16;16:38:54;Article40;Step 4;Completed Write Article
+2021.04.16;16:38:54;Article40;Step 0;Home Position
+2021.04.16;16:38:54;Article40;Step 0;Home Position. Wait For Trig
+2021.04.16;16:39:11;SR751_04;Step 0;Scan Start
+2021.04.16;16:39:11;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;16:39:11;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:39:11;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;16:39:11;SR751_04;Step 3;Scanner.Scan
+2021.04.16;16:39:11;SR751_04;Step 3;Trig On
+2021.04.16;16:39:11;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;16:39:11;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:39:11;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;16:39:11;SR751_04;Step 5;Update Message
+2021.04.16;16:39:11;SR751_04;Step 5;Trig Off
+2021.04.16;16:39:11;SR751_04;Step 6;Update Message
+2021.04.16;16:39:11;SR751_04;Step 7;Check Repeat Count
+2021.04.16;16:39:11;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;16:39:11;QGW03;Step 0;Start LineControl
+2021.04.16;16:39:11;QGW03;Step 1;CheckPLCInfo
+2021.04.16;16:39:12;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;16:39:12;QGW03;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:39:12;QGW03;Article.GetArticle_FromID;Check All Information from PLC is Successful
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;16:39:12;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;16:39:12;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;16:39:12;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;16:39:12;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;16:39:12;QGW03;Step 0;Home Position
+2021.04.16;16:39:12;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;16:39:12;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:39:12;SR751_04;Step 0;Home Position
+2021.04.16;16:45:37;Flash;Step 0;Start Lase
+2021.04.16;16:45:37;Flash;Step 1;CheckPLCInfo
+2021.04.16;16:45:37;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:45:37;Flash;Step 2;Check Reference SN
+2021.04.16;16:45:37;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;16:45:37;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;16:45:38;Flash;Step 5;Send Command
+2021.04.16;16:45:38;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;16:45:38;Flash;Step 6;Check Response
+2021.04.16;16:45:38;Flash;Step 6;Flash FAIL Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|08000040!
+
+2021.04.16;16:45:38;Flash;Step 7;Check Repeat
+2021.04.16;16:45:38;Flash;Step 8;Check if need LineControl
+2021.04.16;16:45:38;Flash;Step 8;LineControl Disable
+2021.04.16;16:45:38;Flash;Step 12;Choose Step
+2021.04.16;16:45:38;Flash;Step 2000;PC send bulActionIsFail
+2021.04.16;16:45:39;Flash;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:49:40;Flash;Step 0;Home Position
+2021.04.16;16:49:43;Flash;Step 0;Start Lase
+2021.04.16;16:49:43;Flash;Step 1;CheckPLCInfo
+2021.04.16;16:49:43;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:49:43;Flash;Step 2;Check Reference SN
+2021.04.16;16:49:43;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;16:49:43;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;16:49:43;Flash;Step 5;Send Command
+2021.04.16;16:49:43;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;16:49:43;Flash;Step 6;Check Response
+2021.04.16;16:49:45;Flash;Step 6;Flash FAIL Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|08002C01!
+
+2021.04.16;16:49:45;Flash;Step 7;Check Repeat
+2021.04.16;16:49:45;Flash;Step 8;Check if need LineControl
+2021.04.16;16:49:45;Flash;Step 8;LineControl Disable
+2021.04.16;16:49:45;Flash;Step 12;Choose Step
+2021.04.16;16:49:45;Flash;Step 2000;PC send bulActionIsFail
+2021.04.16;16:49:45;Flash;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:51:47;Flash;Step 0;Home Position
+2021.04.16;16:51:57;Flash;Step 0;Start Lase
+2021.04.16;16:51:57;Flash;Step 1;CheckPLCInfo
+2021.04.16;16:51:57;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:51:57;Flash;Step 2;Check Reference SN
+2021.04.16;16:51:57;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;16:51:57;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;16:51:57;Flash;Step 5;Send Command
+2021.04.16;16:51:57;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;16:51:57;Flash;Step 6;Check Response
+2021.04.16;16:51:58;Flash;Step 6;Flash FAIL Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|08000040!
+
+2021.04.16;16:51:58;Flash;Step 7;Check Repeat
+2021.04.16;16:51:58;Flash;Step 8;Check if need LineControl
+2021.04.16;16:51:58;Flash;Step 8;LineControl Disable
+2021.04.16;16:51:58;Flash;Step 12;Choose Step
+2021.04.16;16:51:58;Flash;Step 2000;PC send bulActionIsFail
+2021.04.16;16:51:58;Flash;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:52:31;Flash;Step 0;Home Position
+2021.04.16;16:52:40;Flash;Step 0;Start Lase
+2021.04.16;16:52:40;Flash;Step 1;CheckPLCInfo
+2021.04.16;16:52:40;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:52:40;Flash;Step 2;Check Reference SN
+2021.04.16;16:52:40;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;16:52:40;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;16:52:40;Flash;Step 5;Send Command
+2021.04.16;16:52:40;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;16:52:40;Flash;Step 6;Check Response
+2021.04.16;16:52:41;Flash;Step 6;Flash FAIL Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|08002C01!
+
+2021.04.16;16:52:41;Flash;Step 7;Check Repeat
+2021.04.16;16:52:41;Flash;Step 8;Check if need LineControl
+2021.04.16;16:52:41;Flash;Step 8;LineControl Disable
+2021.04.16;16:52:41;Flash;Step 12;Choose Step
+2021.04.16;16:52:41;Flash;Step 2000;PC send bulActionIsFail
+2021.04.16;16:52:42;Flash;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:53:46;Flash;Step 0;Home Position
+2021.04.16;16:53:56;Flash;Step 0;Start Lase
+2021.04.16;16:53:56;Flash;Step 1;CheckPLCInfo
+2021.04.16;16:53:56;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:53:56;Flash;Step 2;Check Reference SN
+2021.04.16;16:53:56;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;16:53:56;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;16:53:56;Flash;Step 5;Send Command
+2021.04.16;16:53:56;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;16:53:56;Flash;Step 6;Check Response
+2021.04.16;16:53:57;Flash;Step 6;Flash FAIL Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|08002C01!
+
+2021.04.16;16:53:57;Flash;Step 7;Check Repeat
+2021.04.16;16:53:57;Flash;Step 8;Check if need LineControl
+2021.04.16;16:53:57;Flash;Step 8;LineControl Disable
+2021.04.16;16:53:57;Flash;Step 12;Choose Step
+2021.04.16;16:53:57;Flash;Step 2000;PC send bulActionIsFail
+2021.04.16;16:53:57;Flash;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:54:56;Flash;Step 0;Home Position
+2021.04.16;16:55:14;Flash;Step 0;Start Lase
+2021.04.16;16:55:14;Flash;Step 1;CheckPLCInfo
+2021.04.16;16:55:14;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:55:14;Flash;Step 2;Check Reference SN
+2021.04.16;16:55:14;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;16:55:14;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;16:55:15;Flash;Step 5;Send Command
+2021.04.16;16:55:15;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;16:55:15;Flash;Step 6;Check Response
+2021.04.16;16:55:16;Flash;Step 6;Flash FAIL Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|08002C01!
+
+2021.04.16;16:55:16;Flash;Step 7;Check Repeat
+2021.04.16;16:55:16;Flash;Step 8;Check if need LineControl
+2021.04.16;16:55:16;Flash;Step 8;LineControl Disable
+2021.04.16;16:55:16;Flash;Step 12;Choose Step
+2021.04.16;16:55:16;Flash;Step 2000;PC send bulActionIsFail
+2021.04.16;16:55:16;Flash;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:55:53;Flash;Step 0;Home Position
+2021.04.16;16:56:24;Flash;Step 0;Start Lase
+2021.04.16;16:56:24;Flash;Step 1;CheckPLCInfo
+2021.04.16;16:56:24;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:56:24;Flash;Step 2;Check Reference SN
+2021.04.16;16:56:24;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;16:56:24;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;16:56:24;Flash;Step 5;Send Command
+2021.04.16;16:56:24;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;16:56:24;Flash;Step 6;Check Response
+2021.04.16;16:56:25;Flash;Step 6;Flash FAIL Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|08002C01!
+
+2021.04.16;16:56:25;Flash;Step 7;Check Repeat
+2021.04.16;16:56:25;Flash;Step 8;Check if need LineControl
+2021.04.16;16:56:25;Flash;Step 8;LineControl Disable
+2021.04.16;16:56:25;Flash;Step 12;Choose Step
+2021.04.16;16:56:25;Flash;Step 2000;PC send bulActionIsFail
+2021.04.16;16:56:25;Flash;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:56:35;Flash;Step 0;Home Position
+2021.04.16;16:56:35;Flash;Step 0;Start Lase
+2021.04.16;16:56:35;Flash;Step 1;CheckPLCInfo
+2021.04.16;16:56:35;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:56:35;Flash;Step 2;Check Reference SN
+2021.04.16;16:56:35;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;16:56:35;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;16:56:35;Flash;Step 5;Send Command
+2021.04.16;16:56:35;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;16:56:35;Flash;Step 6;Check Response
+2021.04.16;16:56:37;Flash;Step 6;Flash FAIL Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|08002C01!
+
+2021.04.16;16:56:37;Flash;Step 7;Check Repeat
+2021.04.16;16:56:37;Flash;Step 8;Check if need LineControl
+2021.04.16;16:56:37;Flash;Step 8;LineControl Disable
+2021.04.16;16:56:37;Flash;Step 12;Choose Step
+2021.04.16;16:56:37;Flash;Step 2000;PC send bulActionIsFail
+2021.04.16;16:56:37;Flash;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;16:57:17;Flash;Step 0;Home Position
+2021.04.16;16:57:47;Flash;Step 0;Start Lase
+2021.04.16;16:57:47;Flash;Step 1;CheckPLCInfo
+2021.04.16;16:57:47;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;16:57:47;Flash;Step 2;Check Reference SN
+2021.04.16;16:57:47;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;16:57:47;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;16:57:47;Flash;Step 5;Send Command
+2021.04.16;16:57:47;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;16:57:47;Flash;Step 6;Check Response
+2021.04.16;16:57:48;Flash;Step 6;Flash FAIL Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|08002C01!
+
+2021.04.16;16:57:49;Flash;Step 7;Check Repeat
+2021.04.16;16:57:49;Flash;Step 8;Check if need LineControl
+2021.04.16;16:57:49;Flash;Step 8;LineControl Disable
+2021.04.16;16:57:49;Flash;Step 12;Choose Step
+2021.04.16;16:57:49;Flash;Step 2000;PC send bulActionIsFail
+2021.04.16;16:57:49;Flash;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;17:00:32;Flash;Step 0;Home Position
+2021.04.16;17:00:40;QGW04;Step 0;Start LineControl
+2021.04.16;17:00:40;QGW04;Step 1;CheckPLCInfo
+2021.04.16;17:00:40;QGW04;Step 1;Invalid Serialnumber from PLC;
+2021.04.16;17:00:40;QGW04;Step 2000;PC send bulActionIsFail
+2021.04.16;17:00:40;QGW04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;17:00:41;QGW04;Step 0;Home Position
+2021.04.16;17:00:51;Flash;Step 0;Start Lase
+2021.04.16;17:00:51;Flash;Step 1;CheckPLCInfo
+2021.04.16;17:00:51;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;17:00:51;Flash;Step 2;Check Reference SN
+2021.04.16;17:00:51;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;17:00:51;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;17:00:51;Flash;Step 5;Send Command
+2021.04.16;17:00:51;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;17:00:51;Flash;Step 6;Check Response
+2021.04.16;17:00:55;Flash;Step 6;Flash Response PASS Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|>
+
+2021.04.16;17:00:55;Flash;Step 7;Check Repeat
+2021.04.16;17:00:55;Flash;Step 8;Check if need LineControl
+2021.04.16;17:00:55;Flash;Step 8;LineControl Disable
+2021.04.16;17:00:55;Flash;Step 12;Choose Step
+2021.04.16;17:00:55;Flash;Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;17:00:55;Flash;Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;17:00:55;Flash;Step 0;Home Position
+2021.04.16;17:02:46;SR751_04;Step 0;Scan Start
+2021.04.16;17:02:46;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;17:02:47;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;17:02:47;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;17:02:47;SR751_04;Step 3;Scanner.Scan
+2021.04.16;17:02:47;SR751_04;Step 3;Trig On
+2021.04.16;17:02:47;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;17:02:47;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;17:02:47;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;17:02:47;SR751_04;Step 5;Update Message
+2021.04.16;17:02:47;SR751_04;Step 5;Trig Off
+2021.04.16;17:02:47;SR751_04;Step 6;Update Message
+2021.04.16;17:02:47;SR751_04;Step 7;Check Repeat Count
+2021.04.16;17:02:47;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;17:02:47;QGW03;Step 0;Start LineControl
+2021.04.16;17:02:47;QGW03;Step 1;CheckPLCInfo
+2021.04.16;17:02:47;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;17:02:47;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;17:02:47;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;17:02:47;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;17:02:47;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;17:02:47;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;17:02:47;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;17:02:48;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;17:02:48;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;17:02:48;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;17:02:48;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;17:02:48;QGW03;Step 0;Home Position
+2021.04.16;17:02:48;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;17:02:48;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;17:02:48;SR751_04;Step 0;Home Position
+2021.04.16;17:03:05;SR751_04;Step 0;Scan Start
+2021.04.16;17:03:05;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;17:03:05;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;17:03:05;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;17:03:05;SR751_04;Step 3;Scanner.Scan
+2021.04.16;17:03:05;SR751_04;Step 3;Trig On
+2021.04.16;17:03:05;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;17:03:05;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;17:03:05;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;17:03:05;SR751_04;Step 5;Update Message
+2021.04.16;17:03:05;SR751_04;Step 5;Trig Off
+2021.04.16;17:03:05;SR751_04;Step 6;Update Message
+2021.04.16;17:03:05;SR751_04;Step 7;Check Repeat Count
+2021.04.16;17:03:05;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;17:03:05;QGW03;Step 0;Start LineControl
+2021.04.16;17:03:06;QGW03;Step 1;CheckPLCInfo
+2021.04.16;17:03:06;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;17:03:06;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;17:03:06;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;17:03:06;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;17:03:06;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;17:03:06;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;17:03:06;QGW03;Step 0;Home Position
+2021.04.16;17:03:06;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;17:03:06;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;17:03:06;SR751_04;Step 0;Home Position
+2021.04.16;17:03:31;SR751_04;Step 0;Scan Start
+2021.04.16;17:03:31;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;17:03:31;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;17:03:31;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;17:03:31;SR751_04;Step 3;Scanner.Scan
+2021.04.16;17:03:31;SR751_04;Step 3;Trig On
+2021.04.16;17:03:31;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;17:03:31;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;17:03:31;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;17:03:31;SR751_04;Step 5;Update Message
+2021.04.16;17:03:31;SR751_04;Step 5;Trig Off
+2021.04.16;17:03:31;SR751_04;Step 6;Update Message
+2021.04.16;17:03:31;SR751_04;Step 7;Check Repeat Count
+2021.04.16;17:03:31;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;17:03:31;QGW03;Step 0;Start LineControl
+2021.04.16;17:03:31;QGW03;Step 1;CheckPLCInfo
+2021.04.16;17:03:31;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;17:03:31;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;17:03:31;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;17:03:31;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;17:03:31;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;17:03:31;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;17:03:31;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;17:03:32;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;17:03:32;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;17:03:32;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;17:03:32;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;17:03:32;QGW03;Step 0;Home Position
+2021.04.16;17:03:32;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;17:03:32;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;17:03:32;SR751_04;Step 0;Home Position
+2021.04.16;17:03:50;Flash;Step 0;Start Lase
+2021.04.16;17:03:50;Flash;Step 1;CheckPLCInfo
+2021.04.16;17:03:50;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;17:03:50;Flash;Step 2;Check Reference SN
+2021.04.16;17:03:50;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;17:03:50;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;17:03:50;Flash;Step 5;Send Command
+2021.04.16;17:03:50;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;17:03:50;Flash;Step 6;Check Response
+2021.04.16;17:03:54;Flash;Step 6;Flash Response PASS Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|>
+
+2021.04.16;17:03:54;Flash;Step 7;Check Repeat
+2021.04.16;17:03:54;Flash;Step 8;Check if need LineControl
+2021.04.16;17:03:54;Flash;Step 8;LineControl Disable
+2021.04.16;17:03:54;Flash;Step 12;Choose Step
+2021.04.16;17:03:54;Flash;Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;17:03:54;Flash;Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;17:03:55;Flash;Step 0;Home Position
+2021.04.16;18:16:35;SR751_04;Step 0;Scan Start
+2021.04.16;18:16:35;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:16:35;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:16:35;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:16:35;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:16:35;SR751_04;Step 3;Trig On
+2021.04.16;18:16:35;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:16:49;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:16:49;MainForm_Bosh;_btnArticle_Click;Change Article 10524109-0001 Succeeded
+2021.04.16;18:16:50;Article40;Step 0;Start Write Article
+2021.04.16;18:16:50;Article40;Step 1;Waiting for Select Article
+2021.04.16;18:16:50;Article40;Step 2;Change LocalArticle
+2021.04.16;18:16:56;SR751_04;Step 4;Barcode Receive. Result:False Message:Interface_Connect;DEVICE_ERROR_WINDOWS_ERROR;由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 169.254.157.151:9004 Data:
+2021.04.16;18:16:56;SR751_04;Step 4;Scan Result 
+2021.04.16;18:16:56;SR751_04;Step 5;Update Message
+2021.04.16;18:16:56;SR751_04;Step 5;Trig Off
+2021.04.16;18:16:56;SR751_04;Step 6;Update Message
+2021.04.16;18:16:56;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:16:56;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:16:56;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:16:56;SR751_04;Step 3;Trig On
+2021.04.16;18:16:57;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:16:57;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:16:57;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:16:57;SR751_04;Step 5;Update Message
+2021.04.16;18:16:57;SR751_04;Step 5;Trig Off
+2021.04.16;18:16:57;SR751_04;Step 6;Update Message
+2021.04.16;18:16:57;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:16:57;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:16:57;QGW03;Step 0;Start LineControl
+2021.04.16;18:16:57;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:16:57;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:16:57;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:16:57;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:16:57;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:16:57;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:16:57;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:16:57;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:16:57;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:16:58;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:16:58;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:16:58;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:16:58;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:16:58;QGW03;Step 0;Home Position
+2021.04.16;18:16:58;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:16:58;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:16:58;SR751_04;Step 0;Home Position
+2021.04.16;18:17:52;SR751_04;Step 0;Scan Start
+2021.04.16;18:17:52;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:17:52;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:17:52;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:17:52;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:17:52;SR751_04;Step 3;Trig On
+2021.04.16;18:17:52;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:17:52;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:17:52;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:17:52;SR751_04;Step 5;Update Message
+2021.04.16;18:17:52;SR751_04;Step 5;Trig Off
+2021.04.16;18:17:52;SR751_04;Step 6;Update Message
+2021.04.16;18:17:52;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:17:52;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:17:52;QGW03;Step 0;Start LineControl
+2021.04.16;18:17:52;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:17:53;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:17:53;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:17:53;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:17:53;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:17:53;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:17:53;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:17:53;QGW03;Step 0;Home Position
+2021.04.16;18:17:53;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:17:53;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:17:53;SR751_04;Step 0;Home Position
+2021.04.16;18:19:21;SR751_04;Step 0;Scan Start
+2021.04.16;18:19:21;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:19:21;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:19:21;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:19:21;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:19:21;SR751_04;Step 3;Trig On
+2021.04.16;18:19:21;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:19:24;SR751_04;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.16;18:19:24;SR751_04;Step 4;Scan Result TIMEOUT
+2021.04.16;18:19:24;SR751_04;Step 5;Update Message
+2021.04.16;18:19:24;SR751_04;Step 5;Trig Off
+2021.04.16;18:19:24;SR751_04;Step 6;Update Message
+2021.04.16;18:19:24;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:19:24;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:19:24;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:19:24;SR751_04;Step 3;Trig On
+2021.04.16;18:19:24;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:19:27;SR751_04;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.16;18:19:27;SR751_04;Step 4;Scan Result TIMEOUT
+2021.04.16;18:19:27;SR751_04;Step 5;Update Message
+2021.04.16;18:19:27;SR751_04;Step 5;Trig Off
+2021.04.16;18:19:27;SR751_04;Step 6;Update Message
+2021.04.16;18:19:28;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:19:28;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:19:28;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:19:28;SR751_04;Step 3;Trig On
+2021.04.16;18:19:28;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:19:31;SR751_04;Step 4;Barcode Receive. Result:False Message:Receive Time Out Data:TIMEOUT
+2021.04.16;18:19:31;SR751_04;Step 4;Scan Result TIMEOUT
+2021.04.16;18:19:31;SR751_04;Step 5;Update Message
+2021.04.16;18:19:31;SR751_04;Step 5;Trig Off
+2021.04.16;18:19:31;SR751_04;Step 6;Update Message
+2021.04.16;18:19:31;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:19:31;SR751_04;Step 7;SR751_04 Scan SN is TimeOut
+2021.04.16;18:19:31;SR751_04;Step 9;Check if need LineControl
+2021.04.16;18:19:31;SR751_04;Step 9;LineControl Disable
+2021.04.16;18:19:31;SR751_04;Step 13;Choose Step
+2021.04.16;18:19:31;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;18:19:31;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:19:31;SR751_04;Step 0;Home Position
+2021.04.16;18:19:33;SR751_04;Step 0;Scan Start
+2021.04.16;18:19:34;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:19:34;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:19:34;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:19:34;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:19:34;SR751_04;Step 3;Trig On
+2021.04.16;18:19:34;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:19:34;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:19:34;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:19:34;SR751_04;Step 5;Update Message
+2021.04.16;18:19:34;SR751_04;Step 5;Trig Off
+2021.04.16;18:19:34;SR751_04;Step 6;Update Message
+2021.04.16;18:19:34;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:19:34;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:19:34;QGW03;Step 0;Start LineControl
+2021.04.16;18:19:34;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:19:34;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:19:34;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:19:34;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:19:35;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:19:35;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:19:35;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:19:35;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:19:35;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:19:35;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:19:35;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:19:35;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:19:35;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:19:35;QGW03;Step 0;Home Position
+2021.04.16;18:19:35;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:19:35;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:19:35;SR751_04;Step 0;Home Position
+2021.04.16;18:21:56;SR751_04;Step 0;Scan Start
+2021.04.16;18:21:56;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:21:56;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:21:56;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:21:56;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:21:56;SR751_04;Step 3;Trig On
+2021.04.16;18:21:56;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:21:56;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:21:56;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:21:56;SR751_04;Step 5;Update Message
+2021.04.16;18:21:56;SR751_04;Step 5;Trig Off
+2021.04.16;18:21:56;SR751_04;Step 6;Update Message
+2021.04.16;18:21:56;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:21:56;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:21:56;QGW03;Step 0;Start LineControl
+2021.04.16;18:21:56;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:21:56;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:21:56;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:21:56;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:21:56;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:21:56;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:21:56;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:21:56;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:21:56;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:21:57;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:21:57;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:21:57;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:21:57;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:21:57;QGW03;Step 0;Home Position
+2021.04.16;18:21:57;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:21:57;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:21:57;SR751_04;Step 0;Home Position
+2021.04.16;18:22:49;SR751_04;Step 0;Scan Start
+2021.04.16;18:22:49;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:22:49;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:22:49;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:22:49;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:22:49;SR751_04;Step 3;Trig On
+2021.04.16;18:22:49;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:22:49;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:22:49;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:22:49;SR751_04;Step 5;Update Message
+2021.04.16;18:22:49;SR751_04;Step 5;Trig Off
+2021.04.16;18:22:49;SR751_04;Step 6;Update Message
+2021.04.16;18:22:49;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:22:49;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:22:49;QGW03;Step 0;Start LineControl
+2021.04.16;18:22:49;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:22:49;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:22:49;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:22:49;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:22:49;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:22:49;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:22:49;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:22:50;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:22:50;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:22:50;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:22:50;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:22:50;QGW03;Step 0;Home Position
+2021.04.16;18:22:50;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:22:50;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:22:50;SR751_04;Step 0;Home Position
+2021.04.16;18:23:11;SR751_04;Step 0;Scan Start
+2021.04.16;18:23:11;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:23:11;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:23:11;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:23:11;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:23:11;SR751_04;Step 3;Trig On
+2021.04.16;18:23:11;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:23:11;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:23:11;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:23:11;SR751_04;Step 5;Update Message
+2021.04.16;18:23:11;SR751_04;Step 5;Trig Off
+2021.04.16;18:23:11;SR751_04;Step 6;Update Message
+2021.04.16;18:23:11;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:23:11;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:23:11;QGW03;Step 0;Start LineControl
+2021.04.16;18:23:11;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:23:11;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:23:11;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:23:11;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:23:11;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:23:11;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:23:11;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:23:12;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:23:12;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:23:12;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:23:12;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:23:12;QGW03;Step 0;Home Position
+2021.04.16;18:23:12;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:23:12;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:23:12;SR751_04;Step 0;Home Position
+2021.04.16;18:26:21;SR751_04;Step 0;Scan Start
+2021.04.16;18:26:21;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:26:22;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:26:22;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:26:22;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:26:22;SR751_04;Step 3;Trig On
+2021.04.16;18:26:22;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:26:22;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:26:22;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:26:22;SR751_04;Step 5;Update Message
+2021.04.16;18:26:22;SR751_04;Step 5;Trig Off
+2021.04.16;18:26:22;SR751_04;Step 6;Update Message
+2021.04.16;18:26:22;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:26:22;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:26:22;QGW03;Step 0;Start LineControl
+2021.04.16;18:26:22;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:26:22;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:26:22;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:26:22;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:26:23;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:26:23;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:26:23;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:26:23;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:26:23;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:26:23;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:26:23;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:26:23;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:26:23;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:26:23;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:26:23;QGW03;Step 0;Home Position
+2021.04.16;18:26:23;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:26:23;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:26:23;SR751_04;Step 0;Home Position
+2021.04.16;18:27:27;SR751_04;Step 0;Scan Start
+2021.04.16;18:27:27;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:27:27;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:27:27;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:27:27;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:27:27;SR751_04;Step 3;Trig On
+2021.04.16;18:27:27;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:27:27;SR751_04;Step 4;Barcode Receive. Result:True Data:10524067-0002/SN92905UBM0003M/HW:19.38.00/SW:20.22.01
+2021.04.16;18:27:27;SR751_04;Step 4;Scan Result 10524067-0002/SN92905UBM0003M/HW:19.38.00/SW:20.22.01
+2021.04.16;18:27:27;SR751_04;Step 5;Update Message
+2021.04.16;18:27:27;SR751_04;Step 5;Trig Off
+2021.04.16;18:27:27;SR751_04;Step 6;Update Message
+2021.04.16;18:27:27;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:27:28;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:27:28;SR751_04;Step 8;GetBarCode FAIL Message SR751_04  Article Number Match is Wrong. Label Article Nr: 10524067-0002 PLC Article: 10524109
+2021.04.16;18:27:28;SR751_04;Step 9;Check if need LineControl
+2021.04.16;18:27:28;SR751_04;Step 9;LineControl Disable
+2021.04.16;18:27:28;SR751_04;Step 13;Choose Step
+2021.04.16;18:27:28;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;18:27:28;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:27:33;SR751_04;Step 0;Home Position
+2021.04.16;18:32:01;SR751_04;Step 0;Scan Start
+2021.04.16;18:32:01;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:32:01;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:32:01;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:32:01;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:32:01;SR751_04;Step 3;Trig On
+2021.04.16;18:32:01;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:32:01;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:32:01;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:32:01;SR751_04;Step 5;Update Message
+2021.04.16;18:32:01;SR751_04;Step 5;Trig Off
+2021.04.16;18:32:01;SR751_04;Step 6;Update Message
+2021.04.16;18:32:01;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:32:01;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:32:01;QGW03;Step 0;Start LineControl
+2021.04.16;18:32:01;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:32:02;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:32:02;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:32:02;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:32:03;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:32:03;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:32:03;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:32:03;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:32:03;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:32:03;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:32:03;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:32:03;QGW03;Step 0;Home Position
+2021.04.16;18:32:03;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:32:03;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:32:03;SR751_04;Step 0;Home Position
+2021.04.16;18:35:03;SR751_04;Step 0;Scan Start
+2021.04.16;18:35:03;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:35:03;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:35:03;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:35:03;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:35:03;SR751_04;Step 3;Trig On
+2021.04.16;18:35:03;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:35:03;SR751_04;Step 4;Barcode Receive. Result:True Data:10524067-0002/SN92905UBM0003M/HW:19.38.00/SW:20.22.01
+2021.04.16;18:35:03;SR751_04;Step 4;Scan Result 10524067-0002/SN92905UBM0003M/HW:19.38.00/SW:20.22.01
+2021.04.16;18:35:03;SR751_04;Step 5;Update Message
+2021.04.16;18:35:03;SR751_04;Step 5;Trig Off
+2021.04.16;18:35:04;SR751_04;Step 6;Update Message
+2021.04.16;18:35:04;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:35:04;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:35:04;SR751_04;Step 8;GetBarCode FAIL Message SR751_04  Article Number Match is Wrong. Label Article Nr: 10524067-0002 PLC Article: 10524109
+2021.04.16;18:35:04;SR751_04;Step 9;Check if need LineControl
+2021.04.16;18:35:04;SR751_04;Step 9;LineControl Disable
+2021.04.16;18:35:04;SR751_04;Step 13;Choose Step
+2021.04.16;18:35:04;SR751_04;Step 2000;PC send bulActionIsFail Signal to PLC
+2021.04.16;18:35:04;SR751_04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:35:09;SR751_04;Step 0;Home Position
+2021.04.16;18:36:20;SR751_04;Step 0;Scan Start
+2021.04.16;18:36:20;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:36:20;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:36:20;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:36:20;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:36:20;SR751_04;Step 3;Trig On
+2021.04.16;18:36:20;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:36:20;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:36:20;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:36:20;SR751_04;Step 5;Update Message
+2021.04.16;18:36:20;SR751_04;Step 5;Trig Off
+2021.04.16;18:36:20;SR751_04;Step 6;Update Message
+2021.04.16;18:36:20;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:36:20;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:36:20;QGW03;Step 0;Start LineControl
+2021.04.16;18:36:20;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:36:20;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:36:20;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:36:20;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:36:20;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:36:20;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:36:20;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:36:20;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:36:21;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:36:21;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:36:21;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:36:21;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:36:21;QGW03;Step 0;Home Position
+2021.04.16;18:36:21;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:36:21;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:36:21;SR751_04;Step 0;Home Position
+2021.04.16;18:39:19;SR751_04;Step 0;Scan Start
+2021.04.16;18:39:19;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:39:19;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:39:19;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:39:19;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:39:19;SR751_04;Step 3;Trig On
+2021.04.16;18:39:19;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:39:19;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:39:19;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:39:19;SR751_04;Step 5;Update Message
+2021.04.16;18:39:19;SR751_04;Step 5;Trig Off
+2021.04.16;18:39:19;SR751_04;Step 6;Update Message
+2021.04.16;18:39:19;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:39:19;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:39:19;QGW03;Step 0;Start LineControl
+2021.04.16;18:39:19;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:39:19;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:39:19;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:39:19;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:39:20;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:39:20;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:39:20;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:39:20;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:39:20;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:39:20;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:39:20;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:39:20;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:39:20;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:39:20;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:39:20;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:39:20;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:39:20;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:39:20;QGW03;Step 0;Home Position
+2021.04.16;18:39:20;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:39:20;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:39:20;SR751_04;Step 0;Home Position
+2021.04.16;18:40:20;SR751_04;Step 0;Scan Start
+2021.04.16;18:40:20;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:40:20;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:40:20;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:40:20;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:40:20;SR751_04;Step 3;Trig On
+2021.04.16;18:40:20;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:40:20;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:40:20;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:40:20;SR751_04;Step 5;Update Message
+2021.04.16;18:40:20;SR751_04;Step 5;Trig Off
+2021.04.16;18:40:21;SR751_04;Step 6;Update Message
+2021.04.16;18:40:21;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:40:21;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:40:21;QGW03;Step 0;Start LineControl
+2021.04.16;18:40:21;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:40:21;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:40:21;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:40:21;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:40:21;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:40:21;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:40:21;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:40:21;QGW03;Step 0;Home Position
+2021.04.16;18:40:21;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:40:22;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:40:22;SR751_04;Step 0;Home Position
+2021.04.16;18:40:55;Flash;Step 0;Start Lase
+2021.04.16;18:40:55;Flash;Step 1;CheckPLCInfo
+2021.04.16;18:40:55;Flash;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:40:55;Flash;Step 2;Check Reference SN
+2021.04.16;18:40:55;Flash;Step 3;Waiting for _flash.IsBusy is not run
+2021.04.16;18:40:55;Flash;Step 4;FlashDefine.GetSeqentialCommands
+2021.04.16;18:40:55;Flash;Step 5;Send Command
+2021.04.16;18:40:55;Flash;Step 5;Command: 
+1*RUN DaimlerSVS-AAH1602X.prj
+2021.04.16;18:40:55;Flash;Step 6;Check Response
+2021.04.16;18:40:59;Flash;Step 6;Flash Response PASS Message 01|
+1*RUN DaimlerSVS-AAH1602X.prj
+01|>
+
+2021.04.16;18:40:59;Flash;Step 7;Check Repeat
+2021.04.16;18:40:59;Flash;Step 8;Check if need LineControl
+2021.04.16;18:40:59;Flash;Step 8;LineControl Disable
+2021.04.16;18:40:59;Flash;Step 12;Choose Step
+2021.04.16;18:40:59;Flash;Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:40:59;Flash;Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:40:59;Flash;Step 0;Home Position
+2021.04.16;18:42:52;QGW04;Step 0;Start LineControl
+2021.04.16;18:42:52;QGW04;Step 1;CheckPLCInfo
+2021.04.16;18:42:52;QGW04;Step 1;Invalid Serialnumber from PLC;
+2021.04.16;18:42:52;QGW04;Step 2000;PC send bulActionIsFail
+2021.04.16;18:42:52;QGW04;Step 2001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:42:52;QGW04;Step 0;Home Position
+2021.04.16;18:43:20;SR751_04;Step 0;Scan Start
+2021.04.16;18:43:20;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:43:20;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:43:20;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:43:20;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:43:20;SR751_04;Step 3;Trig On
+2021.04.16;18:43:20;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:43:20;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:43:20;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:43:20;SR751_04;Step 5;Update Message
+2021.04.16;18:43:20;SR751_04;Step 5;Trig Off
+2021.04.16;18:43:20;SR751_04;Step 6;Update Message
+2021.04.16;18:43:20;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:43:20;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:43:20;QGW03;Step 0;Start LineControl
+2021.04.16;18:43:20;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:43:20;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:43:20;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:43:20;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:43:20;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:43:20;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:43:20;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:43:20;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:43:21;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:43:21;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:43:21;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:43:21;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:43:21;QGW03;Step 0;Home Position
+2021.04.16;18:43:21;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:43:21;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:43:21;SR751_04;Step 0;Home Position
+2021.04.16;18:44:45;SR751_04;Step 0;Scan Start
+2021.04.16;18:44:45;SR751_04;Step 1;CheckPLCInfo
+2021.04.16;18:44:45;SR751_04;Article.GetArticle_FromID;Initial Successful
+2021.04.16;18:44:45;SR751_04;Step 2;Waiting for UserDefine
+2021.04.16;18:44:45;SR751_04;Step 3;Scanner.Scan
+2021.04.16;18:44:45;SR751_04;Step 3;Trig On
+2021.04.16;18:44:45;SR751_04;Step 4;Waiting for Scan Completed
+2021.04.16;18:44:45;SR751_04;Step 4;Barcode Receive. Result:True Data:10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:44:45;SR751_04;Step 4;Scan Result 10524109-0001/SN92905TKH0000J/HW:19.38.00/SW:20.22.01
+2021.04.16;18:44:45;SR751_04;Step 5;Update Message
+2021.04.16;18:44:45;SR751_04;Step 5;Trig Off
+2021.04.16;18:44:45;SR751_04;Step 6;Update Message
+2021.04.16;18:44:45;SR751_04;Step 7;Check Repeat Count
+2021.04.16;18:44:45;SR751_04;Step 8;ScannerDefine.CheckScannerResult
+2021.04.16;18:44:45;QGW03;Step 0;Start LineControl
+2021.04.16;18:44:45;QGW03;Step 1;CheckPLCInfo
+2021.04.16;18:44:45;QGW03;Step 1;PLC SN:92905TKH0000J
+2021.04.16;18:44:45;QGW03;Step 1;Check All Information from PLC is Successful
+2021.04.16;18:44:45;QGW03;[10524109][92905TKH0000J]Step 2;Check if Reference SN
+2021.04.16;18:44:45;QGW03;[10524109][92905TKH0000J]Step 3;Choose Step base on bulDoNegativeAction
+2021.04.16;18:44:45;QGW03;[10524109][92905TKH0000J]Step 4;ReadPrevious_LineControl
+2021.04.16;18:44:45;QGW03;[10524109][92905TKH0000J]Step 4;LineControl ReadPrevious Start
+2021.04.16;18:44:45;QGW03;[10524109][92905TKH0000J]Step 5;Waiting for LineControl.ReadPreviousStamp_RUN  is not run
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 5;LineControl ReadPrevious Succeeded
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 6;Check if need FailPrint
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 6;Disable Print
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 9;Write CAQ
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 10;Check if need Count
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 10;Disable Count
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 13;Check if need SaveProduction
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 16;Waiting FailPrint
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 17;Waiting CAQ
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 18;Waiting Counter
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 19;Waiting SaveProduction
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 20;Clear Child
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 21;LineControlDefine.LineControlDefine
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 22;Write LineControl
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 24;Check Pass or Fail
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:44:46;SR751_04;[10524109][92905TKH0000J]Step 9;Check if need LineControl
+2021.04.16;18:44:46;SR751_04;[10524109][92905TKH0000J]Step 9;LineControl Disable
+2021.04.16;18:44:46;QGW03;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPartReceived bulDoPositiveAction bulDoNegativeAction
+2021.04.16;18:44:46;SR751_04;[10524109][92905TKH0000J]Step 13;Choose Step
+2021.04.16;18:44:46;QGW03;Step 0;Home Position
+2021.04.16;18:44:46;SR751_04;[10524109][92905TKH0000J]Step 1000;PC send bulActionIsPass Signal to PLC
+2021.04.16;18:44:46;SR751_04;[10524109][92905TKH0000J]Step 1001;Waiting for PLC off bulActionIsPass bulActionIsFail bulPlcDoAction
+2021.04.16;18:44:46;SR751_04;Step 0;Home Position

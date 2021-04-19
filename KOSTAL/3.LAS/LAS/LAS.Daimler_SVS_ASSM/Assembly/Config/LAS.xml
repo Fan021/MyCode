@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LasConfiguration xmlns="http://www.kostal.com/Testman/config">
+  <GeneralInformation>
+    <!-- Project ID -->
+    <ProjectId>P07530</ProjectId>
+    <!-- TraceId -->
+    <TraceId>92905</TraceId>
+    <!-- Line ID -->
+    <LineId>-1-</LineId>
+    <!-- Maximum Tray Number -->
+    <WtStatus>50</WtStatus>
+    <!-- Maximum Station -->
+    <MaxStation>20</MaxStation>
+    <!-- WT PLC Name -->
+    <WtPLCName>PLC20</WtPLCName>
+    <!-- Auto Select Article -->
+    <AppArticleNotUsed>TRUE</AppArticleNotUsed>
+    <Title>Daimler SVS</Title>
+    <PlasmaInterval>23h</PlasmaInterval>
+  </GeneralInformation>
+  <PLCs>
+    <PLC>
+      <Name>PLC40</Name>
+      <TwinCatEnable>false</TwinCatEnable>
+      <TwinCatAmsNetId>169.254.157.40.1.1</TwinCatAmsNetId>
+      <TwinCatPort>801</TwinCatPort>
+      <UserDefine>True</UserDefine>
+      <!-- PLC Version Support V0.07, V1.00 , V2.00-->
+      <PLCVersion>V1.00</PLCVersion>
+      <!-- BoschLine V1.00 or ManualLine V1.00 or MultiLine V2.00-->
+      <LineType>ManualLine</LineType>
+    </PLC>
+  </PLCs>
+  <!-- Station Overview Tips-->
+  <StationViews Picture="Picture\layout.bmp">
+    <StationView>
+      <Name>ST005</Name>
+      <Position_X>3</Position_X>
+      <Position_Y>229</Position_Y>
+      <Position_R>0.15</Position_R>
+      <FontSize>12</FontSize>
+      <FontColor>Green</FontColor>
+    </StationView>
+    <StationView>
+      <Name>ST010</Name>
+      <Position_X>65</Position_X>
+      <Position_Y>233</Position_Y>
+      <Position_R>0.15</Position_R>
+      <FontSize>12</FontSize>
+      <FontColor>Green</FontColor>
+    </StationView>
+    <StationView>
+      <Name>ST020</Name>
+      <Position_X>167</Position_X>
+      <Position_Y>237</Position_Y>
+      <Position_R>0.15</Position_R>
+      <FontSize>12</FontSize>
+      <FontColor>Green</FontColor>
+    </StationView>
+    <StationView>
+      <Name>ST030</Name>
+      <Position_X>261</Position_X>
+      <Position_Y>238</Position_Y>
+      <Position_R>0.15</Position_R>
+      <FontSize>12</FontSize>
+      <FontColor>Green</FontColor>
+    </StationView>
+    <StationView>
+      <Name>ST040</Name>
+      <Position_X>349</Position_X>
+      <Position_Y>237</Position_Y>
+      <Position_R>0.15</Position_R>
+      <FontSize>12</FontSize>
+      <FontColor>Green</FontColor>
+    </StationView>
+    <StationView>
+      <Name>ST050</Name>
+      <Position_X>489</Position_X>
+      <Position_Y>240</Position_Y>
+      <Position_R>0.15</Position_R>
+      <FontSize>12</FontSize>
+      <FontColor>Green</FontColor>
+    </StationView>
+    <StationView>
+      <Name>ST060</Name>
+      <Position_X>583</Position_X>
+      <Position_Y>233</Position_Y>
+      <Position_R>0.15</Position_R>
+      <FontSize>12</FontSize>
+      <FontColor>Green</FontColor>
+    </StationView>
+  </StationViews>
+  <StationStatusViews>
+  </StationStatusViews>
+  <Helps>
+    <Help>
+      <FileName>LasConfig.xlsx</FileName>
+      <Application>C:\Program Files\LibreOffice 5\program\scalc.exe</Application>
+    </Help>
+    <Help>
+      <FileName>IP.xlsx</FileName>
+      <Application>C:\Program Files\LibreOffice 5\program\scalc.exe</Application>
+    </Help>
+  </Helps>
+  <!-- Add Las Support Language -->
+  <LanguageFiles>
+    <Language>
+      <Name>English</Name>
+    </Language>
+    <Language>
+      <Name>Chinese</Name>
+    </Language>
+  </LanguageFiles>
+  <!-- Add Reference by ProductFamily -->
+  <References>
+    <Reference>
+      <!-- the name must be difference with other reference name -->
+      <Name>Part_1</Name>
+      <Enable>False</Enable>
+      <Article>10336891</Article>
+      <SN>LS18220A1Z0N000U</SN>
+      <ReferenceName>MasterPart</ReferenceName>
+      <ProductFamily>GEM</ProductFamily>
+      <!-- ScheduleName must be same with schedule.csv. Like SelfResistanceTest,MasterPartTest -->
+      <ScheduleName>MasterPartTest</ScheduleName>
+    </Reference>
+    <Reference>
+      <!-- the name must be difference with other reference name -->
+      <Name>Part_2</Name>
+      <Enable>False</Enable>
+      <Article>10336891</Article>
+      <SN>1A18234A0000001V</SN>
+      <ReferenceName>SRT</ReferenceName>
+      <ProductFamily>GEM</ProductFamily>
+      <!-- ScheduleName must be same with schedule.csv. Like SelfResistanceTest,MasterPartTest -->
+      <ScheduleName>SelfResistanceTest</ScheduleName>
+    </Reference>
+  </References>
+  <!-- Add Article and Mapping file -->
+  <Article_Csvs>
+    <Article_Csv>
+      <CSV_Mapper>MappingFile.xml</CSV_Mapper>
+      <CSV_FILE>P07530_SEAT_ADJUSTMENT_SWITCH_EPT_BR206_R9_4_PRO2.xml</CSV_FILE>
+    </Article_Csv>
+  </Article_Csvs>
+  <!-- Add Schedule file-->
+  <Schedule_Csvs>
+    <Schedule_Csv>
+      <CSV_FILE>ScheduleList.csv</CSV_FILE>
+    </Schedule_Csv>
+  </Schedule_Csvs>
+  <!--Type:
+    Support Type:
+    Schedule:            Display Schedule List
+    Reference:           Display Reference part and change Reference by Shirt
+    NewPart:             NewPart input.
+    Article:             Write Article Information to PLC
+    ReTest:              ReTest Station
+    
+    Keyence_LAN:         ScannerStation.TrigScanner By PLC Signal
+    Keyence_RS232:       ScannerStation.TrigScanner By PLC Signal
+    PSD_IT_4820_RS232：  ScannerStation.TrigScanner By PLC Signal
+    DataLogic_210_LAN    ScannerStation.TrigScanner By PLC Signal
+    DataLogic_210_RS232  ScannerStation.TrigScanner By PLC Signal
+    Sympol_MS447_RS232   ScannerStation.TrigScanner By PLC Signal
+    PD9530_RS232：       ScannerStation.TrigScanner By PLC Signal
+    DataLogic_210N_LAN   ScannerStation.TrigScanner By PLC Signal
+    Zebra_LAN:           PrinterStation.Printer Label By PLC Signal or NewPart
+    Zebra_RS232：        PrinterStation.Printer Label By PLC Signal or NewPart
+    DP10GS_LAN:          LaserStation.Printer Label By PLC Signal or NewPart
+    LF100_LAN:           LaserStation.Printer Label By PLC Signal or NewPart
+    Epson_TM_T88V_LAN:   FailPrinterStation.Laser By PLC Signal or QGW,QGW_ASSM,QGW_Finish
+    Epson_TM_T88V_RS232: FailPrinterStation.Laser By PLC Signal or QGW,QGW_ASSM,QGW_Finish
+    Epson_TM_T88V_USB:   FailPrinterStation.Laser By PLC Signal or QGW,QGW_ASSM,QGW_Finish
+    
+    QGW:                 LineControl By PLC Signal or NewPart Station
+    QGW_ASSM:            LineControl when Assembly OK
+    QGW_Finish:          LineControl when all finished OK
+    Manual:              LineControl by Manual 手动报废不良
+    ManualScanner:       Manual Scan Barcode
+    
+    ShowPic:             Display Pictures information
+    Counter：            Save Count By PLC Signal or  QGW,QGW_ASSM,QGW_Finish
+    SN：                 Create SN when Manual Print
+    UserDefine：         you can Add UserDefine Station By yourself 可以根据条件触发其它站别
+	FR01_LAN   			 FlashStation.TrigFlash By PLC Signal
+	CAQ					 CAQ
+	SaveProduction		 SaveProduction
+	PLCAlarm		 	 PLCAlarm
+  -->
+  <!-- Enable:
+    Enable/Disable Device
+    Schedule:            Don't Need
+    Reference:           Enable or Disable Reference
+    NewPart:             Don't Need
+    Article:             Don't Need
+    ReTest:              Don't Need
+    
+    Keyence_LAN:         Enable or Disable Device
+    Keyence_RS232:       Enable or Disable Device
+    PSD_IT_4820_RS232：  Enable or Disable Device
+    DataLogic_210_LAN    Enable or Disable Device
+    DataLogic_210_RS232  Enable or Disable Device
+    Sympol_MS447_RS232   Enable or Disable Device
+    PD9530_RS232：       Enable or Disable Device
+    DataLogic_210N_LAN   Enable or Disable Device
+    Zebra_LAN:           Enable or Disable Device
+    Zebra_RS232：        Enable or Disable Device
+    DP10GS_LAN:          Enable or Disable Device
+    LF100_LAN:           Enable or Disable Device
+    Epson_TM_T88V_LAN:   Enable or Disable Device
+    Epson_TM_T88V_RS232: Enable or Disable Device
+    Epson_TM_T88V_USB:   Enable or Disable Device
+    
+    QGW:                 Enable or Disable LineControl
+    QGW_ASSM:            Enable or Disable LineControl
+    QGW_Finish:          Enable or Disable LineControl
+    Manual:              Don't Need
+    ManualScanner:       Don't Need
+    
+    ShowPic:             Don't Need
+    Counter：            Don't Need
+    SN：                 Don't Need
+    UserDefine：         Don't Need
+	FR01_LAN   			 Enable or Disable Device
+	CAQ					 Enable or Disable Device
+	SaveProduction		 Enable or Disable Device
+	PLCAlarm		 	 Don't Need
+
+  -->
+  <!-- Config:
+    Provide Information to Device
+    Schedule:            Don't Need
+    Reference:           Don't Need
+    NewPart:             CheckSN.ini
+    Article:             Don't Need
+    ReTest:              Don't Need
+    
+    Keyence_LAN:         169.254.157.111,9004 or 169.254.157.111,9004,SR710.xml
+    Keyence_RS232:       COM1,9600 or COM1,9600,SR710.xml
+    PSD_IT_4820_RS232：  COM1,9600 or COM1,9600,PSD_IT_4820.xml
+    DataLogic_210_LAN    169.254.157.111,9004 or 169.254.157.111,9004,DataLogic_210.xml
+    DataLogic_210_RS232  COM1,9600 or COM1,9600,DataLogic_210.xml
+    Sympol_MS447_RS232   COM1,9600
+    PD9530_RS232：       COM1,9600 or COM1,9600,PD9530.xml
+    DataLogic_210N_LAN   169.254.157.111,9004 or 169.254.157.111,9004,DataLogic_210N.xml
+    
+    Zebra_LAN:           Zeber_Printer1.ini
+    Zebra_RS232：        Zeber_Printer1.ini
+    DP10GS_LAN:          169.254.157.111,9100
+    LF100_LAN:           169.254.157.111,9100
+    Epson_TM_T88V_LAN:   169.254.157.111,9100
+    Epson_TM_T88V_RS232: COM1
+    Epson_TM_T88V_USB:   Don't Need
+    
+    QGW:                 Linecontroller.ini
+    QGW_ASSM:            Linecontroller.ini
+    QGW_Finish:          Linecontroller.ini
+    Manual:              Don't Need
+    ManualScanner:       Don't Need
+    
+    ShowPic:             ShowPic.ini
+    Counter：            Don't Need
+    SN：                 CheckSN.ini
+    UserDefine：         Don't Need
+	FR01_LAN   			 169.254.157.120,2101,10000
+	CAQ					 CAQServer.ini
+	SaveProduction		 MySqlServ.ini
+	PLCAlarm		 	 Don't Need
+  -->
+  <!-- Repeat:
+    when device fail, you want to Repeat Number
+    Schedule:            Don't Need
+    Reference:           Don't Need
+    NewPart:             Don't Need
+    Article:             Don't Need
+    ReTest:              Don't Need
+    
+    Keyence_LAN:         3
+    Keyence_RS232:       3
+    PSD_IT_4820_RS232：  3
+    DataLogic_210_LAN    3
+    DataLogic_210_RS232  3
+    Sympol_MS447_RS232   3
+    PD9530_RS232：       3
+    DataLogic_210N_LAN   3
+    Zebra_LAN:           Don't Need
+    Zebra_RS232：        Don't Need
+    DP10GS_LAN:          Don't Need
+    LF100_LAN:           Don't Need
+    Epson_TM_T88V_LAN:   Don't Need
+    Epson_TM_T88V_RS232: Don't Need
+    Epson_TM_T88V_USB:   Don't Need
+    
+    QGW:                 Don't Need
+    QGW_ASSM:            Don't Need
+    QGW_Finish:          Don't Need
+    Manual:              Don't Need
+    ManualScanner:       Don't Need
+    
+    ShowPic:             Don't Need
+    Counter：            Don't Need
+    SN：                 Don't Need
+    UserDefine：         Don't Need
+	FR01_LAN   			 3
+	CAQ					 Don't Need
+	SaveProduction		 Don't Need
+	PLCAlarm		 	 Don't Need
+  -->
+  <!-- MainDevice:
+    Substation Support MainDevice
+    Schedule:            Don't Need
+    Reference:           Don't Need
+    NewPart:             Don't Need
+    Article:             Don't Need
+    ReTest:              Don't Need
+    
+    Keyence_LAN:         Don't Need
+    Keyence_RS232:       Don't Need
+    PSD_IT_4820_RS232：  Reference or ReTest or Manual or ManualScanner
+    DataLogic_210_LAN    Don't Need
+    DataLogic_210_RS232  Don't Need
+    Sympol_MS447_RS232   Reference or ReTest or Manual or ManualScanner
+    PD9530_RS232：       Reference or ReTest or Manual or ManualScanner
+    DataLogic_210N_LAN   Don't Need
+    Zebra_LAN:           NewPart
+    Zebra_RS232：        NewPart
+    DP10GS_LAN:          Don't Need
+    LF100_LAN:           Don't Need
+    Epson_TM_T88V_LAN:   QGW or QGW_ASSM or QGW_Finish
+    Epson_TM_T88V_RS232: QGW or QGW_ASSM or QGW_Finish
+    Epson_TM_T88V_USB:   QGW or QGW_ASSM or QGW_Finish
+    
+    QGW:                 NewPart or ReTest, Keyence_LAN or Keyence_RS232 or PSD_IT_4820_LAN or PSD_IT_4820_RS232
+    QGW_ASSM:            Don't Need
+    QGW_Finish:          Don't Need
+    Manual:              Don't Need
+    ManualScanner:       Don't Need
+    
+    ShowPic:             Don't Need
+    Counter：            QGW or QGW_ASSM or QGW_Finish
+    SN：                 Article
+	UserDefine：         Don't Need
+	FR01_LAN   			 Don't Need
+	CAQ					 QGW or QGW_ASSM or QGW_Finish
+	SaveProduction		 QGW or QGW_ASSM or QGW_Finish
+	PLCAlarm		 	 Don't Need
+  -->
+  <!-- AdsInput:
+    PLC Input Signal
+    Schedule:            Don't Need
+    Reference:           Don't Need
+    NewPart:             Don't Need
+    Article:             Don't Need
+    ReTest:              Don't Need
+    
+    Keyence_LAN:         If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuScannerSt01) 
+    Keyence_RS232:       If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuScannerSt01) 
+    PSD_IT_4820_RS232：  If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuScannerSt01) 
+    DataLogic_210_LAN    If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuScannerSt01) 
+    DataLogic_210_RS232  If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuScannerSt01) 
+    Sympol_MS447_RS232   If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuScannerSt01)
+    PD9530_RS232：       If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuScannerSt01)
+    DataLogic_210N_LAN   If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuScannerSt01)
+    Zebra_LAN:           If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuPrinterSt01) 
+    Zebra_RS232：        If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuPrinterSt01) 
+    DP10GS_LAN:          If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuLaserSt01) 
+    LF100_LAN:           If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuLaserSt01) 
+    Epson_TM_T88V_LAN:   If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuFailPrinterSt01) 
+    Epson_TM_T88V_RS232: If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuFailPrinterSt01) 
+    Epson_TM_T88V_USB:   If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuFailPrinterSt01) 
+    
+    QGW:                 If MainDevice is Null, you must add StructRequestAction(ADS_stuRequestActionSt01) 
+    QGW_ASSM:            Don't Need
+    QGW_Finish:          Don't Need
+    Manual:              Don't Need
+    ManualScanner:       StructDeviceInteraction(ADS_stuScannerSt01) 
+    
+    ShowPic:             If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuShowPicSt01) 
+    Counter：            If MainDevice is Null, you must add StructDeviceInteraction(ADS_stuCountSt01) 
+    SN：                 Don't Need
+	UserDefine：         you must add StructDeviceInteraction(ADS_stuDeviceSt01) 
+	FR01_LAN   			 you must add StructDeviceInteraction(ADS_stuFlashSt01) 
+	CAQ					 Don't Need
+	SaveProduction		 Don't Need
+    PLCAlarm		 	 ADS_ErrorCode
+  -->
+  <!-- AdsOutput:
+    Las Wirte Output Signal
+    Schedule:            Don't Need
+    Reference:           Don't Need
+    NewPart:             Don't Need
+    Article:             Don't Need
+    ReTest:              Don't Need
+    
+    Keyence_LAN:         Don't Need
+    Keyence_RS232:       Don't Need
+    PSD_IT_4820_RS232：  Don't Need
+    DataLogic_210_LAN    Don't Need
+    DataLogic_210_RS232  Don't Need
+    Sympol_MS447_RS232   Don't Need
+    PD9530_RS232：       Don't Need
+    DataLogic_210N_LAN   Don't Need
+    Zebra_LAN:           Don't Need
+    Zebra_RS232：        Don't Need
+    DP10GS_LAN:          Don't Need
+    LF100_LAN:           Don't Need
+    Epson_TM_T88V_LAN:   Don't Need
+    Epson_TM_T88V_RS232: Don't Need
+    Epson_TM_T88V_USB:   Don't Need
+    
+    QGW:                 If MainDevice is Null, you must add StructResponseAction(ADS_stuResponseActionSt01) 
+    QGW_ASSM:            Don't Need
+    QGW_Finish:          Don't Need
+    Manual:              Don't Need
+    ManualScanner:       Don't Need
+    
+    ShowPic:             Don't Need
+    Counter：            Don't Need
+    SN：                 Don't Need
+	UserDefine：         Don't Need 
+	FR01_LAN   			 Don't Need
+	CAQ					 Don't Need
+	SaveProduction		 Don't Need
+    PLCAlarm		 	 Don't Need
+  -->
+  <Stations>
+    <Station Name="ST040" Visible="True">
+      <Substation Name="Article40">
+        <Type>Article</Type>
+        <Enable>True</Enable>
+        <Config>
+        </Config>
+        <Repeat>
+        </Repeat>
+        <MainDevice>
+        </MainDevice>
+        <PLCName>PLC40</PLCName>
+        <AdsInputs>
+          <AdsInput>
+            <Name>
+            </Name>
+          </AdsInput>
+        </AdsInputs>
+        <AdsOutputs>
+          <AdsOutput>
+            <Name>PC_stuCurrentVariantInfo</Name>
+          </AdsOutput>
+        </AdsOutputs>
+      </Substation>
+      <Substation Name="SR751_04">
+        <Type>Keyence_LAN</Type>
+        <Enable>false</Enable>
+        <Config>169.254.157.151,9004</Config>
+        <Repeat>3</Repeat>
+        <MainDevice>
+        </MainDevice>
+        <PLCName>PLC40</PLCName>
+        <AdsInputs>
+          <AdsInput>
+            <Name>ADS_stuScanner12</Name>
+          </AdsInput>
+        </AdsInputs>
+        <AdsOutputs>
+          <AdsOutput>
+            <Name>
+            </Name>
+          </AdsOutput>
+        </AdsOutputs>
+      </Substation>
+      <Substation Name="QGW03">
+        <Type>QGW</Type>
+        <Enable>True</Enable>
+        <Config>Linecontroller.ini</Config>
+        <Repeat>
+        </Repeat>
+        <MainDevice>
+        </MainDevice>
+        <PLCName>PLC40</PLCName>
+        <AdsInputs>
+          <AdsInput>
+            <Name>
+            </Name>
+          </AdsInput>
+        </AdsInputs>
+        <AdsOutputs>
+          <AdsOutput>
+            <Name>
+            </Name>
+          </AdsOutput>
+        </AdsOutputs>
+      </Substation>
+      <Substation Name="QGW04">
+        <Type>QGW</Type>
+        <Enable>True</Enable>
+        <Config>Linecontroller.ini</Config>
+        <Repeat>
+        </Repeat>
+        <MainDevice>
+        </MainDevice>
+        <PLCName>PLC40</PLCName>
+        <AdsInputs>
+          <AdsInput>
+            <Name>PLC_RequestAction_SN03</Name>
+          </AdsInput>
+        </AdsInputs>
+        <AdsOutputs>
+          <AdsOutput>
+            <Name>ADS_ResponseAction_SN03</Name>
+          </AdsOutput>
+        </AdsOutputs>
+      </Substation>
+      <Substation Name="SR1000_01">
+        <Type>Keyence_LAN</Type>
+        <Enable>false</Enable>
+        <Config>169.254.157.152,9004</Config>
+        <Repeat>3</Repeat>
+        <MainDevice>
+        </MainDevice>
+        <PLCName>PLC40</PLCName>
+        <AdsInputs>
+          <AdsInput>
+            <Name>ADS_stuScannerPCB11</Name>
+          </AdsInput>
+        </AdsInputs>
+        <AdsOutputs>
+          <AdsOutput>
+            <Name>
+            </Name>
+          </AdsOutput>
+        </AdsOutputs>
+      </Substation>
+      <Substation Name="QGWMB01">
+        <Type>QGW</Type>
+        <Enable>True</Enable>
+        <Config>Linecontroller.ini</Config>
+        <Repeat>
+        </Repeat>
+        <MainDevice>
+        </MainDevice>
+        <PLCName>PLC40</PLCName>
+        <AdsInputs>
+          <AdsInput>
+            <Name>
+            </Name>
+          </AdsInput>
+        </AdsInputs>
+        <AdsOutputs>
+          <AdsOutput>
+            <Name>
+            </Name>
+          </AdsOutput>
+        </AdsOutputs>
+      </Substation>
+      <Substation Name="Flash">
+        <Type>FR02_LAN</Type>
+        <Enable>false</Enable>
+        <Config>169.254.157.128,1234,10000</Config>
+        <Repeat>
+        </Repeat>
+        <MainDevice>
+        </MainDevice>
+        <PLCName>PLC40</PLCName>
+        <AdsInputs>
+          <AdsInput>
+            <Name>ADS_stuFlasherSt40</Name>
+          </AdsInput>
+        </AdsInputs>
+        <AdsOutputs>
+          <AdsOutput>
+            <Name>
+            </Name>
+          </AdsOutput>
+        </AdsOutputs>
+      </Substation>
+    </Station>
+  </Stations>
+</LasConfiguration>

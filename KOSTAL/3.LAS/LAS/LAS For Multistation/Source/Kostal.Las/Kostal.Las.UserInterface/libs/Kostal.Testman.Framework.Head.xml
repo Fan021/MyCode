@@ -1,0 +1,2177 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kostal.Testman.Framework.Head
+</name>
+</assembly>
+<members>
+<member name="T:Kostal.Testman.Framework.Head.My.Resources.HeadResources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_ARTICLE_READ">
+<summary>
+  Looks up a localized string similar to reading Article Information ....
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_BTN_ACOUNT_ADMIN">
+<summary>
+  Looks up a localized string similar to Account Admin.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_BTN_ARTICLE">
+<summary>
+  Looks up a localized string similar to New Article.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_BTN_COUNTER_RESET">
+<summary>
+  Looks up a localized string similar to Counter Reset.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_BTN_HARDWARE_VIEW">
+<summary>
+  Looks up a localized string similar to Hardware .
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_BTN_LOGGING_VIEW">
+<summary>
+  Looks up a localized string similar to Logging .
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_BTN_PLUGIN">
+<summary>
+  Looks up a localized string similar to Plugins.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_BTN_REPORT">
+<summary>
+  Looks up a localized string similar to Print Report.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_BTN_STATISTIC_VIEW">
+<summary>
+  Looks up a localized string similar to Statistic.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_BTN_TESTSTEPS_EDITOR">
+<summary>
+  Looks up a localized string similar to Testman Editor.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_HW_BUILD">
+<summary>
+  Looks up a localized string similar to building Hardware ....
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_HW_INIT_ERROR">
+<summary>
+  Looks up a localized string similar to Error initialization Hardware ,  Restart necessary ....
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_HW_OPEN">
+<summary>
+  Looks up a localized string similar to opening Hardware ....
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_HW_OPENING">
+<summary>
+  Looks up a localized string similar to Opening Hardware please wait ....
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_INIT_DONE">
+<summary>
+  Looks up a localized string similar to Initialization done ....
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_INIT_DONE_ERROR">
+<summary>
+  Looks up a localized string similar to Initialization not successful ....
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_MACHINE_INIT_FAILED">
+<summary>
+  Looks up a localized string similar to initializing unsuccessful - Testman will close.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_MSGBOX_COUNTER">
+<summary>
+  Looks up a localized string similar to Counter.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_MSGBOX_COUNTER_RESET">
+<summary>
+  Looks up a localized string similar to Are you sure to reset Counter ?.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_OFF_MEESAGE">
+<summary>
+  Looks up a localized string similar to switch on Tester by &gt;ON&lt; : Exit by &gt;END&lt;.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_PLUGINS_LOAD">
+<summary>
+  Looks up a localized string similar to loading Plugin&apos;s ....
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_RUN_MESSAGE">
+<summary>
+  Looks up a localized string similar to Tester is running : stopping  by &gt;STOP&lt;.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_RUN_ROLLBACK_MESSAGE">
+<summary>
+  Looks up a localized string similar to starting Tester not possible : start by &gt;START&lt; : switch off by &gt;OFF&lt;.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_RUN_ROLLBACK_UNSUCESS">
+<summary>
+  Looks up a localized string similar to  Starting not possible : recommending Restart.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_STARTUP_MEESAGE">
+<summary>
+  Looks up a localized string similar to Please Select Article.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_STATISTIC_INIT">
+<summary>
+  Looks up a localized string similar to initializing Statistic ....
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_STOP_MESSAGE">
+<summary>
+  Looks up a localized string similar to Tester start by &gt;START&lt; : switch off by &gt;OFF&lt;.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_STOP_ROLLBACK_MESSAGE">
+<summary>
+  Looks up a localized string similar to switching on Tester not possible : switch on  by &gt;ON&lt; : Exit by &gt;END&lt;.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_STOP_ROLLBACK_UNSUCESS">
+<summary>
+  Looks up a localized string similar to Switching on not possible : recommending Restart.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_TEST_ABORTED">
+<summary>
+  Looks up a localized string similar to Test Aborted .
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_TEST_FAILURE">
+<summary>
+  Looks up a localized string similar to Test Failure .
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_TEST_SUCCESS">
+<summary>
+  Looks up a localized string similar to Test Success.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_TESTMAN_END">
+<summary>
+  Looks up a localized string similar to shutting down Testman ....
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_TESTMAN_START">
+<summary>
+  Looks up a localized string similar to starting up Testman ....
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_VIEW_CONTENT">
+<summary>
+  Looks up a localized string similar to Test results.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.HeadResources.HEAD_VIEW_DEFAULT">
+<summary>
+  Looks up a localized string similar to Default.
+</summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.Resources.DEVELOPER_MESSAGE_ONLY">
+<summary>
+  Looks up a localized string similar to (This message is only shown when you´re logged in as developer.).
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.Resources.EXCEPTION_ALARM_UNHANDLED">
+<summary>
+  Looks up a localized string similar to Unhandled &apos;Alarm Exception&apos; in &apos;StartTest&apos; routine..
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.Resources.EXCEPTION_GENERAL_FAILURE_UNHANDLED">
+<summary>
+  Looks up a localized string similar to Unhandled exception in &apos;StartTest&apos; routine: {0}.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.Resources.EXCEPTION_MESSAGE_MACHINE_NOT_STARTED">
+<summary>
+  Looks up a localized string similar to Can&apos;t execute any command before &apos;MachineStartup&apos;. Please perform &apos;MachineStartup&apos; first..
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.Resources.EXCEPTION_OF_EE_DURING_EXECUTION">
+<summary>
+  Looks up a localized string similar to Execution Engine Exception occured during test. Message: {0}.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.Resources.EXCEPTION_ONLY_ONE_CUSTOM_FUNCTION">
+<summary>
+  Looks up a localized string similar to You can only add a single custom function. .
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.My.Resources.Resources.LOG_WARNING_TEST_SET_TO_FAILED">
+<summary>
+  Looks up a localized string similar to Due to exception system is setting testresult to false..
+</summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.ApplicationAlarmController">
+ <summary>
+ AlarmController for the application
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.ApplicationAlarmController.AlarmChannelItem">
+ <summary>
+ Defines an AlarmChannel item for internal usage
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Head.ApplicationAlarmController.AlarmChannelItem.Id">
+ <summary>
+ The identifier
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Head.ApplicationAlarmController.AlarmChannelItem.Text">
+ <summary>
+ The text
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Head.ApplicationAlarmController.AlarmChannelItem.ValueForAlarm">
+ <summary>
+ The value to mark the alarm as active
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.AlarmChannelItem.#ctor(System.String,System.String,System.Boolean)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.ApplicationAlarmController.AlarmChannelItem"/> class.
+ </summary>
+ <param name="id">The identifier.</param>
+ <param name="text">The text.</param>
+ <param name="valueForAlarm">The value to indicate an active alarm.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.AlarmChannelItem.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary>
+ <returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.ApplicationAlarmController.IndicationChannelItem">
+ <summary>
+ Defines an IndicationChannel item for internal usage
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Head.ApplicationAlarmController.IndicationChannelItem.RefreshAlsoWhenNoAlarm">
+ <summary>
+ The indication should also be refreshed, when no alarm channel is active
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Head.ApplicationAlarmController.IndicationChannelItem.PollingDelayTime">
+ <summary>
+ The polling delay time
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.IndicationChannelItem.#ctor(System.String,System.String,System.Boolean,System.Boolean,System.Int32)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.ApplicationAlarmController.IndicationChannelItem"/> class.
+ </summary>
+ <param name="id">The identifier.</param>
+ <param name="text">The text.</param>
+ <param name="valueForIndication">The value of the channel, when the indication should be active.</param>
+ <param name="refreshAlsoWhenNoAlarm">The indication should also be refreshed, when no alarm channel is active.</param>
+ <param name="pollingDelayTime">The polling delay time.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.IndicationChannelItem.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary>
+ <returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.#ctor(Kostal.Testman.Framework.Head.ApplicationStateManager,Kostal.Testman.Framework.Head.HardwareController)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.ApplicationAlarmController"/> class.
+ </summary>
+ <param name="managerApplicationState">The manager of the ApplicationState.</param>
+ <param name="controllerHardware">The controller for the hardware.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.AddAlarmChannel(System.String,System.Boolean,System.String)">
+ <summary>
+ Adds an alarm channel.
+ </summary>
+ <param name="channelId">The if of a digital input channel for the alarm.</param>
+ <param name="valueForAlarm">The value of the channel, when the alarm should be active.</param>
+ <param name="text">The text that id displayed, if the aalrm channel is active (will be translated by inner functionality).</param>
+ <returns>Returns true, if seccessful otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.AddAlarmChannel(System.String,System.Boolean,System.String,System.Int32)">
+ <summary>
+ Adds an alarm channel.
+ </summary>
+ <param name="channelId">The if of a digital input channel for the alarm.</param>
+ <param name="valueForAlarm">The value of the channel, when the alarm should be active.</param>
+ <param name="text">The text that id displayed, if the alarm channel is active (will be translated by inner functionality).</param>
+ <param name="pollingDelayTime">The polling delay time.</param>
+ <returns>Returns true, if seccessful otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.AddAlarmChannel(Kostal.Hal.Core.DigitalInput,System.Boolean,System.String)">
+ <summary>
+ Adds an alarm channel.
+ </summary>
+ <param name="digitalinputchannelAlarm">The digital input channel for the alarm.</param>
+ <param name="valueForAlarm">The value of the channel, when the alarm should be active.</param>
+ <param name="text">The text that id displayed, if the alarm channel is active (will be translated by inner functionality).</param>
+ <returns>Returns true, if seccessful otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.AddAlarmChannel(Kostal.Hal.Core.DigitalInput,System.Boolean,System.String,System.Int32)">
+ <summary>
+ Adds an alarm channel.
+ </summary>
+ <param name="digitalinputchannelAlarm">The digital input channel for the alarm.</param>
+ <param name="valueForAlarm">The value of the channel, when the alarm should be active.</param>
+ <param name="text">The text that id displayed, if the alarm channel is active (will be translated by inner functionality).</param>
+ <param name="pollingDelayTime">The polling delay time.</param>
+ <returns>Returns true, if seccessful otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.AlarmChannel_ValueChanged(Kostal.Hal.Core.Channel)">
+ <summary>
+ Called, when the value of an alarm channel has changed.
+ </summary>
+ <param name="channel">The channel at which the value has changed.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.AddIndicationChannel(System.String,System.Boolean,System.String,System.Boolean)">
+ <summary>
+ Adds an indication channel.
+ </summary>
+ <param name="channelId">The if of a digital input channel for the indication.</param>
+ <param name="valueForIndication">The value of the channel, when the indication should be active.</param>
+ <param name="text">The text that id displayed, if the indication channel is active (will be translated by inner functionality).</param>
+ <param name="refreshAlsoWhenNoAlarm">If true, the indication channel is polled all the time, otherwise only, when an alarm channel is active.</param>
+ <returns>Returns true, if seccessful otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.AddIndicationChannel(System.String,System.Boolean,System.String,System.Boolean,System.Int32)">
+ <summary>
+ Adds an indication channel.
+ </summary>
+ <param name="channelId">The if of a digital input channel for the indication.</param>
+ <param name="valueForIndication">The value of the channel, when the indication should be active.</param>
+ <param name="text">The text that id displayed, if the indication channel is active (will be translated by inner functionality).</param>
+ <param name="refreshAlsoWhenNoAlarm">If true, the indication channel is polled all the time, otherwise only, when an alarm channel is active.</param>
+ <param name="pollingDelayTime">The polling delay time.</param>
+ <returns>Returns true, if seccessful otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.AddIndicationChannel(Kostal.Hal.Core.DigitalInput,System.Boolean,System.String,System.Boolean)">
+ <summary>
+ Adds an indication channel.
+ </summary>
+ <param name="digitalinputchannelIndication">The digital input channel for the indication.</param>
+ <param name="valueForIndication">The value of the channel, when the indication should be active.</param>
+ <param name="text">The text that id displayed, if the indication channel is active (will be translated by inner functionality).</param>
+ <param name="refreshAlsoWhenNoAlarm">If true, the indication channel is polled all the time, otherwise only, when an alarm channel is active.</param>
+ <returns>Returns true, if seccessful otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.AddIndicationChannel(Kostal.Hal.Core.DigitalInput,System.Boolean,System.String,System.Boolean,System.Int32)">
+ <summary>
+ Adds an indication channel.
+ </summary>
+ <param name="digitalinputchannelIndication">The digital input channel for the indication.</param>
+ <param name="valueForIndication">The value of the channel, when the indication should be active.</param>
+ <param name="text">The text that id displayed, if the indication channel is active (will be translated by inner functionality).</param>
+ <param name="refreshAlsoWhenNoAlarm">If true, the indication channel is polled all the time, otherwise only, when an alarm channel is active.</param>
+ <param name="pollingDelayTime">The polling delay time.</param>
+ <returns>Returns true, if seccessful otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.ActivateIndicationChannels">
+ <summary>
+ Activates the indication channels.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.ActivateIndicationChannel(Kostal.Hal.Core.DigitalInput,Kostal.Testman.Framework.Head.ApplicationAlarmController.IndicationChannelItem)">
+ <summary>
+ Activates an indication channel.
+ </summary>
+ <param name="digitalinputchannelIndication">The digitalinputchannel for the indication.</param>
+ <param name="itemIndicationChannel">The corresponding item for the indication channel.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.DeactivateIndicationChannels">
+ <summary>
+ Deactivates the indication channels.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.IndicationChannel_ValueChanged(Kostal.Hal.Core.Channel)">
+ <summary>
+ Called, when the value of an indication channel has changed.
+ </summary>
+ <param name="channel">The channel at which the value has changed.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationAlarmController.ResetChannel_ValueChanged(Kostal.Hal.Core.Channel)">
+ <summary>
+ Called, when the value of a reset channel has changed.
+ </summary>
+ <param name="channel">The channel at which the value has changed.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationJobsController.CreateJob">
+ <summary>
+ Creates a job.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationJobsController.CreateJob(Kostal.Testman.Framework.Base.ArticleConfigurationSet)">
+ <summary>
+ Creates a job.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationJobsController.CreateJob(Kostal.Testman.Framework.Base.ArticleConfigurationSet,Kostal.Testman.Framework.Base.IProcessItem)">
+ <summary>
+ Creates a job.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationJobsController.CreateJobInternal(Kostal.Testman.Framework.Base.ArticleConfigurationSet,Kostal.Testman.Framework.Base.IProcessItem,System.Boolean)">
+ <summary>
+ Creates a job.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationJobsController.FindLastByAttribute(Kostal.Testman.Framework.Base.ITestJobResult.PredefinedAttributeKeys,System.String,System.Boolean)">
+ <summary>
+ Finds the last job, that is specified by key-value-combination for an attribute.
+ </summary>
+ <param name="attributeName">Name of the attribute to search for.</param>
+ <param name="attributeValue">Value of the attribute, that must be match.</param>
+ <param name="searchAlsoInClosedJobs">if set to <c>true</c>, also the closed jobs are being searched for the job.</param>
+ <returns>The first found job with the specified combination, otherwise nothing</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ApplicationJobsController.FindLastByAttribute(System.String,System.String,System.Boolean)">
+ <summary>
+ Finds the last job, that is specified by key-value-combination for an attribute.
+ </summary>
+ <param name="attributeName">Name of the attribute to search for.</param>
+ <param name="attributeValue">Value of the attribute, that must be match.</param>
+ <param name="searchAlsoInClosedJobs">if set to <c>true</c>, also the closed jobs are being searched for the job.</param>
+ <returns>The last found job with the specified combination, otherwise nothing</returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.CommandBase">
+ <summary>
+ 
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.CommandBase.#ctor(System.String,System.String)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.OperationMode" /> class.
+ <param name="id">The id of the operation mode.</param>
+ <param name="text">The text of the operation mode.</param>
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.CommandBase.#ctor(System.String,System.String,Kostal.Testman.Framework.Base.UserLevel)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.OperationMode" /> class.
+ </summary>
+ <param name="id">The id of the operation mode.</param>
+ <param name="text">The text of the operation mode.</param>
+ <param name="userLevel">The userlevel allowed to activate operation mode.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.CommandBase.Id">
+ <summary>
+ Gets the identifier.
+ </summary>
+ <value>
+ The identifier.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.CommandBase.Text">
+ <summary>
+ Gets the text.
+ </summary>
+ <value>
+ The text.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.CommandBase.UserLevel">
+ <summary>
+ Gets the specified Userlevels for this pperation mode.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.CommandBase.Enabled">
+ <summary>
+ Gets a value indicating whether this <see cref="T:Kostal.Testman.Framework.Base.Components.ICommand" /> is enabled.
+ </summary>
+ <value>
+ <c>true</c> if enabled; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.CommandBase.Visible">
+ <summary>
+ Gets a value indicating whether this <see cref="T:Kostal.Testman.Framework.Base.Components.ICommand" /> is visible.
+ </summary>
+ <value>
+ <c>true</c> if visible; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.CommandBase.Invoke">
+ <summary>
+ Invokes this instance.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.CommandBase.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary>
+ <returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Command.#ctor(System.String,System.String,System.Action{Kostal.Testman.Framework.Head.Command})">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.OperationMode" /> class.
+ <param name="id">The id of the operation mode.</param>
+ <param name="text">The text of the operation mode.</param>
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Command.#ctor(System.String,System.String,System.Action{Kostal.Testman.Framework.Head.Command},Kostal.Testman.Framework.Base.UserLevel)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.OperationMode" /> class.
+ </summary>
+ <param name="id">The id of the operation mode.</param>
+ <param name="text">The text of the operation mode.</param>
+ <param name="userLevel">The userlevel allowed to activate operation mode.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Command.#ctor(System.String,System.String,System.Action{Kostal.Testman.Framework.Head.Command},Kostal.Testman.Framework.Base.UserLevel,System.Object)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.OperationMode" /> class.
+ </summary>
+ <param name="id">The id of the operation mode.</param>
+ <param name="text">The text of the operation mode.</param>
+ <param name="userLevel">The userlevel allowed to activate operation mode.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Command.Text">
+ <summary>
+ Gets or sets the text.
+ </summary>
+ <value>
+ The text.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Command.Enabled">
+ <summary>
+ Gets or sets a value indicating whether this <see cref="T:Kostal.Testman.Framework.Base.Components.ICommand" /> is enabled.
+ </summary>
+ <value>
+ <c>true</c> if enabled; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Command.Visible">
+ <summary>
+ Gets or sets a value indicating whether this <see cref="T:Kostal.Testman.Framework.Base.Components.ICommand" /> is visible.
+ </summary>
+ <value>
+ <c>true</c> if visible; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Command.Tag">
+ <summary>
+ Gets the tag.
+ </summary>
+ <value>
+ The tag.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Command.Invoke">
+ <summary>
+ Invokes this instance.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Command.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary>
+ <returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.TurningFromDownToOff">
+ <summary>
+ Overridable function, when the state of the station turns from DOWN to OFF.
+ </summary>
+ <returns>True, if the station can complete the turn to OFF, otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.RollbackToDownFromTurningToOff">
+ <summary>
+ Overridable function, when the state of the station can not be turned from DOWN to OFF and so the rollback to DOWN is forced.
+ </summary>
+ <returns>True, if the rollback to DOWN was done successful, otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.TurningFromOffToDown">
+ <summary>
+ Overridable function, when the state of the station turns from OFF to DOWN.
+ </summary>
+ <returns>True, if the station can complete the turn to DOWN, otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.TurningFromOffToOn">
+ <summary>
+ Overridable function, when the state of the station turns from OFF to ON.
+ </summary>
+ <returns>True, if the station can complete the turn to ON, otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.RollbackToOffFromTurningToOn">
+ <summary>
+ Overridable function, when the state of the station can not be turned from OFF to ON and so the rollback to OFF is forced.
+ </summary>
+ <returns>True, if the rollback to OFF was done successful, otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.TurningFromOnToOff">
+ <summary>
+ Overridable function, when the state of the station turns from ON to OFF.
+ </summary>
+ <returns>True, if the station can complete the turn to OFF, otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.TurningFromOnToRun">
+ <summary>
+ Overridable function, when the state of the station turns from ON to RUN.
+ </summary>
+ <returns>True, if the station can complete the turn to RUN, otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.RollbackToOnFromTurningToRun">
+ <summary>
+ Overridable function, when the state of the station can not be turned from ON to RUN and so the rollback to ON is forced.
+ </summary>
+ <returns>True, if the rollback to ON was done successful, otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.TurningFromRunToOn">
+ <summary>
+ Overridable function, when the state of the station turns from RUN to ON.
+ </summary>
+ <returns>True, if the station can complete the turn to ON, otherwise false.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.ActionRequestForDisabled(Kostal.Testman.Framework.Base.IStationStateManager.StationStates)">
+ <summary>
+ Overridable function, when the state of the station is DISABLED.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.ActionRequestForOff">
+ <summary>
+ Overridable function, when the state of the station is OFF.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.ActionRequestForOn">
+ <summary>
+ Overridable function, when the state of the station is ON.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.ActionRequestForProblem(Kostal.Testman.Framework.Core.StationStateManager.ProblemArgs)">
+ <summary>
+ Overridable function, when the state of the station is PROBLEM.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.TestOperation(Kostal.Testman.Framework.Core.TestJobConfig)">
+ <summary>
+ Overridable function, when the test in the station is processing.
+ </summary>
+ <param name="testJobConfig">The test job configuration.</param>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.TestOperationCompleted(Kostal.Testman.Framework.Core.TestJobConfig,Kostal.Testman.Framework.Base.ITestStationResult)">
+ <summary>
+ Overridable function, when the test in the station was completed.
+ </summary>
+ <param name="testJobConfig">The test job configuration.</param>
+ <param name="stationResult">The station result.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.TestOperationAborted(Kostal.Testman.Framework.Core.TestJobConfig,Kostal.Testman.Framework.Base.ITestStationResult,Kostal.Testman.Framework.Core.TestOperationAbortedArgs)">
+ <summary>
+ Overridable function, when the test in the station was aborted.
+ </summary>
+ <param name="testJobConfig">The test job configuration.</param>
+ <param name="stationResult">The station result.</param>
+ <param name="args">The arguments for the abortion.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.ITestStationActions.TestOperationIgnored(Kostal.Testman.Framework.Core.TestJobConfig,System.Boolean)">
+ <summary>
+ Overridable function, when the test in the station was ignored.
+ </summary>
+ <param name="testJobConfig">The test job configuration.</param>
+ <param name="thisTestOnly">if set to <c>true</c> [this test only].</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.IMyStation.Runtime">
+ <summary>
+ Gets the runtime.
+ </summary>
+ <value>
+ The runtime.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.IMyStation.Runner">
+ <summary>
+ Gets access to the test runner controller.
+ </summary>
+ <value>
+ The runner controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.IMyStation.Context">
+ <summary>
+ The 'Basic Context' allowing access to the concrete context instances.
+ </summary>
+ <value>
+ The context.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.IMyStation.Counter">
+ <summary>
+ Gets access to the counter controller.
+ </summary>
+ <value>
+ The counter controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.IMyStation.Health">
+ <summary>
+ Gets access to the Station Health controller
+ </summary>
+ <value>
+ The Health controller
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.IMyStation.Localizer">
+ <summary>
+ Gets the localizer.
+ </summary>
+ <value>
+ The localizer.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.IMyStation.InternalLocalizer">
+ <summary>
+ Gets the localizer.
+ </summary>
+ <value>
+ The localizer.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.IMyStation.Hardware">
+ <summary>
+ Gets the hardware channels.
+ </summary>
+ <value>
+ The hardware channels.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.MyStationBase.Hardware">
+ <summary>
+ Gets the hardware channels.
+ </summary>
+ <value>
+ The hardware channels.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.MyStationBase.Runtime">
+ <summary>
+ Gets the runtime.
+ </summary>
+ <value>
+ The runtime.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.MyStationBase.Runner">
+ <summary>
+ Gets access to the test runner controller.
+ </summary>
+ <value>
+ The runner controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.MyStationBase.Prompts">
+ <summary>
+ Gets access to the messages controller.
+ </summary>
+ <value>
+ The messages controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.MyStationBase.Counter">
+ <summary>
+ Gets access to the counter controller.
+ </summary>
+ <value>
+ The counter controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.MyStationBase.Health">
+ <summary>
+ Gets access to the Station Health controller
+ </summary>
+ <value>
+ The Health controller
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.MyStationBase.Localizer">
+ <summary>
+ Gets the localizer.
+ </summary>
+ <value>
+ The localizer.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.MyStationBase.InternalLocalizer">
+ <summary>
+ Gets the internal localizer.
+ </summary>
+ <value>
+ The intenal localizer.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestStationChannelsContainer.GetEnumeratorObj">
+ <summary>Provides the base enumerator</summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestStationChannelsContainer.UnitsCount">
+ <summary>Derived classes provide the number of contained units</summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Framework.Head.Components.StationsController._keyedcollectionStations">
+ <summary>
+ The keyedcollection of test stations
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.Components.TestStation">
+ <summary>
+ Main class for the SubStation component.
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.Components.TestStationBase">
+ <summary>
+ Base class for the SubStation component.
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Head.Components.SystemsController._keyedcollectionSystems">
+ <summary>
+ The keyedcollection of test stations
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.Components.TestApplication">
+ <summary>
+ Main class for the TestApplication component.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplication.AddGeneralDataToContext(Kostal.Testman.Framework.Config.IApplicationConfiguration)">
+ <summary>
+ Set General Data to Context
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplication.InitializeHardware(Kostal.Testman.Framework.Config.IAddinConfiguration)">
+ <summary>
+ Loads the Hardware by configuration data.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplication.InitializeUserInterface(Kostal.Testman.Framework.Config.IAddinConfiguration)">
+ <summary>
+ Loads the UserInterface by configuration data.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplication.InitializeSystems(Microsoft.Practices.Unity.IUnityContainer,Kostal.Testman.Framework.Config.ISystemConfiguration[])">
+ <summary>
+ Loads the Systems by configuration data.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplication.Run">
+ <summary>
+ Runs the test application and gives the control to the framework.
+ Initialize the runtime with Authorization.Basic and Authentication.Basic
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplication.Run(Kostal.Testman.Framework.Base.UserInterface.UserInterfaceBase)">
+ <summary>
+ Runs the test application and gives the control to the framework.
+ Initialize the runtime with Authorization.Basic and Authentication.Basic
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplication.Run(Kostal.Testman.Framework.IUserAuthorization,Kostal.Testman.Framework.IAuthentication)">
+ <summary>
+ Runs the test application and gives the control to the framework. Uses provided modules for authorization and authentication when changing userlevel.
+ </summary>
+ <param name="authorization">the autorization module used during runtime.</param>
+ <param name="authentication">the authentication module used during runtime.</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.TestSystems">
+ <summary>
+ Gets the test systems of the application.
+ </summary>
+ <value>
+ The test systems collection.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.TestSystems(System.Int32)">
+ <summary>
+ Gets the test system specified by the index.
+ </summary>
+ <value>
+ The test system, if found, otherwise an exception is thrown.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.TestSystems(System.String)">
+ <summary>
+ Gets the test system specified by the id.
+ </summary>
+ <value>
+ The test system, if found, otherwise an exception is thrown.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.User">
+ <summary>
+ UserController contains logic regarding user and userlevel.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.TesterContext">
+ <summary>
+ The 'Basic Context' allowing access to the concrete context instances. 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.Counter">
+ <summary>
+ Get the Application Counter Controller
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.Prompts">
+ <summary>
+ Get the Application Prompts Controller
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.Health">
+ <summary>
+ Get the Application Health Controller
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.Hardware">
+ <summary>
+ HardwareController to handle hardware related stuff.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.State">
+ <summary>
+ Gets access to the application state manager.
+ </summary>
+ <value>
+ The application state manager.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.Alarm">
+ <summary>
+ Gets access to the application alarm controller.
+ </summary>
+ <value>
+ The application alarm controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplication.Tasks">
+ <summary>
+ Gets access to the application alarm controller.
+ </summary>
+ <value>
+ The application alarm controller.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplication.OnAppDomainException(System.Object,System.UnhandledExceptionEventArgs)">
+ <summary>
+ show Exception Dialog
+ </summary>
+ <param name="sender">Object</param>
+ <param name="e">UnhandledExceptionEventArgs</param>
+ <remarks>use Neumann.Diagnostics</remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplication.ShowApplicationView(Kostal.Testman.Framework.Base.ApplicationViewType,System.String,System.String)">
+ <summary>
+ Shows the application view.
+ If PageView = Station, StationID and StationViewId could be set, too.
+ </summary>
+ <param name="pageView">The page view.</param>
+ <param name="stationId">The station identifier.</param>
+ <param name="stationViewId">The station view identifier.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplication.ShowArticleSelector">
+ <summary>
+ Shows the article selector.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplication.ShowContinueMessageIfUnsavedFile(System.String,System.Boolean)">
+ <summary>
+ If FileDefintions are unsaved, a message will be displayed, if anyway continue are lose the changes
+ </summary>
+ <returns><c>True</c> if nothing is unsaved or the user press OK to continue anyway. 
+ <c>False</c> if the user press Cancel to lose the changes.</returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.Components.TestApplicationBase">
+ <summary>
+ Base class for the TestApplication component.
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Head.Components.TestApplicationBase._keyedcollectionSystems">
+ <summary>
+ The keyedcollection of test systems
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.TestSystems">
+ <summary>
+ Gets the test systems of the application.
+ </summary>
+ <value>
+ The test systems collection.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.TestSystems(System.Int32)">
+ <summary>
+ Gets the test system by index.
+ </summary>
+ <value>
+ The test system, if found, otherwise an exception is thrown.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.TestSystems(System.String)">
+ <summary>
+ Gets the test system by id.
+ </summary>
+ <value>
+ The test system, if found, otherwise an exception is thrown.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.Runtime">
+ <summary>
+ Gets the application runtime.
+ </summary>
+ <value>
+ The runtime.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.State">
+ <summary>
+ Gets access to the application state manager.
+ </summary>
+ <value>
+ The application state manager.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.Article">
+ <summary>
+ Gets the article controller.
+ </summary>
+ <value>
+ The article controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.Process">
+ <summary>
+ Gets the process controller.
+ </summary>
+ <value>
+ The process controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.Operation">
+ <summary>
+ Gets the operation controller.
+ </summary>
+ <value>
+ The operation controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.Jobs">
+ <summary>
+ Gets the jobs controller.
+ </summary>
+ <value>
+ The jobs controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.User">
+ <summary>
+ Gets access to the application state manager.
+ </summary>
+ <value>
+ The application state manager.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.Counter">
+ <summary>
+ Gets the application counter controller.
+ </summary>
+ <value>
+ The application counter controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.Prompts">
+ <summary>
+ Gets the prompts controller.
+ </summary>
+ <value>
+ The prompts controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.Health">
+ <summary>
+ Gets the application health controller.
+ </summary>
+ <value>
+ The health controller of the application.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.Commands">
+ <summary>
+ Gets the application commands controller
+ </summary>
+ <value>
+ The commands controller
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestApplicationBase.Alarm">
+ <summary>
+ Gets the application health controller.
+ </summary>
+ <value>
+ The health controller of the application.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplicationBase.ShowApplicationView(Kostal.Testman.Framework.Base.ApplicationViewType,System.String,System.String)">
+ <summary>
+ Shows the application view.
+ If PageView = Station, StationID and StationViewId could be set, too.
+ </summary>
+ <param name="pageView">The page view.</param>
+ <param name="stationId">The station identifier.</param>
+ <param name="stationViewId">The station view identifier.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestApplicationBase.ShowArticleSelector">
+ <summary>
+ Shows the article selector.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestComponent.InitializeInternal(System.String,System.String)">
+ <summary>
+ Initializes the component with internal parameters.
+ </summary>
+ <param name="newId">The identifier.</param>
+</member>
+<member name="F:Kostal.Testman.Framework.Head.Components.TestComponent._id">
+ <summary>
+ The identifier
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Head.Components.TestComponent._text">
+ <summary>
+ The text
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestComponent.Id">
+ <summary>
+ Gets the identifier.
+ </summary>
+ <value>
+ The identifier.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestComponent.Text">
+ <summary>
+ Gets description text.
+ </summary>
+ <value>
+ The description text.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.Components.Station">
+ <summary>
+ Main class for the TestStation component.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.Station.LoadPlugins(Kostal.Testman.Framework.Config.IAddinConfiguration[])">
+ <summary>
+ Load Plugin by microkernel
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.Station.PluginFactory_PluginAdded(System.Object,Kostal.Testman.Framework.Runtime.PluginAddedEventArgs)">
+ <summary>
+ Event handler. Provides a new device with access to the basic
+ core interfaces and initializes it.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.Station.TestSystem">
+ <summary>
+ Gets the parent test system.
+ </summary>
+ <value>
+ The parent test system.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.Station.Runtime">
+ <summary>
+ Gets the runtime of the station
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.Station.State">
+ <summary>
+ Gets access to the station state manager.
+ </summary>
+ <value>
+ The state station manager.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.Station.Counter">
+ <summary>
+ Gets access to the station counter controller.
+ </summary>
+ <value>
+ The counter controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.Station.Prompts">
+ <summary>
+ Gets access to the prompts.
+ </summary>
+ <value>
+ The prompts manager.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.Station.Runner">
+ <summary>
+ Gets access to the test runner.
+ </summary>
+ <value>
+ The test runner.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.Station.Job">
+ <summary>
+ Gets access to the job controller.
+ </summary>
+ <value>
+ The job controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.Station.Context">
+ <summary>
+ The 'Basic Context' allowing access to the concrete context instances.
+ </summary>
+ <value>
+ The context.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.Station.Test">
+ <summary>
+ The 'Basic Context' allowing access to the concrete context instances. 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.Station.Hardware">
+ <summary>
+ HardwareController to handle hardware related stuff.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.Components.StationBase">
+ <summary>
+ Base class for the TestStation component.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.StationBase.TestSystem">
+ <summary>
+ Gets the parent test system.
+ </summary>
+ <value>
+ The parent test system.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.StationBase.Runtime">
+ <summary>
+ Gets the runtime.
+ </summary>
+ <value>
+ The runtime.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.StationBase.State">
+ <summary>
+ Gets access to the state manager.
+ </summary>
+ <value>
+ The state manager.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.StationBase.Context">
+ <summary>
+ The 'Basic Context' allowing access to the concrete context instances.
+ </summary>
+ <value>
+ The context.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.StationBase.Counter">
+ <summary>
+ Gets access to the counter controller.
+ </summary>
+ <value>
+ The counter controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.StationBase.Runner">
+ <summary>
+ Gets access to the counter controller.
+ </summary>
+ <value>
+ The counter controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.StationBase.Job">
+ <summary>
+ Gets access to the job controller.
+ </summary>
+ <value>
+ The job controller.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.StationBase.Prompts">
+ <summary>
+ Gets the Station Prompts Controller
+ </summary>
+ <value>
+ The Propmpts controller
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.StationBase.Health">
+ <summary>
+ Gets the Station Health controller
+ </summary>
+ <value>
+ The health controller
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.StationBase.Commands">
+ <summary>
+ Gets the Station commands controller
+ </summary>
+ <value>
+ The commands controller
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.StationBase.AttachJob(Kostal.Testman.Framework.Base.ITestJob)">
+ <summary>
+ Attaches the job to the station.
+ </summary>
+ <param name="job">The job to attach.</param>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.StationBase.DetachJob">
+ <summary>
+ Detaches the job from the station.
+ </summary>
+ <returns>The detached job of this station</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.StationBase.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary>
+ <returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.Components.TestSystem">
+ <summary>
+ Main class for the TestSystem component.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestSystem.ProcessTestInAllStations(System.Boolean)">
+ <summary>
+ Start the test in all stations. Set the status to Test.
+ </summary>
+ <param name="alsoOwnStation">If set to <c>True</c> also the station of the System (MyStation) is set to Test. If Set to <c>False</c> MyStation is not set to Test.</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystem.TestApplication">
+ <summary>
+ Gets the parent test application.
+ </summary>
+ <value>
+ The parent test application.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystem.MyStation">
+ <summary>
+ Gets the default Station of the System called MyStation
+ </summary>
+ <returns>The Station</returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystem.SubStations">
+ <summary>
+ Gets the sub stations.
+ </summary>
+ <value>
+ The sub stations.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystem.Runtime">
+ <summary>
+ Gets access to the system runtime manager.
+ </summary>
+ <value>
+ The system runtime manager.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystem.State">
+ <summary>
+ Gets access to the system state manager.
+ </summary>
+ <value>
+ The system state manager.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystem.Counter">
+ <summary>
+ Gets access to the system state manager.
+ </summary>
+ <value>
+ The system state manager.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystem.Trigger">
+ <summary>
+ Gets the trigger controller.
+ </summary>
+ <value>
+ The trigger controller.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.Components.TestSystemBase">
+ <summary>
+ Base class for the TestSystem component.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystemBase.TestApplication">
+ <summary>
+ Gets the parent test application.
+ </summary>
+ <value>
+ The parent test application.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystemBase.MyStation">
+ <summary>
+ Gets the default Station of the System called MyStation
+ </summary>
+ <returns>The Station</returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystemBase.SubStations">
+ <summary>
+ Gets the sub stations of the system.
+ </summary>
+ <value>
+ The sub stations collection.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystemBase.SubStations(System.Int32)">
+ <summary>
+ Gets the sub station by index.
+ </summary>
+ <value>
+ The sub station, if found, otherwise an exception is thrown.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystemBase.SubStations(System.String)">
+ <summary>
+ Gets the sub station by index.
+ </summary>
+ <value>
+ The sub station, if found, otherwise an exception is thrown.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystemBase.Runtime">
+ <summary>
+ Gets the runtime.
+ </summary>
+ <value>
+ The runtime.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystemBase.State">
+ <summary>
+ Gets access to the system state manager.
+ </summary>
+ <value>
+ The system state manager.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Components.TestSystemBase.Trigger">
+ <summary>
+ Gets the trigger controller.
+ </summary>
+ <value>
+ The trigger controller.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestSystemBase.PreProcessTestOperations">
+ <summary>
+ Sub that is called before the TestOperations in the stations of the system are processed
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestSystemBase.ProcessTestOperations">
+ <summary>
+ Sub that is called when the TestOperations in the stations are processed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestSystemBase.PostProcessTestOperations">
+ <summary>
+ Sub that is called after TestOperations in the stations of the system are were processed
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Components.TestSystemBase.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary>
+ <returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.HardwareController">
+ <summary>
+ Control handling with Hardware
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.HardwareController.#ctor(Kostal.Hal.Core.Device,Kostal.Hal.Core.ChannelsContainer,System.Int32)">
+ <summary>
+ New Instance of HardwareController
+ </summary>
+ <param name="device">the current hardware (device view)</param>
+ <param name="channels">the flat copy of current hardware</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.HardwareController.FindChannel``1(System.String)">
+ <summary>
+ Returns instance of a digital input channel
+ </summary>
+ <param name="name">name of channel</param>
+ <returns>DigitalInput</returns>
+ <remarks>DigitalInput to Start Test</remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.HardwareController.TryFindChannel``1(System.String)">
+ <summary>
+ Returns instance of a digital input channel
+ </summary>
+ <param name="name">name of channel</param>
+ <returns>DigitalInput</returns>
+ <remarks>DigitalInput to Start Test</remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.HardwareController.Channels">
+ <summary>
+ Returns a flat copy of all available hardware channels
+ </summary>
+ <value></value>
+ <returns>channelsConatiner containing all available hardware channels</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.HardwareController.Open">
+ <summary>
+ Open Hardware
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.HardwareController.Close">
+ <summary>
+ Close Hardware
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.OperationController">
+ <summary>
+ Controller interface used by the launcher to interact with operation mode manager instance
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.OperationController.#ctor(Kostal.Testman.Framework.Core.OperationManager)">
+ <summary>
+ Creates a new operation mode controller class
+ </summary>
+ <param name="managerOperation">the operation mode manager to be controlled</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.OperationController.Select(System.String)">
+ <summary>
+ Changes the selected operation mode
+ </summary>
+ <param name="id">id of operation mode to be activated</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.OperationController.Select(Kostal.Testman.Framework.Base.IOperationMode)">
+ <summary>
+ Changes the selected operation mode
+ </summary>
+ <param name="operationMode">operation mode representing operation mode to be activated</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.OperationController.Add(System.String,System.String,Kostal.Testman.Framework.Base.UserLevel)">
+ <summary>
+ Creates a new processitem and adds it to list of available processes
+ </summary>
+ <param name="id">Id of operation mode to be created</param>
+ <param name="userLevel">userlevels allowed to activate this operation mode</param>
+ <returns>The new operationMode</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.OperationController.Add(System.String,System.String)">
+ <summary>
+ Creates a new processitem and adds it to list of available processes
+ </summary>
+ <param name="id">Id of operation mode to be created</param>
+ <returns>The new operationMode</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.OperationController.Add(Kostal.Testman.Framework.Head.OperationMode)">
+ <summary>
+ Adds processitem to list of available processes
+ </summary>
+ <param name="operationMode">item to be added</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.OperationController.Selected">
+ <summary>
+ The operation mode currently active.
+ </summary>
+ <value></value>
+ <returns>active operation mode</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.OperationController.SelectedID">
+ <summary>
+ Gets the id of the current selected operation mode.
+ </summary>
+ <value>
+ The id of the current selected operation mode.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.OperationController.GetOperations">
+ <summary>
+ List of all operation mode items currently registered.
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.ProcessController">
+ <summary>
+ Controller interface used by the launcher to interact with process manager instance
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessController.#ctor(Kostal.Testman.Framework.Core.ProcessManager)">
+ <summary>
+ Creates a new process controller class
+ </summary>
+ <param name="managerProcess">the process manager to be controlled</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessController.Select(System.String)">
+ <summary>
+ Changes the pre-selected process
+ </summary>
+ <param name="processId">id of process to be activated</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessController.Select(Kostal.Testman.Framework.Base.IProcessItem)">
+ <summary>
+ Changes the pre-selected process
+ </summary>
+ <param name="processItem">processitem representing process to be activated</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessController.Add(System.String,Kostal.Testman.Framework.Base.UserLevel,Kostal.Testman.Framework.Base.CaqSetting)">
+ <summary>
+ Creates a new processitem and adds it to list of available processes
+ </summary>
+ <param name="id">Id of process to be created</param>
+ <param name="userLevel">userlevels allowed to activate this process</param>
+ <param name="caqSetting">caqsettings for new process</param>
+ <returns>The new processItem</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessController.Add(System.String,Kostal.Testman.Framework.Base.UserLevel)">
+ <summary>
+ Creates a new processitem and adds it to list of available processes
+ </summary>
+ <param name="id">Id of process to be created</param>
+ <param name="userLevel">userlevels allowed to activate this process</param>
+ <returns>The new processItem</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessController.Add(System.String,Kostal.Testman.Framework.Base.UserLevel,Kostal.Testman.Framework.Base.TesterMode,System.Boolean)">
+ <summary>
+ Creates a new processitem and adds it to list of available processes
+ </summary>
+ <param name="id">Id of process to be created</param>
+ <param name="userLevel">userlevels allowed to activate this process</param>
+ <param name="CaqMode">Sets the mode that is reported when result is transferred to CAQ system</param>
+ <param name="caqEnable">Enables/Disables CAQ reporting</param>
+ <returns>The new processItem</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessController.Add(System.String,Kostal.Testman.Framework.Base.UserLevel,System.Boolean)">
+ <summary>
+ Creates a new processitem and adds it to list of available processes
+ If Caq is enabled working-mode is 'Normal'.
+ </summary>
+ <param name="id">Id of process to be created</param>
+ <param name="userLevel">userlevels allowed to activate this process</param>
+ <param name="caqEnable">Enables/Disables CAQ reporting</param>
+ <returns>The new processItem</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessController.Add(System.String,System.Boolean)">
+ <summary>
+ Creates a new processitem and adds it to list of available processes. 
+ This process can be executed by every user.
+ If Caq is enabled working-mode is 'Normal'.
+ </summary>
+ <param name="id">Id of process to be created</param>
+ <param name="caqEnable">Enables/Disables CAQ reporting</param>
+ <returns>The new processItem</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessController.Add(Kostal.Testman.Framework.Head.ProcessItem)">
+ <summary>
+ Adds processitem to list of available processes
+ </summary>
+ <param name="processItem">item to be added</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.ProcessController.Selected">
+ <summary>
+ The process currently active.
+ </summary>
+ <value></value>
+ <returns>active process</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.ProcessController.SelectedId">
+ <summary>
+ The process currently active.
+ </summary>
+ <value></value>
+ <returns>active process</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessController.GetProcesses">
+ <summary>
+ List of all process items currently registered.
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.OperationMode">
+ <summary>
+ A operation mode.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.OperationMode.#ctor(System.String,System.String)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.OperationMode" /> class.
+ <param name="id">The id of the operation mode.</param>
+ <param name="text">The text of the operation mode.</param>
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.OperationMode.#ctor(System.String,System.String,Kostal.Testman.Framework.Base.UserLevel)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.OperationMode" /> class.
+ </summary>
+ <param name="id">The id of the operation mode.</param>
+ <param name="text">The text of the operation mode.</param>
+ <param name="userLevel">The userlevel allowed to activate operation mode.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.OperationMode.Id">
+ <summary>
+ Gets the identifier.
+ </summary>
+ <value>
+ The identifier.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.OperationMode.Text">
+ <summary>
+ Gets the text.
+ </summary>
+ <value>
+ The text.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.OperationMode.UserLevel">
+ <summary>
+ Gets the specified Userlevels for this pperation mode.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.OperationMode.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary>
+ <returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.ProcessItem">
+ <summary>
+ A process with appropiate caq settings.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessItem.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.ProcessItem" /> class.
+ <param name="id">The name of process.</param>
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessItem.#ctor(System.String,Kostal.Testman.Framework.Base.UserLevel)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.ProcessItem" /> class.
+ </summary>
+ <param name="id">The name of process.</param>
+ <param name="userLevel">The userlevel allowed to activate process.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessItem.#ctor(System.String,Kostal.Testman.Framework.Base.UserLevel,Kostal.Testman.Framework.Base.CaqSetting)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.ProcessItem" /> class.
+ </summary>
+ <param name="id">The name of process.</param>
+ <param name="userLevel">The userlevel allowed to activate process.</param>
+ <param name="caqsetting">The caqsetting for process.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.ProcessItem.Id">
+ <summary>
+ Gets the identifier.
+ </summary>
+ <value>
+ The identifier.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.ProcessItem.CaqSetting">
+ <summary>
+ Gets the caq setting.
+ </summary>
+ <value>
+ The caq setting.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.ProcessItem.UserLevel">
+ <summary>
+ Gets the specified Userlevels for this process.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.ProcessItem.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary>
+ <returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.SectionParametersContainer.TryAddParameterWithValue(System.String,System.String)">
+ <summary>
+ Trys to add a Section variable with a value to the Container
+ </summary>
+ <param name="paramName">The name of the section variable</param>
+ <param name="paramValue">The value of the section variable</param>
+ <returns><c>True</c> if the variable is not added before, <c>False</c> if the variable was allready added.</returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.SectionParametersContainer.SectionParameters">
+ <summary>
+ Return a readonly SectionParameter Dictionary
+ </summary>
+ <returns>ReadOnlyDictionary with section ParameterName and ParameterValue</returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.TestController">
+ <summary>
+ Contains routines to control the test. This includes configuration for the test and the execution of testlogic itself.
+ Also a methods to write the executed TestSteps to a dumpfile
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.TestController.#ctor(Kostal.Testman.Framework.Runtime.Tracer,Kostal.Testman.Framework.Core.ExecutionEnvironment,Kostal.Testman.Framework.Base.TestRunner.ITestRunner)">
+ <summary>
+ Creates and initializes a new instance of Testcontroller.
+ Handles the initial Execute of a section from launcher and dump of the result
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.TestController.Tracer">
+ <summary>
+ The tracer component that may be attached to the user interface.
+ This class can be used to add custom messages to into tracer that may get displayed in the UI.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.TestController.ExecuteSection(System.String)">
+ <summary>
+ Executes a loaded section of teststeps. 
+ The system will execute with ExecutionStrategy 'Simple'
+ The SubId is String.Empty
+ </summary>
+ <param name="sectionId">name of the section to be executed</param>
+ <returns> Testresult of Section</returns>
+ <remarks>Perform a Section </remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.TestController.ExecuteSection(System.String,System.String)">
+ <summary>
+ Executes a loaded section of teststeps. 
+ The system will execute with ExecutionStrategy 'Simple'
+ </summary>
+ <param name="sectionId">name of the section to be executed</param>
+ <param name="subId"></param>
+ <returns> Testresult of Section</returns>
+ <remarks>Perform a Section </remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.TestController.ExecuteSection(System.String,System.String,Kostal.Testman.Framework.Head.SectionParametersContainer)">
+ <summary>
+ Executes a loaded section of teststeps. 
+ The system will execute with ExecutionStrategy 'Simple'
+ </summary>
+ <param name="sectionId">name of the section to be executed</param>
+ <param name="subId"></param>
+ <param name="sectionParameters">The section parameter container.</param>
+ <returns> Testresult of Section</returns>
+ <remarks>Perform a Section </remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.TestController.ExecuteSection(System.String,Kostal.Testman.Framework.Core.ExecutionEngine.IExecutionFlowHandlerBlock)">
+ <summary>
+ Executes a loaded section of teststeps. 
+ The SubId is String.Empty
+ </summary>
+ <param name="sectionId">name of the section to be executed</param>
+ <param name="flowHandler">the flow handler used during execution.</param>
+ <returns> Testresult of Section</returns>
+ <remarks>Perform a Section </remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.TestController.ExecuteSection(System.String,Kostal.Testman.Framework.Core.ExecutionEngine.IExecutionFlowHandlerBlock,System.String)">
+ <summary>
+ Executes a loaded section of teststeps. 
+ </summary>
+ <param name="sectionId">name of the section to be executed</param>
+ <param name="flowHandler">the flow handler used during execution.</param>
+ <param name="subId"></param>
+ <returns> Testresult of Section</returns>
+ <remarks>Perform a Section </remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.TestController.ExecuteSection(System.String,Kostal.Testman.Framework.Core.ExecutionEngine.IExecutionFlowHandlerBlock,System.String,Kostal.Testman.Framework.Head.SectionParametersContainer)">
+ <summary>
+ Executes a loaded section of teststeps. 
+ </summary>
+ <param name="sectionId">name of the section to be executed</param>
+ <param name="flowHandler">the flow handler used during execution.</param>
+ <param name="subId"></param>
+ <param name="sectionParameters">The section parameter container.</param>
+ <returns> Testresult of Section</returns>
+ <remarks>Perform a Section </remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.TestController.ExecuteSection(System.String,Kostal.Testman.Framework.Core.ExecutionEngine.IExecutionFlowHandlerBlock,System.Int32,System.Int32,System.String,System.String,System.String,Kostal.Testman.Framework.Head.SectionParametersContainer)">
+ <summary>
+ Executes a loaded section of teststeps where the ExecutionStrategy is provided by flowhandler.
+ </summary>
+ <param name="sectionId">name of the section to be executed</param>
+ <param name="flowHandler">the flow handler used during execution.</param>
+ <param name="threadNumber">The thread number.</param>
+ <param name="stepNumber">The step number.</param>
+ <param name="subId">The subId.</param>
+ <param name="defPath">The definition path.</param>
+ <param name="runPath">The run path.</param>
+ <param name="sectionParameters">The section parameter container.</param>
+ <returns>
+ Resultvalue of Section
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.UserController.#ctor(Kostal.Testman.Framework.Base.IUserManager)">
+ <summary>
+ Creates a new instance of UserController
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.UserController.ForceDeveloper(System.Boolean)">
+ <summary>
+  Force User in Admin Mode
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Health.ApplicationHealthController.Items">
+ <summary>
+ Gets access to the health items.
+ </summary>
+ <value>
+ The readonly collection with health items.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.Health.LogHealthItem">
+ <summary>
+ HelathItem to count raised fatals, errors and warnings
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Health.LogHealthItem.#ctor">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.Health.LogHealthItem"/> class.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Health.LogHealthItem.Write(NLog.LogEventInfo)">
+ <summary>
+ Writes the specified logevent.
+ </summary>
+ <param name="logevent">The logevent.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Health.LogHealthItem.Update">
+ <summary>
+ Updates the state and value text of the health item.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.Health.StationHealthController.Items">
+ <summary>
+ Gets access to the informations.
+ </summary>
+ <value>
+ The readonly collection with informations.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Head.Health.SvnHealthItem">
+ <summary>
+ Check and display the svn status of the application base directory or a given directory.
+ </summary>
+ <seealso cref="T:Kostal.Testman.Plugin.Base.Health.ComponentHealthItem" />
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Health.SvnHealthItem.#ctor(Kostal.Testman.Framework.Head.Components.TestApplication,System.String)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.Health.SvnHealthItem"/> class.
+ </summary>
+ <param name="svnWorkingDirectory">The SVN working directory. If not set the BaseDirectory of the application will be used.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Health.UsedMemoryHealthItem.#ctor(System.Int32,System.Int32)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Head.Health.UsedMemoryHealthItem"/> class.
+ </summary>
+ <param name="maximumFreeMegaBytesForNormal">The warning mega byte.</param>
+ <param name="maximumFreeMegaBytesForWarning">The problem mega byte.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Health.UsedMemoryHealthItem.Tick">
+ <summary>
+ Performs a Refresh
+ </summary><remarks>
+ This sub is called by the global PollingEngine.
+ </remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Prompts.ApplicationPromptsController.SetOutputChannels(System.Boolean,Kostal.Testman.Framework.Base.Prompts.IPrompt)">
+ <summary>
+ Output-Kanäle auf 1 setzen
+ </summary>
+ <param name="setToOn"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.Prompts.StationPromptsController.Clear">
+ <summary>
+ Removes the current message for this station.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.UserPrompt.ResponseId">
+ <summary>
+ Gets the id of the response.
+ </summary>
+ <value>
+ The response id.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.UserPrompt.ClearMessageWhenTimedOut">
+ <summary>
+ Gets a value indicating whether ClearMessageWhenTimedOut was set when WaitForResponse is called.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Head.UserPrompt.IsTimedOut">
+ <summary>
+ Gets <c>True</c> if a time out occur when WaitForResponse is called.
+ </summary>
+ <value>
+ The boolean value if the time out occur
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.UserPrompt.ClearResponse">
+ <summary>
+ Clears the response id for this prompt.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Head.UserPrompt.WaitForResponse(System.Int32,System.Boolean)">
+ <summary>
+ Waits for response on this prompt for a maximum time (in milliseconds).
+ Blocks the current thread until the response or the timeout occur.
+ </summary>
+ <param name="millisecondsTimeout">The number of milliseconds to wait, or <see cref="F:System.Threading.Timeout.Infinite" /> (-1) to wait indefinitely. </param>
+ <param name="clearMessageWhenTimedOut">If set to <c>true</c> the message is cleared after  the timeout occur.</param>
+ <returns>
+ The id of the reponse
+ </returns>
+</member>
+</members>
+</doc>

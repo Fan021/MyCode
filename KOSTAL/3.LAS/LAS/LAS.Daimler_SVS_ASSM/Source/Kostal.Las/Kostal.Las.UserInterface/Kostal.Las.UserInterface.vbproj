@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A24C12C0-49E6-49A1-B27A-7CCB9D4EFC7C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Kostal.Las.UserInterface</RootNamespace>
+    <AssemblyName>Kostal.Las.UserInterface</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\Assembly\Lib\</OutputPath>
+    <DocumentationFile>Kostal.Las.UserInterface.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Kostal.Las.UserInterface.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Publish|AnyCPU'">
+    <OutputPath>bin\Publish\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assembly\Lib\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="Kostal.Common, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assembly\Lib\Kostal.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kostal.Library.CorporateIdentity">
+      <HintPath>libs\Kostal.Library.CorporateIdentity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kostal.Testman.Framework.Base, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assembly\Lib\Kostal.Testman.Framework.Base.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kostal.Testman.Framework.Head, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assembly\Lib\Kostal.Testman.Framework.Head.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kostal.Testman.Framework.Runtime, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assembly\Lib\Kostal.Testman.Framework.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kostal.Testman.Plugin.Base, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assembly\Lib\Kostal.Testman.Plugin.Base.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Kostal.Windows.Presentation, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assembly\Lib\Kostal.Windows.Presentation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LumenWorks.Framework.IO, Version=3.8.0.0, Culture=neutral, PublicKeyToken=5ad3ea2f85776344, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assembly\Lib\LumenWorks.Framework.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alarm\ApplicationAlarmController.vb" />
+    <Compile Include="Alarm\PhysicalAlarm.vb" />
+    <Compile Include="Alarm\PrefinedAlarmTypes.vb" />
+    <Compile Include="Application\ApplicationPromptsModel.vb" />
+    <Compile Include="Application\PromptsModel.vb" />
+    <Compile Include="Application\PromptsView.xaml.vb">
+      <DependentUpon>PromptsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContentPrompts\AlarmPromptModel.vb" />
+    <Compile Include="ContentPrompts\NoPromptModel.vb" />
+    <Compile Include="ContentPrompts\PromptTypeToVisibleConverter.vb" />
+    <Compile Include="ContentPrompts\SinglePromptModel.vb" />
+    <Compile Include="ContextMenues\ApplicationStateMenuModel.vb" />
+    <Compile Include="ContextMenues\MenuItemModel.vb" />
+    <Compile Include="ContextMenues\UserMenuModel.vb" />
+    <Compile Include="Converters\WidthThicknessConverter.vb" />
+    <Compile Include="DebugBackup.vb" />
+    <Compile Include="Design\Visibilities.vb" />
+    <Compile Include="Forms\AboutBox.Designer.vb">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoadScreen.Designer.vb">
+      <DependentUpon>LoadScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoadScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm_Bosh.Designer.vb">
+      <DependentUpon>MainForm_Bosh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm_Bosh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pic.Designer.vb">
+      <DependentUpon>Pic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RowMergeView.Designer.vb">
+      <DependentUpon>RowMergeView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RowMergeView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helpers\Diagnostics.vb" />
+    <Compile Include="Helpers\Member.vb" />
+    <Compile Include="MainForm_Mul.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm_Mul.Designer.vb">
+      <DependentUpon>MainForm_Mul.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Globalization\Localizer.vb" />
+    <Compile Include="Helpers\ButtonHelper.vb" />
+    <Compile Include="Helpers\ColorHelper.vb" />
+    <Compile Include="Helpers\ContextMenuHelper.vb" />
+    <Compile Include="Helpers\FontHelper.vb" />
+    <Compile Include="Helpers\OptionHelper.vb" />
+    <Compile Include="Helpers\PropertyHelper.vb" />
+    <Compile Include="Helpers\TextHelper.vb" />
+    <Compile Include="Helpers\VisibilitiesHelper.vb" />
+    <Compile Include="Helpers\WindowsBehaviours.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfoWithXAMLResourceAttribute.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PromptInterfaces\AlarmStates.vb" />
+    <Compile Include="PromptInterfaces\DisplayOptions.vb" />
+    <Compile Include="Alarm\IApplicationAlarmController.vb" />
+    <Compile Include="Application\IApplicationPromptsController.vb" />
+    <Compile Include="PromptInterfaces\IPhysicalAlarm.vb" />
+    <Compile Include="PromptInterfaces\IPrompt.vb" />
+    <Compile Include="PromptInterfaces\IResponse.vb" />
+    <Compile Include="Prompts\IStationPromptsController.vb" />
+    <Compile Include="PromptInterfaces\PromptTypes.vb" />
+    <Compile Include="Prompts\UserResponse.vb" />
+    <Compile Include="Prompts\StationPromptsController.vb" />
+    <Compile Include="Prompts\UserPrompt.vb" />
+    <Compile Include="UserInterfaceBuilder.vb" />
+    <Compile Include="ViewModelHelper\IViewModelBase.vb" />
+    <Compile Include="ViewModelHelper\ViewModelBase.vb" />
+    <Compile Include="ViewModelHelper\ViewModelBaseDisposable.vb" />
+    <Compile Include="ViewToViewModel.xaml.vb">
+      <DependentUpon>ViewToViewModel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows.Forms\CounterView.Designer.vb">
+      <DependentUpon>CounterView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Windows.Forms\CounterView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AboutBox.resx">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoadScreen.resx">
+      <DependentUpon>LoadScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm_Bosh.resx">
+      <DependentUpon>MainForm_Bosh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pic.resx">
+      <DependentUpon>Pic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RowMergeView.resx">
+      <DependentUpon>RowMergeView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm_Mul.resx">
+      <DependentUpon>MainForm_Mul.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows.Forms\CounterView.resx">
+      <DependentUpon>CounterView.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Application\PromptsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ContentPrompts\AlarmPromptControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ContentPrompts\NoPromptControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ContentPrompts\SinglePromptControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewToViewModel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\System.jpg" />
+    <None Include="Resources\Station.png" />
+    <None Include="Resources\timg3123D70D.jpg" />
+    <None Include="Resources\overview.png" />
+    <None Include="Resources\QR_Kostal.png" />
+    <None Include="Resources\Kostal.JPG" />
+    <None Include="Resources\on_ok.jpg" />
+    <None Include="Resources\LAC.jpg" />
+    <None Include="Resources\red.jpg" />
+    <None Include="Resources\people.ico" />
+    <None Include="Resources\logo_screen_145px2.png" />
+    <None Include="Resources\LAS.ico" />
+    <None Include="Resources\green.png" />
+    <None Include="Resources\gray.png" />
+    <None Include="Resources\Del.bmp" />
+    <None Include="Resources\automation controller.jpg" />
+    <None Include="Resources\Add.bmp" />
+    <None Include="Resources\ATCT.png" />
+    <None Include="Resources\1522378399750.png" />
+    <Content Include="Resources\automatic controller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kostal.Las.ArticleProvider\Kostal.Las.ArticleProvider.vbproj">
+      <Project>{1f2eadf6-a62f-408d-89a0-761c5399ed30}</Project>
+      <Name>Kostal.Las.ArticleProvider</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Kostal.Las.Base\Kostal.Las.Base.vbproj">
+      <Project>{278deece-6ba2-4470-bfa5-9587dcc5ab19}</Project>
+      <Name>Kostal.Las.Base</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

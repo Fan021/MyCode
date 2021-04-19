@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:r4="http://systemagmbh.com/manufacturing-automation/r4/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <r4:getSFCOperation>
+         <!--Optional:-->
+         <getSFCOperationRequest>
+            <!--Optional:-->
+            <resourceId>?</resourceId>
+            <!--Optional:-->
+            <softwareRevision>?</softwareRevision>
+            <!--Optional:-->
+            <timeStamp>?</timeStamp>
+            <!--Optional:-->
+            <sfc>?</sfc>
+         </getSFCOperationRequest>
+      </r4:getSFCOperation>
+   </soapenv:Body>
+</soapenv:Envelope>

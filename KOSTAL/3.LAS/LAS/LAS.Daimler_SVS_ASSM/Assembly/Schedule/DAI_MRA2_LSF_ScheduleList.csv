@@ -1,0 +1,10 @@
+ID;ScheduleIndex;ScheduleName;ScheduleDescription;UserVerification;SecurityChecksum;PassST1;FailST1;PassST2;FailST2;PassST3;FailST3;PassST4;FailST4;PassST5;FailST5;PassST6;FailST6;PassST7;FailST7;PassST8;FailST8;PassST9;FailST9;PassST10;FailST10;PassST11;FailST11;PassST12;FailST12;PassST13;FailST13;PassST14;FailST14;PassST15;FailST15;PassST16;FailST16;PassST17;FailST17;PassST18;FailST18;PassST19;FailST19;PassST20;FailST20
+SM10;10;ProductionMode;ProductionMode;ArticleUsed1;30;2;1;3;5;4;5;5;5;0;0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM1;1;SelfResistanceTest;SelfResistanceTest;Password=0;10;4;1;;;;;1;4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM2;2;MasterPartTest;MasterPartTest;Password=0;30;2;1;3;2;4;3;5;4;1;5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM3;3;RetestMode;RetestMode;Password=0;13;4;1;;;;;5;1;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM4;4;ClearMode;ClearMode;Password=0;2;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM5;5;FailSafeTest;FailSafeTest;Password=0;2;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM6;6;AssemblyOnly;AssemblyOnly;Password=0;2;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM7;7;UserDefined;UserDefined;Password=0;2;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM8;8;StandAlone;Stand Alone Mode;ArticleUsed;2;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

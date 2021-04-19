@@ -1,0 +1,5 @@
+SerialNo=LKSN.ReturnSN();
+    SN="/SN "+SerialNo;
+    Barcode="467W0CY100/LK 1037618/00"+SN+"/KOSTAL HW1.00/SW1.01/HKMC HW1.00/SW1.01";
+    printer.SetField("DR10371618.txt","^FN4^FD","^FS",SN);
+    printer.SetField("DR10371618.txt","^FN9^FD","^FS",Barcode);

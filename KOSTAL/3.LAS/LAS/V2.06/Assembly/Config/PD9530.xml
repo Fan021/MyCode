@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LasConfiguration xmlns="http://www.kostal.com/Testman/config">
+  <!-- If Display NewPart Message -->
+  <GeneralInformation>
+    <!-- DataFrame Start Code:DEC  -->
+    <STX>2F</STX>
+	<!-- DataFrame End Code:DEC  -->
+    <EXT>0D</EXT>
+	<!-- Trig On Code:DEC  -->
+    <TrigOn></TrigOn>
+	<!-- Trig Off Code:DEC  -->
+    <TrigOff></TrigOff>
+	<!-- Beep Code:DEC  -->
+    <Beep>42 45 4C</Beep>
+  </GeneralInformation>
+</LasConfiguration>

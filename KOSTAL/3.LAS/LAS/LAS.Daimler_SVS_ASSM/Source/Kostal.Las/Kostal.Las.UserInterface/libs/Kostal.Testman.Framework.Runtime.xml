@@ -1,0 +1,264 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kostal.Testman.Framework.Runtime
+</name>
+</assembly>
+<members>
+<member name="T:Kostal.Testman.Framework.Runtime.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Runtime.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Runtime.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.Extension.ApplicationExtension.InitializeInternal(Kostal.Testman.Framework.Base.Components.ITestApplicationRuntimeParameters,Kostal.Testman.Framework.Runtime.Extension.ApplicationExtensionParameters,Kostal.Testman.Framework.Base.IApplicationRuntimeManager)">
+ <summary>
+   This function initializes the Extension.
+   All given parameters will be entered into extension structure,
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.Extension.ApplicationExtension.Initialize">
+ <summary>
+ Startups the Extension with specified parameters.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.Extension.ApplicationExtension.StartupInternal(Kostal.Testman.Framework.Runtime.Extension.StartupParameters)">
+ <summary>
+ Startups the Extension with specified parameters.
+ </summary>
+ <param name="parametersStartup">The startup parameters.</param>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.Extension.ApplicationExtension.Startup(Kostal.Testman.Framework.Runtime.Extension.StartupParameters)">
+ <summary>
+ Startups the Extension with specified parameters.
+ </summary>
+ <param name="parametersStartup">The startup parameters.</param>
+ <returns></returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Runtime.Extension.INotifyTest">
+ <summary>
+ Extension interface to get infos for test activity in a station
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.Extension.StationExtension.InitInternal(Kostal.Testman.Framework.Base.Components.ITestStationRuntimeParameters,Kostal.Testman.Framework.Runtime.Extension.StationExtensionParameters,Kostal.Testman.Framework.Base.IStationRuntimeManager)">
+ <summary>
+   This function initializes the Extension.
+   All given parameters will be entered into extension structure,
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.Extension.StationExtension.StartupInternal(Kostal.Testman.Framework.Runtime.Extension.StartupParameters)">
+ <summary>
+ Startups the Extension with specified parameters.
+ </summary>
+ <param name="parametersStartup">The startup parameters.</param>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.Extension.StationExtension.Startup(Kostal.Testman.Framework.Runtime.Extension.StartupParameters)">
+ <summary>
+ Startups the Extension with specified parameters.
+ </summary>
+ <param name="parametersStartup">The startup parameters.</param>
+ <returns></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Runtime.Extension.StationExtension.ExtensionParameters">
+ <summary>
+ Gets the plugin parameters.
+ </summary>
+ <value>
+ The plugin parameters.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.Extension.StationExtension.PerformOnGui``1(System.Func{``0})">
+ <summary>
+ Performs the call of a function if necessary on the gui thread
+ </summary>
+ <typeparam name="TResult">The type of the return value of the function</typeparam>
+ <param name="function">The function to perform</param>
+ <returns>The return value of the function</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.Extension.StationExtension.PerformOnGui(System.Action)">
+ <summary>
+ Performs the call of method if necessary on the gui thread
+ </summary>
+ <param name="method">The method to perform</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.Extension.StationExtension.PerformAsyncOnGui(System.Action)">
+ <summary>
+ Performs the call of method asynchronously if necessary on the gui thread
+ </summary>
+ <param name="method">The method to perform</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Runtime.ObjectCreationException">
+ <summary>
+ Microkernel Exeption
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.ObjectCreationException.#ctor(System.String)">
+ <summary>
+ New Instance
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.ObjectCreationException.#ctor(System.String,System.Exception)">
+ <summary>
+ New Instance
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.ObjectCreationException.#ctor(System.String,System.String,System.String)">
+ <summary>
+ New Inctance with spezial Constuctor
+ </summary>
+ <param name="AssemblyFileName"></param>
+ <param name="ClassName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.ObjectCreationException.#ctor(System.String,System.String,System.String,System.Exception)">
+ <summary>
+ New Instance with spezial Constuctor
+ </summary>
+ <param name="AssemblyFileName"></param>
+ <param name="ClassName"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Runtime.PluginAddedEventArgs">
+ <summary>
+ The PluginAdded Event will occures when 
+ a new Plugin is registered in PluginFactory
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.PluginAddedEventArgs.#ctor(Kostal.Testman.Plugin.Base.PluginBase)">
+ <summary>
+ Create new PluginAddedEventArgs
+ </summary>
+ <param name="plugin">The Plugin itself.</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Runtime.PluginAddedEventArgs.Plugin">
+ <summary>
+ Get the Plugin, which was added.
+ </summary>
+ <returns>The added Plugin.</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Runtime.PluginFactory">
+ <summary>
+ Factory class to register plugins
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.PluginFactory.#ctor(Kostal.Testman.Framework.Base.IPluginsContainer,Kostal.Testman.Framework.Runtime.Components.TestStationRuntimeParameters,System.Action{Kostal.Testman.Plugin.Base.Health.IHealthItem})">
+ <summary>
+ Initilaizes a new instance of the class.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.PluginFactory.RegisterPlugins(Kostal.Testman.Framework.Config.IAddinConfiguration[])">
+ <summary>
+ Fetches all plugins from microkernel, sets them up and registeres them to Testman.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.PluginFactory.Register(Kostal.Testman.Plugin.Base.PluginBase,Kostal.Testman.Framework.Config.IAddinConfiguration)">
+ <summary>
+ Manually register a plugin to make it available in testman.
+ </summary>
+ <param name="pluginNew">plugin to add.</param>
+ <param name="pluginInfo">Initialization data for the device.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.PluginFactory.Register(Kostal.Testman.Plugin.Base.PluginBase,System.String,System.Collections.Generic.KeyValuePair{System.String,System.String}[])">
+ <summary>
+ Manually register a plugin to make it available in testman.
+ </summary>
+ <param name="pluginNew">plugin to add.</param>
+ <param name="pluginName">plugin name (key).</param>
+ <param name="parameters"></param>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.PluginFactory.GetObjectInstance``1(System.String,System.String)">
+ <summary>
+ Returns an instance of a class specified by type, file name, class name and parameter data.
+ </summary>
+ <typeparam name="T">Tpe of the class to return.</typeparam>
+ <param name="assemblyName">File name of the assembly where the class is located.</param>
+ <param name="className">Full qualified name of the class to return.</param>
+ <returns>An instance of a class specified by type, file and class name if created without exceptions; otherwise an exception is thrown.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.PluginFactory.GetObjectInstance2``1(System.String,System.String)">
+ <summary>
+ Returns an instance of a class specified by type, file name, class name and parameter data.
+ </summary>
+ <typeparam name="T">Tpe of the class to return.</typeparam>
+ <param name="assemblyName">File name of the assembly where the class is located.</param>
+ <param name="className">Full qualified name of the class to return.</param>
+ <returns>An instance of a class specified by type, file and class name if created without exceptions; otherwise an exception is thrown.</returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Runtime.SystemRuntimeManager">
+ <summary>
+ Class to handle registering and resolving of types from/in Unity
+ It also provides a function to register the default types of the testman framework
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.SystemRuntimeManager.RegisterTypes">
+ <summary>
+ Register the default types of the Testman framework
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Runtime.ApplicationRuntimeManager">
+ <summary>
+ Class to handle registering and resolving of types from/in Unity
+ It also provides a function to register the default types of the testman framework
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.ApplicationRuntimeManager.RegisterTypes">
+ <summary>
+ Register the default types of the Testman framework
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Runtime.StationRuntimeManager">
+ <summary>
+ Class to handle registering and resolving of types from/in Unity
+ It also provides a function to register the default types of the testman framework
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.StationRuntimeManager.RegisterTypes">
+ <summary>
+ Register the default types of the Testman framework
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Runtime.PluginsContainer.BuildUp(Kostal.Testman.Plugin.Base.IPlugin)">
+ <summary>
+ Resolves the dependencies for the IPlugin
+ </summary>
+ <param name="pluginOld"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Runtime.Tracer">
+ <summary>
+ Tracer functionality
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

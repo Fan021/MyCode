@@ -1,0 +1,10 @@
+ID;ScheduleIndex;ScheduleName;ScheduleDescription;UserVerification;ReferenceSchedule;SecurityChecksum;PassST1;FailST1;PassST2;FailST2;PassST3;FailST3
+SM1;1;ProductionMode;Production Mode;ArticleUsed;;9;2;1;3;1;1;1
+SM2;2;RetestMode;Repair Test;;;9;2;1;3;1;1;1
+SM3;3;SelfResistanceTest;Self Resistance Test;;TRUE;12;2;1;3;2;1;3
+SM4;4;MasterPartTest;Good Masterpart Test;;TRUE;12;2;1;3;2;1;3
+SM5;5;AssemblyOnly;Just do assembly;Password=54321;;9;2;1;3;1;1;1
+SM6;6;ClearMode;Clear Mode;;;2;1;1;;;;
+SM7;7;UserDefined;defined for APP engineers;Password=54321;;9;2;1;3;1;1;1
+SM8;8;StandAlone;Stand Alone Mode;Password=54321;;;1;1;;;;
+SM9;9;DummyTest;DummyTest;;;9;2;1;3;1;1;1

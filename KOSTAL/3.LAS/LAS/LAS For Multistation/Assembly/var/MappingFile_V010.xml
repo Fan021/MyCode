@@ -1,0 +1,79 @@
+<CsvProviderParmetrisation xmlns="http://Kostal.com/Las/CsvProviderParametrisation">
+
+  <Mappings>
+    <KeyColumnMapping>
+      <!--<UseFirstColumnAsKey />-->
+      <UsingSpecificKeyColumn columnName="ID">
+        <StringModification >Unmodified</StringModification>
+      </UsingSpecificKeyColumn>
+    </KeyColumnMapping>
+    <ArticleScheduleMapping articleProperty="ScheduleName" >
+      <UsingSpecificScheduleMode  scheduleName="ProductionMode"/>
+    </ArticleScheduleMapping>
+    <!-- 
+      ArticleName
+      ArticleNumber
+      ArticleIndex
+      ArticleInfo
+      ArticleFamily
+      CustomerNumber
+      HardwareVersion
+      SoftwareVersion
+      Q
+      Picture
+      ValidFrom
+      ValidTo
+      LaserTemplateName
+      MaskFile
+      MaskName
+    -->
+    <ArticlePropertyMapping articleProperty="ArticleNumber">
+      <ArticleNumberMapping columnName="KOSTALArtNrIndex"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="ArticleIndex">
+      <ArticleIndexMapping columnName="KOSTALArtNrIndex"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="ArticleName">
+      <ArticleNumberMapping columnName="KOSTALArtNrIndex"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="ArticleInfo">
+      <SimpleMapping columnName ="VariantString"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="CustomerNumber">
+      <SimpleMapping columnName="Label_DaiLU"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="HardwareVersion">
+      <SimpleMapping columnName="LabelHWLevel"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="SoftwareVersion">
+      <SimpleMapping columnName="LabelSWLevel"/>
+    </ArticlePropertyMapping>
+  </Mappings>
+  
+  <AdditionalGlobalParameter>
+    <ArticleParameter name ="ValidFrom">2014.12.12</ArticleParameter>
+    <ArticleParameter name ="ValidTo">2099.12.12</ArticleParameter>
+    <Parameter name ="pcb_sn_prefix">YB016</Parameter>
+    <Parameter name ="src_sn_prefix">01391</Parameter>
+  </AdditionalGlobalParameter>
+  
+  <ConditionalParameter>
+    <ConditionalArticleParameter parameterName="ArticleFamily">
+      <Assignment value="SVSRH">
+        <Condition>
+          <ColumnName>T_SIDE_RIGHT</ColumnName>  
+          <MatchValue>X</MatchValue>
+        </Condition>
+      </Assignment>
+      <Assignment value="SVSLH">
+        <Condition>
+          <ColumnName>T_SIDE_LEFT</ColumnName>  
+          <MatchValue>X</MatchValue>
+        </Condition>
+      </Assignment>
+    </ConditionalArticleParameter>
+  </ConditionalParameter> 
+
+</CsvProviderParmetrisation>
+
+

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kostal.Las.Base
+</name>
+</assembly>
+<members>
+<member name="T:Kostal.Las.Base.RefElements">
+	<summary>
+ Contains all elements of one REF Part
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.References.CheckingScheduleNameBeingUsedByRefs(System.String)">
+	<summary>
+Checking whether the ScheduleName has been used By Reference settings or not
+</summary>
+</member><member name="M:Kostal.Las.Base.References.RefreshingCheckList(System.String,System.String)">
+	<summary>
+Refreshing CheckList which contains reference info 
+</summary>
+</member><member name="M:Kostal.Las.Base.References.ModifingCheckList(System.String)">
+	<summary>
+Modifing CheckList which contains reference info 
+</summary>
+</member><member name="M:Kostal.Las.Base.References.RemoveItems(System.String)">
+	<summary>
+Romove some items with same schedule name in Checklist 
+</summary>
+</member><member name="M:Kostal.Las.Base.References.RemoveOne(System.String)">
+	<summary>
+Romove one of items of Checklist 
+</summary>
+</member><member name="M:Kostal.Las.Base.References.AddOne(Kostal.Las.Base.RefElements)">
+	<summary>
+Use to add one spezified REF part with additional LK Name
+</summary>
+</member><member name="T:Kostal.Las.Base.References">
+	<summary>
+ Handles Reference Parts
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Kostal.Las.Base.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Kostal.Las.Base.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Kostal.Las.Base.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Kostal.Las.Base.Sympol_MS447.MakePackage(System.Byte[],Kostal.Las.Base.Sympol_MS447.CMD_TYPE)">
+	<summary>
+ Make the send-date to available format for host transmit only.
+ </summary>
+	<param name="dtSendData">Byte-data want to send.</param>
+	<param name="cmdType">Command types(Abort_Macro_Pdf;Aim_Off;Aim_On;Para_Default;Para_Send;_
+ Para_Request;Start_Session;End_Session;Decode_Data;Cmd_Ack;Cmd_Nak;Enable;Disable).</param>
+	<returns>The packaged data.</returns>
+</member><member name="M:Kostal.Las.Base.Sympol_MS447.Wakeup">
+	<summary>
+ This sub make the scanner wakeup.
+ </summary>
+</member><member name="M:Kostal.Las.Base.Sympol_MS447.CheckPackage(System.Byte[],Kostal.Las.Base.Sympol_MS447.CMD_TYPE,System.Byte[]@)">
+	<summary>
+ Check the package for the received data.
+ </summary>
+	<param name=" RecvData">Data array to check.</param>
+	<param name="cmdType">Command types(Abort_Macro_Pdf;Aim_Off;Aim_On;Para_Default;Para_Send;_
+ Para_Request;Start_Session;End_Session;Decode_Data;Cmd_Ack;Cmd_Nak;Enable;Disable).</param>
+	<param name=" FrameData">Data array of this Frame.</param>
+	<returns>True for success, false for fail.</returns>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.Run">
+	<summary>
+ 运行SubStation ADS请求.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.Init(System.Boolean)">
+	<summary>
+ 初始化.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.InitSchedule(Kostal.Las.Base.ScheduleStation)">
+	<summary>
+ 写Schedule List至PLC.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.AddDeviceNotificationEx">
+	<summary>
+ 添加系统级别Notification.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.AddDeviceNotificationEx(System.Int64,System.Int64,System.String,System.Object)">
+	<summary>
+ 手动添加Notification.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.addNotificationEx(System.String,System.Object)">
+	<summary>
+ 手动添加Notification.
+ </summary>
+	<param name="VariableName"></param>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.adsClient_AdsNotificationEx(System.Object,TwinCAT.Ads.AdsNotificationExEventArgs)">
+	<summary>
+ Notification回调函数.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.GetDeviceNotificationEx(System.String)">
+	<summary>
+ 获取Notification值.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.AddLocationAds">
+	<summary>
+ 添加系统级别ADS变量.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.AddAdsVariable(System.String)">
+	<summary>
+ 手动添加ADS变量.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.ReadAny(System.String,System.Type,System.Int32[])">
+	<summary>
+ 读取ADS变量.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.ReadBoolean(System.String)">
+	<summary>
+ 读取Bool ADS变量.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.ReadString(System.String,System.Int32)">
+	<summary>
+ 读取String ADS变量.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.ReadRequestAction(System.String)">
+	<summary>
+ 读取StructRequestAction ADS变量.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.ReadDeviceInteractionSet(System.String)">
+	<summary>
+ 读取StructDeviceInteraction ADS变量.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.ReadFailedPartInfo(System.String)">
+	<summary>
+ 读取WT信息.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.ReadCarrierInfo(System.Int32)">
+	<summary>
+ 读取托盘信息.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.ResetCarrierInfo(System.Int32)">
+	<summary>
+ Reset托盘信息.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.WriteAny(System.String,System.Object)">
+	<summary>
+ 写入ADS信息.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Kostal.Las.Base.TwinCatAds.Dispose">
+	<summary>
+ 释放.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

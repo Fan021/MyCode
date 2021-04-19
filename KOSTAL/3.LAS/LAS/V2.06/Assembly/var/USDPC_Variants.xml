@@ -1,0 +1,34 @@
+<CsvProviderParmetrisation xmlns="http://Kostal.com/Las/CsvProviderParametrisation">
+
+  <Mappings>
+    <KeyColumnMapping>
+      <!--<UseFirstColumnAsKey />-->
+      <UsingSpecificKeyColumn columnName="ID">
+        <StringModification >Unmodified</StringModification>
+      </UsingSpecificKeyColumn>
+    </KeyColumnMapping>
+	
+	<ArticleScheduleMapping articleProperty ="ScheduleName">
+      <!--<UsingSpecificScheduleMode scheduleName ="Normal_Test"/>-->
+      <SimpleMapping columnName ="Schedule"/>
+    </ArticleScheduleMapping>
+
+   	<ArticlePropertyMapping articleProperty ="LaserTemplateName">
+      <SimpleMapping columnName ="LaserTemplateName"/>
+    </ArticlePropertyMapping>
+	
+   	<ArticlePropertyMapping articleProperty ="MaskFile">
+      <SimpleMapping columnName ="MaskFile"/>
+    </ArticlePropertyMapping>
+	
+   	<ArticlePropertyMapping articleProperty ="MaskName">
+      <SimpleMapping columnName ="MaskName"/>
+    </ArticlePropertyMapping>
+	
+	<ArticlePropertyMapping articleProperty ="Picture">
+      <SimpleMapping columnName ="Picture"/>
+    </ArticlePropertyMapping>
+	
+  </Mappings>
+  
+</CsvProviderParmetrisation>

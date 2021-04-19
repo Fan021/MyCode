@@ -1,0 +1,1004 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kostal.Common
+</name>
+</assembly>
+<members>
+<member name="T:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2">
+ <summary>
+ An observable KeyedObjectCollection
+ </summary>
+ <typeparam name="TKey">The type of the key.</typeparam>
+ <typeparam name="TItem">The type of the item.</typeparam>
+</member>
+<member name="E:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.CollectionChanged">
+ <summary>
+ Occurs, if the collection is changed.
+ </summary>
+</member>
+<member name="M:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.#ctor(System.Func{`1,`0})">
+ <summary>
+ Initializes a new instance of the ObservableKeyedObjectCollection class.
+ </summary>
+ <param name="getKeyForItemDelegate">The delegate to get the key of an given item.</param>
+</member>
+<member name="M:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.GetKeyForItem(`1)">
+ <summary>
+ Bei Implementierung in einer abgeleiteten Klasse wird der Schlüssel aus dem angegebenen Element extrahiert.
+ </summary>
+ <param name="item">Das Element, aus dem der Schlüssel extrahiert werden soll.</param>
+ <returns>
+ Der Schlüssel für das angegebene Element.
+ </returns>
+</member>
+<member name="M:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.SetItem(System.Int32,`1)">
+ <summary>
+ Ersetzt das Element an der angegebenen Position durch ein angegebenes Element.
+ </summary>
+ <param name="index">Der nullbasierte Index des zu ersetzenden Elements.</param>
+ <param name="newItem">Das neue Element.</param>
+</member>
+<member name="M:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.InsertItem(System.Int32,`1)">
+ <summary>
+ Fügt am angegebenen Index ein Element in die <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> ein.
+ </summary>
+ <param name="index">Der nullbasierte Index, an dem <paramref name="newItem" /> eingefügt werden soll.</param>
+ <param name="newItem">Das einzufügende Objekt.</param>
+</member>
+<member name="M:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.ClearItems">
+ <summary>
+ Entfernt alle Elemente aus der <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" />.
+ </summary>
+</member>
+<member name="M:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.RemoveItem(System.Int32)">
+ <summary>
+ Entfernt das Element am angegebenen Index aus der <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" />.
+ </summary>
+ <param name="index">Der Index des zu entfernenden Elements.</param>
+</member>
+<member name="M:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.TryGetValue(`0,`1@)">
+ <summary>
+ Gets the value associated with the specified key.
+ </summary>
+ 
+ <returns>
+ true if the ObservableKeyedObjectCollection(Of TKey, TValue) contains an element with the specified key; otherwise, false.
+ </returns>
+ <param name="key">The key whose value to get.</param>
+ <param name="foundItem">When this method returns, the value associated with the specified key, if the key is found; otherwise, the default value for the type of the <paramref name="foundItem"/> parameter. This parameter is passed uninitialized.</param>
+ <exception cref="T:System.ArgumentNullException"><paramref name="key"/> is Nothing.</exception>
+</member>
+<member name="M:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.ContainsKey(`0)">
+ <summary>
+ Determines whether the ObservableKeyedObjectCollection(Of TKey, TValue) contains an element with the specified key.
+ </summary>
+ 
+ <returns>
+ true if the ObservableKeyedObjectCollection contains an element with the specified key; otherwise, false.
+ </returns>
+ <param name="searchedkey">The key to locate in the ObservableKeyedObjectCollection(Of TKey, TValue)</param>
+ <exception cref="T:System.ArgumentNullException"><paramref name="searchedkey"/> is Nothing.</exception>
+</member>
+<member name="M:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.AddRange(System.Collections.Generic.IEnumerable{`1})">
+ <summary>
+ Adds the range of items.
+ </summary>
+ <param name="items">The items.</param>
+</member>
+<member name="M:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+ <summary>
+ Raises the <see cref="E:Kostal.Collections.ObjectModel.ObservableKeyedObjectCollection`2.CollectionChanged" /> event.
+ </summary>
+ <param name="e">The <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventArgs"/> instance containing the event data.</param>
+</member>
+<member name="T:Kostal.ReadOnlyObservableCollectionEx`1">
+ <summary>
+ ReadOnlyObservableCollection that can be filtered and sorted
+ </summary>
+ <typeparam name="T"></typeparam>
+ <remarks>It should not be used for very big amounts of items, because after every change on the source collection a NotifyCollectionChangedAction.Reset is raised.</remarks>
+</member>
+<member name="T:Kostal.ItemContainer`1">
+ <summary>
+ Generic Container, that holds a DisplayText and a corresponding TValueMember
+ </summary>
+ <typeparam name="TValueMember">The type that should be stored with the displayMember</typeparam>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.System_Collections_ObjectModel_Extensions.AddRange``1(System.Collections.ObjectModel.Collection{``0},System.Collections.Generic.IEnumerable{``0})">
+ <summary>
+ Add at the end of Collection(Of T) all items of values
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="source"></param>
+ <param name="values"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.System_Exception_Extensions">
+ <summary>
+ Extension method of the exception class
+ </summary>
+</member>
+<member name="M:Kostal.System_Exception_Extensions.PreserveStackTrace(System.Exception)">
+ <summary>
+ Preserve, that the Stacktrace of an exception will be destroyed by throw ex
+ Verhindert, das der StackTace einer Exception durch throw ex; zerstört wird
+ </summary>
+ <param name="theException">Exception theirs stacktrace should be retained</param>
+</member>
+<member name="M:Kostal.System_Exception_Extensions.CreateReport(System.Exception,System.Int32)">
+ <summary>
+ Creates a report of the exception including message stacktrace and all InnerExceptions
+ </summary>
+ <param name="theException">The exception</param>
+ <param name="indentLevel">indent level</param>
+ <returns>Report of the Exception and all InnerExceptions</returns>
+</member>
+<member name="M:Kostal.System_String_Extensions.IsNullOrEmpty(System.String)">
+ <summary>
+ Indicates whether the current string is Nothing or an Empty string
+ </summary>
+ <param name="theString"></param>
+ <returns><c>True</c> if the current string is Nothing or an empty ("") string; otherwise <c>False</c></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.System_String_Extensions.IsNullOrWhiteSpace(System.String)">
+ <summary>
+ Indicates whether the current string is Nothing, empty, or consists only of white-space characters.
+ </summary>
+ <param name="theString"></param>
+ <returns><c>True</c> if the current string is Nothing or an empty ("") string or consists exclusively of white-space characters; otherwise <c>False</c></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.System_String_Extensions.IsNullOrEmptyTrimmed(System.String)">
+ <summary>
+ Indicates whether the current string that will be trimmed first, is Nothing or an Empty string
+ </summary>
+ <param name="theString"></param>
+ <returns><c>True</c> if the current trimmed string is Nothing or an empty ("") string; otherwise <c>False</c></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.System_String_Extensions.Indent(System.String,System.Int32)">
+ <summary>
+ Indents the current string
+ </summary>
+ <param name="str">String that should be indented</param>
+ <param name="indentLevel">Amount of indent</param>
+ <returns>The string indented</returns>
+</member>
+<member name="M:Kostal.System_String_Extensions.Like(System.String,System.String,System.Char,System.Char)">
+ <summary>
+ Perform a wildcard search
+ </summary>
+ <returns><c>true</c> if <paramref name="pattern"/> matches <paramref name="input"/>. Otherwise <c>false</c></returns>
+</member>
+<member name="M:Kostal.CultureHelper.SetCultureForApplication(System.String,System.String@)">
+ <summary>
+ Change the Culture/Ui culture for the current thread.
+ Shows a messagebox if there is a problem.
+ </summary>
+ <param name="languageId">The language id of the culture to set. E.g. 'de' or 'de-DE'</param>
+ <returns>Returns <c>True</c> if no problem occur, otherwise <c>False</c>.</returns>
+</member>
+<member name="T:Kostal.CultureHelper.MessageBoxOptions">
+<summary>
+ Flags that define appearance and behaviour of a standard message box displayed by a call to the MessageBox function.
+ </summary>    
+</member>
+<member name="T:Kostal.CultureHelper.MessageBoxResult">
+ <summary>
+ Represents possible values returned by the MessageBox function.
+ </summary>
+</member>
+<member name="T:Kostal.Globalization.Localizer">
+ <summary>
+ Class the get localized strings out of a translation file
+ </summary>
+</member>
+<member name="M:Kostal.Globalization.Localizer.#ctor(System.Boolean,System.Int32)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Globalization.Localizer"/> class.
+ </summary>
+ <param name="isFrameworkDllBetweenInCallStack">if set to <c>true</c> [is framework DLL in call stack].</param>
+</member>
+<member name="M:Kostal.Helper.Diagnostics.PrintStackFrames">
+ <summary>
+ Print the stackframes of the current thread to console
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.WindowHelper.SetWindowOfProcessToForeGround(System.Diagnostics.Process)">
+ <summary>
+ Sets the window of process to fore ground, so the corresponding app is activated to the user.
+ </summary>
+ <param name="process">The process to bring up.</param>
+ <returns>True, if successful, otherweise false.</returns>
+</member>
+<member name="M:Kostal.WindowHelper.GetProcessWindows(System.Int32)">
+ <summary>
+ Return an Array with the TopLevel Window handles of the given Process
+ </summary>
+ <param name="processId">The process Id of the Process which windows should be returned.</param>
+ <returns>Array of Windowhandles</returns>
+</member>
+<member name="T:Kostal.ExpressionMember">
+ <summary>
+ Helper class for converting expressions to members.
+ </summary>
+</member>
+<member name="M:Kostal.ExpressionMember.AsMethod(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert <see cref="T:System.Linq.Expressions.MethodCallExpression"/> to <see cref="T:Kostal.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Member"/></returns>
+</member>
+<member name="M:Kostal.ExpressionMember.AsMember(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert <see cref="T:System.Linq.Expressions.MemberExpression"/> to <see cref="T:Kostal.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Member"/></returns>
+</member>
+<member name="M:Kostal.ExpressionMember.AsMemberOrMethod(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert the member or method from <see cref="T:System.Linq.Expressions.LambdaExpression"/> to <see cref="T:Kostal.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Member"/></returns>
+</member>
+<member name="M:Kostal.ExpressionMember.AsMemberOrMethod(System.Linq.Expressions.Expression)">
+ <summary>
+ Convert the member or method from <see cref="T:System.Linq.Expressions.Expression"/> to <see cref="T:Kostal.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Member"/></returns>
+</member>
+<member name="M:Kostal.ExpressionMember.AsUnaryWrappedMember(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert the UnaryExpression from <see cref="T:System.Linq.Expressions.LambdaExpression"/> to <see cref="T:Kostal.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Member"/></returns>
+</member>
+<member name="T:Kostal.Member">
+ <summary>
+ Class for easily getting information about a type member,
+ and referencing the member by name, or getting it as a
+ <see cref="T:System.Reflection.MemberInfo"/>, <see cref="T:System.Reflection.PropertyInfo"/>,
+ <see cref="T:System.Reflection.FieldInfo"/>, or <see cref="T:System.Reflection.MethodInfo"/>.
+ </summary>
+</member>
+<member name="M:Kostal.Member.#ctor(System.Linq.Expressions.MemberExpression)">
+ <summary>
+ Initializes a new <see cref="T:Kostal.Member"/> using the specified
+ <see cref="T:System.Linq.Expressions.MemberExpression"/>.
+ </summary>
+ <param name="expression">The expression that references the desired member.</param>
+</member>
+<member name="M:Kostal.Member.#ctor(System.Reflection.MemberInfo)">
+ <summary>
+ Initializes a new <see cref="T:Kostal.Member"/> using the specified
+ <see cref="T:System.Reflection.MemberInfo"/>.
+ </summary>
+ <param name="info">The member info that references the desired member.</param>
+</member>
+<member name="P:Kostal.Member.Info">
+ <summary>
+ The <see cref="T:System.Reflection.MemberInfo"/> discovered for the member specified.
+ </summary>
+</member>
+<member name="M:Kostal.Member.op_Implicit(Kostal.Member)~System.String">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Member"/> to a <see cref="T:System.String"/>, using the
+ <see cref="M:Kostal.Member.ToString"/> method.
+ </summary>
+ <param name="member">The <see cref="T:Kostal.Member"/> to cast to a string.</param>
+</member>
+<member name="M:Kostal.Member.op_Implicit(Kostal.Member)~System.Reflection.MemberInfo">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Member"/> to a <see cref="T:System.Reflection.MemberInfo"/>, by
+ returning the <see cref="P:Kostal.Member.Info"/> property value.
+ </summary>
+ <param name="member">The <see cref="T:Kostal.Member"/> to cast to a <see cref="T:System.Reflection.MemberInfo"/>.</param>
+ <returns>The <see cref="P:Kostal.Member.Info"/> of the specified member, or <c>null</c>.</returns>
+</member>
+<member name="M:Kostal.Member.op_Implicit(Kostal.Member)~System.Reflection.MethodInfo">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Member"/> to a <see cref="T:System.Reflection.MethodInfo"/>, by
+ returning the <see cref="M:Kostal.Member.AsMethod"/> result.
+ </summary>
+ <param name="member">
+ The <see cref="T:Kostal.Member"/> to cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </param>
+ <returns>A <see cref="T:System.Reflection.MethodInfo"/> for the specified member.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Member.op_Implicit(System.Reflection.MemberInfo)~Kostal.Member">
+ <summary>
+ Implicitly cast a <see cref="T:System.Reflection.MemberInfo"/> to a <see cref="T:Kostal.Member"/>.
+ </summary>
+ <param name="memberInfo">The member info to use as a member.</param>
+ <returns>
+ A <see cref="T:System.Reflection.MemberInfo"/> representing the specified <paramref name="memberInfo"/>.
+ </returns>
+</member>
+<member name="M:Kostal.Member.Of(System.Linq.Expressions.Expression{System.Action})">
+ <summary>
+ Create a <see cref="T:Kostal.Member"/> using a method call expression.
+ </summary>
+ <remarks>
+ This is used for <c>void</c> methods.
+ </remarks>
+ <param name="methodCall">The method call expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Member"/> for the specified method call expression.</returns>
+</member>
+<member name="M:Kostal.Member.Of``1(System.Linq.Expressions.Expression{System.Action{``0}})">
+ <summary>
+ Create a <see cref="T:Kostal.Member"/> using a method call expression
+ for the specified type.
+ </summary>
+ <typeparam name="T">The type of the Action parameter</typeparam>
+ <param name="methodCall"></param>
+ <returns>A <see cref="T:Kostal.Member"/> for the specified method call expression.</returns>
+</member>
+<member name="M:Kostal.Member.Of(System.Linq.Expressions.Expression{System.Func{System.Object}})">
+ <summary>
+ Create a <see cref="T:Kostal.Member"/> using a property, field, or non-void
+ method call expression.
+ </summary>
+ <param name="member">The member expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Member"/> for the specified member expression.</returns>
+</member>
+<member name="M:Kostal.Member.Of``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+ <summary>
+ Create a <see cref="T:Kostal.Member"/> using a property, field, or non-void
+ method call expression for the specified type.
+ </summary>
+ <typeparam name="T">The type containing the member specified.</typeparam>
+ <param name="member">The member expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Member"/> for the specified member expression.</returns>
+</member>
+<member name="M:Kostal.Member.AsProperty">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.PropertyInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.PropertyInfo"/> instance for the current member <see cref="P:Kostal.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.PropertyInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Member.AsField">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.FieldInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.FieldInfo"/> instance for the current member <see cref="P:Kostal.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.FieldInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Member.AsMethod">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.MethodInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.MethodInfo"/> instance for the current member <see cref="P:Kostal.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Member.ToString">
+ <summary>
+ Returns the current member name as the string representation of a <see cref="T:Kostal.Member"/>.
+ </summary>
+ <returns>The name of the current member <see cref="P:Kostal.Member.Info"/>.</returns>
+</member>
+<member name="T:Kostal.NotifyingObject">
+ <summary>
+ Base class for the correct use of <see cref="T:System.ComponentModel.INotifyPropertyChanged"/>
+ </summary>
+</member>
+<member name="E:Kostal.NotifyingObject.PropertyChanged">
+ <summary>
+   Raised when a property on this object has a new value.
+ </summary>
+</member>
+<member name="M:Kostal.NotifyingObject.OnPropertyChanged(System.String)">
+ <summary>
+ Raises this object's PropertyChanged event.
+ </summary>
+ <param name="propertyName">
+ The property that has a new value.
+ If property name is Nothing the name of the calling Property will be used aus property name
+ </param>
+</member>
+<member name="M:Kostal.NotifyingObject.OnPropertyChangedWithSender(System.Object,System.String)">
+ <summary>
+ Raises this object's PropertyChanged event.
+ </summary>
+ <param name="sender">
+ The sender of the event
+ </param>
+ <param name="propertyName">
+ The property that has a new value.
+ If property name is Nothing the name of the calling Property will be used aus property name
+ </param>
+</member>
+<member name="P:Kostal.NotifyingObject.ThrowOnInvalidPropertyName">
+ <summary>
+   Returns whether an exception is thrown, or if a Debug.Fail() is used
+   when an invalid property name is passed to the VerifyPropertyName method.
+   The default value is false, but subclasses used by unit tests might 
+   set this property's getter to return true.
+ </summary>
+</member>
+<member name="M:Kostal.NotifyingObject.VerifyPropertyName(System.String)">
+ <summary>
+ Warns the developer if this object does not have
+   a public property with the specified name. This 
+   method does not exist in a Release build.
+ </summary>
+</member>
+<member name="T:Kostal.Runtime.Ini">
+ <summary>
+ The INI class can read Keys from and write Keys to an INI file.
+ </summary>
+ <remarks>
+ This class uses several Win32 API functions to read from and write to INI files. It will not work on Linux or FreeBSD.
+ </remarks>
+</member>
+<member name="M:Kostal.Runtime.Ini.GetPrivateProfileInt(System.String,System.String,System.Int32,System.String)">
+ <summary>
+ The GetPrivateProfileInt function retrieves an integer associated with a sKey in the specified topic of an initialization file.
+ </summary>
+ <param name="lpApplicationName">Pointer to a null-terminated string specifying the name of the topic in the initialization file.</param>
+ <param name="lpsKeyName">Pointer to the null-terminated string specifying the name of The key whose value is to be retrieved. This value is in the form of a string; the GetPrivateProfileInt function converts the string into an integer and returns the integer.</param>
+ <param name="nDefault">Specifies the default value to return if The key name cannot be found in the initialization file.</param>
+ <param name="lpFileName">Pointer to a null-terminated string that specifies the name of the initialization file. If this parameter does not contain a full path to the file, the system searches for the file in the Windows directory.</param>
+ <returns>The return value is the integer equivalent of the string following the specified sKey name in the specified initialization file. If The key is not found, the return value is the specified default value. If the value of The key is less than zero, the return value is zero.</returns>
+</member>
+<member name="M:Kostal.Runtime.Ini.WritePrivateProfileString(System.String,System.String,System.String,System.String)">
+ <summary>
+ The WritePrivateProfileString function copies a string into the specified topic of an initialization file.
+ </summary>
+ <param name="lpApplicationName">Pointer to a null-terminated string containing the name of the topic to which the string will be copied. If the topic does not exist, it is created. The name of the topic is case-independent; the string can be any combination of uppercase and lowercase letters.</param>
+ <param name="lpsKeyName">Pointer to the null-terminated string containing the name of The key to be associated with a string. If The key does not exist in the specified topic, it is created. If this parameter is NULL, the entire topic, including all entries within the topic, is deleted.</param>
+ <param name="lpString">Pointer to a null-terminated string to be written to the file. If this parameter is NULL, The key pointed to by the lpsKeyName parameter is deleted.</param>
+ <param name="lpFileName">Pointer to a null-terminated string that specifies the name of the initialization file.</param>
+ <returns>If the function successfully copies the string to the initialization file, the return value is nonzero; if the function fails, or if it flushes the cached version of the most recently accessed initialization file, the return value is zero.</returns>
+</member>
+<member name="M:Kostal.Runtime.Ini.GetPrivateProfileString(System.String,System.String,System.String,System.Text.StringBuilder,System.Int32,System.String)">
+ <summary>
+ The GetPrivateProfileString function retrieves a string from the specified topic in an initialization file.
+ </summary>
+ <param name="lpApplicationName">Pointer to a null-terminated string that specifies the name of the topic containing The key name. If this parameter is NULL, the GetPrivateProfileString function copies all topic names in the file to the supplied buffer.</param>
+ <param name="lpsKeyName">Pointer to the null-terminated string specifying the name of The key whose associated string is to be retrieved. If this parameter is NULL, all sKey names in the topic specified by the lpAppName parameter are copied to the buffer specified by the lpReturnedString parameter.</param>
+ <param name="lpDefault">Pointer to a null-terminated default string. If the lpsKeyName sKey cannot be found in the initialization file, GetPrivateProfileString copies the default string to the lpReturnedString buffer. This parameter cannot be NULL. <br>Avoid specifying a default string with trailing blank characters. The function inserts a null character in the lpReturnedString buffer to strip any trailing blanks.</br></param>
+ <param name="lpReturnedString">Pointer to the buffer that receives the retrieved string.</param>
+ <param name="nSize">Specifies the size, in TCHARs, of the buffer pointed to by the lpReturnedString parameter.</param>
+ <param name="lpFileName">Pointer to a null-terminated string that specifies the name of the initialization file. If this parameter does not contain a full path to the file, the system searches for the file in the Windows directory.</param>
+ <returns>The return value is the number of characters copied to the buffer, not including the terminating null character.</returns>
+</member>
+<member name="M:Kostal.Runtime.Ini.GetPrivateProfileTopicNames(System.String,System.Int32,System.String)">
+ <summary>
+ The GetPrivateProfileSectionNames function retrieves the names of all topics in an initialization file.
+ </summary>
+ <param name="lpReturnBuffer">Pointer to a buffer that receives the topic names associated with the named file. The buffer is filled with one or more null-terminated strings; the last string is followed by a second null character.</param>
+ <param name="nSize">Specifies the size, in TCHARs, of the buffer pointed to by the lpszReturnBuffer parameter.</param>
+ <param name="lpFileName">Pointer to a null-terminated string that specifies the name of the initialization file. If this parameter is NULL, the function searches the Win.ini file. If this parameter does not contain a full path to the file, the system searches for the file in the Windows directory.</param>
+ <returns>The return value specifies the number of characters copied to the specified buffer, not including the terminating null character. If the buffer is not large enough to contain all the topic names associated with the specified initialization file, the return value is equal to the length specified by nSize minus two.</returns>
+</member>
+<member name="M:Kostal.Runtime.Ini.WritePrivateProfileTopic(System.String,System.String,System.String)">
+ <summary>
+ The WritePrivateProfileSection function replaces The keys and values for the specified topic in an initialization file.
+ </summary>
+ <param name="lpAppName">Pointer to a null-terminated string specifying the name of the topic in which data is written. This topic name is typically the name of the calling application.</param>
+ <param name="lpString">Pointer to a buffer containing the new sKey names and associated values that are to be written to the named topic.</param>
+ <param name="lpFileName">Pointer to a null-terminated string containing the name of the initialization file. If this parameter does not contain a full path for the file, the function searches the Windows directory for the file. If the file does not exist and lpFileName does not contain a full path, the function creates the file in the Windows directory. The function does not create a file if lpFileName contains the full path and file name of a file that does not exist.</param>
+ <returns>If the function succeeds, the return value is nonzero.<br>If the function fails, the return value is zero.</br></returns>
+</member>
+<member name="F:Kostal.Runtime.Ini.MAX_ENTRY">
+ <summary>
+ The maximum number of bytes in a topic buffer.
+ </summary>
+</member>
+<member name="M:Kostal.Runtime.Ini.#ctor">
+ <summary>
+ Constructing a new Ini instance is not allowed.
+ </summary>
+</member>
+<member name="M:Kostal.Runtime.Ini.DeleteItem(System.String,System.String,System.String)">
+ <summary>Deletes an item from an INI file.</summary>
+ <param name="sTopic">The topic to search in.</param>
+ <param name="sKey">The key to delete.</param>
+ <param name="sFilename">The filename where to search in for the topic and the key.</param>
+ <returns>Returns true if the function succeeds, false otherwise.</returns>
+</member>
+<member name="M:Kostal.Runtime.Ini.DeleteTopic(System.String,System.String)">
+ <summary>Deletes a topic from an INI file.</summary>
+ <param name="sTopic">The topic to delete.</param>
+ <param name="sFilename">The filename where to search in for the topic and the key.</param>
+ <returns>Returns true if the function succeeds, false otherwise.</returns>
+</member>
+<member name="M:Kostal.Runtime.Ini.GetTopics(System.String)">
+ <summary>Retrieves a list of all available topics in the INI file.</summary>
+ <param name="sFilename">The filename where to search in for the topic and the key.</param>
+ <returns>Returns an ArrayList with all available topics.</returns>
+</member>
+<member name="M:Kostal.Runtime.Ini.ReadItem(System.String,System.String,System.String,System.String)">
+ <summary>Reads a String from the specified sKey of the specified topic in the sepcified file.</summary>
+ <param name="sTopic">The topic to search in.</param>
+ <param name="sKey">The key from which to return the value.</param>
+ <param name="sDefault">The value to return if the specified sKey isn't found.</param>
+ <param name="sFilename">The filename where to search in for the topic and the key.</param>
+ <returns>Returns the value of the specified topic/sKey pair, or returns the default value if the specified topic/sKey pair isn't found in the INI file.</returns>
+</member>
+<member name="M:Kostal.Runtime.Ini.WriteItem(System.String,System.String,System.String,System.String)">
+ <summary>Writes a String to the specified sKey in the specified topic.</summary>
+ <param name="sTopic">Specifies the topic to write in.</param>
+ <param name="sKey">Specifies The key to write to.</param>
+ <param name="sValue">Specifies the value to write.</param>
+ <param name="sFilename">The filename where to search in for the topic and the key.</param>
+</member>
+<member name="M:Kostal.Runtime.Ini.CreateFile(System.String)">
+ <summary>
+ Creates an empty file.
+ </summary>
+ <param name="fileName">The name of the new file.</param>
+ <returns>True, if the file was created.</returns>
+ <remarks>
+ If the file already exists, it's contents will be lost.
+ </remarks>
+</member>
+<member name="M:Kostal.Runtime.Ini.CreateIniFileIfNotExists(System.String)">
+ <summary>
+ Creates the ini file if not exists.
+ </summary>
+ <param name="fileName">Name of the file.</param>
+ <returns><c>True</c> if created or already existing, otherwise <c>False</c></returns>
+</member>
+<member name="T:Kostal.Runtime.Registry">
+ <summary>
+ The class is a helper class to read entries from the windows registry 
+ or to write entries to the windows registry. All members are static for 
+ instant use.
+ </summary>
+</member>
+<member name="T:Kostal.Runtime.Registry.RegistryRoots">
+ <summary>
+ Defines key types for the windows registry.
+ </summary>
+</member>
+<member name="F:Kostal.Runtime.Registry.RegistryRoots.LocalMachine">
+ <summary>
+ Means the registry key HKEY_LOCAL_MACHINE.
+ </summary>
+</member>
+<member name="F:Kostal.Runtime.Registry.RegistryRoots.CurrentUser">
+ <summary>
+ Means the registry key HKEY_CURRENT_USER.
+ </summary>
+</member>
+<member name="F:Kostal.Runtime.Registry.RegistryRoots.LocalMachineViewOnWow6432Node">
+ <summary>
+ Means the registry key HKEY_LOCAL_MACHINE with the View on Wow6432Node.
+ </summary>
+</member>
+<member name="M:Kostal.Runtime.Registry.Read(Kostal.Runtime.Registry.RegistryRoots,System.String,System.String,System.String)">
+ <summary>
+ Reads a string entry from the registry.
+ </summary>
+ <param name="eRegistryRoot">The main key in the registry.</param>
+ <param name="sKey">The name of the key, where the entry exists.</param>
+ <param name="sItem">The name of the entry to read.</param>
+ <param name="sDefault">The default value, if the entry is inexistent.</param>
+ <returns>The value of the entry or the default value, if the entry is inexistent.</returns>
+</member>
+<member name="M:Kostal.Runtime.Registry.ReadInt32(Kostal.Runtime.Registry.RegistryRoots,System.String,System.String,System.Int32)">
+ <summary>
+ Reads an integer entry from the registry.
+ </summary>
+ <param name="eRegistryRoot">The main key in the registry.</param>
+ <param name="sKey">The name of the key, where the entry exists.</param>
+ <param name="sItem">The name of the entry to read.</param>
+ <param name="iDefault">The default value, if the entry is inexistent.</param>
+ <returns>The value of the entry or the default value, if the entry is inexistent.</returns>
+</member>
+<member name="M:Kostal.Runtime.Registry.ReadItem(Kostal.Runtime.Registry.RegistryRoots,System.String,System.String)">
+ <summary>
+ Reads an integer entry from the registry.
+ </summary>
+ <param name="eRegistryRoot">The main key in the registry.</param>
+ <param name="sKey">The name of the key, where the entry exists.</param>
+ <param name="sItem">The name of the entry to read.</param>
+ <returns>The value of the entry or the default value, if the entry is inexistent.</returns>
+</member>
+<member name="M:Kostal.Runtime.Registry.GetValueNames(Kostal.Runtime.Registry.RegistryRoots,System.String)">
+ <summary>
+ Reads all value names from the registry.
+ </summary>
+ <param name="eRegistryRoot">The main key in the registry.</param>
+ <param name="sSubKey">The name of the SubKey.</param>
+ <returns>An string array containing the values.</returns>
+</member>
+<member name="M:Kostal.Runtime.Registry.Write(Kostal.Runtime.Registry.RegistryRoots,System.String,System.String,System.Int32)">
+ <summary>
+ Writes an integer entry to the registry.
+ </summary>
+ <param name="eRegistryRoot">The main key in the registry.</param>
+ <param name="sKey">The name of the key, where the entry resides.</param>
+ <param name="sItem">The name of the entry to write.</param>
+ <param name="iValue">The value of the the entry.</param>
+ <returns>True, if the entry was written to the registry.</returns>
+</member>
+<member name="M:Kostal.Runtime.Registry.Write(Kostal.Runtime.Registry.RegistryRoots,System.String,System.String,System.String)">
+ <summary>
+ Writes a string entry to the registry.
+ </summary>
+ <param name="eRegistryRoot">The main key in the registry.</param>
+ <param name="sKey">The name of the key, where the entry resides.</param>
+ <param name="sItem">The name of the entry to write.</param>
+ <param name="sValue">The value of the the entry.</param>
+ <returns>True, if the entry was written to the registry.</returns>
+</member>
+<member name="M:Kostal.Runtime.Registry.Delete(Kostal.Runtime.Registry.RegistryRoots,System.String,System.String)">
+ <summary>
+ Deletes an entry from the registry.
+ </summary>
+ <param name="eRegistryRoot">The main key in the registry.</param>
+ <param name="sKey">The name of the key, where the entry resides.</param>
+ <param name="sItem">The name of the entry to delete.</param>
+ <returns>True, if the entry was deleted from the registry.</returns>
+</member>
+<member name="M:Kostal.Runtime.Registry.IsRegistryWritable(Kostal.Runtime.Registry.RegistryRoots,System.String)">
+ <summary>
+ Verify if a key on the registry is writable.
+ </summary>
+ <param name="eRegistryRoot">Target registry key to be test.</param>
+ <param name="sKey">Key to be test.</param>
+ <returns>True if the key is writable.</returns>
+</member>
+<member name="T:Kostal.UnitTestHelper.PerformCode">
+ <summary>
+ Verantwortlich für das Ausführen von Methoden oder Properties per Reflection.
+ </summary>
+</member>
+<member name="M:Kostal.UnitTestHelper.PerformCode.InstanzMethode(System.Object,System.String,System.Object[])">
+ <summary>
+ Führt Instanz-Methode aus
+ </summary>
+ <param name="methode"></param>
+ <param name="objektInstanz"></param>
+ <param name="methodenparameter"></param>
+ <returns>
+ Liefert das Methodeergebnis zurück
+ </returns>
+</member>
+<member name="M:Kostal.UnitTestHelper.PerformCode.InstanzPropertySet(System.Object,System.String,System.Object)">
+ <summary>
+ Führt Instanz-Property-Set aus
+ </summary>
+ <param name="methode"></param>
+ <param name="objektInstanz"></param>
+ <param name="wert"></param>
+</member>
+<member name="T:Kostal.Win32Declares.POINTApi">
+ <summary>
+ POINT aka POINTAPI
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.POINTApi.x">
+ <summary>
+ x coordinate of point.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.POINTApi.y">
+ <summary>
+ y coordinate of point.
+ </summary>
+</member>
+<member name="M:Kostal.Win32Declares.POINTApi.#ctor(System.Int32,System.Int32)">
+ <summary>
+ Construct a point of coordinates (x,y).
+ </summary>
+</member>
+<member name="T:Kostal.Win32Declares.MONITORINFO">
+ <summary>
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.MONITORINFO.cbSize">
+ <summary>
+ </summary>            
+</member>
+<member name="F:Kostal.Win32Declares.MONITORINFO.rcMonitor">
+ <summary>
+ </summary>            
+</member>
+<member name="F:Kostal.Win32Declares.MONITORINFO.rcWork">
+ <summary>
+ </summary>            
+</member>
+<member name="F:Kostal.Win32Declares.MONITORINFO.dwFlags">
+ <summary>
+ </summary>            
+</member>
+<member name="T:Kostal.Win32Declares.RECTApi">
+ <summary> Win32 </summary>
+</member>
+<member name="F:Kostal.Win32Declares.RECTApi.left">
+ <summary> Win32 </summary>
+</member>
+<member name="F:Kostal.Win32Declares.RECTApi.top">
+ <summary> Win32 </summary>
+</member>
+<member name="F:Kostal.Win32Declares.RECTApi.right">
+ <summary> Win32 </summary>
+</member>
+<member name="F:Kostal.Win32Declares.RECTApi.bottom">
+ <summary> Win32 </summary>
+</member>
+<member name="F:Kostal.Win32Declares.RECTApi.Empty">
+ <summary> Win32 </summary>
+</member>
+<member name="P:Kostal.Win32Declares.RECTApi.Width">
+ <summary> Win32 </summary>
+</member>
+<member name="P:Kostal.Win32Declares.RECTApi.Height">
+ <summary> Win32 </summary>
+</member>
+<member name="M:Kostal.Win32Declares.RECTApi.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary> Win32 </summary>
+</member>
+<member name="M:Kostal.Win32Declares.RECTApi.#ctor(Kostal.Win32Declares.RECTApi)">
+ <summary> Win32 </summary>
+</member>
+<member name="P:Kostal.Win32Declares.RECTApi.IsEmpty">
+ <summary> Win32 </summary>
+</member>
+<member name="M:Kostal.Win32Declares.RECTApi.ToString">
+ <summary> Return a user friendly representation of this struct </summary>
+</member>
+<member name="M:Kostal.Win32Declares.RECTApi.Equals(System.Object)">
+ <summary> Determine if 2 RECTApi are equal (deep compare) </summary>
+</member>
+<member name="M:Kostal.Win32Declares.RECTApi.GetHashCode">
+ <summary>Return the HashCode for this struct (not garanteed to be unique)</summary>
+</member>
+<member name="M:Kostal.Win32Declares.RECTApi.op_Equality(Kostal.Win32Declares.RECTApi,Kostal.Win32Declares.RECTApi)">
+ <summary> Determine if 2 RECTApi are equal (deep compare)</summary>
+</member>
+<member name="M:Kostal.Win32Declares.RECTApi.op_Inequality(Kostal.Win32Declares.RECTApi,Kostal.Win32Declares.RECTApi)">
+ <summary> Determine if 2 RECTApi are different(deep compare)</summary>
+</member>
+<member name="M:Kostal.Win32Declares.GetForegroundWindow">
+ <summary>
+ Retrieves a handle to the foreground window (the window with which the user is currently working). The system assigns a slightly higher priority to the thread that creates the foreground window than it does to other threads. 
+ </summary>
+ <returns>The return value is a handle to the foreground window. The foreground window can be NULL in certain circumstances, such as when a window is losing activation. </returns>
+ <remarks>http://msdn.microsoft.com/en-us/library/ms633505%28v=vs.85%29.aspx</remarks>
+</member>
+<member name="M:Kostal.Win32Declares.GetWindowThreadProcessId(System.IntPtr,System.Int32@)">
+ <summary>
+ Retrieves the identifier of the thread that created the specified window and, optionally, the identifier of the process that created the window. 
+ </summary>
+ <param name="hwnd">A handle to the window. </param>
+ <param name="lpdwProcessId">A pointer to a variable that receives the process identifier. If this parameter is not NULL, GetWindowThreadProcessId copies the identifier of the process to the variable; otherwise, it does not. </param>
+ <returns>The return value is the identifier of the thread that created the window. </returns>
+ <remarks>http://msdn.microsoft.com/en-us/library/ms633522%28v=vs.85%29.aspx</remarks>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_ACCEPTFILES">
+ <summary>Specifies a window that accepts drag-drop files.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_APPWINDOW">
+ <summary>Forces a top-level window onto the taskbar when the window is visible.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_CLIENTEDGE">
+ <summary>Specifies a window that has a border with a sunken edge.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_COMPOSITED">
+ <summary>
+ Specifies a window that paints all descendants in bottom-to-top painting order using double-buffering.
+ This cannot be used if the window has a class style of either CS_OWNDC or CS_CLASSDC. This style is not supported in Windows 2000.
+ </summary>
+ <remarks>
+ With WS_EX_COMPOSITED set, all descendants of a window get bottom-to-top painting order using double-buffering.
+ Bottom-to-top painting order allows a descendent window to have translucency (alpha) and transparency (color-key) effects,
+ but only if the descendent window also has the WS_EX_TRANSPARENT bit set.
+ Double-buffering allows the window and its descendents to be painted without flicker.
+ </remarks>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_CONTEXTHELP">
+ <summary>
+ Specifies a window that includes a question mark in the title bar. When the user clicks the question mark,
+ the cursor changes to a question mark with a pointer. If the user then clicks a child window, the child receives a WM_HELP message.
+ The child window should pass the message to the parent window procedure, which should call the WinHelp function using the HELP_WM_HELP command.
+ The Help application displays a pop-up window that typically contains help for the child window.
+ WS_EX_CONTEXTHELP cannot be used with the WS_MAXIMIZEBOX or WS_MINIMIZEBOX styles.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_CONTROLPARENT">
+ <summary>
+ Specifies a window which contains child windows that should take part in dialog box navigation.
+ If this style is specified, the dialog manager recurses into children of this window when performing navigation operations
+ such as handling the TAB key, an arrow key, or a keyboard mnemonic.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_DLGMODALFRAME">
+ <summary>Specifies a window that has a double border.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_LAYERED">
+ <summary>
+ Specifies a window that is a layered window.
+ This cannot be used for child windows or if the window has a class style of either CS_OWNDC or CS_CLASSDC.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_LAYOUTRTL">
+ <summary>
+ Specifies a window with the horizontal origin on the right edge. Increasing horizontal values advance to the left.
+ The shell language must support reading-order alignment for this to take effect.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_LEFT">
+ <summary>Specifies a window that has generic left-aligned properties. This is the default.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_LEFTSCROLLBAR">
+ <summary>
+ Specifies a window with the vertical scroll bar (if present) to the left of the client area.
+ The shell language must support reading-order alignment for this to take effect.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_LTRREADING">
+ <summary>
+ Specifies a window that displays text using left-to-right reading-order properties. This is the default.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_MDICHILD">
+ <summary>
+ Specifies a multiple-document interface (MDI) child window.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_NOACTIVATE">
+ <summary>
+ Specifies a top-level window created with this style does not become the foreground window when the user clicks it.
+ The system does not bring this window to the foreground when the user minimizes or closes the foreground window.
+ The window does not appear on the taskbar by default. To force the window to appear on the taskbar, use the WS_EX_APPWINDOW style.
+ To activate the window, use the SetActiveWindow or SetForegroundWindow function.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_NOINHERITLAYOUT">
+ <summary>
+ Specifies a window which does not pass its window layout to its child windows.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_NOPARENTNOTIFY">
+ <summary>
+ Specifies that a child window created with this style does not send the WM_PARENTNOTIFY message to its parent window when it is created or destroyed.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_OVERLAPPEDWINDOW">
+ <summary>Specifies an overlapped window.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_PALETTEWINDOW">
+ <summary>Specifies a palette window, which is a modeless dialog box that presents an array of commands.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_RIGHT">
+ <summary>
+ Specifies a window that has generic "right-aligned" properties. This depends on the window class.
+ The shell language must support reading-order alignment for this to take effect.
+ Using the WS_EX_RIGHT style has the same effect as using the SS_RIGHT (static), ES_RIGHT (edit), and BS_RIGHT/BS_RIGHTBUTTON (button) control styles.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_RIGHTSCROLLBAR">
+ <summary>Specifies a window with the vertical scroll bar (if present) to the right of the client area. This is the default.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_RTLREADING">
+ <summary>
+ Specifies a window that displays text using right-to-left reading-order properties.
+ The shell language must support reading-order alignment for this to take effect.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_STATICEDGE">
+ <summary>Specifies a window with a three-dimensional border style intended to be used for items that do not accept user input.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_TOOLWINDOW">
+ <summary>
+ Specifies a window that is intended to be used as a floating toolbar.
+ A tool window has a title bar that is shorter than a normal title bar, and the window title is drawn using a smaller font.
+ A tool window does not appear in the taskbar or in the dialog that appears when the user presses ALT+TAB.
+ If a tool window has a system menu, its icon is not displayed on the title bar.
+ However, you can display the system menu by right-clicking or by typing ALT+SPACE.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_TOPMOST">
+ <summary>
+ Specifies a window that should be placed above all non-topmost windows and should stay above them, even when the window is deactivated.
+ To add or remove this style, use the SetWindowPos function.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_TRANSPARENT">
+ <summary>
+ Specifies a window that should not be painted until siblings beneath the window (that were created by the same thread) have been painted.
+ The window appears transparent because the bits of underlying sibling windows have already been painted.
+ To achieve transparency without these restrictions, use the SetWindowRgn function.
+ </summary>
+</member>
+<member name="F:Kostal.Win32Declares.WindowStylesEx.WS_EX_WINDOWEDGE">
+ <summary>Specifies a window that has a border with a raised edge.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_SIZE">
+<summary>Sizes the window.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_MOVE">
+<summary>Moves the window.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_MINIMIZE">
+<summary>Minimizes the window.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_MAXIMIZE">
+<summary>Maximizes the window.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_NEXTWINDOW">
+<summary>Moves to the next window.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_PREVWINDOW">
+<summary>Moves to the previous window.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_CLOSE">
+<summary>Closes the window.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_VSCROLL">
+<summary>Scrolls vertically.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_HSCROLL">
+<summary>Scrolls horizontally.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_MOUSEMENU">
+<summary>Retrieves the window menu as a result of a mouse click.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_KEYMENU">
+<summary>
+Retrieves the window menu as a result of a keystroke.
+For more information, see the Remarks section.
+</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_ARRANGE">
+<summary>TODO</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_RESTORE">
+<summary>Restores the window to its normal position and size.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_TASKLIST">
+<summary>Activates the Start menu.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_SCREENSAVE">
+<summary>Executes the screen saver application specified in the [boot] section of the System.ini file.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_HOTKEY">
+<summary>
+Activates the window associated with the application-specified hot key.
+The lParam parameter identifies the window to activate.
+</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_DEFAULT">
+<summary>Selects the default item; the user double-clicked the window menu.</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_MONITORPOWER">
+<summary>
+Sets the state of the display. This command supports devices that
+have power-saving features, such as a battery-powered personal computer.
+The lParam parameter can have the following values: -1 = the display is powering on,
+1 = the display is going to low power, 2 = the display is being shut off
+</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_CONTEXTHELP">
+<summary>
+Changes the cursor to a question mark with a pointer. If the user
+then clicks a control in the dialog box, the control receives a WM_HELP message.
+</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SC_SEPARATOR">
+<summary>TODO</summary>
+</member>
+<member name="F:Kostal.Win32Declares.SysCommands.SCF_ISSECURE">
+<summary>Indicates whether the screen saver is secure.</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,826 @@
+D:\LAS For Multistation\Assembly\Lib\Kostal.Las.Base.dll
+D:\LAS For Multistation\Assembly\Lib\Kostal.Las.Base.pdb
+D:\LAS For Multistation\Assembly\Lib\Kostal.Las.Base.xml
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbprojResolveAssemblyReference.cache
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.CAQ.dll
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Linecontroller.dll
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.prjSerialNoGenerator.dll
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Scripting.dll
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.SysCSV.dll
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.ResolveComReference.cache
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleSelectView.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenCylinderForm.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenErrorCodeListForm.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenIOForm.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenLoginForm.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenParameterForm.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenPlcMessageListForm.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenShortCutForm.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenUserForm.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderGroupParameter.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderParameter.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Debug.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOGroupParameter.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOLock.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOParameter.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LanguageSelectView.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverallView.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverviewInfoForm.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ProductionDataView.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleSelectView.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleViewFrom.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.StationView.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SystemLog.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusView.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.AboutBox.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleCounter.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ExceptionMsg.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LoadScreen.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Maintenance.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PassWordForm.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LAS.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.RowMergeView.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusForm.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resources.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resource1.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CAQUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualReTestUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CounterUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FailPrinterUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LineControlUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualScannerUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.NewPartUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PLCAlarmUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PrinterUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReferencesUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReTestUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SaveProductionUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScannerUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowPicUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SNUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.UpdateRefrenceUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderIO.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIButton.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIComboBox.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDataViewPage.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTime.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTimePick.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMILabel.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMITextBox.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.InputIO.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOControl.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.KeyPad.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OutputIO.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.GenerateResource.Cache
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.dll
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.xml
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.pdb
+C:\Kproject\LAS For Multistation\Assembly\Lib\Kostal.Las.Base.dll
+C:\Kproject\LAS For Multistation\Assembly\Lib\Kostal.Las.Base.pdb
+C:\Kproject\LAS For Multistation\Assembly\Lib\Kostal.Las.Base.xml
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbprojResolveAssemblyReference.cache
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.CAQ.dll
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Linecontroller.dll
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.prjSerialNoGenerator.dll
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Scripting.dll
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.SysCSV.dll
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.ResolveComReference.cache
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleSelectView.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenCylinderForm.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenErrorCodeListForm.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenIOForm.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenLoginForm.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenParameterForm.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenPlcMessageListForm.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenShortCutForm.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenUserForm.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderGroupParameter.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderParameter.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Debug.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOGroupParameter.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOLock.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOParameter.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LanguageSelectView.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverallView.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverviewInfoForm.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ProductionDataView.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleSelectView.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleViewFrom.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.StationView.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SystemLog.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusView.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.AboutBox.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleCounter.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ExceptionMsg.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LoadScreen.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Maintenance.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PassWordForm.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LAS.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.RowMergeView.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusForm.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resources.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resource1.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CAQUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualReTestUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CounterUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FailPrinterUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LineControlUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualScannerUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.NewPartUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PLCAlarmUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PrinterUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReferencesUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReTestUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SaveProductionUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScannerUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowPicUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SNUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.UpdateRefrenceUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderIO.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIButton.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIComboBox.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDataViewPage.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTime.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTimePick.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMILabel.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMITextBox.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.InputIO.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOControl.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.KeyPad.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OutputIO.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.GenerateResource.Cache
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.dll
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.xml
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.pdb
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FlashUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LaserUI.resources
+C:\Kproject\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FlashUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LaserUI.resources
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Assembly\Lib\Kostal.Las.Base.dll
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Assembly\Lib\Kostal.Las.Base.pdb
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Assembly\Lib\Kostal.Las.Base.xml
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbprojResolveAssemblyReference.cache
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.CAQ.dll
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Linecontroller.dll
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.prjSerialNoGenerator.dll
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Scripting.dll
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.SysCSV.dll
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.ResolveComReference.cache
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleSelectView.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenCylinderForm.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenErrorCodeListForm.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenIOForm.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenLoginForm.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenParameterForm.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenPlcMessageListForm.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenShortCutForm.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenUserForm.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderGroupParameter.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderParameter.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Debug.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOGroupParameter.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOLock.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOParameter.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LanguageSelectView.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverallView.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverviewInfoForm.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ProductionDataView.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleSelectView.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleViewFrom.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.StationView.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SystemLog.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusView.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.AboutBox.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleCounter.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ExceptionMsg.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LoadScreen.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Maintenance.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PassWordForm.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LAS.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.RowMergeView.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusForm.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resources.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resource1.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CAQUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FlashUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LaserUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualReTestUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CounterUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FailPrinterUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LineControlUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualScannerUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.NewPartUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PLCAlarmUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PrinterUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReferencesUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReTestUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SaveProductionUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScannerUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowPicUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SNUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.UpdateRefrenceUI.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderIO.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIButton.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIComboBox.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDataViewPage.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTime.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTimePick.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMILabel.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMITextBox.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.InputIO.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOControl.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.KeyPad.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OutputIO.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.GenerateResource.Cache
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.dll
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.xml
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.pdb
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Assembly\Lib\Kostal.Las.Base.dll
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Assembly\Lib\Kostal.Las.Base.pdb
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Assembly\Lib\Kostal.Las.Base.xml
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbprojResolveAssemblyReference.cache
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.CAQ.dll
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Linecontroller.dll
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.prjSerialNoGenerator.dll
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Scripting.dll
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.SysCSV.dll
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.ResolveComReference.cache
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleSelectView.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenCylinderForm.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenErrorCodeListForm.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenIOForm.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenLoginForm.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenParameterForm.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenPlcMessageListForm.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenShortCutForm.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenUserForm.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderGroupParameter.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderParameter.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Debug.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOGroupParameter.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOLock.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOParameter.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LanguageSelectView.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverallView.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverviewInfoForm.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ProductionDataView.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleSelectView.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleViewFrom.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.StationView.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SystemLog.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusView.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.AboutBox.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleCounter.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ExceptionMsg.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LoadScreen.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Maintenance.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PassWordForm.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LAS.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.RowMergeView.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusForm.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resources.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resource1.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CAQUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FlashUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LaserUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualReTestUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CounterUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FailPrinterUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LineControlUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualScannerUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.NewPartUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PLCAlarmUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PrinterUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReferencesUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReTestUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SaveProductionUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScannerUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowPicUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SNUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.UpdateRefrenceUI.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderIO.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIButton.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIComboBox.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDataViewPage.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTime.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTimePick.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMILabel.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMITextBox.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.InputIO.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOControl.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.KeyPad.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OutputIO.resources
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.GenerateResource.Cache
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.dll
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.xml
+C:\KProject\LAS.FORD_CD6_SRC_Komex\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.pdb
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Assembly\Lib\Kostal.Las.Base.dll
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Assembly\Lib\Kostal.Las.Base.pdb
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Assembly\Lib\Kostal.Las.Base.xml
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbprojResolveAssemblyReference.cache
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.CAQ.dll
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Linecontroller.dll
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.prjSerialNoGenerator.dll
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Scripting.dll
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.SysCSV.dll
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.ResolveComReference.cache
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleSelectView.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenCylinderForm.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenErrorCodeListForm.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenIOForm.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenLoginForm.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenParameterForm.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenPlcMessageListForm.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenShortCutForm.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenUserForm.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderGroupParameter.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderParameter.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Debug.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOGroupParameter.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOLock.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOParameter.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LanguageSelectView.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverallView.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverviewInfoForm.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ProductionDataView.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleSelectView.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleViewFrom.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.StationView.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SystemLog.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusView.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.AboutBox.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleCounter.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ExceptionMsg.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LoadScreen.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Maintenance.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PassWordForm.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LAS.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.RowMergeView.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusForm.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resources.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resource1.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CAQUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FlashUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LaserUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualReTestUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CounterUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FailPrinterUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LineControlUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualScannerUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.NewPartUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PLCAlarmUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PrinterUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReferencesUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReTestUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SaveProductionUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScannerUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowPicUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SNUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.UpdateRefrenceUI.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderIO.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIButton.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIComboBox.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDataViewPage.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTime.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTimePick.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMILabel.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMITextBox.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.InputIO.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOControl.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.KeyPad.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OutputIO.resources
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.GenerateResource.Cache
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.dll
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.xml
+D:\KProjects\Daimler MRA2 LSF\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.pdb
+D:\SAIC_SRC_EOL\LAS\Assembly\Lib\Kostal.Las.Base.dll
+D:\SAIC_SRC_EOL\LAS\Assembly\Lib\Kostal.Las.Base.pdb
+D:\SAIC_SRC_EOL\LAS\Assembly\Lib\Kostal.Las.Base.xml
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbprojResolveAssemblyReference.cache
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.CAQ.dll
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Linecontroller.dll
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.prjSerialNoGenerator.dll
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Scripting.dll
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.SysCSV.dll
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.ResolveComReference.cache
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleSelectView.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenCylinderForm.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenErrorCodeListForm.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenIOForm.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenLoginForm.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenParameterForm.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenPlcMessageListForm.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenShortCutForm.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenUserForm.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderGroupParameter.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderParameter.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Debug.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOGroupParameter.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOLock.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOParameter.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LanguageSelectView.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverallView.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverviewInfoForm.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ProductionDataView.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleSelectView.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleViewFrom.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.StationView.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SystemLog.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusView.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.AboutBox.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleCounter.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ExceptionMsg.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LoadScreen.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Maintenance.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PassWordForm.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LAS.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.RowMergeView.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusForm.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resources.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resource1.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CAQUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FlashUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LaserUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualReTestUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CounterUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FailPrinterUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LineControlUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualScannerUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.NewPartUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PLCAlarmUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PrinterUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReferencesUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReTestUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SaveProductionUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScannerUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowPicUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SNUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.UpdateRefrenceUI.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderIO.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIButton.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIComboBox.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDataViewPage.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTime.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTimePick.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMILabel.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMITextBox.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.InputIO.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOControl.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.KeyPad.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OutputIO.resources
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.GenerateResource.Cache
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.dll
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.xml
+D:\SAIC_SRC_EOL\LAS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.pdb
+C:\KProject\LAS\LAS For SVS\Assembly\Lib\Kostal.Las.Base.dll
+C:\KProject\LAS\LAS For SVS\Assembly\Lib\Kostal.Las.Base.pdb
+C:\KProject\LAS\LAS For SVS\Assembly\Lib\Kostal.Las.Base.xml
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbprojResolveAssemblyReference.cache
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.CAQ.dll
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Linecontroller.dll
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.prjSerialNoGenerator.dll
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Scripting.dll
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.SysCSV.dll
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.ResolveComReference.cache
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleSelectView.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenCylinderForm.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenErrorCodeListForm.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenIOForm.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenLoginForm.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenParameterForm.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenPlcMessageListForm.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenShortCutForm.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenUserForm.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderGroupParameter.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderParameter.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Debug.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOGroupParameter.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOLock.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOParameter.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LanguageSelectView.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverallView.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverviewInfoForm.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ProductionDataView.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleSelectView.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleViewFrom.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.StationView.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SystemLog.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusView.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.AboutBox.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleCounter.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ExceptionMsg.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LoadScreen.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Maintenance.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PassWordForm.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LAS.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.RowMergeView.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusForm.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resources.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resource1.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CAQUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FlashUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LaserUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualReTestUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CounterUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FailPrinterUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LineControlUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualScannerUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.NewPartUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PLCAlarmUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PrinterUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReferencesUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReTestUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SaveProductionUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScannerUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowPicUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SNUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.UpdateRefrenceUI.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderIO.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIButton.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIComboBox.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDataViewPage.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTime.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTimePick.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMILabel.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMITextBox.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.InputIO.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOControl.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.KeyPad.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OutputIO.resources
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.GenerateResource.Cache
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.dll
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.xml
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.pdb
+C:\KProject\LAS\LAS For SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowMaintenance.resources
+C:\Kproject\LAS.Daimler_SVS\Assembly\Lib\Kostal.Las.Base.dll
+C:\Kproject\LAS.Daimler_SVS\Assembly\Lib\Kostal.Las.Base.pdb
+C:\Kproject\LAS.Daimler_SVS\Assembly\Lib\Kostal.Las.Base.xml
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbprojResolveAssemblyReference.cache
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.CAQ.dll
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Linecontroller.dll
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.prjSerialNoGenerator.dll
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Scripting.dll
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.SysCSV.dll
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.ResolveComReference.cache
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleSelectView.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenCylinderForm.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenErrorCodeListForm.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenIOForm.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenLoginForm.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenParameterForm.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenPlcMessageListForm.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenShortCutForm.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenUserForm.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderGroupParameter.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderParameter.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Debug.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOGroupParameter.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOLock.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOParameter.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LanguageSelectView.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverallView.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverviewInfoForm.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ProductionDataView.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleSelectView.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleViewFrom.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowMaintenance.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.StationView.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SystemLog.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusView.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.AboutBox.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleCounter.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ExceptionMsg.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LoadScreen.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Maintenance.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PassWordForm.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LAS.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.RowMergeView.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusForm.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resources.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resource1.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CAQUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FlashUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LaserUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualReTestUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CounterUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FailPrinterUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LineControlUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualScannerUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.NewPartUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PLCAlarmUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PrinterUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReferencesUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReTestUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SaveProductionUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScannerUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowPicUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SNUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.UpdateRefrenceUI.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderIO.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIButton.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIComboBox.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDataViewPage.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTime.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTimePick.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMILabel.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMITextBox.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.InputIO.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOControl.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.KeyPad.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OutputIO.resources
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.GenerateResource.Cache
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.dll
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.xml
+C:\Kproject\LAS.Daimler_SVS\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.pdb
+D:\LAS For Multistation\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowMaintenance.resources
+C:\Kproject\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowMaintenance.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Assembly\Lib\Kostal.Las.Base.dll
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Assembly\Lib\Kostal.Las.Base.pdb
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Assembly\Lib\Kostal.Las.Base.xml
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbprojResolveAssemblyReference.cache
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.CAQ.dll
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Linecontroller.dll
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.prjSerialNoGenerator.dll
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Scripting.dll
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.SysCSV.dll
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.ResolveComReference.cache
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleSelectView.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenCylinderForm.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenErrorCodeListForm.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenIOForm.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenLoginForm.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenParameterForm.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenPlcMessageListForm.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenShortCutForm.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenUserForm.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderGroupParameter.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderParameter.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Debug.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOGroupParameter.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOLock.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOParameter.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LanguageSelectView.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverallView.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverviewInfoForm.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ProductionDataView.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleSelectView.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleViewFrom.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowMaintenance.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.StationView.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SystemLog.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusView.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.AboutBox.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleCounter.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ExceptionMsg.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LoadScreen.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Maintenance.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PassWordForm.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LAS.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.RowMergeView.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusForm.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resources.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resource1.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CAQUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FlashUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LaserUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualReTestUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CounterUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FailPrinterUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LineControlUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualScannerUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.NewPartUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PLCAlarmUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PrinterUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReferencesUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReTestUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SaveProductionUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScannerUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowPicUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SNUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.UpdateRefrenceUI.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderIO.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIButton.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIComboBox.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDataViewPage.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTime.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTimePick.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMILabel.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMITextBox.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.InputIO.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOControl.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.KeyPad.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OutputIO.resources
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.GenerateResource.Cache
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.dll
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.xml
+C:\KProjects\LAS.Daimler_MRA2_LSF_Kochi\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.pdb
+D:\KProjects\LAS.Daimler_SVS_ASSM\Assembly\Lib\Kostal.Las.Base.dll
+D:\KProjects\LAS.Daimler_SVS_ASSM\Assembly\Lib\Kostal.Las.Base.pdb
+D:\KProjects\LAS.Daimler_SVS_ASSM\Assembly\Lib\Kostal.Las.Base.xml
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbprojResolveAssemblyReference.cache
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.CAQ.dll
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Linecontroller.dll
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.prjSerialNoGenerator.dll
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.Scripting.dll
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Interop.SysCSV.dll
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.ResolveComReference.cache
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleSelectView.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenCylinderForm.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenErrorCodeListForm.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenIOForm.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenLoginForm.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenParameterForm.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenPlcMessageListForm.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenShortCutForm.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ChildrenUserForm.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderGroupParameter.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderParameter.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Debug.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOGroupParameter.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOLock.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOParameter.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LanguageSelectView.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverallView.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OverviewInfoForm.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ProductionDataView.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleSelectView.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleViewFrom.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowMaintenance.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.StationView.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SystemLog.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusView.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.AboutBox.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleCounter.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ExceptionMsg.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LoadScreen.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Maintenance.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PassWordForm.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LAS.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.RowMergeView.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.WtStatusForm.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resources.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.Resource1.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ArticleUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CAQUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FlashUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LaserUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualReTestUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CounterUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.FailPrinterUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.LineControlUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ManualScannerUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.NewPartUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PLCAlarmUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.PrinterUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReferencesUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ReTestUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SaveProductionUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScannerUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ScheduleUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.ShowPicUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.SNUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.UpdateRefrenceUI.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.CylinderIO.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIButton.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIComboBox.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDataViewPage.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTime.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMIDateTimePick.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMILabel.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.HMITextBox.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.InputIO.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.IOControl.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.KeyPad.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.OutputIO.resources
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.vbproj.GenerateResource.Cache
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.dll
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.xml
+D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\obj\Debug\Kostal.Las.Base.pdb

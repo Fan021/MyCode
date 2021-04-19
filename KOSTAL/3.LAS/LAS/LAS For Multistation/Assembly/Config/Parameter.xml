@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LasConfiguration xmlns="http://www.kostal.com/Testman/config">
+  <Parameters>
+    <Parameter>
+      <!-- 变量名称-->
+      <Name>Station01</Name>
+      <Enable>False</Enable>
+      <!--  变量类型 Boolean-PLC BOOL;Byte-PLC Byte; Integer-PLC INT ;Single-PLC Real;String-PLC String -->
+      <Type>Boolean</Type>
+      <!-- 设置可以选择的值范围 可以为空 -->
+      <Lists>
+        <List>
+          <ListValue>True</ListValue>
+        </List>
+        <List>
+          <ListValue>False</ListValue>
+        </List>
+      </Lists>
+      <!-- 当前的值 -->
+      <Value>False</Value>
+      <!-- 是否为变种变量 True or False -->
+      <VariantChange>False</VariantChange>
+      <!-- 若为变种变量 指定是哪个ArticleList -->
+      <VariantElement>False</VariantElement>
+      <!-- PLC的名称 -->
+      <PLC>PLC</PLC>
+      <!-- PLC Ads的名称 -->
+      <AdsName>.HMI_OKReset</AdsName>
+    </Parameter>
+    <Parameter>
+      <!-- 变量名称-->
+      <Name>Station02</Name>
+      <Enable>False</Enable>
+      <!--  变量类型 Boolean-PLC BOOL;Byte-PLC Byte; Integer-PLC INT ;Single-PLC Real;String-PLC String -->
+      <Type>String</Type>
+      <!-- 设置可以选择的值范围 可以为空 -->
+      <Lists>
+      </Lists>
+      <!-- 当前的值 -->
+      <Value>888</Value>
+      <!-- 是否为变种变量 True or False -->
+      <VariantChange>True</VariantChange>
+      <!-- 若为变种变量 指定是哪个ArticleList ArticleNumber ArticleIndex ArticleName CustomerNumber HardwareVersion SoftwareVersion-->
+      <VariantElement>ArticleNumber</VariantElement>
+      <!-- PLC的名称 -->
+      <PLC>PLC</PLC>
+      <!-- PLC Ads的名称 -->
+      <AdsName>.HMI_Variant</AdsName>
+    </Parameter>
+    <Parameter>
+      <!-- 变量名称-->
+      <Name>test01</Name>
+      <Enable>False</Enable>
+      <!--  变量类型 Boolean-PLC BOOL;Byte-PLC Byte; Integer-PLC INT ;Single-PLC Real;String-PLC String -->
+      <Type>Boolean</Type>
+      <!-- 设置可以选择的值范围 可以为空 -->
+      <Lists>
+        <List>
+          <ListValue>True</ListValue>
+        </List>
+        <List>
+          <ListValue>False</ListValue>
+        </List>
+      </Lists>
+      <!-- 当前的值 -->
+      <Value>True</Value>
+      <!-- 是否为变种变量 True or False -->
+      <VariantChange>False</VariantChange>
+      <!-- 若为变种变量 指定是哪个ArticleList -->
+      <VariantElement>False</VariantElement>
+      <!-- PLC的名称 -->
+      <PLC>PLC</PLC>
+      <!-- PLC Ads的名称 -->
+      <AdsName>.aa</AdsName>
+    </Parameter>
+  </Parameters>
+</LasConfiguration>

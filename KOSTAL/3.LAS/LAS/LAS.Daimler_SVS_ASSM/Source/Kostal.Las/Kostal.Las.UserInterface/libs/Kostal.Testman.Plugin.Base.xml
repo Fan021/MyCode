@@ -1,0 +1,2526 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kostal.Testman.Plugin.Base
+</name>
+</assembly>
+<members>
+<member name="T:Kostal.Testman.Plugin.Base.My.Resources.StringResources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.My.Resources.StringResources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.My.Resources.StringResources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.My.Resources.StringResources._String">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die X0001IG300001 ähnelt.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.My.Resources.StringResources.Exception_KindCommandNotFound">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die  ähnelt.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.My.Resources.StringResources.String1">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die X0001IG300001 ähnelt.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.My.Resources.StringResources.String2">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die X0001IG300001 ähnelt.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.My.Resources.StringResources.String3">
+<summary>
+  Sucht eine lokalisierte Zeichenfolge, die X0001IG300001 ähnelt.
+</summary>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.Attributes.Plugin">
+ <summary>
+   This attribute is used to mark a class as plugin-class
+   By marking it the classLoader of Testman will try to open the plugin
+   and make it useable by the framework
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Attributes.Plugin.#ctor(System.String)">
+ <summary>
+ Creates a new instance.
+ </summary>
+ <param name="name"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Attributes.Plugin.Name">
+ <summary>
+ Name of plugin class.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.BooleanParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.BooleanParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Boolean)">
+ <summary>
+  Creates a new <see cref="T:Kostal.Testman.Plugin.Base.BooleanParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultValue">value for a boolean parameter</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.ChannelIdOfDigitalInputParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ChannelIdOfDigitalInputParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.ChannelIdOfDigitalInputParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultValue">default value for string attribute</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.ChannelIdOfDigitalOutputParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ChannelIdOfDigitalOutputParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.ChannelIdOfDigitalOutputParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultValue">default value for string attribute</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.ChannelIdParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ChannelIdParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.ChannelIdParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultValue">default value for string attribute</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.ChannelIdWithoutDigitalChannelsParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ChannelIdWithoutDigitalChannelsParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.ChannelIdWithoutDigitalChannelsParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultValue">default value for string attribute</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.ColorParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ColorParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Int32)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.ColorParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultColor">an argb-value as default for a color parameter</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ColorParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Drawing.KnownColor)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.ColorParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultColor">A color name as default</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.DirectoryParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.DirectoryParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.DirectoryParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultpath">path to be selected initially</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.DirectoryParameterAttribute.#ctor(System.Int32,System.String,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.DirectoryParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.DoubleParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.DoubleParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Double,System.Double,System.Double)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.DoubleParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultValue">defaultvalue for double parameter</param>
+ <param name="lowerLimit">lowest allowed double value</param>
+ <param name="upperlimit">highest allowed double value</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.DoubleParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Double)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.DoubleParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultValue">defaultvalue for double parameter</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.EnumParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.EnumParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Type,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.EnumParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="enumType">the type of enum</param>
+ <param name="defaultValue">default-value for this enum</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.FileInParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.FileInParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.FileInParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultpath">path to be selected initially</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.FileInParameterAttribute.#ctor(System.Int32,System.String,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.FileInParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.FileOutParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.FileOutParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.FileOutParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="Name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultpath">path to be selected initially</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.FileOutParameterAttribute.#ctor(System.Int32,System.String,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.FileOutParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="Name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IntegerParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.IntegerParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.IntegerParameterAttribute"/>
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultValue">default value for an integer parameter</param>
+ <param name="lowerLimit">lowest allowed integer value</param>
+ <param name="upperlimit">highest allowed integer value</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.IntegerParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Int32)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.IntegerParameterAttribute"/>
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultValue">default value for an integer parameter</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.DynamicListParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.DynamicListParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Creates a new ParameterAttribute for a runtime type.
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="localEnumerableVarName">Name of local variable/property/method returning data as IEnumerable or IObserveableCollection of String</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.DynamicListParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String,System.Boolean,System.Int32[])">
+ <summary>
+ Creates a new ParameterAttribute for a runtime type.
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="localEnumerableVarName">Name of local variable/property/method returning data as IEnumerable or IObserveableCollection of String</param>
+ <param name="isDependencyParameter"><c>True</c> in the dependencies parameter should be used, otherwise <c>False</c></param>
+ <param name="dependencies">The index of the parameters this parameter is dependent of. So if one of this parameters will be changed, the localEnumerableVarName will be called to get new values for this parameter</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.CategoryDescriptionAttribute.#ctor(System.String)">
+ <summary>
+ Marks this field or property as category id. 
+ </summary>
+ <param name="description">the description.</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.StaticListParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.StaticListParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String,System.String[])">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.StaticListParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultvalue">the initial selected value</param>
+ <param name="list">comma seperated list of values</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.StaticListParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String[])">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.StaticListParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="list">comma seperated list of values</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.ParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Boolean)">
+ <summary>
+  Creates a new Parameterattribute for a boolean parameter.
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="defaultValue">value for a boolean parameter</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Creates a new ParameterAttribute for a integer parameter.
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="defaultValue">default value for an integer parameter</param>
+ <param name="lowerLimit">lowest allowed integer value</param>
+ <param name="upperlimit">highest allowed integer value</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Double,System.Double,System.Double)">
+ <summary>
+ Creates a new ParameterAttribute for a double parameter.
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="DefaultValue">defaultvalue for double parameter</param>
+ <param name="LowerLimit">lowest allowed double value</param>
+ <param name="Upperlimit">highest allowed double value</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Creates a new ParameterAttribute  for a string parameter.
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="defaultValue">default value for string attribute</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String,System.String)">
+ <summary>
+ Creates a new ParameterAttribute  for a string parameter.
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="defaultValue">default value for string attribute</param>
+ <param name="regularExpression">A regular expression describing the valid input values for this parameter.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Int32)">
+ <summary>
+ Creates a new ParameterAttribute for a color parameter.
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="DefaultColor">an argb-value as default for a color parameter</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterAttribute.#ctor(System.Int32,System.String,System.String,System.Type,System.String)">
+ <summary>
+ Creates a new ParameterAttribute allowing enum values.
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="typeEnum">the type of enum</param>
+ <param name="defaultValue">default-value for this enum</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterAttribute.#ctor(System.Int32,System.String,System.String,Kostal.Testman.Plugin.Base.DialogType,System.String)">
+ <summary>
+ Creates a new ParameterAttribute string parameter, inserted by a dialog
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="dialogType">either FileOpen or FileStore dialog</param>
+ <param name="defaultValue">default value</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String,System.String[])">
+ <summary>
+ Creates a new ParameterAttribute for a string with a list of valid values.
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="defaultvalue">the initial selected value</param>
+ <param name="list">comma seperated list of values</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String,System.Boolean,System.Int32[])">
+ <summary>
+ Creates a new ParameterAttribute for a runtime type.
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="text">Description of parameter</param>
+ <param name="localEnumerableVarName">Name of local variable/property/method returning data as IEnumerable</param>
+ <param name="isDependencyParameter"><c>True</c> in the dependencies parameter should be used, otherwise <c>False</c></param>
+ <param name="dependencies">The index of the parameters this parameter is dependent of. So if one of this parameters will be changed, the localEnumerableVarName will be called to get new values for this parameter</param>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ParameterAttribute.Index">
+ <summary>
+ the index of this parameter
+ </summary>
+ <returns>the index</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ParameterAttribute.Parameter">
+ <summary>
+   returns the information stored in this attribute as ParameterDescription
+ </summary>
+ <returns>the parameter Description</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterAttribute.CompareTo(System.Object)">
+ <summary>
+   compares two parameter-attributes by it´s index
+ </summary>
+ <param name="obj">the parameter-attribute to compare with</param>
+ <returns> larger 0 if this attribute has higher index than compare-attribute
+           smaller 0 if compare attribute has higher index than this
+           0 if both indices are equal.</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.StringParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe
+ a single parameter that must be written / will be read from the ini-file.
+ It contains information about datatype, defaultvalues and value limits.
+ You have to add as much attribute-Parameters in front of your method 
+ as parameters persent.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.StringParameterAttribute.#ctor(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Creates a new <see cref="T:Kostal.Testman.Plugin.Base.StringParameterAttribute" />
+ </summary>
+ <param name="index">Index in order of parameters</param>
+ <param name="name">Name of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="defaultValue">default value for string attribute</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.KindDescriptionAttribute.#ctor(System.String)">
+ <summary>
+ Marks this field or property as category-description. 
+ The field/property must return a string value which is the description itself.
+ </summary>
+ <param name="category">the category that is described.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescriptionAttribute.#ctor(System.String)">
+ <summary>
+ Describes the task of this class. 
+ The description will be shown in Testman Editor.
+ </summary>
+<param name="pluginDescription">The textual description.</param>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.Constants.LinkElementSeparator">
+ <summary>
+ The separator between the the section and the step or between the letter for the context type and the context key. "."
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.Constants.LinkElementSeparatorChar">
+ <summary>
+ The separator between the the section and the step or the Letter for the context type and the Context key. "."c
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.Constants.LinkPathSeparator">
+ <summary>
+ The separator between the different execution link levels Sec1.Step1/Sce2.Step21/Sec3.Step31. "/"
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.Constants.LinkPathSeparatorChar">
+ <summary>
+ The separator between the different execution link levels Sec1.Step1/Sce2.Step21/Sec3.Step31. "/"c
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.Constants.ContextPathSeparator">
+ <summary>
+ The separator between the context type and the context key. "\"
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.ICommandDescription">
+ <summary>
+ Third hierarchic level of PluginDescription.
+ Contains all informations for a single command
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ICommandDescription.ValueType">
+ <summary>
+ Value type of the command
+ </summary>
+ <value>set new valueType</value>
+ <returns>the valuetype of the command</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ICommandDescription.Parameters">
+ <summary>
+ List of Parameters
+ </summary>
+ <value>set List of all Parameters</value>
+ <returns>current list of all Parameters</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IDescription">
+ <summary>
+ Each description class must contain these informations
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IDescription.Name">
+ <summary>
+ Name of the description
+ </summary>
+ <returns>Name of the description</returns>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IDescription.Text">
+ <summary>
+ Description
+ </summary>
+ <returns>description value</returns>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IKindDescription">
+ <summary>
+ Second hierarchic level of PluginDescription.
+ Groups commands with similar features
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IKindDescription.Commands">
+ <summary>
+ List of all present commands
+ </summary>
+ <value>sets new commandList</value>
+ <returns>current CommandList</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.IKindDescription.GetCommand(System.String)">
+ <summary>
+ Single command by name
+ </summary>
+ <param name="Commandname">name to search for</param>
+ <returns>either the found command or "nothing"</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IParameterDescription">
+ <summary>
+ Lowest hierarchic level of PluginDescription.
+ Contains informations about a single parameter.
+ A parameter contains informations needed to execute a command.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IParameterDescription.Value">
+ <summary>
+ Value of parameter
+ </summary>
+ <value>set value</value>
+ <returns>current value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IParameterDescription.DefaultValue">
+ <summary>
+ DefaultValue for new parameters
+ </summary>
+ <value>set new default</value>
+ <returns>current default</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IParameterDescription.LowerLimit">
+ <summary>
+ Lowest allowed value
+ </summary>
+ <returns>current lower limit</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IParameterDescription.UpperLimit">
+ <summary>
+ Highest allowed value 
+ </summary>
+ <returns>current upper limit</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IParameterDescription.ParameterType">
+ <summary>
+ Type of parameter
+ Parameter is read as String from ini-file, so 
+ type specifies the right datatype
+ </summary>
+ <value>set type</value>
+ <returns>get type</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IParameterDescription.PossibleValues">
+ <summary>
+ List of possible values
+ If parameter is enum list may contain all possible enum-values
+ </summary>
+ <value>set list</value>
+ <returns>get list</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IParameterDescription.RegularExpression">
+ <summary>
+ Value may be checked against a regular expression
+ </summary>
+ <value>new expression to check against</value>
+ <returns>actual expression</returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IParameterDescription.uEnumList">
+ <summary>
+ List of enum-values
+ </summary>
+ <value>set list</value>
+ <returns>get list</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.eParameterType">
+ <summary>
+ Types of descriptive elements
+ Different types can be handled differently by the editor
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.ParamForUpdateDependencyParameter">
+ <summary>
+ Class used for the UpdateDependencyParameter2 method, because the Plugins use IParameter
+ Is a hack, but works 
+ </summary>
+ <seealso cref="T:Kostal.Testman.Plugin.Base.IParameter" />
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParamForUpdateDependencyParameter.ToString">
+ <summary>Returns a string that represents the current object.</summary>
+ <returns>A string that represents the current object.</returns>
+ <filterpriority>2</filterpriority>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.Health.ComponentHealthItem">
+ <summary>
+ Predefined Health Item
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.ComponentHealthItem.#ctor(System.String,Kostal.Testman.Plugin.Base.Health.HealthStates,System.String,System.String)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Plugin.Base.Health.ComponentHealthItem"/> class.
+ </summary>
+ <param name="id">The identifier of this tiem.</param>
+ <param name="state">The health state.</param>
+ <param name="labelText">The label text.</param>
+ <param name="valueText">The value text.</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.ComponentHealthItem.#ctor(System.String,Kostal.Testman.Plugin.Base.Health.HealthStates,System.String,System.String,System.Action,System.Int32)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Plugin.Base.Health.ComponentHealthItem"/> class.
+ </summary>
+ <param name="id">The identifier of this tiem.</param>
+ <param name="state">The health state.</param>
+ <param name="labelText">The label text.</param>
+ <param name="valueText">The value text.</param>
+ <param name="tickInterval">The tick interval. Set to -1, if no tick is required.</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.ComponentHealthItem.Tick">
+ <summary>
+ Performs a Refresh
+ </summary>
+ <remarks>
+ This sub is called by the global PollingEngine.
+ It includes also the exception handling.
+ </remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.Health.HealthItem">
+ <summary>
+ Health Item base class
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.Health.HealthItem.Logger">
+ <summary>
+ The logger
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.HealthItem.#ctor(System.String,Kostal.Testman.Plugin.Base.Health.HealthStates,System.String,System.String,System.Int32)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Plugin.Base.Health.ComponentHealthItem"/> class.
+ </summary>
+ <param name="id">The identifier of this tiem.</param>
+ <param name="state">The health state.</param>
+ <param name="labelText">The label text.</param>
+ <param name="valueText">The value text.</param>
+ <param name="tickInterval">The tick interval. Set to -1, if no tick is required.</param>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.HealthItem.LastStateChange">
+ <summary>
+ Gets the DateTime of the last state change.
+ </summary>
+ <value>
+ The DateTime of the last state change.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.HealthItem.State">
+ <summary>
+ Gets the state.
+ </summary>
+ <value>
+ The state of the health item.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.HealthItem.Id">
+ <summary>
+ Gets the identifier.
+ </summary>
+ <value>
+ The identifier.
+ </value><remarks>
+ This is used as a key for saving the visibility in the user interface
+ </remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.HealthItem.LabelText">
+ <summary>
+ Gets the label text.
+ </summary>
+ <value>
+ The label text for the health item.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.HealthItem.ValueText">
+ <summary>
+ Gets the value text.
+ </summary>
+ <value>
+ The value text for the health item.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.HealthItem.TooltipText">
+ <summary>
+ Gets the tooltip text.
+ </summary>
+ <value>
+ The tooltip text for the health item.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.HealthItem.SetValueText(System.String)">
+ <summary>
+ Sets the value text.
+ </summary>
+ <param name="newValueText">The new value text.</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.HealthItem.SetTooltipText(System.String)">
+ <summary>
+ Sets the tooltip text.
+ </summary>
+ <param name="newTooltipText">The new tooltip text.</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.HealthItem.SetState(Kostal.Testman.Plugin.Base.Health.HealthStates)">
+ <summary>
+ Sets the state.
+ </summary>
+ <param name="newState">The new state.</param>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.HealthItem.Localizer">
+ <summary>
+ Gets access to the localizer.
+ </summary>
+ <value>
+ The global localizer.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.HealthItem.TickInterval">
+ <summary>
+ Gets the tick interval.
+ </summary>
+ <value>
+ The tick interval.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.HealthItem.TickInternal">
+ <summary>
+ Internal sub to perform the tick.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.HealthItem.Tick">
+ <summary>
+ Performs a Tick
+ </summary>
+ <remarks>This sub is called by the global PollingEngine.</remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.HealthItem.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary>
+ <returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.Health.HealthStates">
+ <summary>
+ The states of a health item
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.Health.HealthStates.Futile">
+ <summary>
+ To disable the health info after it was added
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.Health.HealthStates.None">
+ <summary>
+ No Information sign
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.Health.HealthStates.Ok">
+ <summary>
+ All OK sign (Green)
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.Health.HealthStates.Warning">
+ <summary>
+ Warning sign (Orange)
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.Health.HealthStates.Problem">
+ <summary>
+ Hard problem/Error sign (Red)
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.IHealthItem.Id">
+ <summary>
+ Gets the identifier.
+ </summary>
+ <value>
+ The identifier.
+ </value>
+ <remarks>This is used as a key for saving the visibility in the user interface</remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.IHealthItem.State">
+ <summary>
+ Gets the state.
+ </summary>
+ <value>
+ The state of the health item.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.IHealthItem.LabelText">
+ <summary>
+ Gets the label text.
+ </summary>
+ <value>
+ The label text for the health item.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.IHealthItem.ValueText">
+ <summary>
+ Gets the value text.
+ </summary>
+ <value>
+ The value text for the health item.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.IHealthItem.TooltipText">
+ <summary>
+ Gets the tooltip text.
+ </summary>
+ <value>
+ The tooltip text for the health item.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Health.IHealthItem.LastStateChange">
+ <summary>
+ Gets the last state change datetime.
+ </summary>
+ <value>
+ The last state change  of the state of the health item.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.Health.IHealthItemAddable">
+ <summary>
+ Interface defintion of functionality to add health items
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.IHealthItemAddable.AddHealthItem(System.String,Kostal.Testman.Plugin.Base.Health.HealthStates,System.String,System.String)">
+ <summary>
+ Adds a health item.
+ </summary>
+ <param name="id">The identifier.</param>
+ <param name="state">The state.</param>
+ <param name="labelText">The label text.</param>
+ <param name="valueText">The value text.</param>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.IHealthItemAddable.AddHealthItem(System.String,Kostal.Testman.Plugin.Base.Health.HealthStates,System.String,System.String,System.Action,System.Int32)">
+ <summary>
+ Adds a health item.
+ </summary>
+ <param name="id">The identifier.</param>
+ <param name="state">The state.</param>
+ <param name="labelText">The label text.</param>
+ <param name="valueText">The value text.</param>
+ <param name="actionTick">The action to invoke, if the interval is fullfilled.</param>
+ <param name="tickInterval">The interval for tick.</param>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Health.IHealthItemAddable.AddHealthItem(Kostal.Testman.Plugin.Base.Health.IHealthItem)">
+ <summary>
+ Adds a health item.
+ </summary>
+ <param name="itemHealth">The health item to add.</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ExceptionHelper.PreserveStackTrace(System.Exception)">
+ <summary>
+ Preserve, that the Stacktrace of an exception will be destroyed by throw ex
+ Verhindert, das der StackTace einer Exception durch throw ex; zerstört wird
+ </summary>
+ <param name="Exception">Exception theirs stacktrace should be retained</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.#ctor(System.Linq.Expressions.MemberExpression)">
+ <summary>
+ Initializes a new <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> using the specified
+ <see cref="T:System.Linq.Expressions.MemberExpression"/>.
+ </summary>
+ <param name="expression">The expression that references the desired member.</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.#ctor(System.Reflection.MemberInfo)">
+ <summary>
+ Initializes a new <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> using the specified
+ <see cref="T:System.Reflection.MemberInfo"/>.
+ </summary>
+ <param name="info">The member info that references the desired member.</param>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.Helper.Member.Info">
+ <summary>
+ The <see cref="T:System.Reflection.MemberInfo"/> discovered for the member specified.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.op_Implicit(Kostal.Testman.Plugin.Base.Helper.Member)~System.String">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> to a <see cref="T:System.String"/>, using the
+ <see cref="M:Kostal.Testman.Plugin.Base.Helper.Member.ToString"/> method.
+ </summary>
+ <param name="member">The <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> to cast to a string.</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.op_Implicit(Kostal.Testman.Plugin.Base.Helper.Member)~System.Reflection.MemberInfo">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> to a <see cref="T:System.Reflection.MemberInfo"/>, by
+ returning the <see cref="P:Kostal.Testman.Plugin.Base.Helper.Member.Info"/> property value.
+ </summary>
+ <param name="member">The <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> to cast to a <see cref="T:System.Reflection.MemberInfo"/>.</param>
+ <returns>The <see cref="P:Kostal.Testman.Plugin.Base.Helper.Member.Info"/> of the specified member, or <c>null</c>.</returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.op_Implicit(Kostal.Testman.Plugin.Base.Helper.Member)~System.Reflection.MethodInfo">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> to a <see cref="T:System.Reflection.MethodInfo"/>, by
+ returning the <see cref="M:Kostal.Testman.Plugin.Base.Helper.Member.AsMethod"/> result.
+ </summary>
+ <param name="member">
+ The <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> to cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </param>
+ <returns>A <see cref="T:System.Reflection.MethodInfo"/> for the specified member.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.op_Implicit(System.Reflection.MemberInfo)~Kostal.Testman.Plugin.Base.Helper.Member">
+ <summary>
+ Implicitly cast a <see cref="T:System.Reflection.MemberInfo"/> to a <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/>.
+ </summary>
+ <param name="memberInfo">The member info to use as a member.</param>
+ <returns>
+ A <see cref="T:System.Reflection.MemberInfo"/> representing the specified <paramref name="memberInfo"/>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.Of(System.Linq.Expressions.Expression{System.Action})">
+ <summary>
+ Create a <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> using a method call expression.
+ </summary>
+ <remarks>
+ This is used for <c>void</c> methods.
+ </remarks>
+ <param name="methodCall">The method call expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> for the specified method call expression.</returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.Of``1(System.Linq.Expressions.Expression{System.Action{``0}})">
+ <summary>
+ Create a <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> using a method call expression
+ for the specified type.
+ </summary>
+ <typeparam name="T">The type of the Action parameter</typeparam>
+ <param name="methodCall"></param>
+ <returns>A <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> for the specified method call expression.</returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.Of(System.Linq.Expressions.Expression{System.Func{System.Object}})">
+ <summary>
+ Create a <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> using a property, field, or non-void
+ method call expression.
+ </summary>
+ <param name="member">The member expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> for the specified member expression.</returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.Of``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+ <summary>
+ Create a <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> using a property, field, or non-void
+ method call expression for the specified type.
+ </summary>
+ <typeparam name="T">The type containing the member specified.</typeparam>
+ <param name="member">The member expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/> for the specified member expression.</returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.AsProperty">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.PropertyInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.PropertyInfo"/> instance for the current member <see cref="P:Kostal.Testman.Plugin.Base.Helper.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.PropertyInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.AsField">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.FieldInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.FieldInfo"/> instance for the current member <see cref="P:Kostal.Testman.Plugin.Base.Helper.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.FieldInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.AsMethod">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.MethodInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.MethodInfo"/> instance for the current member <see cref="P:Kostal.Testman.Plugin.Base.Helper.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.Member.ToString">
+ <summary>
+ Returns the current member name as the string representation of a <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/>.
+ </summary>
+ <returns>The name of the current member <see cref="P:Kostal.Testman.Plugin.Base.Helper.Member.Info"/>.</returns>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.Helper.ExpressionMember">
+ <summary>
+ Helper class for converting expressions to members.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.ExpressionMember.AsMethod(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert <see cref="T:System.Linq.Expressions.MethodCallExpression"/> to <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/></returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.ExpressionMember.AsMember(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert <see cref="T:System.Linq.Expressions.MemberExpression"/> to <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/></returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.ExpressionMember.AsMemberOrMethod(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert the member or method from <see cref="T:System.Linq.Expressions.LambdaExpression"/> to <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/></returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.ExpressionMember.AsMemberOrMethod(System.Linq.Expressions.Expression)">
+ <summary>
+ Convert the member or method from <see cref="T:System.Linq.Expressions.Expression"/> to <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/></returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.Helper.ExpressionMember.AsUnaryWrappedMember(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert the UnaryExpression from <see cref="T:System.Linq.Expressions.LambdaExpression"/> to <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Testman.Plugin.Base.Helper.Member"/></returns>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.AddinParameterAttribute">
+ <summary>
+ ParameterAttribute is a AttributeClass to describe a single parameter for a component.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.AddinParameterAttribute.#ctor(System.String,System.String,System.String)">
+ <summary>
+  Creates a new Parameterattribute for a plugin parameter.
+ </summary>
+ <param name="id">Id of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="default">Default value for the parameter</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.AddinParameterAttribute.#ctor(System.String,System.String,System.String,System.String[])">
+ <summary>
+  Creates a new Parameterattribute for a plugin parameter.
+ </summary>
+ <param name="id">Id of parameter</param>
+ <param name="description">Description of parameter</param>
+ <param name="default">Default value for the parameter</param>
+ <param name="possibleValues">List with possible values</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.AddinParameterAttribute.Id">
+ <summary>
+   Returns the id of the parameter
+ </summary>
+ <returns>The parameter id</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.AddinParameterAttribute.Description">
+ <summary>
+   Returns the description of the parameter
+ </summary>
+ <returns>The parameter description</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.AddinParameterAttribute.Default">
+ <summary>
+   Returns the default of the parameter
+ </summary>
+ <returns>The parameter default</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IPluginParameters">
+ <summary>
+ Parameters that can be used by the plugin developer
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IRuntimeParameters">
+ <summary>
+ Parameters that are used by the plugin internaly
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.DescriptionAnalyzer.GenerateDescription(System.Type,System.String,System.Action{System.Collections.Generic.IEnumerable{Kostal.Testman.Plugin.Base.ParameterAttribute}},System.Boolean)">
+ <summary>
+  creates the description based on the userAttributes
+  isPluginCommand and Parameter...
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.CommandDescription">
+ <summary>
+ The command description class
+ It contains information about the command and it´s parameter
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.CommandDescription.#ctor(System.String,System.String,Kostal.Testman.Plugin.Base.eValueType)">
+ <summary>
+ Create a new CommandDescription
+ </summary>
+ <param name="name">Name of command</param>
+ <param name="text">Description of command</param>
+ <param name="valueType"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.CommandDescription.#ctor(System.String,System.String,Kostal.Testman.Plugin.Base.eValueType,Kostal.Testman.Plugin.Base.ObsoleteSettings)">
+ <summary>
+ Create a new CommandDescription
+ </summary>
+ <param name="name">Name of command</param>
+ <param name="text">Description of command</param>
+ <param name="valueType"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.CommandDescription.Name">
+ <summary>
+   Name of Command
+ </summary>
+ <value>new name for command</value>
+ <returns>actual name for command</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.CommandDescription.Text">
+ <summary>
+ Description of command
+ </summary>
+ <value>new description for command</value>
+ <returns>actual description of command</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.CommandDescription.iValueType">
+ <summary>
+ ValueType of Command
+ </summary>
+ <value>new valueType of command</value>
+ <returns>actual ValueType of command</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.CommandDescription.Parameters">
+ <summary>
+ ParameterList of command
+ </summary>
+ <value>new ParameterList as List(of IParameterDescription)</value>
+ <returns>actual list of parameters</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.PluginDescription">
+ <summary>
+   The PluginDescription is used to show all possible commands on GUI.
+   The commands are structured under Kinds, e. g. WRITE-commands and READ-commands...
+   Each command can have a number of Parameters, containing informations needed for execution.
+   E. g. you can have a motor-Plugin. A possible kind is MOVE and the command is absolute. Then 
+   possible Parameters are: No of Increments, Speed and so on...
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescription.#ctor">
+ <summary>
+ Create a new PluginDescription
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescription.#ctor(System.String,System.String)">
+ <summary>
+ Create a new PluginDescription
+ </summary>
+ <param name="pluginName">Name of Plugin</param>
+ <param name="pluginText">Description of Plugin</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginDescription.Name">
+ <summary>
+   The name of Plugin represented by this description
+ </summary>
+ <value>the new name</value>
+ <returns>the actual name</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginDescription.Text">
+ <summary>
+   The description of Plugin represented by this Class
+ </summary>
+ <value>the new description</value>
+ <returns>the actual description</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginDescription.Version">
+ <summary>
+ The current version of this assembly.
+ </summary>
+ <value>the new version</value>
+ <returns>the actual version</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginDescription.Kinds">
+ <summary>
+ A collection of all kinds of this Plugin
+ </summary>
+ <value>sets a new collection as List(of IKindDescription)</value>
+ <returns>the actual collection</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescription.GetKind(System.String)">
+ <summary>
+   the selected kind
+ </summary>
+ <param name="kindName">name of kind to return</param>
+ <returns>the requested kind as IKindDescription, if not found returns "nothing"</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginDescription.Parameters">
+ <summary>
+ A collection of all kinds of this Plugin
+ </summary>
+ <value>sets a new collection as List(of IKindDescription)</value>
+ <returns>the actual collection</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescription.ToString">
+ <summary>Returns a string that represents the current object.</summary>
+ <returns>A string that represents the current object.</returns>
+ <filterpriority>2</filterpriority>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.PluginDescriptionBuilder">
+ <summary>
+   This class provides methods for easy manual creation of a DeviceDescription.
+   You can create Kind, Command and Parameter nodes to structurize the description.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescriptionBuilder.#ctor">
+ <summary>
+ creates a new Devicedescription
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescriptionBuilder.#ctor(System.String,System.String)">
+ <summary>
+ creates a new Devicedescription with given name and description
+ </summary>
+ <param name="name"></param>
+ <param name="text"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescriptionBuilder.SetDescriptionName(System.String)">
+ <summary>
+   Overwrites actual descriptionname with the one given.
+ </summary>
+ <param name="name"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescriptionBuilder.SetDescriptionText(System.String)">
+ <summary>
+ Overwrites actual description with the one given.
+ </summary>
+ <param name="text"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescriptionBuilder.SetDescriptionVersion(System.String)">
+ <summary>
+ Sets the version attribute of the description.
+ </summary>
+ <param name="version"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescriptionBuilder.AddKind(System.String,System.String)">
+ <summary>
+   Creates a new kind-node and adds it to the list.
+ </summary>
+ <param name="name">Name of the new node</param>
+ <param name="text">Description of the new node</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginDescriptionBuilder.AddCommand(System.String,System.String,Kostal.Testman.Plugin.Base.eValueType)">
+ <summary>
+ Creates a new command-node. 
+ The node will be added under the latest added kind-node.
+ </summary>
+ <param name="sName">Name of node</param>
+ <param name="sText">Description of node</param>
+ <param name="valuetype">ValueType of Node</param>
+ <returns>0 if OK, -3 if no kind-node is found</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginDescriptionBuilder.Description">
+ <summary>
+ returns the description, created as tree by 
+ DescriptionBuilder
+ </summary>
+ <returns>generated DeviceDescription</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.DevicePluginAdapter.IPlugin_Execute(Kostal.Testman.Plugin.Base.ITestStepPlugIn@)">
+ <summary>
+ Based on the given teststep, this method finds and executes 
+ the responding functional method.
+ Plugin needs to be initialized before method works.
+ </summary>
+ <param name="ts">Teststep to execute</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.DevicePluginAdapter.IStatelessPlugin_GetDescription">
+ <summary>
+   returns the Description for gui
+ </summary>
+ <returns>Description as DeviceDescription</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.DevicePluginAdapter.Name">
+ <summary>
+   Name of the PlugIn
+ </summary>
+ <value>the new name for plugin</value>
+ <returns>the actual name of plugin</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.DevicePluginAdapter.Version">
+ <summary>
+   actual version of plugin
+ </summary>
+ <value>the new version of plugin</value>
+ <returns>the actual version of plugin</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.DevicePluginAdapter.IStatelessPlugin_SetDataProvider(Kostal.Testman.Plugin.Base.IData)">
+ <summary>
+   gets the dataprovider from core and stores it.
+   DataProvider is accessible by protected variable "DataStorage".
+ </summary>
+ <param name="data">the DataProvider</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.DialogType">
+ <summary>
+  ENUM specifying the Type of an Dialog.
+  Marks a Parameter either as FileOpen or FileSave dialog
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.IsPlugInCommand.#ctor(System.String,System.String)">
+ <summary>
+ Creates a new Attribute.
+ </summary>
+ <param name="category">The category, where the Method will be listed under in description</param>
+ <param name="command">The command under wich the method is named in description</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.IsPlugInCommand.#ctor(System.String,System.String,System.String)">
+ <summary>
+ Creates a new Attribute.
+ </summary>
+ <param name="category">The category, where the Method will be listed under in description</param>
+ <param name="command">The command under wich the method is named in description</param>
+ <param name="description">The description of current command.</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.PluginCommand">
+ <summary>
+   This attribute-class marks a method as PluginCommand.
+ If your method implements some functionality you need to add this attribute.
+ The given category and command will be used to generate the description for this mehtod.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginCommand.#ctor(System.String,System.String,System.String)">
+ <summary>
+ Creates a new Attribute.
+ </summary>
+ <param name="category">The category, where the Method will be listed under in description</param>
+ <param name="command">The command under wich the method is named in description</param>
+ <param name="description">The description of current command.</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginCommand.Kind">
+ <summary>
+ Category for description
+ </summary>
+ <returns>The category as String</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginCommand.Command">
+ <summary>
+ Command for Description
+ </summary>
+ <returns>returns command as String</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginCommand.Description">
+ <summary>
+ A description describing the current command
+ </summary>
+ <value>The commands description</value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.KindDescription">
+ <summary>
+ The KindDescription is part of DeviceDescription.
+ It contains all informations about a kind and all it´s commands
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.KindDescription.#ctor">
+ <summary>
+ Creates a new KindDescription
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.KindDescription.#ctor(System.String,System.String)">
+ <summary>
+ Creates a new KindDescription
+ </summary>
+ <param name="name">Name of Kind</param>
+ <param name="text">Description of Kind</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.KindDescription.Name">
+ <summary>
+   Name of kind
+ </summary>
+ <value>set new name for kind</value>
+ <returns>actual name of kind</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.KindDescription.Text">
+ <summary>
+   Description of kind
+ </summary>
+ <value>set new description of kind</value>
+ <returns>the actual description</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.KindDescription.Commands">
+ <summary>
+   List of all commands under this kins
+ </summary>
+ <value>set a new commandList as list(of ICommandDescription)</value>
+ <returns>returns actual list of commands</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.KindDescription.GetCommand(System.String)">
+ <summary>
+   Searches and returns a specified Command
+ </summary>
+ <param name="sCommandName">Name of command to search for.</param>
+ <returns>the found command, "nothing" if command not found</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.ParameterDescription">
+ <summary>
+ The ParameterDescription is part of PluginDescription. It contains informations about a single parameter.
+ Beside name and description,e.g. informations about limits and dataType are stored in this class.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ParameterDescription.uEnumList">
+ <summary>
+  If parameter is enum, this list contains all enum-values
+ </summary>
+ <value>new list of enum-Values</value>
+ <returns>actual list of enum values</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ParameterDescription.Name">
+ <summary>
+ Name of Parameter
+ </summary>
+ <value>new name of parameter</value>
+ <returns>actual name of parameter</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ParameterDescription.Text">
+ <summary>
+ Description of parameter
+ </summary>
+ <value>new description</value>
+ <returns>actual description</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ParameterDescription.sValue">
+ <summary>
+ Value of parameter
+ </summary>
+ <value>new value</value>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ParameterDescription.DefaultValue">
+ <summary>
+ DefaultValue for parameter
+ </summary>
+ <value>new default</value>
+ <returns>actual default</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ParameterDescription.LowerLimit">
+ <summary>
+ Lowest allowed value for parameter
+ </summary>
+ <value>new lowerLimit</value>
+ <returns>actual lowerLimit</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ParameterDescription.UpperLimit">
+ <summary>
+ Highest allowed value for parameter
+ </summary>
+ <value>new upperLimit</value>
+ <returns>actual upperLimit</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ParameterDescription.ParameterType">
+ <summary>
+ Type of actual parameter
+ </summary>
+ <value>new type for parameter</value>
+ <returns>actual type for parameter</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ParameterDescription.RegularExpression">
+ <summary>
+   Regular Expression for String-Parameter
+ </summary>
+ <value>set new regExpression</value>
+ <returns>return actual regExpression</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ParameterDescription.ToString">
+ <summary>Returns a string that represents the current object.</summary>
+ <returns>A string that represents the current object.</returns>
+ <filterpriority>2</filterpriority>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IValue">
+ <summary>
+ Interface for Measured Values.
+ Value can be set and read in different formats.
+ the type of value will be set automatically and can be read before interpreting the result.
+ By this you can always read the right type of result.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IValue.Format">
+ <summary>
+ A formatString for the Value.
+ E.g. '#.00'
+ </summary>
+ <value>the new formatString</value>
+ <returns>the actual format String</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IValue.str">
+ <summary>
+   the measured value as String
+ </summary>
+ <value>new value</value>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IValue.bool">
+ <summary>
+   the measured value as Boolean
+ </summary>
+ <value>new value</value>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IValue.byt">
+ <summary>
+   the measured value as byte
+ </summary>
+ <value>new value</value>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IValue.int">
+ <summary>
+   the measured value as int
+ </summary>
+ <value>new value</value>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IValue.lng">
+ <summary>
+   the measured value as long
+ </summary>
+ <value>new value</value>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IValue.float">
+ <summary>
+   the measured value as float
+ </summary>
+ <value>new value</value>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IValue.dbl">
+ <summary>
+   the measured value as double
+ </summary>
+ <value>new value</value>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IValue.bytArray">
+ <summary>
+   the measured value as ByteArray
+ </summary>
+ <value>new value</value>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IValue.ValueType">
+ <summary>
+   The valueType of actual result
+ </summary>
+ <value>the new ValueType</value>
+ <returns>actual valueType</returns>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Plugin.Base.PluginBase.Message">
+ <summary>
+ Should be raised, if a message should be displayed in the status panel.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginBase.GetDescription">
+ <summary>
+ Gets the get description.
+ </summary>
+ <value>
+ The get description.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginBase.Name">
+ <summary>
+ Gets the name.
+ </summary>
+ <value>
+ The name.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginBase.PluginId">
+ <summary>
+ Gets the plugin id.
+ </summary>
+ <value>
+ The plugin in.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginBase.StationId">
+ <summary>
+ Gets the station id.
+ </summary>
+ <value>
+ The station id.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginBase.StationText">
+ <summary>
+ Gets the station id.
+ </summary>
+ <value>
+ The station text.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginBase.Version">
+ <summary>
+ Gets the version.
+ </summary>
+ <value>
+ The version.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginBase.Context">
+ <summary>
+ Gets or sets the context.
+ </summary>
+ <value>
+ The context.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.SetDataProvider(Kostal.Testman.Plugin.Base.IData)">
+ <summary>
+   gets the dataprovider from core and stores it.
+   DataProvider is accessible by protected variable "DataStorage".
+ </summary>
+ <param name="data">the DataProvider</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginBase.Logger">
+ <summary>
+ Gets the logger.
+ </summary>
+ <value>
+ The logger.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.Init(System.String)">
+ <summary>
+ Initializes the plugin with specified initialize data.
+ </summary>
+ <param name="initData">The initialize data.</param>
+ <returns>Zero, if succesful, otherwise an individual return value.</returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.Execute(Kostal.Testman.Plugin.Base.ITestStepPlugIn)">
+ <summary>
+ Plugin needs to be initialized before method works.
+ </summary>
+ <param name="ts"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.InitInternal(Kostal.Testman.Plugin.Base.IRuntimeParameters,Kostal.Testman.Plugin.Base.IPluginParameters)">
+ <summary>
+   This function initializes the PlugIn.
+   All given parameters will be entered into plugin structure,
+   the Description will be build automatically based on attributes and
+   the lookupTable for Execution will be build.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginBase.PluginParameters">
+ <summary>
+ Gets the plugin parameters.
+ </summary>
+ <value>
+ The plugin parameters.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.Startup(Kostal.Testman.Plugin.Base.StartupParameters)">
+ <summary>
+ Startups the plugin with specified parameters.
+ </summary>
+ <param name="parametersStartup">The startup parameters.</param>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.EvaluateRuntimeTypes(System.Collections.Generic.IEnumerable{Kostal.Testman.Plugin.Base.ParameterAttribute})">
+ <summary>
+ Evaluates the runtime types.
+ </summary>
+ <param name="attachedParameters">The attached parameters.</param>
+ <exception cref="T:Kostal.Testman.Plugin.Base.PluginException"></exception>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.CreateLookupTable">
+ <summary>
+   Creates a lookup table to realize a performance-optimized execution.
+   For each kind and command an entry with the belonging method will be created.
+  Also the count of parameters will be stored to check the paramcount of the teststep definition
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.GetPanel">
+ <summary>
+ Gets the UI panel of the plugin to show in the UI.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.PluginBase.GuiElement">
+ <summary>
+ Returns a WPF-aware Element to show in the UI.
+ </summary>
+ <returns>The wpf-element to be shown</returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.OnMessage(System.String)">
+ <summary>
+ Raises a message that is shown in the status bar at bottom of testman gui.
+ </summary>
+ <param name="message">the localized text to be shown</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.ArticleChanged(System.Object,Kostal.Testman.Plugin.Base.ArticleChangedEventArgs)">
+ <summary>
+ This method is called, if the acticle has changed
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.DutChanged(System.Object,Kostal.Testman.Plugin.Base.DutChangedEventArgs)">
+ <summary>
+ This method is called, if the device-under-test has changed
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.PerformOnGui``1(System.Func{``0})">
+ <summary>
+ Performs the call of a function if necessary on the gui thread
+ </summary>
+ <typeparam name="TResult">The type of the return value of the function</typeparam>
+ <param name="function">The function to perform</param>
+ <returns>The return value of the function</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.PerformOnGui(System.Action)">
+ <summary>
+ Performs the call of method if necessary on the gui thread
+ </summary>
+ <param name="method">The method to perform</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.PerformAsyncOnGui(System.Action)">
+ <summary>
+ Performs the call of method asynchronously if necessary on the gui thread
+ </summary>
+ <param name="method">The method to perform</param>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.PluginBase._alreadyDisposed">
+ <summary>
+ Indicates, that Dispose was already called
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.Dispose(System.Boolean)">
+ <summary>
+ Releases unmanaged and - optionally - managed resources.
+ </summary>
+ <param name="calledFromCode"><c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.Dispose">
+ <summary>
+ Führt anwendungsspezifische Aufgaben aus, die mit dem Freigeben, Zurückgeben oder Zurücksetzen von nicht verwalteten Ressourcen zusammenhängen.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.PluginBase.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary>
+ <returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IFullParameter">
+ <summary>
+ Interface for Parameters. A Parameter is handled similar to a Limit.
+ (you can set as String and try to read some different datatypes).
+ Additionaly it can represent an Enum-value or be linked to another TestResult.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IParameterCollection">
+ <summary>
+ An Interface for a collection containing all parameters of a single Teststep.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IParameterCollection.Parameter(System.Int32)">
+ <summary>
+ Get parameter at the given position
+ </summary>
+ <param name="iIndex">position as integer</param>
+ <returns>the parameter</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IParameterCollection.Count">
+ <summary>
+ No. of parameters
+ </summary>
+ <returns>parametercount</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.IParameterCollection.Clear">
+ <summary>
+ Removes all parameters from collection
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IParameter">
+ <summary>
+ Interface for Parameters. A Parameter is handled similar to a Limit.
+ (you can set as String and try to read some different datatypes).
+ Additionaly it can represent an Enum-value or be linked to another TestResult.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IParameter.str">
+ <summary>
+   Returns the actual limit as String
+ </summary>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.IParameter.AsEnum``1">
+ <summary>
+ If the value of Parameter is an enum,
+  you can give the type here and it will be casted into enum
+ </summary>
+ <typeparam name="EnumTyp">Type of enum</typeparam>
+ <returns>the value as a value of EnumType</returns>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.MachineId">
+ <summary>
+ The machine identifier
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.TesterName">
+ <summary>
+ The tester name
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.TesterMode">
+ <summary>
+ The tester mode
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.Language">
+ <summary>
+ The language
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.SelectorFirstFocus">
+ <summary>
+ When 0 the first focus is on the list of articles
+ When 1 the first focus is on the search edit box
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.SelectorFontSize">
+ <summary>
+ The size of the font of the article list
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.SelectorFontWeight">
+ <summary>
+ The font weight of the font of the article list
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.TestStepAndResultSpecialFontName">
+ <summary>
+ The font name for the editor, for test steps and result
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.TestStepAndResultSpecialFontSize">
+ <summary>
+ The font size for the editor, for test steps and result
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.KeepMainWindowPosition">
+ <summary>
+ If set to True the Mainwindow position and state will be saved at program end and restore when the program is started again
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.SelectorSearchCustomer">
+ <summary>
+ True, search also in the Customer Field of the article configuration
+ False, default search fields
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.ApplicationCaption">
+ <summary>
+ The text that is shown in the titel area of TM
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.TesterProperty.AlternativeTextDescription">
+ <summary>
+ The alternative text description
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ExecutionStatus.SetInvalid">
+ <summary>
+ Sets the status to invalid.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ExecutionStatus.SetInvalid(System.String)">
+ <summary>
+ Sets the status to invalid with additional message text.
+ </summary>
+ <param name="invalidMessage">The reason for the invalid status.</param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ExecutionStatus.SetInvalid(System.Exception)">
+ <summary>
+ Sets the status to invalid because of exception.
+ </summary>
+ <param name="invalidException">The exception as reason for the invalid status.</param>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.ILimit">
+ <summary>
+ Interface for Limits (Upper and Lower).
+ You can set a value as String, the routine will try to cast it to different Datatypes. 
+ Afterwards you can try to read it in different forms.
+ It磗 done this way, because limits are read from ini-File
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ILimit.str">
+ <summary>
+   Returns the actual limit as String
+ or sets a new value 
+ </summary>
+ <value>new value</value>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ILimit.lng">
+ <summary>
+   actual value as long (if possible)
+ </summary>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ILimit.int">
+ <summary>
+   actual value as integer (if possible)
+ </summary>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ILimit.byt">
+ <summary>
+   actual value as byte (if possible)
+ </summary>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ILimit.dbl">
+ <summary>
+   actual value as double (if possible)
+ </summary>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ILimit.float">
+ <summary>
+   actual value as float (if possible)
+ </summary>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ILimit.bool">
+ <summary>
+   actual value as boolean (if possible)
+ </summary>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ILimit.bytArray">
+ <summary>
+   actual value as byteArray (if possible)
+ </summary>
+ <returns>actual value</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ILimit.AsEnum``1">
+ <summary>
+ If the value of Parameter is an enum,
+  you can give the type here and it will be casted into enum
+ </summary>
+ <typeparam name="EnumTyp">Type of enum</typeparam>
+ <returns>the value as a value of EnumType</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ILimit.AsColor">
+ <summary>
+ If the value of Parameter is a color
+ </summary>
+ <returns>the value as a argv int 32</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IPlugin">
+ <summary>
+ Defines the method of a device plugin.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.IPlugin.Init(System.String)">
+ <summary>
+ Initializes a new instance of the class.
+ </summary>
+ <param name="Data"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IPlugin.Name">
+ <summary>
+ Name of Device Instance
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.IPluginDescription">
+ <summary>
+ Highest element in PluginDescription
+ Contains description of all possible commands of a device groupd in a list of kinds.
+ The commands are sorted under different kinds.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.IPluginDescription.Kinds">
+ <summary>
+ List of all kinds/categories
+ </summary>
+ <returns>curent list of kinds</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.IPluginDescription.GetKind(System.String)">
+ <summary>
+ Single kind by name
+ </summary>
+ <param name="KindName">name of kind</param>
+ <returns>either the found kind or "nothing"</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ITestStepPlugIn.Parameter(System.Int32)">
+ <summary>
+ Gets an indexed parameter.
+ </summary>
+ <value>
+ The parameter.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ITestStepPlugIn.ParameterCount">
+ <summary>
+ Gets the parameter count.
+ </summary>
+ <value>
+ The parameter count.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ITestStepPlugIn.Value">
+ <summary>
+ Gets the value.
+ </summary>
+ <value>
+ The value.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ITestStepPlugIn.Kind">
+ <summary>
+ Gets or sets the kind.
+ </summary>
+ <value>
+ The kind.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ITestStepPlugIn.Command">
+ <summary>
+ Gets or sets the command.
+ </summary>
+ <value>
+ The command.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ITestStepPlugIn.Ok">
+ <summary>
+ Gets or sets a value indicating whether this <see cref="T:Kostal.Testman.Plugin.Base.ITestStepPlugIn"/> is ok.
+ </summary>
+ <value>
+   <c>true</c> if ok; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ITestStepPlugIn.Evaluate">
+ <summary>
+ Evaluates this instance.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ITestStepPlugIn.Evaluation">
+ <summary>
+ Evaluations this instance.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.ITestStepPlugIn.Validate">
+ <summary>
+ Validates this instance.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ITestStepPlugIn.Text">
+ <summary>
+ Gets or sets the text.
+ </summary>
+ <value>
+ The text.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.ITestStepPlugIn.Status">
+ <summary>
+ Gets or sets the status.
+ </summary>
+ <value>
+ The status.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.MessageType">
+ <summary>
+ ENUM containing different types of Messages
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.MessageEventArgs">
+ <summary>
+  MessageEvent Args
+ Containing following information:
+   MessageText - Descriptive text
+   Messagetype - Info, exclamation etc
+   MessageResult - ???
+   InData - 
+   OutData -
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.MessageEventArgs.#ctor">
+ <summary>
+ Initalize a new instance of the <see cref="T:Kostal.Testman.Plugin.Base.MessageEventArgs"/>-class.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.MessageEventArgs.#ctor(System.String)">
+ <summary>
+ Initalize a new instance of the <see cref="T:Kostal.Testman.Plugin.Base.MessageEventArgs"/>-class.
+ <see cref="P:Kostal.Testman.Plugin.Base.MessageEventArgs.MessageType"/> will be set to <code>SimpleText</code>/>
+ </summary>
+ <param name="messageText"></param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.MessageEventArgs.#ctor(System.String,Kostal.Testman.Plugin.Base.MessageType)">
+ <summary>
+ Initalize a new instance of the <see cref="T:Kostal.Testman.Plugin.Base.MessageEventArgs"/>-class.
+ </summary>
+ <param name="messageText"></param>
+ <param name="messageType"></param>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.MessageEventArgs.#ctor(Kostal.Testman.Plugin.Base.MessageType,System.String)">
+ <summary>
+ Initalize a new instance of the <see cref="T:Kostal.Testman.Plugin.Base.MessageEventArgs"/>-class.
+ </summary>
+ <param name="messageType"></param>
+ <param name="messageText"></param>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.PluginException">
+ <summary>
+ PluginException Throw by Plugin handels by main Application
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Plugin.Base.ValidationStatus">
+ <summary>
+ The current status of executed teststep
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.ValidationStatus.Standard">
+ <summary>
+ The teststep was not evaluated, but will be evaluated using provided comparemode
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.ValidationStatus.Invalid">
+ <summary>
+ The teststep is invalid. The result is always false, evaluation won't take place
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.ValidationStatus.Valid">
+ <summary>
+ The teststep is valid. Evaluation will be skipped, the result will always be true.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.ValidationStatus.TimedOut">
+ <summary>
+ The teststep timed out. Evaluation will be skipped, the result will always be false.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Plugin.Base.ValidationStatus.AbortedByUser">
+ <summary>
+ The teststep was aborted by user. Evaluation will be skipped, the result will always be false.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.AlarmAdapter.#ctor(System.Func{System.Boolean})">
+ <summary>
+ Creates a new AlarmProvider class.
+ </summary>
+ <param name="funcIsOn">delegate to get the status.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.AlarmAdapter.#ctor(System.Func{System.Boolean},System.Func{System.Boolean},System.Func{System.Boolean,System.Boolean})">
+ <summary>
+ Creates a new AlarmProvider class.
+ </summary>
+ <param name="funcReset">delegate to reset the alert.</param>
+ <param name="funcIsOn">delegate to get the status.</param>
+ <param name="funcAlarmEnable">delegeate to enable/disabled the alert.</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.AlarmAdapter.IsOn">
+ <summary>
+ Idicates weather alert is on or off
+ </summary>
+ <value></value>
+ <returns>true if alert is on, false if off.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Plugin.Base.AlarmAdapter.IsOff">
+ <summary>
+ Idicates weather alert is on or off
+ </summary>
+ <value></value>
+ <returns>true if alert is off, false if on.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.AlarmAdapter.Reset">
+ <summary>
+ Resets the alert to false
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Plugin.Base.AlarmAdapter.SetEnabled(System.Boolean)">
+ <summary>
+ Enables or disables the alert
+ </summary>
+ <param name="value">true to enable, false to disable</param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

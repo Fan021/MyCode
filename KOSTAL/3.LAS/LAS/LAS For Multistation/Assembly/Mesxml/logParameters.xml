@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:r4="http://systemagmbh.com/manufacturing-automation/r4/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <r4:logParameters>
+         <logParametricDataRequest>
+            <resourceId></resourceId>
+            <operation></operation>
+            <sfc></sfc>
+            <dcGroup></dcGroup>
+            <dcGroupVersion></dcGroupVersion>
+         </logParametricDataRequest>
+      </r4:logParameters>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LasConfiguration xmlns="http://www.kostal.com/Testman/config">
+  <!-- If Display NewPart Message -->
+  <DisPlayNewPart>
+    <Enable>True</Enable>
+  </DisPlayNewPart>
+  <!-- Display Position-->
+  <Position>
+    <X>1280</X>
+    <Y>0</Y>
+  </Position>
+  <Size>
+    <!-- Width -->
+    <Width>1280</Width>
+    <!-- Height -->
+    <Height>1024</Height>
+  </Size>
+  <!-- Add Scanner Station Fail Message at ShowPic-->
+  <DisPlayScanners>
+    <!--   <DisPlayScanner>
+      <Name>SR710_1</Name>
+    </DisPlayScanner>
+    <DisPlayScanner>
+      <Name>SR710_4</Name>
+    </DisPlayScanner>-->
+  </DisPlayScanners>
+  <Pictures>
+    <Picture>
+      <!-- Display Picture Information -->
+      <Name>Picture1</Name>
+      <!-- Picture Folder-->
+      <Folder>Picture</Folder>
+      <!-- Picture Position-->
+      <PositionX>0</PositionX>
+      <PositionY>0</PositionY>
+      <!-- Picture Width&Height-->
+      <Width>1264</Width>
+      <Height>800</Height>
+      <!-- Picture display type StretchImage AutoSize CenterImage Zoom-->
+      <Type>Zoom</Type>
+      <!-- Cut Image -->
+      <CutEnable>False</CutEnable>
+      <StartCutPointX>0</StartCutPointX>
+      <StartCutPointY>0</StartCutPointY>
+      <StopCutPointX>0</StopCutPointX>
+      <StopCutPointY>0</StopCutPointY>
+    </Picture>
+  </Pictures>
+</LasConfiguration>

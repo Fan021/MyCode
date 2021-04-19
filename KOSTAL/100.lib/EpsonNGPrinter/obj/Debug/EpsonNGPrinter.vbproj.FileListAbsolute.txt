@@ -1,0 +1,10 @@
+C:\Users\zhu57\Desktop\EpsonNGPrinter\bin\Debug\EpsonNGPrinter.dll
+C:\Users\zhu57\Desktop\EpsonNGPrinter\bin\Debug\EpsonNGPrinter.pdb
+C:\Users\zhu57\Desktop\EpsonNGPrinter\bin\Debug\EpsonNGPrinter.xml
+C:\Users\zhu57\Desktop\EpsonNGPrinter\obj\Debug\EpsonNGPrinter.vbprojResolveAssemblyReference.cache
+C:\Users\zhu57\Desktop\EpsonNGPrinter\obj\Debug\EpsonNGPrinter.EpsonDebug.resources
+C:\Users\zhu57\Desktop\EpsonNGPrinter\obj\Debug\EpsonNGPrinter.Resources.resources
+C:\Users\zhu57\Desktop\EpsonNGPrinter\obj\Debug\EpsonNGPrinter.vbproj.GenerateResource.Cache
+C:\Users\zhu57\Desktop\EpsonNGPrinter\obj\Debug\EpsonNGPrinter.dll
+C:\Users\zhu57\Desktop\EpsonNGPrinter\obj\Debug\EpsonNGPrinter.xml
+C:\Users\zhu57\Desktop\EpsonNGPrinter\obj\Debug\EpsonNGPrinter.pdb

@@ -1,0 +1,87 @@
+<CsvProviderParmetrisation xmlns="http://Kostal.com/Las/CsvProviderParametrisation">
+
+  <Mappings>
+    <KeyColumnMapping>
+      <!--<UseFirstColumnAsKey />-->
+      <UsingSpecificKeyColumn columnName="ID">
+        <StringModification >Unmodified</StringModification>
+      </UsingSpecificKeyColumn>
+    </KeyColumnMapping>
+    <ArticleScheduleMapping articleProperty="ScheduleName" >
+      <UsingSpecificScheduleMode  scheduleName="ProductionMode"/>
+    </ArticleScheduleMapping>
+    <!-- 
+      ArticleName
+      ArticleNumber
+      ArticleIndex
+      ArticleInfo
+      ArticleFamily
+      CustomerNumber
+      HardwareVersion
+      SoftwareVersion
+      Q
+      Picture
+      ValidFrom
+      ValidTo
+      LaserTemplateName
+      MaskFile
+      MaskName
+    -->
+    <ArticlePropertyMapping articleProperty="ArticleNumber">
+      <SimpleMapping columnName="LK_ArticleNumber"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="ArticleIndex">
+      <SimpleMapping columnName="LK_ArticleIndex"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="ArticleName">
+      <SimpleMapping columnName="LK_ArticleName"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="ArticleInfo">
+      <SimpleMapping columnName ="Product_Family"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="CustomerNumber">
+      <SimpleMapping columnName="Customer_Number"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="HardwareVersion">
+      <SimpleMapping columnName="Hardware_Version"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="SoftwareVersion">
+      <SimpleMapping columnName="Software_Version"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty="ArticleFamily">
+      <SimpleMapping columnName="LK_ArticleInfo"/>
+    </ArticlePropertyMapping>
+    <!--<ArticlePropertyMapping articleProperty="MaskFile">
+      <SimpleMapping columnName="Print_File_Name"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty="MaskName">
+      <SimpleMapping columnName="Print_Mask_Name"/>
+    </ArticlePropertyMapping>-->
+  </Mappings>
+  
+  <AdditionalGlobalParameter>
+    <ArticleParameter name ="ValidFrom">2014.12.12</ArticleParameter>
+    <ArticleParameter name ="ValidTo">2099.12.12</ArticleParameter>
+
+  </AdditionalGlobalParameter>
+  
+  <!--<ConditionalParameter>
+    <ConditionalArticleParameter parameterName="ArticleFamily">
+      <Assignment value="SVSRH">
+        <Condition>
+          <ColumnName>T_SIDE_RIGHT</ColumnName>  
+          <MatchValue>X</MatchValue>
+        </Condition>
+      </Assignment>
+      <Assignment value="SVSLH">
+        <Condition>
+          <ColumnName>T_SIDE_LEFT</ColumnName>  
+          <MatchValue>X</MatchValue>
+        </Condition>
+      </Assignment>
+    </ConditionalArticleParameter>
+  </ConditionalParameter>--> 
+
+</CsvProviderParmetrisation>
+
+

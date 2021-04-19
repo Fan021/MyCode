@@ -1,0 +1,116 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:kostalUi="clr-namespace:Kostal.Las.UserInterface"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    mc:Ignorable="d">
+
+    <!--<DataTemplate DataType="{x:Type kostalUi:StartupViewModel}">
+        <kostalUi:StartupView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:LogOnViewModel}">
+        <kostalUi:LoginView />
+    </DataTemplate>-->
+
+
+    <!--
+    <DataTemplate DataType="{x:Type KostalUI:RunningWindowViewModel}">
+        <kostalUi:RunningView />
+    </DataTemplate>-->
+
+    <!--<DataTemplate DataType="{x:Type kostalUi:ApplicationStateModel}">
+        <kostalUi:ApplicationStateView />
+    </DataTemplate>-->
+
+    <!--<DataTemplate DataType="{x:Type kostalUi:UserStateModel}">
+        <kostalUi:UserStateView />
+    </DataTemplate>-->
+
+
+
+    <!--<DataTemplate DataType="{x:Type kostalUi:SingleSystemSingleStationModel}">
+        <kostalUi:SingleSystemSingleStationView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:SingleSystemMultiStationsModel}">
+        <kostalUi:SingleSystemMultiStationsView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:MultiSystemsSingleStationModel}">
+        <kostalUi:SingleSystemMultiStationsView />
+    </DataTemplate>
+    
+    <DataTemplate DataType="{x:Type kostalUi:MultiSystemsMultiStationsModel}">
+        <kostalUi:SingleSystemMultiStationsView />
+    </DataTemplate>-->
+
+    <!--<DataTemplate DataType="{x:Type kostalUi:StationSelectorModel}">
+        <kostalUi:StationSelectorControl />
+    </DataTemplate>-->
+
+    <!--<DataTemplate DataType="{x:Type kostalUi:SimpleModel}">
+        <kostalUi:SimpleView />
+    </DataTemplate>-->
+
+    <DataTemplate DataType="{x:Type kostalUi:PromptsModel}">
+        <kostalUi:PromptsView />
+    </DataTemplate>
+
+    <!--<DataTemplate DataType="{x:Type kostalUi:AlarmsModel}">
+        <kostalUi:AlarmsView />
+    </DataTemplate>-->
+
+    <!--<DataTemplate DataType="{x:Type kostalUi:JobsModel}">
+        <kostalUi:JobsView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:LogsModel}">
+        <kostalUi:LogsView />
+    </DataTemplate>-->
+
+    <DataTemplate DataType="{x:Type kostalUi:NoPromptModel}">
+        <kostalUi:NoPromptControl />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:SinglePromptModel}">
+        <kostalUi:SinglePromptControl />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:AlarmPromptModel}">
+        <kostalUi:AlarmPromptControl />
+    </DataTemplate>
+
+    <!--<DataTemplate DataType="{x:Type kostalUi:StatusBarAreaViewModel}">
+        <kostalUi:StatusBarAreaView />
+    </DataTemplate>-->
+
+    <!--<DataTemplate DataType="{x:Type kostalUi:ArticleSelectorViewModel}">
+        <kostalUi:ArticleSelectorView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:MultiStationsGridModel}">
+        <kostalUi:MultiStationsGridView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:StationModel}">
+        <kostalUi:StationDetailView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:StationDetailsModel}">
+        <kostalUi:StationDetailsControl />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:StationListModel}">
+        <kostalUi:StationListControl />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:StationGridModel}">
+        <kostalUi:ExecutionStatusGridView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type kostalUi:UserInterfaceControllerViewModel}">
+        <kostalUi:GuiControllerView />
+    </DataTemplate>-->
+
+</ResourceDictionary>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kostal.Library.CorporateIdentity
+</name>
+</assembly>
+<members>
+<member name="T:Kostal.Library.CorporateIdentity.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:Kostal.Library.CorporateIdentity.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:Kostal.Library.CorporateIdentity.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="T:Kostal.Library.CorporateIdentity.Colors">
+ <summary>
+ Standardized Kostal colors as <see cref="T:System.Drawing.Color"/>.
+ </summary>
+</member>
+<member name="T:Kostal.Library.CorporateIdentity.ColorRGB">
+ <summary>
+ Defines some Integer constants for standardized Kostal colors, using the RGB color format.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Library.CorporateIdentity.Fonts">
+ <summary>
+ Standardized Kostal fonts as <see cref="T:System.Drawing.Font"/>.
+ </summary>
+</member>
+<member name="P:Kostal.Library.CorporateIdentity.Fonts.HeadingBig">
+ <summary>
+ Default font for big headlines.
+ </summary>
+ <value>This property gets the standardized Kostal default font for big headlines.</value>
+ <returns>The standardized Kostal default font for big headlines as <see cref="T:System.Drawing.Font"/>.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Library.CorporateIdentity.Fonts.HeadingMiddle">
+ <summary>
+ Default font for regular headlines.
+ </summary>
+ <value>This property gets the standardized Kostal default font for regular headlines.</value>
+ <returns>The standardized Kostal default font for regular headlines as <see cref="T:System.Drawing.Font"/>.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Library.CorporateIdentity.Fonts.HeadingSmall">
+ <summary>
+ Default font for small headlines.
+ </summary>
+ <value>This property gets the standardized Kostal default font for small headlines.</value>
+ <returns>The standardized Kostal default font for small headlines as <see cref="T:System.Drawing.Font"/>.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Library.CorporateIdentity.Fonts.Text">
+ <summary>
+ Default font for text.
+ </summary>
+ <value>This property gets the standardized Kostal default font for text.</value>
+ <returns>The standardized Kostal default font for text as <see cref="T:System.Drawing.Font"/>.</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Library.CorporateIdentity.Graphics">
+ <summary>
+ This class defines common company images of Kostal.
+ </summary>
+</member>
+<member name="P:Kostal.Library.CorporateIdentity.Graphics.KostalLogo">
+ <summary>
+ The default Kostal Logo, which is an image with white background and the text "Kostal" in blue.
+ </summary>
+ <value>This property gets the default Kostal logo.</value>
+ <returns>The default Kostal logo <see cref="T:System.Drawing.Image"/>.</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Library.CorporateIdentity.Media.Colors">
+ <summary>
+ Kostal Colors as <see cref="T:System.Windows.Media.Color"/>.
+ </summary>
+</member>
+</members>
+</doc>

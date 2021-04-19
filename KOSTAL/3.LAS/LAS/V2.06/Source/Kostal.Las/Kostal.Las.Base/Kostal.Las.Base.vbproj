@@ -1,0 +1,1049 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{278DEECE-6BA2-4470-BFA5-9587DCC5AB19}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Kostal.Las.Base</RootNamespace>
+    <AssemblyName>Kostal.Las.Base</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\Assembly\Lib\</OutputPath>
+    <DocumentationFile>Kostal.Las.Base.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Assembly\Lib\</OutputPath>
+    <DocumentationFile>Kostal.Las.Base.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Publish|AnyCPU' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\Assembly\Lib\</OutputPath>
+    <DocumentationFile>Kostal.Las.Base.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EOLPackman, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assembly\Lib\EOLPackman.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ForcamClient, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assembly\Lib\ForcamClient.dll</HintPath>
+    </Reference>
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Publish\IrisSkin2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LaserEzd">
+      <HintPath>..\..\..\Assembly\Lib\Ezd\LaserEzd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.1.2.2, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>bin\Publish\MySql.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TwinCAT.Ads, Version=4.2.165.0, Culture=neutral, PublicKeyToken=180016cd49e5e8c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assembly\Lib\TwinCAT.Ads.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Article\Article.vb" />
+    <Compile Include="Article\ArticleComponets.vb" />
+    <Compile Include="Article\ArticleReader.vb" />
+    <Compile Include="Article\CsvInterface.vb" />
+    <Compile Include="Article\KostalArticleKeys.vb" />
+    <Compile Include="Article\Schedule.vb" />
+    <Compile Include="Article\ScheduleReader.vb" />
+    <Compile Include="Common\BarCode.vb" />
+    <Compile Include="Common\BaseDefine.vb" />
+    <Compile Include="Common\clsErrorCodeManager.vb" />
+    <Compile Include="Common\clsIniHandler.vb" />
+    <Compile Include="DesignBase\BaseDefine.vb" />
+    <Compile Include="DesignBase\clsChangeSizeCfg.vb" />
+    <Compile Include="DesignBase\clsCsvHandler.vb" />
+    <Compile Include="DesignBase\clsCylinderManager.vb" />
+    <Compile Include="DesignBase\clsDataGridViewPage.vb" />
+    <Compile Include="DesignBase\clsDebugButtonManager.vb" />
+    <Compile Include="DesignBase\clsIOLockManager.vb" />
+    <Compile Include="DesignBase\clsIOManager.vb" />
+    <Compile Include="DesignBase\clsMachineGlobalParameter.vb" />
+    <Compile Include="DesignBase\clsPLCMessageManager.vb" />
+    <Compile Include="DesignBase\clsProductionManager.vb" />
+    <Compile Include="DesignBase\clsTips.vb" />
+    <Compile Include="DesignBase\clsUserManager.vb" />
+    <Compile Include="DesignBase\KostalLasColors.vb" />
+    <Compile Include="DesignBase\LasViewEventArgs.vb" />
+    <Compile Include="DesignBase\OverviewInformation.vb" />
+    <Compile Include="DesignBase\StationInformation.vb" />
+    <Compile Include="DesignForms\ArticleSelectView.Designer.vb">
+      <DependentUpon>ArticleSelectView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ArticleSelectView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenCylinderForm.Designer.vb">
+      <DependentUpon>ChildrenCylinderForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenCylinderForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenErrorCodeListForm.designer.vb">
+      <DependentUpon>ChildrenErrorCodeListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenErrorCodeListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenIOForm.Designer.vb">
+      <DependentUpon>ChildrenIOForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenIOForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenLoginForm.Designer.vb">
+      <DependentUpon>ChildrenLoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenLoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenParameterForm.Designer.vb">
+      <DependentUpon>ChildrenParameterForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenParameterForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenPlcMessageListForm.designer.vb">
+      <DependentUpon>ChildrenPlcMessageListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenPlcMessageListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenShortCutForm.Designer.vb">
+      <DependentUpon>ChildrenShortCutForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenShortCutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenUserForm.designer.vb">
+      <DependentUpon>ChildrenUserForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ChildrenUserForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\CylinderGroupParameter.designer.vb">
+      <DependentUpon>CylinderGroupParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\CylinderGroupParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\CylinderParameter.designer.vb">
+      <DependentUpon>CylinderParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\CylinderParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\Debug.Designer.vb">
+      <DependentUpon>Debug.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\Debug.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\IOGroupParameter.designer.vb">
+      <DependentUpon>IOGroupParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\IOGroupParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\IOLock.designer.vb">
+      <DependentUpon>IOLock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\IOLock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\IOParameter.designer.vb">
+      <DependentUpon>IOParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\IOParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\LanguageSelectView.Designer.vb">
+      <DependentUpon>LanguageSelectView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\LanguageSelectView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\OverallView.Designer.vb">
+      <DependentUpon>OverallView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\OverallView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\OverviewInfoForm.Designer.vb">
+      <DependentUpon>OverviewInfoForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\OverviewInfoForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ProductionDataView.Designer.vb">
+      <DependentUpon>ProductionDataView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ProductionDataView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ScheduleSelectView.Designer.vb">
+      <DependentUpon>ScheduleSelectView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ScheduleSelectView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ScheduleViewForm.Designer.vb">
+      <DependentUpon>ScheduleViewForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ScheduleViewForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ShowMaintenance.Designer.vb">
+      <DependentUpon>ShowMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ShowMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\StationView.Designer.vb">
+      <DependentUpon>StationView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\StationView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\SystemLog.Designer.vb">
+      <DependentUpon>SystemLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\SystemLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\WtStatusView.Designer.vb">
+      <DependentUpon>WtStatusView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\WtStatusView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Device\CaqInterface.vb" />
+    <Compile Include="Common\CheckSN.vb" />
+    <Compile Include="Common\clsFormFontResize.vb" />
+    <Compile Include="Common\clsMaintenance.vb" />
+    <Compile Include="Common\clsParameterCfg.vb" />
+    <Compile Include="Common\FileHandler.vb" />
+    <Compile Include="Common\FormControls.vb" />
+    <Compile Include="Common\IMainForm.vb" />
+    <Compile Include="Common\Language.vb" />
+    <Compile Include="Common\Logger.vb" />
+    <Compile Include="Common\Member.vb" />
+    <Compile Include="Common\Messager.vb" />
+    <Compile Include="Common\ModeConstants.vb" />
+    <Compile Include="Common\NotifyingObject.vb" />
+    <Compile Include="Common\References.vb" />
+    <Compile Include="Common\ReTest.vb" />
+    <Compile Include="Common\Shift.vb" />
+    <Compile Include="Common\ShiftCounter.vb" />
+    <Compile Include="Common\TimeDelay.vb" />
+    <Compile Include="Common\XmlHandler.vb" />
+    <Compile Include="ControlStation\MessageManager.vb" />
+    <Compile Include="ControlStation\ScheduleManager.vb" />
+    <Compile Include="Counter\CounterAppearance.vb" />
+    <Compile Include="Counter\CounterController.vb" />
+    <Compile Include="Counter\CounterEntity.vb" />
+    <Compile Include="Counter\CounterState.vb" />
+    <Compile Include="Counter\ICounterController.vb" />
+    <Compile Include="Counter\ISingleCounter.vb" />
+    <Compile Include="Counter\SingleCounter.vb" />
+    <Compile Include="Device\AlltecFoba_Laser.vb" />
+    <Compile Include="Device\DataLogic.vb" />
+    <Compile Include="Device\DeviceComponents.vb" />
+    <Compile Include="Device\Epson_TM_T88V.vb" />
+    <Compile Include="Device\EzdLaser.vb" />
+    <Compile Include="Device\FlashRunner.vb" />
+    <Compile Include="Device\Forcam.vb" />
+    <Compile Include="Device\Keyence_Scanner.vb" />
+    <Compile Include="Device\LineControl.vb" />
+    <Compile Include="Device\MES.vb" />
+    <Compile Include="Device\ProductionInterface.vb" />
+    <Compile Include="Device\PSD_IT_4820.vb" />
+    <Compile Include="Device\BaseInterface.vb" />
+    <Compile Include="Device\Sympol.vb" />
+    <Compile Include="Device\TwincatAds.vb" />
+    <Compile Include="Device\Zebra_Printer.vb" />
+    <Compile Include="DesignForms\AboutBox.Designer.vb">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\AboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\CountersView.Designer.vb">
+      <DependentUpon>CountersView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\CountersView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\ExceptionMsg.Designer.vb">
+      <DependentUpon>ExceptionMsg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\ExceptionMsg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\LoadScreen.Designer.vb">
+      <DependentUpon>LoadScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\LoadScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\Maintenance.Designer.vb">
+      <DependentUpon>Maintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\Maintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\PassWordForm.Designer.vb">
+      <DependentUpon>PassWordForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\PassWordForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\Pic.Designer.vb">
+      <DependentUpon>Pic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\Pic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesignForms\RowMergeView.Designer.vb">
+      <DependentUpon>RowMergeView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\RowMergeView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DesignForms\WtStatusForm.designer.vb">
+      <DependentUpon>WtStatusForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DesignForms\WtStatusForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Common\NetConnect.vb" />
+    <Compile Include="Common\ProcessControl.vb" />
+    <Compile Include="Common\Setting.vb" />
+    <Compile Include="Common\Station.vb" />
+    <Compile Include="Common\StringFactory.vb" />
+    <Compile Include="Common\WT.vb" />
+    <Compile Include="Resource1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\SubStation\ArticleStation.vb" />
+    <Compile Include="SubStation\SubStation\CaqStation.vb" />
+    <Compile Include="SubStation\SubStation\CounterStation.vb" />
+    <Compile Include="SubStation\SubStation\PackmanStation.vb" />
+    <Compile Include="SubStation\SubStation\FailPrinterStation.vb" />
+    <Compile Include="SubStation\SubStation\FlashStation.vb" />
+    <Compile Include="SubStation\SubStation\ForcamStation.vb" />
+    <Compile Include="SubStation\SubStation\LaserStation.vb" />
+    <Compile Include="SubStation\SubStation\MesStation.vb" />
+    <Compile Include="SubStation\SubStation\UserDefineLineControlStation.vb" />
+    <Compile Include="SubStation\SubStation\LineControlStation.vb" />
+    <Compile Include="SubStation\SubStation\ManualReTestStation.vb" />
+    <Compile Include="SubStation\SubStation\ManualScannerStation.vb" />
+    <Compile Include="SubStation\SubStation\ManualStation.vb" />
+    <Compile Include="SubStation\SubStation\MulitPrinter.vb" />
+    <Compile Include="SubStation\SubStation\NewPartStation.vb" />
+    <Compile Include="SubStation\SubStation\PLCAlarmStation.vb" />
+    <Compile Include="SubStation\SubStation\PrinterStation.vb" />
+    <Compile Include="SubStation\SubStation\ReferenceStation.vb" />
+    <Compile Include="SubStation\SubStation\ReTestStation.vb" />
+    <Compile Include="SubStation\SubStation\SaveProductionStation.vb" />
+    <Compile Include="SubStation\SubStation\ScannerStation.vb" />
+    <Compile Include="SubStation\SubStation\ScheduleStation.vb" />
+    <Compile Include="SubStation\SubStation\ShowPicStation.vb" />
+    <Compile Include="SubStation\SubStation\SNStation.vb" />
+    <Compile Include="SubStation\SubStation\StationComponents.vb" />
+    <Compile Include="SubStation\SubStation\UpdateReferenceStation.vb" />
+    <Compile Include="SubStation\SubStation\UserDefineStation.vb" />
+    <Compile Include="SubStation\UI\Article.Designer.vb">
+      <DependentUpon>Article.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\Article.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\CAQUI.Designer.vb">
+      <DependentUpon>CAQUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\CAQUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\FlashUI.Designer.vb">
+      <DependentUpon>FlashUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\FlashUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\ForcamUI.designer.vb">
+      <DependentUpon>ForcamUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\ForcamUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\LaserUI.Designer.vb">
+      <DependentUpon>LaserUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\LaserUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\MesUI.Designer.vb">
+      <DependentUpon>MesUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\MesUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\MulitPrinterUI.designer.vb">
+      <DependentUpon>MulitPrinterUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\MulitPrinterUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\PLCAlarmUI.Designer.vb">
+      <DependentUpon>PLCAlarmUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\PLCAlarmUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\SaveProduction.Designer.vb">
+      <DependentUpon>SaveProduction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\SaveProduction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\ManualReTest.Designer.vb">
+      <DependentUpon>ManualReTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\ManualReTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\Counter.Designer.vb">
+      <DependentUpon>Counter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\Counter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\FailPrinter.Designer.vb">
+      <DependentUpon>FailPrinter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\FailPrinter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\LineControl.Designer.vb">
+      <DependentUpon>LineControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\LineControl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\Manual.Designer.vb">
+      <DependentUpon>Manual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\Manual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\ManualScanner.Designer.vb">
+      <DependentUpon>ManualScanner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\ManualScanner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\NewPart.Designer.vb">
+      <DependentUpon>NewPart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\NewPart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\Printer.Designer.vb">
+      <DependentUpon>Printer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\Printer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\References.Designer.vb">
+      <DependentUpon>References.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\References.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\ReTest.Designer.vb">
+      <DependentUpon>ReTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\ReTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\Scanner.Designer.vb">
+      <DependentUpon>Scanner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\Scanner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\ScheduleUI.designer.vb">
+      <DependentUpon>ScheduleUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\ScheduleUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\ShowPic.Designer.vb">
+      <DependentUpon>ShowPic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\ShowPic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\SN.Designer.vb">
+      <DependentUpon>SN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\SN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubStation\UI\PackmanUI.vb" />
+    <Compile Include="SubStation\UI\UpdateRefrence.Designer.vb">
+      <DependentUpon>UpdateRefrence.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubStation\UI\UpdateRefrence.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\ComboBoxEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\CylinderIO.Designer.vb">
+      <DependentUpon>CylinderIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\CylinderIO.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIButton.Designer.vb">
+      <DependentUpon>HMIButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIComboBox.designer.vb">
+      <DependentUpon>HMIComboBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIComboBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIDataView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIDataViewPage.Designer.vb">
+      <DependentUpon>HMIDataViewPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIDataViewPage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIDateTime.Designer.vb">
+      <DependentUpon>HMIDateTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIDateTime.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMIDateTimePick.Designer.vb">
+      <DependentUpon>HMIDateTimePick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMIDateTimePick.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMILabel.Designer.vb">
+      <DependentUpon>HMILabel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMILabel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMITabControl.Designer.vb">
+      <DependentUpon>HMITabControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMITabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMITableLayoutPanel.Designer.vb">
+      <DependentUpon>HMITableLayoutPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMITableLayoutPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\HMITextBox.designer.vb">
+      <DependentUpon>HMITextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\HMITextBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\InputIO.Designer.vb">
+      <DependentUpon>InputIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\InputIO.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\IOInputControl.designer.vb">
+      <DependentUpon>IOInputControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\IOInputControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\KeyPad.Designer.vb">
+      <DependentUpon>KeyPad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\KeyPad.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\MachineListView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl\OutputIO.Designer.vb">
+      <DependentUpon>OutputIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\OutputIO.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\TextBoxEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DesignForms\ArticleSelectView.resx">
+      <DependentUpon>ArticleSelectView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ChildrenCylinderForm.resx">
+      <DependentUpon>ChildrenCylinderForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ChildrenErrorCodeListForm.resx">
+      <DependentUpon>ChildrenErrorCodeListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ChildrenIOForm.resx">
+      <DependentUpon>ChildrenIOForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ChildrenLoginForm.resx">
+      <DependentUpon>ChildrenLoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ChildrenParameterForm.resx">
+      <DependentUpon>ChildrenParameterForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ChildrenPlcMessageListForm.resx">
+      <DependentUpon>ChildrenPlcMessageListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ChildrenShortCutForm.resx">
+      <DependentUpon>ChildrenShortCutForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ChildrenUserForm.resx">
+      <DependentUpon>ChildrenUserForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\CylinderGroupParameter.resx">
+      <DependentUpon>CylinderGroupParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\CylinderParameter.resx">
+      <DependentUpon>CylinderParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\Debug.resx">
+      <DependentUpon>Debug.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\IOGroupParameter.resx">
+      <DependentUpon>IOGroupParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\IOLock.resx">
+      <DependentUpon>IOLock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\IOParameter.resx">
+      <DependentUpon>IOParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\LanguageSelectView.resx">
+      <DependentUpon>LanguageSelectView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\OverallView.resx">
+      <DependentUpon>OverallView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\OverviewInfoForm.resx">
+      <DependentUpon>OverviewInfoForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ProductionDataView.resx">
+      <DependentUpon>ProductionDataView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ScheduleSelectView.resx">
+      <DependentUpon>ScheduleSelectView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ScheduleViewForm.resx">
+      <DependentUpon>ScheduleViewForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ShowMaintenance.resx">
+      <DependentUpon>ShowMaintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\StationView.resx">
+      <DependentUpon>StationView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\SystemLog.resx">
+      <DependentUpon>SystemLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\WtStatusView.resx">
+      <DependentUpon>WtStatusView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\AboutBox.resx">
+      <DependentUpon>AboutBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\CountersView.resx">
+      <DependentUpon>CountersView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\ExceptionMsg.resx">
+      <DependentUpon>ExceptionMsg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\LoadScreen.resx">
+      <DependentUpon>LoadScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\Maintenance.resx">
+      <DependentUpon>Maintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\PassWordForm.resx">
+      <DependentUpon>PassWordForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\Pic.resx">
+      <DependentUpon>Pic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\RowMergeView.resx">
+      <DependentUpon>RowMergeView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesignForms\WtStatusForm.resx">
+      <DependentUpon>WtStatusForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\Article.resx">
+      <DependentUpon>Article.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\CAQUI.resx">
+      <DependentUpon>CAQUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\FlashUI.resx">
+      <DependentUpon>FlashUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\ForcamUI.resx">
+      <DependentUpon>ForcamUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\LaserUI.resx">
+      <DependentUpon>LaserUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\ManualReTest.resx">
+      <DependentUpon>ManualReTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\Counter.resx">
+      <DependentUpon>Counter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\FailPrinter.resx">
+      <DependentUpon>FailPrinter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\LineControl.resx">
+      <DependentUpon>LineControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\Manual.resx">
+      <DependentUpon>Manual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\ManualScanner.resx">
+      <DependentUpon>ManualScanner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\MESUI.resx">
+      <DependentUpon>MesUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\MulitPrinterUI.resx">
+      <DependentUpon>MulitPrinterUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\NewPart.resx">
+      <DependentUpon>NewPart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\PLCAlarmUI.resx">
+      <DependentUpon>PLCAlarmUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\Printer.resx">
+      <DependentUpon>Printer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\References.resx">
+      <DependentUpon>References.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\ReTest.resx">
+      <DependentUpon>ReTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\SaveProduction.resx">
+      <DependentUpon>SaveProduction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\Scanner.resx">
+      <DependentUpon>Scanner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\ScheduleUI.resx">
+      <DependentUpon>ScheduleUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\ShowPic.resx">
+      <DependentUpon>ShowPic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\SN.resx">
+      <DependentUpon>SN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubStation\UI\UpdateRefrence.resx">
+      <DependentUpon>UpdateRefrence.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\CylinderIO.resx">
+      <DependentUpon>CylinderIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMIButton.resx">
+      <DependentUpon>HMIButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMIComboBox.resx">
+      <DependentUpon>HMIComboBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMIDataViewPage.resx">
+      <DependentUpon>HMIDataViewPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMIDateTime.resx">
+      <DependentUpon>HMIDateTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMIDateTimePick.resx">
+      <DependentUpon>HMIDateTimePick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMILabel.resx">
+      <DependentUpon>HMILabel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\HMITextBox.resx">
+      <DependentUpon>HMITextBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\InputIO.resx">
+      <DependentUpon>InputIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\IOInputControl.resx">
+      <DependentUpon>IOInputControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\KeyPad.resx">
+      <DependentUpon>KeyPad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\OutputIO.resx">
+      <DependentUpon>OutputIO.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="CAQ">
+      <Guid>{79E7BB89-E835-11D3-A8EB-080009FBD2FB}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Linecontroller">
+      <Guid>{0BB4E32A-3A7D-4A55-BDD1-15351D4D3422}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="prjSerialNoGenerator">
+      <Guid>{E86808B9-8ADC-45D2-95FC-5F46B72175A5}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SysCSV">
+      <Guid>{57E2BD65-944B-47CC-A5CE-30F438F0D2DC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ArrowDowbLastDisable.bmp" />
+    <Content Include="Resources\ArrowDown.bmp" />
+    <Content Include="Resources\ArrowDownDisable.bmp" />
+    <Content Include="Resources\ArrowDownLast.bmp" />
+    <Content Include="Resources\ArrowUp.bmp" />
+    <Content Include="Resources\ArrowUpDisable.bmp" />
+    <Content Include="Resources\ArrowUpFirst.bmp" />
+    <Content Include="Resources\ArrowUpFirstDisable.bmp" />
+    <Content Include="Resources\automatic controller.png" />
+    <Content Include="Resources\datePicker.gif" />
+    <Content Include="Resources\Go.bmp" />
+    <Content Include="Resources\GoDisable.bmp" />
+    <Content Include="Resources\Kostal.png" />
+    <Content Include="Resources\Kostalpng.png" />
+    <Content Include="Resources\ng.jpg" />
+    <Content Include="Resources\off.jpg" />
+    <Content Include="Resources\overview_4sts.png" />
+    <Content Include="Resources\overview_flat.png" />
+    <Content Include="Resources\untitled.png" />
+    <None Include="Resources\timg3123D70D.jpg" />
+    <None Include="Resources\System.jpg" />
+    <None Include="Resources\Station.png" />
+    <None Include="Resources\QR_Kostal.png" />
+    <None Include="Resources\people.ico" />
+    <None Include="Resources\overview.png" />
+    <None Include="Resources\on_ok.jpg" />
+    <None Include="Resources\LAS.ico" />
+    <None Include="Resources\LAC.jpg" />
+    <None Include="Resources\Kostal.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\automation controller.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_screen_145px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1522378399750.png" />
+    <None Include="Resources\Add.bmp" />
+    <None Include="Resources\ATCT.png" />
+    <None Include="Resources\Del.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kostal.Las.ArticleProvider\Kostal.Las.ArticleProvider.vbproj">
+      <Project>{1f2eadf6-a62f-408d-89a0-761c5399ed30}</Project>
+      <Name>Kostal.Las.ArticleProvider</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

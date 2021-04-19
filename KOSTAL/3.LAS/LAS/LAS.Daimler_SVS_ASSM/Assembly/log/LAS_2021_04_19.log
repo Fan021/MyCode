@@ -1,0 +1,119 @@
+Help application does not exist
+2021.04.19;09:54:55;Main;Init;**************************************************************************************
+2021.04.19;09:54:55;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.19;09:54:55;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.19;09:54:55;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.19;09:54:55;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.19;09:54:55;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.19;09:54:56;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.19;09:54:56;Main;Language.Init;Language Initial Successful
+2021.04.19;09:54:56;Main;Article.Init;Article Initial Successful
+2021.04.19;09:54:56;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.19;09:54:56;MainForm_Bosh;MainForm;Init Run
+2021.04.19;09:54:56;;WtStatusForm.Init;Initial Successful
+2021.04.19;09:54:56;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.19;09:54:56;MainForm_Bosh;InitCurrentArticle :10524109-0001;Successful
+2021.04.19;09:54:56;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.19;09:54:57;Article40;Article.Init;Article Initial Successful
+2021.04.19;09:54:57;SR751_04;Article.Init;Article Initial Successful
+2021.04.19;09:54:58;QGW03;Article.Init;Article Initial Successful
+2021.04.19;09:54:58;QGW04;Article.Init;Article Initial Successful
+2021.04.19;09:54:59;SR1000_01;Article.Init;Article Initial Successful
+2021.04.19;09:54:59;QGWMB01;Article.Init;Article Initial Successful
+2021.04.19;09:54:59;Flash;Article.Init;Article Initial Successful
+2021.04.19;09:55:00;Main;Start TwinCat;PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.19;09:55:00;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.19;09:55:04;MainForm_Bosh;Exit;sucessfull
+2021.04.19;09:55:04;Article40;Article.Init;Dispose Succeeded
+2021.04.19;09:55:04;SR751_04;Article.Init;Dispose Succeeded
+2021.04.19;09:55:04;QGW03;Article.Init;Dispose Succeeded
+2021.04.19;09:55:04;QGW04;Article.Init;Dispose Succeeded
+2021.04.19;09:55:04;SR1000_01;Article.Init;Dispose Succeeded
+2021.04.19;09:55:04;QGWMB01;Article.Init;Dispose Succeeded
+2021.04.19;09:55:04;Flash;Article.Init;Dispose Succeeded
+2021.04.19;09:55:04;Main;Exit;System Stop
+2021.04.19;09:55:04;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.19;09:57:19;Main;Init;**************************************************************************************
+2021.04.19;09:57:19;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.19;09:57:19;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.19;09:57:19;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.19;09:57:19;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.19;09:57:19;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.19;09:57:20;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.19;09:57:20;Main;Language.Init;Language Initial Successful
+2021.04.19;09:57:20;Main;Article.Init;Article Initial Successful
+2021.04.19;09:57:20;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.19;09:57:20;MainForm_Bosh;MainForm;Init Run
+2021.04.19;09:57:20;;WtStatusForm.Init;Initial Successful
+2021.04.19;09:57:20;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.19;09:57:20;MainForm_Bosh;InitCurrentArticle :10524109-0001;Successful
+2021.04.19;09:57:20;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.19;09:57:21;Article40;Article.Init;Article Initial Successful
+2021.04.19;09:57:21;SR751_04;Article.Init;Article Initial Successful
+2021.04.19;09:57:22;QGW03;Article.Init;Article Initial Successful
+2021.04.19;09:57:22;QGW04;Article.Init;Article Initial Successful
+2021.04.19;09:57:23;SR1000_01;Article.Init;Article Initial Successful
+2021.04.19;09:57:23;QGWMB01;Article.Init;Article Initial Successful
+2021.04.19;09:57:23;Flash;Article.Init;Article Initial Successful
+2021.04.19;09:57:23;Main;Start TwinCat;Initial Successful
+2021.04.19;09:57:29;Article40;Step -100;Station Initial
+2021.04.19;09:57:29;SR751_04;Step -100;Station Initial
+2021.04.19;09:57:29;QGW03;Step -100;Station Initial
+2021.04.19;09:57:29;QGW04;Step -100;Station Initial
+2021.04.19;09:57:29;SR1000_01;Step -100;Station Initial
+2021.04.19;09:57:29;QGWMB01;Step -100;Station Initial
+2021.04.19;09:57:29;Flash;Step -100;Station Initial
+2021.04.19;09:57:29;Article40;Step -99;Waiting for Select Article
+2021.04.19;09:57:29;SR751_04;Step -99;Check Scanner Configuration
+2021.04.19;09:57:29;QGW03;Step -99;LineControl.Initial
+2021.04.19;09:57:30;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.19;09:57:30;QGW04;Step -99;LineControl.Initial
+2021.04.19;09:57:31;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.19;09:57:31;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.19;09:57:31;QGWMB01;Step -99;LineControl.Initial
+2021.04.19;09:57:31;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.19;09:57:31;Flash;Step -99;Flash.Initial
+2021.04.19;09:57:31;Flash;Flash.Init;Flash Initial Disable
+2021.04.19;09:57:32;Article40;Step -98;Update Column
+2021.04.19;09:57:32;SR751_04;Step -98;Scanner.Initial
+2021.04.19;09:57:32;SR751_04;Scanner.Init;Scanner Initial Disable
+2021.04.19;09:57:32;QGW03;Step -98;Initial Succeeded
+2021.04.19;09:57:32;QGW04;Step -98;Initial Succeeded
+2021.04.19;09:57:32;SR1000_01;Step -98;Scanner.Initial
+2021.04.19;09:57:32;SR1000_01;Scanner.Init;Scanner Initial Disable
+2021.04.19;09:57:32;QGWMB01;Step -98;Initial Succeeded
+2021.04.19;09:57:32;Article40;Step 0;Home Position
+2021.04.19;09:57:32;Article40;Step 0;Home Position. Wait For Trig
+2021.04.19;09:57:32;Article40;Step 0;Start Write Article
+2021.04.19;09:57:32;QGW03;Step -97;-97
+2021.04.19;09:57:32;QGW04;Step -97;-97
+2021.04.19;09:57:32;QGWMB01;Step -97;-97
+2021.04.19;09:57:32;Article40;Step 1;Waiting for Select Article
+2021.04.19;09:57:32;QGW03;Step 0;Home Position
+2021.04.19;09:57:32;QGW04;Step 0;Home Position
+2021.04.19;09:57:32;QGWMB01;Step 0;Home Position
+2021.04.19;09:57:32;Article40;Step 2;Change LocalArticle
+2021.04.19;09:57:32;Article40;Article.GetArticle_FromID;Initial Successful
+2021.04.19;09:57:32;Article40;Step 3;VariantInfoDefine.GetVariantInfo
+2021.04.19;09:57:32;Article40;Step 4;Waiting for PLC off WriteArticle signal
+2021.04.19;09:57:47;MainForm_Bosh;Exit;sucessfull
+2021.04.19;09:57:47;MainForm_Bosh;Exit;sucessfull
+2021.04.19;09:57:47;Article40;Step 4;Dispose Succeeded
+2021.04.19;09:57:47;SR751_04;Step -98;Dispose Succeeded
+2021.04.19;09:57:47;QGW03;Step 0;Dispose Succeeded
+2021.04.19;09:57:47;QGW04;Step 0;Dispose Succeeded
+2021.04.19;09:57:47;SR1000_01;Step -98;Dispose Succeeded
+2021.04.19;09:57:47;QGWMB01;Step 0;Dispose Succeeded
+2021.04.19;09:57:47;Flash;Step -99;Dispose Succeeded
+2021.04.19;09:57:47;Main;Exit;System Stop
+2021.04.19;09:57:47;Main;Exit;**************************************************************************************
+Help application does not exist

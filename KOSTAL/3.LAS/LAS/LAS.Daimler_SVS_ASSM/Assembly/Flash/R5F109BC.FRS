@@ -1,0 +1,129 @@
+;
+; FLASHRUNNER SCRIPT EXAMPLE FOR RENESAS R5F109BC
+;
+; Use this example as a starting point for your specific programming needs
+;
+; ----------
+;
+; Hardware connections
+;
+; UART 1 WIRE connection scheme
+;
+; DIO0 (Not used)
+; DIO1 (Not used)
+; DIO2 (TOOL0)
+; DIO3 (Not used)
+; DIO4 (Not used)
+; DIO5 (Not used)
+; DIO6 (RESET)
+; CLKOUT (Not used)
+;
+; UART 2 WIRES connection scheme
+;
+; DIO0 (TOOL0)
+; DIO1 (Not used)
+; DIO2 (TOOLTXD)
+; DIO3 (TOOLRXD)
+; DIO4 (Not used)
+; DIO5 (Not used)
+; DIO6 (RESET)
+; CLKOUT (Not used)
+;
+
+; Turns off logging
+#LOG_OFF
+; Halt on errors
+#HALT_ON FAIL
+
+; Sets device
+TCSETDEV RENESAS R5F109BC RNSS_F
+
+;------------------------
+;FLASHRUNNER I/O Settings
+;------------------------
+
+; Target voltage, mV (change as needed)
+TCSETPAR VDD 5000
+
+; Clock oscillator frequency driven by FlashRunner, Hz
+; Possible frequencies are: 25000000 divided by a 16-bit prescaler, 0 (DISABLED)
+TCSETPAR CLKOUT 0
+
+; VDD rise-time, ms (from 0 ms to 65535 ms)
+TCSETPAR PWUP 10
+
+; VDD fall-time, ms (from 0 ms to 65535 ms)
+TCSETPAR PWDOWN 10
+
+; RESET rise-time, us (from 0 us to 65535 us)
+TCSETPAR RSTUP 100
+
+; RESET fall-time, us (from 0 us to 65535 us)
+TCSETPAR RSTDOWN 100
+
+; RESET drive mode: OPENDRAIN or PUSHPULL
+TCSETPAR RSTDRV OPENDRAIN
+
+;--------------------
+;RNSS_F ALGO Settings
+;--------------------
+
+; Communication mode settings (UART1=UART 1 wire, UART2=UART 2 wire)
+TCSETPAR CMODE UART1
+
+; External clock source frequency, Hz (change as needed)
+; For this device the FOSC value is fixed to 32000000
+TCSETPAR FOSC 32000000
+
+; Baudrate settings, bps (change as needed)
+; For this device the possible values are 1000000, 500000, 250000 or 115200 bps.
+TCSETPAR BAUDRATE 1000000
+
+;---------------------------
+;Start Programming operation
+;---------------------------
+
+; Image file to be programmed (must be placed in the \BINARIES directory)
+TPSETSRC FILE SVS30.FRB
+
+; Starts programming block
+TPSTART
+
+;--------------
+;FLASH commands
+;--------------
+
+;-----------------
+;CODE FLASH MEMORY
+;-----------------
+
+; Mass erases Code Flash memory
+TPCMD MASSERASE C 
+
+; Blank checks Code Flash memory (change address and length as needed)
+TPCMD BLANKCHECK C $0 $8000
+
+; Programs Code Flash memory (change addresses and length as needed)
+TPCMD PROGRAM C $0 $0 $8000
+
+; Verifies Code Flash memory (change addresses and length as needed)
+TPCMD VERIFY C $0 $0 $8000
+
+;-----------------
+;DATA FLASH MEMORY
+;-----------------
+
+; Mass erases Data Flash memory
+;TPCMD MASSERASE D
+
+; Blank checks Data Flash memory (change address and length as needed)
+;TPCMD BLANKCHECK D $F1000 $1000
+
+; Programs Data Flash memory (change addresses and length as needed)
+;TPCMD PROGRAM D $0 $F1000 $1000
+
+; Verifies Data Flash memory (change addresses and length as needed)
+;TPCMD VERIFY D $0 $F1000 $1000
+
+; Ends programming block
+TPEND

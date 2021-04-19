@@ -1,0 +1,24 @@
+D:\program\MES\MES\bin\Debug\MES.dll
+D:\program\MES\MES\bin\Debug\MES.pdb
+D:\program\MES\MES\bin\Debug\MES.xml
+D:\program\MES\MES\obj\Debug\MES.Resources.resources
+D:\program\MES\MES\obj\Debug\MES.vbproj.GenerateResource.Cache
+D:\program\MES\MES\obj\Debug\MES.dll
+D:\program\MES\MES\obj\Debug\MES.xml
+D:\program\MES\MES\obj\Debug\MES.pdb
+D:\KProjects\MQB_DCU_MainControl - MES Wujinghui\MQB_DCU_MainControl\MQB_DCU_MainControl\Library\MES\MES\MES\obj\Debug\MES.Resources.resources
+D:\KProjects\MQB_DCU_MainControl - MES Wujinghui\MQB_DCU_MainControl\MQB_DCU_MainControl\Library\MES\MES\MES\obj\Debug\MES.vbproj.GenerateResource.Cache
+D:\KProjects\MQB_DCU_MainControl - MES Wujinghui\MQB_DCU_MainControl\MQB_DCU_MainControl\Library\MES\MES\MES\obj\Debug\MES.dll
+D:\KProjects\MQB_DCU_MainControl - MES Wujinghui\MQB_DCU_MainControl\MQB_DCU_MainControl\Library\MES\MES\MES\obj\Debug\MES.xml
+D:\KProjects\MQB_DCU_MainControl - MES Wujinghui\MQB_DCU_MainControl\MQB_DCU_MainControl\Library\MES\MES\MES\obj\Debug\MES.pdb
+D:\KProjects\MQB_DCU_MainControl - MES Wujinghui\MQB_DCU_MainControl\MQB_DCU_MainControl\Library\MES.dll
+D:\KProjects\MQB_DCU_MainControl - MES Wujinghui\MQB_DCU_MainControl\MQB_DCU_MainControl\Library\MES.pdb
+D:\KProjects\MQB_DCU_MainControl - MES Wujinghui\MQB_DCU_MainControl\MQB_DCU_MainControl\Library\MES.xml
+D:\KProjects\Redesign_DCU_MainControl - MES Wujinghui\Redesign_DCU_MainControl\T88_DCU_MainControl\Library\MES\MES\MES\obj\Debug\MES.Resources.resources
+D:\KProjects\Redesign_DCU_MainControl - MES Wujinghui\Redesign_DCU_MainControl\T88_DCU_MainControl\Library\MES\MES\MES\obj\Debug\MES.vbproj.GenerateResource.Cache
+D:\KProjects\Redesign_DCU_MainControl - MES Wujinghui\Redesign_DCU_MainControl\T88_DCU_MainControl\Library\MES\MES\MES\obj\Debug\MES.dll
+D:\KProjects\Redesign_DCU_MainControl - MES Wujinghui\Redesign_DCU_MainControl\T88_DCU_MainControl\Library\MES\MES\MES\obj\Debug\MES.xml
+D:\KProjects\Redesign_DCU_MainControl - MES Wujinghui\Redesign_DCU_MainControl\T88_DCU_MainControl\Library\MES\MES\MES\obj\Debug\MES.pdb
+D:\KProjects\Redesign_DCU_MainControl - MES Wujinghui\Redesign_DCU_MainControl\T88_DCU_MainControl\Library\MES.dll
+D:\KProjects\Redesign_DCU_MainControl - MES Wujinghui\Redesign_DCU_MainControl\T88_DCU_MainControl\Library\MES.pdb
+D:\KProjects\Redesign_DCU_MainControl - MES Wujinghui\Redesign_DCU_MainControl\T88_DCU_MainControl\Library\MES.xml

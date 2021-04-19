@@ -1,0 +1,182 @@
+﻿<UserControl x:Class="AlarmPromptControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:helpers="clr-namespace:Kostal.Las.UserInterface.Helpers"
+             xmlns:kostalUi="clr-namespace:Kostal.Las.UserInterface"
+             xmlns:localize="clr-namespace:Kostal.Windows.Presentation.Localize;assembly=Kostal.Windows.Presentation"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:presentation="clr-namespace:Kostal.Windows.Presentation;assembly=Kostal.Windows.Presentation"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             d:DesignHeight="95"
+             d:DesignWidth="800"
+             SnapsToDevicePixels="True"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <Brush x:Key="BrushBackGroundText">#FFA00000</Brush>
+        <Brush x:Key="BrushBackGroundAll">#FFE00000</Brush>
+    </UserControl.Resources>
+
+    <Border Background="{Binding ControlBackgroundColor, UpdateSourceTrigger=PropertyChanged, FallbackValue=Red, Converter={x:Static presentation:CoreConverter.ColorToSolidColorBrushValueConverter}}"
+            BorderBrush="{Binding ControlBackgroundColor, UpdateSourceTrigger=PropertyChanged, FallbackValue=Green, Converter={x:Static presentation:CoreConverter.ColorToSolidColorBrushValueConverter}}"
+            BorderThickness="5">
+        <Grid Background="{Binding ControlBackgroundColor, UpdateSourceTrigger=PropertyChanged, FallbackValue=DarkRed, Converter={x:Static presentation:CoreConverter.ColorToSolidColorBrushValueConverter}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="16" />
+                <RowDefinition Height="24" />
+                <RowDefinition Height="5" />
+                <RowDefinition Height="16" />
+                <RowDefinition Height="24" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="85" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="135" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.Resources>
+                <Style TargetType="{x:Type Grid}">
+                    <Setter Property="Background" Value="{Binding ElementsBackGroundColor, UpdateSourceTrigger=PropertyChanged, FallbackValue=LightGray, Converter={x:Static presentation:CoreConverter.ColorToSolidColorBrushValueConverter}}" />
+                </Style>
+            </Grid.Resources>
+            <Grid Grid.Row="0"
+                  Grid.RowSpan="5"
+                  Grid.Column="0">
+                <Grid.Resources>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="HorizontalAlignment" Value="Center" />
+                        <Setter Property="VerticalAlignment" Value="Center" />
+                        <Setter Property="Foreground" Value="{Binding IconForeGroundColor, TargetNullValue=White, FallbackValue=White, UpdateSourceTrigger=PropertyChanged, Converter={x:Static presentation:CoreConverter.ColorToSolidColorBrushValueConverter}}" />
+                    </Style>
+                </Grid.Resources>
+                <Grid x:Name="AlarmSign">
+                    <TextBlock Margin="0,0,0,0"
+                               Padding="0,10,0,0"
+                               FontFamily="Webdings"
+                               FontSize="100"
+                               FontWeight="Normal"
+                               Text="ê" />
+                    <TextBlock Margin="0,5,0,0"
+                               Padding="5,15,5,5"
+                               FontFamily="Arial Black"
+                               FontSize="50"
+                               FontWeight="Normal"
+                               Text="!" />
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Row="0"
+                  Grid.Column="2">
+                <TextBlock Padding="5,0,0,0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           FontSize="12"
+                           Text="{localize:It Problem}">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{Binding ControlLabelForeGroundColor, UpdateSourceTrigger=PropertyChanged}" />
+                    </TextBlock.Foreground>
+
+                </TextBlock>
+            </Grid>
+            <Grid Grid.Row="1"
+                  Grid.Column="2">
+                <TextBlock Padding="5,0,0,0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           FontSize="12"
+                           Text="{Binding ProblemText, UpdateSourceTrigger=PropertyChanged}">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{Binding ControlValueForeGroundColor, UpdateSourceTrigger=PropertyChanged}" />
+                    </TextBlock.Foreground>
+                </TextBlock>
+            </Grid>
+
+            <Grid Grid.Row="0"
+                  Grid.Column="4">
+                <TextBlock Padding="5,0,0,0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           FontSize="12"
+                           Text="{localize:It Message}">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{Binding ControlLabelForeGroundColor, UpdateSourceTrigger=PropertyChanged}" />
+                    </TextBlock.Foreground>
+                </TextBlock>
+            </Grid>
+            <Grid Grid.Row="1"
+                  Grid.RowSpan="4"
+                  Grid.Column="4">
+                <TextBlock Padding="5,0,0,0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontSize="20"
+                           Text="{Binding MessageText}"
+                           TextWrapping="Wrap">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{Binding ControlValueForeGroundColor, UpdateSourceTrigger=PropertyChanged}" />
+                    </TextBlock.Foreground>
+                </TextBlock>
+            </Grid>
+
+            <Grid Grid.Row="3"
+                  Grid.Column="2">
+                <TextBlock Padding="5,0,0,0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           FontSize="12"
+                           Text="{localize:It Raise Time}">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{Binding ControlLabelForeGroundColor, UpdateSourceTrigger=PropertyChanged}" />
+                    </TextBlock.Foreground>
+                </TextBlock>
+            </Grid>
+            <Grid Grid.Row="4"
+                  Grid.Column="2">
+                <TextBlock Padding="5,0,0,0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           FontSize="12"
+                           Text="{Binding DateTimeText, UpdateSourceTrigger=PropertyChanged}">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{Binding ControlValueForeGroundColor, UpdateSourceTrigger=PropertyChanged}" />
+                    </TextBlock.Foreground>
+                </TextBlock>
+            </Grid>
+
+            <Grid Grid.Row="0"
+                  Grid.RowSpan="5"
+                  Grid.Column="6">
+                <Button Grid.Column="1"
+                        MinWidth="85"
+                        MaxWidth="240"
+                        Command="{Binding ResetCommand}"
+                        Content="{localize:It Reset}"
+                        FontSize="24">
+                    <Button.Resources>
+                        <DataTemplate DataType="{x:Type system:String}">
+                            <TextBlock Text="{Binding}">
+                                <TextBlock.Resources>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="TextWrapping" Value="WrapWithOverflow" />
+                                        <Setter Property="TextAlignment" Value="Center" />
+                                        <Setter Property="Padding">
+                                            <Setter.Value>
+                                                <Thickness Left="5"
+                                                           Right="5" />
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </TextBlock.Resources>
+                            </TextBlock>
+                        </DataTemplate>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+        </Grid>
+    </Border>
+
+</UserControl>

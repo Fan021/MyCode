@@ -1,0 +1,4216 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kostal.Testman.Framework.Base
+</name>
+</assembly>
+<members>
+<member name="T:Kostal.Testman.Framework.Base.My.Resources.FrameworkBaseResources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.My.Resources.FrameworkBaseResources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.My.Resources.FrameworkBaseResources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.My.Resources.FrameworkBaseResources.CORE_ARTICLE_UNDEFINED_VALUE">
+<summary>
+  Looks up a localized string similar to undefined.
+</summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ExecutionEngine.TestRootPerformedEventArgs">
+ <summary>
+ Provides data for the IExecutionEngineManagerObserver.TestRootPerformed event.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionEngine.TestRootPerformedEventArgs.#ctor(Kostal.Testman.Framework.Base.ITestJob,Kostal.Testman.Framework.Base.TestResult)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ExecutionEngine.TestRootPerformedEventArgs" /> class.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionEngine.TestStepPerformedEventArgs.#ctor(Kostal.Testman.Framework.Base.ITestStepResult,System.Boolean)">
+ <summary>
+ new TStepStatisticEventArgs
+ </summary>
+ <param name="sStep">TStep containing statistic informations</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ExecutionEngine.TestStepPerformedEventArgs.Result">
+ <summary>
+ Gets a value indicating the result of the completed section
+ </summary>
+ <returns><c>true</c> if section was executes successfully; otherwise, <c>false</c></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ExecutionEngine.TestSectionPerformedEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.IExecutionEngineManagerObserver.TestSectionPerformed"/> event.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionEngine.TestSectionPerformedEventArgs.#ctor(System.String,System.String,System.Int32,System.Boolean)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ExecutionEngine.TestSectionPerformedEventArgs" /> class.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ExecutionEngine.TestSectionPerformedEventArgs.Result">
+ <summary>
+ Gets a value indicating the result of the completed section
+ </summary>
+ <returns><c>true</c> if section was executes successfully; otherwise, <c>false</c></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ExecutionEngine.TestSectionPerformingEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.IExecutionEngineManagerObserver.TestSectionPerforming"/> event.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionEngine.TestSectionPerformingEventArgs.#ctor(System.String,System.String,System.Int32)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ExecutionEngine.TestSectionPerformingEventArgs" /> class.
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ExecutionEngine.TestStepPerformingEventArgs">
+ <summary>
+   After execution of TestStep the statistics-event will be raised.
+   These EventArgs contain all informations to fill Statistics like LQV etc...
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionEngine.TestStepPerformingEventArgs.#ctor">
+ <summary>
+ new TStepStatisticEventArgs
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionEngine.TestStepPerformingEventArgs.#ctor(Kostal.Testman.Framework.Base.ITestStepResult)">
+ <summary>
+ new TStepStatisticEventArgs
+ </summary>
+ <param name="singleTestStep">TStep containing statistic informations</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionEngine.TestStepPerformingEventArgs.#ctor(Kostal.Testman.Framework.Base.ITestStepResult,System.Boolean)">
+ <summary>
+ new TStepStatisticEventArgs
+ </summary>
+ <param name="singleTestStep">TStep containing statistic informations</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ExecutionEngine.TestStepPerformingEventArgs.Step">
+ <summary>
+ TStep containing statistic informations
+ </summary>
+ <value>new TStep</value>
+ <returns>actual TStep</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.AlarmChannelType">
+ <summary>
+ Provides the available alarm channel types.
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ArticleChangedEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.SystemState.IArticleState.ArticleChanged"/> event.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleChangedEventArgs.#ctor(Kostal.Testman.Framework.Base.IArticleConfigurationSet)">
+ <summary>
+ Initializes a new instance of the ArticleChangedEventArgs class with Success property set to true.
+ </summary>
+ <param name="article">The article that is active now, represented by IArticleConfigurationSet</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleChangedEventArgs.Article">
+ <summary>
+ Gets the value representing the article that is now active.
+ </summary>
+ <value></value>
+ <returns>An ArticleConfigurationSet representing the active article.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleChangedEventArgs.Success">
+ <summary>
+ Gets or sets the value representing wether the event was handled successfully
+ </summary>
+ <value></value>
+ <returns>true if no failures occured; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ArticleChangingEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.SystemState.IArticleState.ArticleChanging"/> event.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleChangingEventArgs.#ctor(Kostal.Testman.Framework.Base.IArticleConfigurationSet)">
+ <summary>
+ Initializes a new instance of ArticleChangingEventArgs with properties CancelPluginReset and Cancel both set to false.
+ The currentArticle property is set to nothing and success is set to true.
+ </summary>
+ <param name="newArticle">IArticleConfigurationSet representing the article that will be active after changing the article.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleChangingEventArgs.#ctor(Kostal.Testman.Framework.Base.IArticleConfigurationSet,Kostal.Testman.Framework.Base.IArticleConfigurationSet)">
+ <summary>
+ Initializes a new instance of ArticleChangingEventArgs with properties CancelPluginReset and Cancel both set to false.
+ Success property is set to true.
+ </summary>
+ <param name="currentArticle">IArticleConfigurationSet representing the current article that is still active but about to change.</param>
+ <param name="newArticle">IArticleConfigurationSet representing the article that will be active after changing the article.</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleChangingEventArgs.CancelPluginReset">
+ <summary>
+ Gets or sets a value indicating whether plug-ins should be reset on ongoing article change.
+ </summary>
+ <value>true if plug-ins will be rese; otherwise, false.</value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleChangingEventArgs.Cancel">
+ <summary>
+ Gets or sets a value indicating whether the event should be canceled.
+ </summary>
+ <value></value>
+ <returns>true if the event should be canceled; otherwise, false.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleChangingEventArgs.CurrentArticle">
+ <summary>
+ Gets the current article that is still active but about to change.
+ </summary>
+ <value></value>
+ <returns>An ArticleConfigurationSet representing the active article.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleChangingEventArgs.NewArticle">
+ <summary>
+ Gets the new article that will get active when this event is not canceled. 
+ </summary>
+ <value></value>
+ <returns>An ArticleConfigurationSet representing the new article.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleChangingEventArgs.Success">
+ <summary>
+ Gets or sets the value indicating if article change should be aborted.
+ </summary>
+ <value></value>
+ <returns>true if abort is requested; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ArticleController">
+ <summary>
+ Provides information about the current article and allows interaction like changing the current article.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleController.#ctor(Kostal.Testman.Framework.Base.IMachineStateManager,Kostal.Testman.Framework.Base.SystemState.ArticleState,Kostal.Testman.Framework.Base.IArticlesProvider,Kostal.Testman.Framework.Base.Gui.IGuiController)">
+ <summary>
+ Initializes a new instance of ArticleController where SelectedArticle property is still nothing.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleController.SelectedArticle">
+ <summary>
+ Gets a value representing the currently selected article.
+ </summary>
+ <value></value>
+ <returns>Currently selected article as ArticleConfigurationSet</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleController.Select(Kostal.Testman.Framework.Base.ArticleConfigurationSet)">
+ <summary>
+ Activates the provided article and causes Testman framework to start changing the article.
+ </summary>
+ <param name="article">article to be activated</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleController.GetArticles">
+ <summary>
+ Returns all articles loaded by the current IArticleProvider registered using microkernel or code.
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ArticleException">
+ <summary>
+ Represents errors that occured during article selection
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleException.#ctor">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ArticleException"/>
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleException.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ArticleException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleException.#ctor(System.String,System.Exception)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ArticleException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ArticleException"/> with serialized data.
+ </summary>
+ <param name="info">The System.Runtime.Serialization.SerializationInfo that holds the serialized object data about the exception being thrown.</param>
+ <param name="context">The System.Runtime.Serialization.StreamingContext that contains contextual information about the source or destination.</param>
+ <exception cref="T:System.ArgumentNullException">The info parameter is null.</exception>
+ <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or System.Exception.HResult is zero (0).</exception>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.IArticlesProvider">
+ <summary>
+ Represents an ArticleProvider.
+ An ArticleProvider is class that can load articles from a source and provides them within an ArticleCollection 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IArticlesProvider.GetArticles">
+ <summary>
+ Gets the available articles in a ArticleCollection.
+ </summary>
+ <returns>Available articles as ArticleCollection.</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.CaqSetting">
+ <summary>
+ Settings used when reporting to Caq quality system
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CaqSetting.#ctor(System.Boolean)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.CaqSetting" /> class.
+ Property TestStatus defaults to <c>Normal</c> and Mode is set to <c>End</c>.
+ </summary>
+ <param name="enable">if set to <c>true</c> reporting to caq is active.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CaqSetting.#ctor(System.Boolean,Kostal.Testman.Framework.Base.TesterMode)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.CaqSetting" /> class.
+ Property Mode defaults to <c>End</c>.
+ </summary>
+ <param name="enable">if set to <c>true</c> reporting to caq is active.</param>
+ <param name="mode">The testmode reported to caq system.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CaqSetting.#ctor(System.Boolean,Kostal.Testman.Framework.Base.TestStatus,Kostal.Testman.Framework.Base.TesterMode)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.CaqSetting" /> class.
+ </summary>
+ <param name="enable">if set to <c>true</c> reporting to caq is active.</param>
+ <param name="mode">The testmode reported to caq system.</param>
+ <param name="status">The status reported to caq system.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CaqSetting.#ctor(Kostal.Testman.Framework.Base.CaqSetting)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.CaqSetting" /> class.
+ </summary>
+ <param name="caqSettings">The CaqSettings, where the original values are taken from.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.CaqSetting.Enable">
+ <summary>
+ Gets or sets a value indicating whether this <see cref="T:Kostal.Testman.Framework.Base.CaqSetting" /> is reporting.
+ </summary>
+ <value>
+   <c>true</c> if reporting is enabled; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.CaqSetting.Status">
+ <summary>
+ Gets or sets the status reported to caq.
+ </summary>
+ <value>
+ The status reproted to caq.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.CaqSetting.Mode">
+ <summary>
+ Gets or sets the mode reported to caq.
+ </summary>
+ <value>
+ The mode reported to caq.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CaqSetting.Equals(System.Object)">
+ <summary>
+ Determines whether the specified <see cref="T:System.Object" /> is equal to this instance.
+ </summary>
+ <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param><returns>
+   <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CaqSetting.Equals(Kostal.Testman.Framework.Base.CaqSetting)">
+ <summary>
+ Determines whether the specified <see cref="T:Kostal.Testman.Framework.Base.CaqSetting" /> is equal to this instance.
+ </summary>
+ <param name="other">The <see cref="T:Kostal.Testman.Framework.Base.CaqSetting" /> to compare with this instance.</param><returns>
+   <c>true</c> if the specified <see cref="T:Kostal.Testman.Framework.Base.CaqSetting" /> is equal to this instance; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.CounterState">
+ <summary>
+ Specifies the current state of counter.
+ It has either counted a successful or failed run or it's waiting for a result.
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ICounterController">
+ <summary>
+ Controller to count the successful and failed testruns and provide statistical data.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ICounterController.Fail">
+ <summary>
+ Gets the counter counting failed testruns.
+ </summary>
+ <returns>The counter counting failed testruns as <see cref="T:Kostal.Testman.Framework.Base.ISingleCounter"/></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ICounterController.Success">
+ <summary>
+ Gets the counter counting successful testruns.
+ </summary>
+ <returns>The counter counting successful testruns as <see cref="T:Kostal.Testman.Framework.Base.ISingleCounter"/></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ICounterController.State">
+ <summary>
+ Gets or sets a value representing the current counter state.
+ </summary>
+ <value>
+ The new state of counter as <see cref="T:Kostal.Testman.Framework.Base.CounterState"/>.
+ </value>
+ <returns>Current state of counter as <see cref="T:Kostal.Testman.Framework.Base.CounterState"/></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ICounterController.Ppm">
+ <summary>
+ Gets or sets the value indicating the failures in 'Parts per million'.
+ </summary>
+ <value>
+ New ppm value.
+ </value>
+ <returns>current ppm value</returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ICounterController.Percent">
+ <summary>
+ Gets the value indicating the percentage of failures in amount of overall measured items.
+ </summary>
+ <returns>current percentage of failures.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ICounterController.ClearResultIndication">
+ <summary>
+ Clears the result indication.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ICounterController.Reset">
+ <summary>
+ Resets this instance.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ICounterController.Restore(System.String)">
+ <summary>
+ Restores the counter using specified counter name.
+ </summary>
+ <param name="counterName">Name of the counter.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ICounterController.Store(System.String)">
+ <summary>
+ Stores this object using specified counter name.
+ </summary>
+ <param name="counterName">Name of the counter.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ICounterController.ArticleIndependent">
+ <summary>
+ Set a fix Countername if this Name is set
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ICounterController.Enabled">
+ <summary>
+ Enables the counter
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ISingleCounter">
+ <summary>
+ Simple counter that manages an integer value on provides events when value changes
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ISingleCounter.Value">
+ <summary>
+ Gets or sets the value representing the count.
+ </summary>
+ <value>
+ The new counter value.
+ </value>
+ <returns>The current counter value.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ISingleCounter.Reset">
+ <summary>
+ Resets this counter instance.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ISingleCounter.SetValue(System.Int32)">
+ <summary>
+ Sets the value of this counter instance.
+ </summary>
+ <param name="value">The new value.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ISingleCounter.Increase">
+ <summary>
+ Increases the value by one.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ISingleCounter.Decrease">
+ <summary>
+ Decreases the value by one.
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.Hardware.IHardwareChannelInformation">
+ <summary>
+ Informations about a hardware channel.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.Hardware.IHardwareChannelInformation.TypeName">
+ <summary>
+ Gets the name of the type.
+ </summary>
+ <value>
+ The name of the type.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.Hardware.IHardwareChannelInformation.Name">
+ <summary>
+ Gets the name of the channel.
+ </summary>
+ <value>
+ The name of the channel.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.Hardware.IHardwareInformer">
+ <summary>
+ Informations about the used hardware.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Hardware.IHardwareInformer.GetHardwareChannelsInformations">
+ <summary>
+ Gets the hardware channels informations.
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.Logging">
+ <summary>
+ Initializes Nlog logging engine for the framework.
+ <remarks>
+ </remarks>
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Logging.Setup">
+ <summary>
+ Initializes a new instance of the class.
+ </summary>
+ <remarks>Could be called several times, only the firstg call do something</remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.Utils">
+ <summary>
+ Provides extension methods to do validation and conversion
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.IsByteArray(System.String)">
+ <summary>
+ Determines whether the inserted value is a <see cref="T:System.Byte"/> where either a whitespace or a hyphen is used as seperator char.
+ </summary>
+ <param name="value">The value to be checked.</param>
+ <returns>
+   <c>true</c> if value is byte array; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.IsByteArrayWhitespaceSeperated(System.String)">
+ <summary>
+ Determines whether the inserted value is a <see cref="T:System.Byte"/> where a whitespace is used as seperator char.
+ </summary>
+ <param name="value">The value to be checked.</param>
+ <returns>
+   <c>true</c> if value is byte array; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.IsByteArrayHyphenSeperated(System.String)">
+ <summary>
+ Determines whether the inserted value is a <see cref="T:System.Byte"/> where a hyphen is used as seperator char.
+ </summary>
+ <param name="value">The value to be checked.</param>
+ <returns>
+   <c>true</c> if value is byte array; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.IsLinkSyntax(System.String)">
+ <summary>
+ Determines whether value is in link syntax.
+ </summary>
+ <param name="value">The value to be checked.</param><returns>
+   <c>true</c> if value is in link syntax; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.FindExistingFileInTestmanFileStructure(System.String)">
+ <summary>
+ Searches for an existing file within testman filestructure
+ </summary>
+ <param name="relativPath">Filename and relativ path of the file to be searched.</param>
+ <returns>The absolut path</returns>
+ <exception cref="T:System.IO.FileNotFoundException">In case the file is not existing.</exception>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.TryFindExistingFileInTestmanFileStructure(System.String,System.String@)">
+ <summary>
+ Searches for an existing file within testman filestructure
+ </summary>
+ <param name="relativPath">>Filename and relativ path of the file to be searched.</param>
+ <param name="absolutePath">The absolut path</param>
+ <returns>True if the file exists, otherwise False</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.CreatePathRelativeToTestmanFileStructure(System.String)">
+ <summary>
+ Tries to make an absolut path relative to testman file structure.
+ this only works if the provided path is within the testman base directory. Otherwise the absolut path is returned
+ </summary>
+ <param name="value">Filename and absolut path to be transformed.</param>
+ <returns>the relative path if possible, otherwise the inserted path.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.FitToTestmanFileStructure(System.String)">
+ <summary>
+ Updates the insereted relativ path and makes it absolut to testman filestructure.
+ </summary>
+ <param name="value">Filename and/or relativ path to be fit.</param>
+ <returns>the absolut path without any existence checks.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.FitToTestmanFileStructure(System.String,System.String)">
+ <summary>
+ Updates the insereted relativ path and makes it absolut to testman filestructure.
+ </summary>
+ <param name="value">Filename and/or relativ path to be fit.</param>
+ <returns>the absolut path without any existence checks.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.GetLinebreakedTooltip(System.String,System.Int32)">
+ <summary>
+ Automatially linebreaks a text to generate a multiline text.
+ Max blocklength is <paramref name="maxLength"/>. 
+ </summary>
+ <param name="original">The string to be transformed into multiline string.</param>
+ <param name="maxLength">max length of a single line.</param>
+ <returns>The inserted string as multiline string.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.GetLinebreakedTooltip(System.String)">
+ <summary>
+ Automatially linebreaks a text to generate a multiline text.
+ Max blocklength is set fixed to 80. 
+ </summary>
+ <param name="original">The string to be transformed into multiline string.</param>
+ <returns>The inserted string as multiline string.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.GetQuotedValue(System.String)">
+ <summary>
+ Quote a value
+ </summary>
+ <param name="value"></param>
+ <returns>nothing or String.Format("""{0}""", value)</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.GetEscapedValue(System.String)">
+ <summary>
+ Escape a Value
+ </summary>
+ <param name="value"></param>
+ <returns>nothing or RegexFlowFileEscaping.Replace(value, RegexFlowFileStepLineEscapingReplace)</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.GetReEscapedValue(System.String)">
+ <summary>
+ ReEscape a Value
+ </summary>
+ <param name="value"></param>
+ <returns>nothing or RegexFlowFileReEscaping.Replace(value, RegexFlowFileStepLineReEscapingReplace)</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.GetEscapedAndQuotedValue(System.String)">
+ <summary>
+ Escape And Quote a value
+ </summary>
+ <param name="value"></param>
+ <returns>nothing or value.EscapeValue().QuoteValue()</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Utils.ToStringSupportingNothing(System.String)">
+ <summary>
+ supports ToString if Object is nothing
+ </summary>
+ <param name="message"></param>
+ <returns>message or ""nothing""</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ITestRootRunnable.TryGetSection(System.String,System.String,System.String,System.String)">
+ <summary>
+ Gets a sub section, that was called, specified by id and sub id.
+ </summary>
+ <param name="sectionId">The id of the section to find. This id may be empty.</param>
+ <param name="subId">The sub id to find the correct section. These id may be not specified.</param>
+ <param name="linkValue">The complete value of the link. Only for diagnostic purposes.</param>
+ <param name="linkDefPath">The complete definition path of the test step. Only for diagnostic purposes.</param>
+ <returns>Returns the sub section, otherwise an exception is thrown.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ITestRootRunnable.SearchSection(System.String,System.String,System.Boolean,System.String,System.String)">
+ <summary>
+ Gets a section specified by id and sub id.
+ </summary>
+ <param name="sectionId">The id of the section to find.</param>
+ <param name="subId">The sub id of the section to find.</param>
+ <param name="recursive">The search should be done recursively.</param>
+ <param name="linkValue">The complete value of the link. Only for diagnostic purposes.</param>
+ <param name="linkDefPath">The complete definition path of the test step. Only for diagnostic purposes.</param>
+ <returns>Returns the section, that matches the citeria, otherwise nothing.</returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestSectionDefinition.FileDefinition">
+ <summary>
+ Gets the file definition.
+ </summary>
+ <value>
+ The file definition.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestSectionDefinition.CountOfTeststeps">
+ <summary>
+ Returns the number of teststeps within this container.
+ </summary>
+ <value></value>
+ <returns>number of teststeps</returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.ExecutionNumberInTest">
+ <summary>
+ Gets or sets the line number.
+ A value indicating the order teststeps have been executed.
+ </summary>
+ <value>
+ The line number.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.ThreadNumber">
+ <summary>
+ Gets the thread number.
+ </summary>
+ <value>
+ The thread number.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.ExecutionNumberInThread">
+ <summary>
+ Gets the execution number in thread.
+ </summary>
+ <value>
+ The execution number in thread.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.ExecutionCountOfStep">
+ <summary>
+ Gets the Count of executions of this teststep
+ </summary>
+ <value>
+ The count of execute.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.SectionId">
+ <summary>
+ Gets the Id of the Section.
+ </summary>
+ <value>
+ The section id.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.SectionSubId">
+ <summary>
+ Gets the subid.
+ </summary>
+ <value>
+ The subid.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.SectionKey">
+ <summary>
+ Gets the Key of the Section. It is a addition of SectionId and SubId
+ </summary>
+ <value>
+ The section key.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.Id">
+ <summary>
+ Gets the key(text) of the teststep
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.PluginName">
+ <summary>
+ Gets the name of the plugin represented teststep is referencing.
+ </summary>
+ <value>
+ The name of the plugin.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.CategoryName">
+ <summary>
+ Gets the plugin category.
+ </summary>
+ <value>
+ The plugin category.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.CommandName">
+ <summary>
+ Gets the plugin command.
+ </summary>
+ <value>
+ The plugin command.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.ExternalId">
+ <summary>
+ Gets the teststep number.
+ </summary>
+ <value>
+ The teststep number.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.Text">
+ <summary>
+ Getsthe operator text of teststep.
+ </summary>
+ <value>
+ The operator text.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.LowerLimit">
+ <summary>
+ Gets the lower limit.
+ </summary>
+ <value>
+ The lower limit.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.UpperLimit">
+ <summary>
+ Gets the upper limit.
+ </summary>
+ <value>
+ The upper limit.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.Unit">
+ <summary>
+ Gets the unit.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.CompareMode">
+ <summary>
+ Gets the compare mode.
+ </summary>
+ <value>
+ The compare mode.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.ReportingLevel">
+ <summary>
+ Gets the reporting level.
+ </summary>
+ <value>
+ The reporting level.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.Value">
+ <summary>
+ Gets the measured value.
+ </summary>
+ <value>
+ The measured value.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.TypeOfValue">
+ <summary>
+ Gets the type of value.
+ </summary>
+ <value>
+ The type of value.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.StatusText">
+ <summary>
+ Gets the status text that was reported by execution engine.
+ </summary>
+ <value>
+ The status text.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.ValidationStatus">
+ <summary>
+ Gets the status.
+ </summary>
+ <value>
+ The status.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.Result">
+ <summary>
+ Gets a value indicating whether the teststeps value was valid or not.
+ </summary>
+ <value>
+   <c>true</c> if teststep was IO; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.FailureType">
+ <summary>
+ Gets the type of the failure.
+ </summary>
+ <value>
+ The type of the failure.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.StepTime">
+ <summary>
+ Gets the duration that was measured during execution.
+ </summary>
+ <value>
+ The duration in milliseconds.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepResult.StepTicks">
+ <summary>
+ Gets the duration that was measured during execution.
+ </summary>
+ <value>
+ The duration in steps.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExtensionException.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ExtensionException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExtensionException.#ctor(System.String,System.Exception)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ExtensionException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ExecutionDialogStyle">
+ <summary>
+ Possible styles for the retry dialog of execution engine.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ExecutionEngineDialogStatus">
+ <summary>
+ Possible status returned by the execution engine dialog.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ExecutionRuntimeData">
+ <summary>
+ ExecutionRuntimeData only a Container for Singletons
+ PerResolve Runtime Class
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.CounterEntity">
+ <summary>
+ Simple container to keep count of passed and failed testruns.
+ Used for serialization
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CounterEntity.#ctor">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.CounterEntity" /> class.
+ Pass and Fail properties both have a value of zero.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CounterEntity.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+ <summary>
+ Initializes a new instance of CounterEntity with serialized data.
+ </summary>
+ <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo"/> that holds the serialized object data about the exception being thrown.</param>
+ <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext"/>" that contains contextual information about the source or destination.</param>
+ <exception cref="T:System.ArgumentNullException">The info parameter is null.</exception>
+ <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult"/>" is zero (0).</exception>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CounterEntity.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+ <summary>
+ Populates a <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with the data needed to serialize the target object.
+ </summary>
+ <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> to populate with data.</param>
+ <param name="context">The destination (see <see cref="T:System.Runtime.Serialization.StreamingContext" />) for this serialization.</param>
+ <exception cref="T:System.Security.SecurityException">
+ The caller does not have the required permission.
+   </exception>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.CounterEntity.Pass">
+ <summary>
+ Gets or sets the value indicating the count of successful tests.
+ </summary>
+ <value>count of successful tests</value>
+ <returns>new count of successful tests.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.CounterEntity.Fail">
+ <summary>
+ Gets or sets the value indicating the count of failed tests.
+ </summary>
+ <value>count of failed tests</value>
+ <returns>new count of failed tests.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CounterEntity.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary><returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.FrameworkException">
+ <summary>
+ Base exception for all exceptions that are explicitly thrown by the framework.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.FrameworkException.#ctor">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.FrameworkException"/>
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.FrameworkException.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.FrameworkException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.FrameworkException.#ctor(System.String,System.Exception)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.FrameworkException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.FrameworkException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.FrameworkException"/> with serialized data.
+ </summary>
+ <param name="info">The System.Runtime.Serialization.SerializationInfo that holds the serialized object data about the exception being thrown.</param>
+ <param name="context">The System.Runtime.Serialization.StreamingContext that contains contextual information about the source or destination.</param>
+ <exception cref="T:System.ArgumentNullException">The info parameter is null.</exception>
+ <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or System.Exception.HResult is zero (0).</exception>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ExtensionState">
+ <summary>
+ Represents the possible states of tools loaded by microkernel
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ExtensionStateChangedEventArgs">
+ <summary>
+ Provides data for the StatusChangedEvent events.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExtensionStateChangedEventArgs.#ctor(Kostal.Testman.Framework.Base.ExtensionState)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ExtensionStateChangedEventArgs" /> class.
+ </summary>
+ <param name="extensionState">status as <see cref="T:Kostal.Testman.Framework.Base.ExtensionState" /></param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ExtensionStateChangedEventArgs.State">
+ <summary>
+ Gets  the <see cref="T:Kostal.Testman.Framework.Base.ExtensionState" /> that is active.
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.Dialogs">
+ <summary>
+ Support dialog messages for testman.
+ Dialog are shown depending on userlevel or type of machine (e.g automated environment)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.RegisterUserManager(Kostal.Testman.Framework.Base.SystemState.IUserState)">
+ <summary>
+ Registers the user manager.
+ </summary>
+ <param name="userState">The systems user state.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.Dialogs.IsQuite">
+ <summary>
+ Gets the value that indicates if system is quite.
+ A quite system won't show failures. They will only get logged
+ </summary>
+ <returns><c>true</c> if system is quite; otherwise, <c>false</c>.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.MessageBox(System.String,Microsoft.VisualBasic.MsgBoxStyle,System.String)">
+ <summary>
+ Shows a 'classic' message box.
+ If system is running in quite mode, message box is supressed and content is send to logging engine.
+ </summary>
+ <param name="prompt">The prompt shown in message box.</param>
+ <param name="msgBoxStyle">Style of message box.</param>
+ <param name="title">The title.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.MessageBox(System.String,Microsoft.VisualBasic.MsgBoxStyle)">
+ <summary>
+ Shows a 'classic' message box.
+ If system is running in quite mode, message box is supressed and content is send to logging engine.
+ </summary>
+ <param name="prompt">The prompt shown in message box.</param>
+ <param name="msgBoxStyle">Style of message box.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.MessageBox(System.String)">
+ <summary>
+ Shows a 'classic' message box.
+ If system is running in quite mode, message box is supressed and content is send to logging engine.
+ </summary>
+ <param name="prompt">The prompt shown in message box.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.DeveloperMessageBox(System.String,Microsoft.VisualBasic.MsgBoxStyle,System.String)">
+ <summary>
+ Shows a 'developer' message box.
+ It's like a 'classic' message box except it's only shown if you're logged in as developer.
+ </summary>
+ <param name="prompt">The prompt shown in message box.</param>
+ <param name="msgBoxStyle">Style of message box.</param>
+ <param name="title">The title.</param>
+ <returns><c>True</c> if the dialog was shown, otherwise <c>False</c></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.DeveloperMessageBox(System.String,Microsoft.VisualBasic.MsgBoxStyle)">
+ <summary>
+ Shows a 'developer' message box.
+ It's like a 'classic' message box except it's only shown if you're logged in as developer.
+ </summary>
+ <param name="prompt">The prompt shown in message box.</param>
+ <param name="msgBoxStyle">Style of message box.</param>
+ <returns><c>True</c> if the dialog was shown, otherwise <c>False</c></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.DeveloperMessageBox(System.String)">
+ <summary>
+ Shows a 'developer' message box.
+ It's like a 'classic' message box except it's only shown if you're logged in as developer.
+ </summary>
+ <param name="prompt">The prompt shown in message box.</param>
+ <returns><c>True</c> if the dialog was shown, otherwise <c>False</c></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.DeveloperExceptionDialog(System.String,System.Exception,System.Boolean)">
+ <summary>
+ Shows a 'developer' exception dialog.
+ This popup is only shown if you're logged in as developer.
+ It shows the exception and detailed information like Stacktrace, exception details and inner exceptions.
+ </summary>
+ <param name="title">The title of dialog.</param>
+ <param name="ex">The exception to be shown.</param>
+ <param name="noAdditionalLogging">if set to <c>true</c> no additional logging is performed.</param>
+ <returns><c>True</c> if the dialog was shown, otherwise <c>False</c></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.DeveloperExceptionDialog(System.String,System.Exception)">
+ <summary>
+ Shows a 'developer' exception dialog.
+ This popup is only shown if you're logged in as developer.
+ If shows the exception and detailed information like Stacktrace, exception details and inner exceptions.
+ </summary>
+ <param name="ex">The exception to be shown.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.DeveloperExceptionDialog(System.Exception,System.Boolean)">
+ <summary>
+ Shows a 'developer' exception dialog.
+ This popup is only shown if you're logged in as developer.
+ If shows the exception and detailed information like Stacktrace, exception details and inner exceptions.
+ </summary>
+ <param name="ex">The exception to be shown.</param>
+ <param name="noAdditionalLogging">if set to <c>true</c> no additional logging is performed.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.DeveloperExceptionDialog(System.Exception)">
+ <summary>
+ Shows a 'developer' exception dialog.
+ This popup is only shown if you're logged in as developer.
+ If shows the exception and detailed information like Stacktrace, exception details and inner exceptions.
+ </summary>
+ <param name="ex">The exception to be shown.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.ExceptionDialog(System.Exception)">
+ <summary>
+ Shows a 'standard' exception dialog.
+ If shows the exception and detailed information like Stacktrace, exception details and inner exceptions.
+ If system is running in quite mode, message box is supressed and content is send to logging engine.
+ </summary>
+ <param name="ex">The exception to be shown.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Dialogs.ExceptionDialog(System.String,System.Exception)">
+ <summary>
+ Shows a 'standard' exception dialog.
+ If shows the exception and detailed information like Stacktrace, exception details and inner exceptions.
+ If system is running in quite mode, message box is supressed and content is send to logging engine.
+ </summary>
+ <param name="ex">The exception to be shown.</param>
+ <param name="title">The title of dialog.</param>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ITestmanUserInterface">
+ <summary>
+ Basic interface for all UIs registerable in testman environment
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ITestmanUserInterface.CreateUserInterface">
+ <summary>
+ Builds and shows the user interface.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ITestmanUserInterface.ApplicationRun">
+ <summary>
+ Passes control to the UI
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.ITestmanUserInterface.ClosingRequested">
+ <summary>
+ Occurs after a Form Closing Event 
+ </summary>
+ <param name="sender"></param>
+ <param name="e">Eventargs as <see cref="T:System.Windows.Forms.FormClosingEventArgs"/>.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ITestmanUserInterface.ApplicationExit">
+ <summary>
+ Passes control back to Testman
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.OverviewType">
+ <summary>
+ Defines the possible types of view, that can be shown during execution.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.OverviewType.Simple">
+ <summary>
+ A simple gui, not showing any details just the Kostal logo and current tester status. (Best performance, less information)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.OverviewType.Progress">
+ <summary>
+ Shows a rotating gui element, indicating that tester is running. Failures will be shown directly within a little grid at the bottom. (Good performance, only failure informations)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.OverviewType.Grid">
+ <summary>
+ A status grid containing information about every executed teststep (configurable). (Weak performance, most informations)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.IExecutionOutputData">
+ <summary>
+ Collects data of performed teststeps and failures occuring during execution.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.IExecutionOutputData.FailedTestSteps">
+ <summary>
+ Gets the collection containing information regarding all failed teststeps.
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.IRuntimeManager">
+ <summary>
+ The runtime manager to fetch runtime instances of classes
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IRuntimeManager.Resolve``1">
+ <summary>
+ Register and Resolves a certain class or interface from or to runtime container.
+ </summary>
+ <typeparam name="T"></typeparam><returns></returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.IExternalIdController">
+ <summary>
+ Provides methods to generate and validate teststep numbers
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IExternalIdController.GetNewExternalId(Kostal.Testman.Framework.Base.ITestSectionDefinition,System.Int32)">
+ <summary>
+ Gets a new external identifier.
+ </summary>
+ <param name="sectionDefinition">The section definition, the new TestStep belongs to.</param>
+ <param name="index">The index where the new TestStep will be inserted.</param>
+ <returns>A new valid value for the external id.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IExternalIdController.ValidateExternalId(Kostal.Testman.Framework.Base.ITestStepDefinition,System.String)">
+ <summary>
+ Validates the external identifier, if a change in the external identifier is required.
+ </summary>
+ <param name="stepDef">The TestStep definition, where the changed external id is part of.</param>
+ <param name="externalId">The changed external identifier.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IExternalIdController.ValidateFileDefinition(Kostal.Testman.Framework.Base.ITestFileDefinition)">
+ <summary>
+ Validates the file definition in focus of external identifiers.
+ </summary>
+ <param name="fileDefinition">The file definition to be checked.</param>
+ <remarks>Errors are raised via Exceptions. This function is mostly used, if the TestFileDefinition will be saved.</remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IExternalIdController.ModifyExternalIdWhenStepPerforming(Kostal.Testman.Framework.Base.ITestStepPerform)">
+ <summary>
+ Modifies the external identifier when the TestStep starts performing.
+ </summary>
+ <param name="stepRunnable">The runnable TestStep.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IExternalIdController.ModifyExternalIdWhenStepPerformed(Kostal.Testman.Framework.Base.ITestStepPerform)">
+ <summary>
+ Modifies the external identifier when the TestStep was performed.
+ </summary>
+ <param name="stepRunnable">The runnable TestStep.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IExternalIdController.ModifyExternalIdWhenTestPerforming(Kostal.Testman.Framework.Base.ITestRootRunnable)">
+ <summary>
+ Modifies the external identifiers when the Test starts performing.
+ </summary>
+ <param name="rootRunnable">The runnable Test.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IExternalIdController.ModifyExternalIdWhenTestPerformed(Kostal.Testman.Framework.Base.ITestRootRunnable)">
+ <summary>
+ Modifies the external identifiers when the Test was performed.
+ </summary>
+ <param name="rootRunnable">The runnable Test.</param>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ProcessItem">
+ <summary>
+ A process with appropiate caq settings.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ProcessItem.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ProcessItem" /> class.
+ <param name="name">The name of process.</param>
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ProcessItem.#ctor(System.String,Kostal.Testman.Plugin.Base.UserLevel,Kostal.Testman.Framework.Base.CaqSetting)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ProcessItem" /> class.
+ </summary>
+ <param name="name">The name of process.</param>
+ <param name="userLevel">The userlevel allowed to activate process.</param>
+ <param name="caqsetting">The caqsetting for process.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ProcessItem.#ctor(Kostal.Testman.Framework.Base.ProcessItem)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ProcessItem" /> class.
+ </summary>
+ <param name="item">The porcessitem to copy the values from.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ProcessItem.CaqSetting">
+ <summary>
+ Gets or sets the caq setting.
+ </summary>
+ <value>
+ The caq setting.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ProcessItem.Equals(System.Object)">
+ <summary>
+ Determines whether the specified <see cref="T:System.Object" /> is equal to this instance.
+ </summary>
+ <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param><returns>
+   <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ProcessItem.Equals(Kostal.Testman.Framework.Base.ProcessItem)">
+ <summary>
+ Determines whether the specified <see cref="T:Kostal.Testman.Framework.Base.ProcessItem" /> is equal to this instance.
+ </summary>
+ <param name="other">The <see cref="T:Kostal.Testman.Framework.Base.ProcessItem" /> to compare with this instance.</param><returns>
+   <c>true</c> if the specified <see cref="T:Kostal.Testman.Framework.Base.ProcessItem" /> is equal to this instance; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.ArticleState.ArticleChanging">
+ <summary>
+ Occures if the article is about to change.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.ArticleState.ArticleChanged">
+ <summary>
+ Occures if the article has changed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.SystemState.ArticleState.SelectedArticle">
+ <summary>
+ Gets a value representing the currently selected article.
+ </summary>
+ <value></value>
+ <returns>Currently selected article as ArticleConfigurationSet</returns>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.IArticleState.ArticleChanging">
+ <summary>
+ Occures if the article is about to change.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.IArticleState.ArticleChanged">
+ <summary>
+ Occures if the article has changed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.SystemState.IArticleState.SelectedArticle">
+ <summary>
+ Gets a value representing the currently selected article.
+ </summary>
+ <value></value>
+ <returns>Currently selected article as ArticleConfigurationSet</returns>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.IProcessState.ProcessChanging">
+ <summary>
+ Occures when process manager is changing the process.
+ This operation can still be aborted.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.IProcessState.ProcessChanged">
+ <summary>
+ Occures after the process manager has changed the process.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.IProcessState.PropertyChanged">
+ <summary>
+ Occurs when a property value changes.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.IUserState.UserChanged">
+ <summary>
+ Occurs when a User changes.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.SystemState.IUserState.CurrentUserLevel">
+ <summary>
+ current Userlevel.
+ </summary>
+ <value></value>
+ <returns>returns the current Userlevel.</returns>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.ProcessState.ProcessChanging">
+ <summary>
+ Occures when process manager is changing the process.
+ This operation can still be aborted.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.ProcessState.ProcessChanged">
+ <summary>
+ Occures after the process manager has changed the process.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.ProcessState.PropertyChanged">
+ <summary>
+ Occurs when a property value changes.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.SystemState.UserState.UserChanged">
+ <summary>
+ Occurs when a User changes.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.SystemState.UserState.CurrentUserLevel">
+ <summary>
+ current Userlevel.
+ </summary>
+ <value></value>
+ <returns>returns the current Userlevel.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.SystemState.UserState.ChangeUserlevel(Kostal.Testman.Plugin.Base.UserLevel)">
+ <summary>
+ Change UserState
+ </summary>
+ <param name="newUserLevel">the user level that gets active.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ProcessException.#ctor">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ProcessException"/>
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ProcessException.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ProcessException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ProcessException.#ctor(System.String,System.Exception)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ProcessException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ProcessException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ProcessException"/> with serialized data.
+ </summary>
+ <param name="info">The System.Runtime.Serialization.SerializationInfo that holds the serialized object data about the exception being thrown.</param>
+ <param name="context">The System.Runtime.Serialization.StreamingContext that contains contextual information about the source or destination.</param>
+ <exception cref="T:System.ArgumentNullException">The info parameter is null.</exception>
+ <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or System.Exception.HResult is zero (0).</exception>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.Kostal.Testman.Framework.Base.IStartupMessenger.StartupMessengerEvent">
+ <summary>
+ Occurs when Startup Messenge is changing.
+ </summary>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.Kostal.Testman.Framework.Base.IStartupMessenger.StartupVisibilityEvent">
+ <summary>
+ Occurs when Startup visibility is changing.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Kostal.Testman.Framework.Base.IStartupMessenger.Message(System.String)">
+ <summary>
+ show Message in Startup View
+ </summary>
+ <param name="Information">Information as String</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Kostal.Testman.Framework.Base.IStartupMessenger.Hide">
+ <summary>
+ Hide's Startup window
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Kostal.Testman.Framework.Base.IStartupMessenger.Show">
+ <summary>
+ Show's Startup window
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IStartupMessenger.Message(System.String)">
+ <summary>
+ show Message in Startup View
+ </summary>
+ <param name="Information">Information as String</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IStartupMessenger.Hide">
+ <summary>
+ Hide's Startup window
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.MachineStateLockException">
+ <summary>
+ Represents errors that occured during interaction with state machine.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateLockException.#ctor">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.MachineStateLockException"/>
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateLockException.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.MachineStateLockException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateLockException.#ctor(System.String,System.Exception)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.MachineStateLockException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateLockException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.MachineStateLockException"/> with serialized data.
+ </summary>
+ <param name="info">The System.Runtime.Serialization.SerializationInfo that holds the serialized object data about the exception being thrown.</param>
+ <param name="context">The System.Runtime.Serialization.StreamingContext that contains contextual information about the source or destination.</param>
+ <exception cref="T:System.ArgumentNullException">The info parameter is null.</exception>
+ <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or System.Exception.HResult is zero (0).</exception>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.IMachineStateManager">
+ <summary>
+ the state machine maintaining the current machine state.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.IMachineStateManager.StateChanged">
+ <summary>
+ Occures whenever state machine reaches a new machine state
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.IMachineStateManager.TransitionStarted">
+ <summary>
+ Occures whenever state machine starts the transition from one state to another.
+ Within the event the transition can still be canceled
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.IMachineStateManager.TransitionCompleted">
+ <summary>
+ Occures when a started transition between two states of state machine is completed.
+ This event contains a success flag to indicate wether the transition took place or not.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.IMachineStateManager.LockStateChanged">
+ <summary>
+ Occures when the lock state of the state machine has changed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.IMachineStateManager.MachineState">
+ <summary>
+ Value of the active state
+ </summary>
+ <value></value>
+ <returns>active state</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.IMachineStateManager.AcceptsRequests">
+ <summary>
+ Indicates if state machine currently is accepting requests
+ </summary>
+ <value></value>
+ <returns>true if state machine accepts requests, else false</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.IMachineStateManager.IsLocked">
+ <summary>
+ Indictates if state machine is locked and ignoreing all new operation or not
+ </summary>
+ <value></value>
+ <returns>true if state machine is locked, else false</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.IMachineStateManager.HasPendingOperations">
+ <summary>
+ Indicates if the state machine has pending operations.
+ Where a pending operation is a request to change from one state to another.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IMachineStateManager.Terminate">
+ <summary>
+ Terminates the state machine and causes the transition to machine state <see cref="F:Kostal.Testman.Framework.Base.MachineStates.End"/>.
+ This operation is executed directly if machine is currently accepting requests. If there are
+ already operations pending or the state machine is currently within a transition this operation is queued.
+ </summary>
+ <remarks>If operation is executed when state machine is in a state without a transition to new state this operation is ignored.</remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IMachineStateManager.SwitchToOff">
+ <summary>
+ Switches the state machine into state <see cref="F:Kostal.Testman.Framework.Base.MachineStates.Off"/>.
+ This operation is executed directly if machine is currently accepting requests. If there are
+ already operations pending or the state machine is currently within a transition this operation is queued.
+ </summary>
+ <remarks>If operation is executed when state machine is in a state without a transition to new state this operation is ignored.</remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IMachineStateManager.SwitchToOn">
+ <summary>
+ Switches the state machine into state <see cref="F:Kostal.Testman.Framework.Base.MachineStates.On"/>.
+ This operation is executed directly if machine is currently accepting requests. If there are
+ already operations pending or the state machine is currently within a transition this operation is queued.
+ </summary>
+ <remarks>.If operation is executed when state machine is in a state without a transition to new state this operation is ignored.</remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IMachineStateManager.SwitchToRun">
+ <summary>
+ Switches the state machine into state <see cref="F:Kostal.Testman.Framework.Base.MachineStates.Run"/>.
+ This operation is executed directly if machine is currently accepting requests. If there are
+ already operations pending or the state machine is currently within a transition this operation is queued.
+ </summary>
+ <remarks>.If operation is executed when state machine is in a state without a transition to new state this operation is ignored.</remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IMachineStateManager.SwitchToTesting">
+ <summary>
+ Switches the state machine into state <see cref="F:Kostal.Testman.Framework.Base.MachineStates.On"/>.
+ This operation can only be executed directly and doesn't allow queuing.
+ </summary>
+ <remarks>.If operation is executed when state machine is in a state without a transition to new state this operation is ignored.</remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IMachineStateManager.CanSwitchToState(Kostal.Testman.Framework.Base.MachineStates)">
+ <summary>
+ Checks if state machine can switch to a certain state.
+ This check is based on current state and does not include queued states.
+ </summary>
+ <param name="targetState">the machine state to be checked.</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IMachineStateManager.Unlock(Kostal.Testman.Framework.Base.StateMachineLockToken)">
+ <summary>
+ Unlocks a locked state machine using the <see cref="T:Kostal.Testman.Framework.Base.StateMachineLockToken"/> aquired during <see cref="M:Kostal.Testman.Framework.Base.IMachineStateManager.Lock"/> operation.
+ </summary>
+ <param name="token">unique lock token aquired during Lock operation</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IMachineStateManager.Lock">
+ <summary>
+ Locks the state machine and doesn't allow any new queueing or state changes.
+ </summary>
+ <returns>the unique lock token required to unlock the state machine again</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IMachineStateManager.CancelAllPendingOperations">
+ <summary>
+ Cancels all operations currently pending.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.LockState">
+ <summary>
+ The possible lock states of <see cref="T:Kostal.Testman.Framework.Base.IMachineStateManager"/>
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.MachineStateException">
+ <summary>
+ Represents errors that occured during interaction with state machine.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateException.#ctor">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.MachineStateException"/>
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateException.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.MachineStateException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateException.#ctor(System.String,System.Exception)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.MachineStateException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.MachineStateException"/> with serialized data.
+ </summary>
+ <param name="info">The System.Runtime.Serialization.SerializationInfo that holds the serialized object data about the exception being thrown.</param>
+ <param name="context">The System.Runtime.Serialization.StreamingContext that contains contextual information about the source or destination.</param>
+ <exception cref="T:System.ArgumentNullException">The info parameter is null.</exception>
+ <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or System.Exception.HResult is zero (0).</exception>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.MachineStateEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.IMachineStateManager.StateChanged"/> event.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateEventArgs.#ctor(Kostal.Testman.Framework.Base.MachineStates)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.MachineStateEventArgs" /> class.
+ </summary>
+ <param name="state">The machine state that is now active.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.MachineStateEventArgs.MachineState">
+ <summary>
+ Gets the machine state that is active now.
+ </summary>
+ <value>
+ The machine state that is now active.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ControlItem">
+ <summary>
+ Item representing a function that can be invoked from UI
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ControlItem.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ControlItem" /> class.
+ </summary>
+ <param name="name">The name of item.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ControlItem.#ctor(System.String,Kostal.Testman.Plugin.Base.UserLevel)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ControlItem" /> class.
+ </summary>
+ <param name="name">The name of item.</param>
+ <param name="user">The userlevel required to execute.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ControlItem.#ctor(System.String,Kostal.Testman.Plugin.Base.UserLevel,System.Action)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ControlItem" /> class.
+ </summary>
+ <param name="name">The name of item.</param>
+ <param name="user">The userlevel required to execute.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ControlItem.Name">
+ <summary>
+ Gets or sets the name of this item.
+ </summary>
+ <value>
+ The name of item.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ControlItem.User">
+ <summary>
+ Gets or sets the userlevel, required to execute the control action.
+ </summary>
+ <value>
+ The <see cref="T:Kostal.Testman.Plugin.Base.UserLevel"/> required for execution.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ControlItem.Equals(System.Object)">
+ <summary>
+ Determines whether the specified <see cref="T:System.Object" /> is equal to this instance.
+ </summary>
+ <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param><returns>
+   <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ControlItem.Equals(Kostal.Testman.Framework.Base.ControlItem)">
+ <summary>
+ Determines whether the specified <see cref="T:Kostal.Testman.Framework.Base.ControlItem" /> is equal to this instance.
+ </summary>
+ <param name="other">The <see cref="T:Kostal.Testman.Framework.Base.ControlItem" /> to compare with this instance.</param><returns>
+   <c>true</c> if the specified <see cref="T:Kostal.Testman.Framework.Base.ControlItem" /> is equal to this instance; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.IProcessManager">
+ <summary>
+ Basic interface for a process manager.
+ A process manager can manage available processes.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.IProcessManager.Processes">
+ <summary>
+ Gets all available processes.
+ </summary>
+ <returns>all available processes as <see cref="T:System.Collections.Generic.IEnumerable`1"/></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.IProcessManager.CurrentProcess">
+ <summary>
+ Gets the current, active process.
+ </summary>
+<returns>The active process as <see cref="T:Kostal.Testman.Framework.Base.ProcessItem"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IProcessManager.AddProcess(Kostal.Testman.Framework.Base.ProcessItem)">
+ <summary>
+ Adds a new Process
+ </summary>
+ <param name="process">the process to be added.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IProcessManager.ChangeProcess(System.String)">
+ <summary>
+ Changes the active process.
+ </summary>
+ <param name="newProcess">Name of process to activate.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IProcessManager.ChangeProcess(Kostal.Testman.Framework.Base.ProcessItem)">
+ <summary>
+ Changes the active process.
+ </summary>
+ <param name="newProcess"><see cref="T:Kostal.Testman.Framework.Base.ProcessItem"/> to activate.</param>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ProcessEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.SystemState.IProcessState.ProcessChanged"/> and <see cref="E:Kostal.Testman.Framework.Base.SystemState.IProcessState.ProcessChanging"/> events.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ProcessEventArgs.#ctor(Kostal.Testman.Framework.Base.ProcessItem)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ProcessEventArgs" /> class.
+ The Cancel property is initialized with <c>false</c>.
+ </summary>
+ <param name="item">The process that is getting active.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ProcessEventArgs.Item">
+ <summary>
+ Gets or sets the <see cref="T:Kostal.Testman.Framework.Base.ProcessItem" /> that is getting active.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ProcessEventArgs.Cancel">
+ <summary>
+ Gets or sets a value indicating whether this <see cref="T:Kostal.Testman.Framework.Base.ProcessEventArgs" /> is canceled.
+ </summary>
+ <value>
+   <c>true</c> if cancel; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.StartupMessenger">
+ <summary>
+ Handle visiblitity and Informations in Startup View 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.StartupMessenger.StartupMessengerEvent">
+ <summary>
+ Occurs when Startup Messenge is changing.
+ </summary>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.StartupMessenger.StartupVisibilityEvent">
+ <summary>
+ Occurs when Startup visibility is changing.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StartupMessenger.Message(System.String)">
+ <summary>
+ show Message in Startup View
+ </summary>
+ <param name="Information">Information as String</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StartupMessenger.Hide">
+ <summary>
+ Hide's Startup window
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StartupMessenger.Show">
+ <summary>
+ Show's Startup window
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.StartupMessengerEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.StartupMessenger.StartupMessengerEvent"/> events.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StartupMessengerEventArgs.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.StartupMessengerEventArgs" /> class.
+ </summary>
+ <param name="Message">new Message in Startup View.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.StartupMessengerEventArgs.Message">
+ <summary>
+ Gets or sets the <see cref="P:Kostal.Testman.Framework.Base.StartupMessengerEventArgs.Message" /> that is getting active.
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.StartupVisibilityEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.StartupMessenger.StartupVisibilityEvent"/> events.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StartupVisibilityEventArgs.#ctor(System.Boolean)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.StartupMessengerEventArgs" /> class.
+ </summary>
+ <param name="visible">control visibility of Startup View.</param>  
+</member>
+<member name="P:Kostal.Testman.Framework.Base.StartupVisibilityEventArgs.Visible">
+ <summary>
+ Gets or sets the <see cref="P:Kostal.Testman.Framework.Base.StartupVisibilityEventArgs.Visible" /> that is getting active.
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.UserMessenger">
+ <summary>
+ Handle Message from Framework to the Operator
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.UserMessenger.UserMessengerEvent">
+ <summary>
+ Occurs when User Messenger changes.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.UserMessenger.Message(System.String,System.Drawing.Color)">
+ <summary>
+ Changes the User Message
+ </summary>
+ <param name="information">information to user </param>
+ <param name="color">color of User Message</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.UserMessenger.Message(System.String)">
+ <summary>
+ Changes the User Message
+ </summary>
+ <param name="information">information to user </param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.UserMessenger.SendMessage(System.String)">
+ <summary>
+ Changes the User Message
+ </summary>
+ <param name="information">information to user </param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.UserMessenger.AutoRefresh(System.Boolean)">
+ <summary>
+ Changes the User Message
+ </summary>
+ <param name="enable">Enable/Disable AutoRefresh</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.UserMessengerEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.UserMessenger.UserMessengerEvent"/> events.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.UserMessengerEventArgs.Message">
+ <summary>
+ Gets the Message that is active.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.UserMessengerEventArgs.Color">
+ <summary>
+ Gets the System.Drawing.Color that is active.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.UserMessengerEventArgs.MediaColor">
+ <summary>
+ Gets the System.Windows.Media.Color that is active.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.UserMessengerEventArgs.AutoRefresh">
+ <summary>
+ Gets the value if AutoRefresh is active.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.UserMessengerEventArgs.#ctor(System.String,System.Drawing.Color)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.UserMessengerEventArgs" /> class.
+ </summary>
+ <param name="Message">Message for operator.</param>
+ <param name="color">color of message.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.UserMessengerEventArgs.#ctor(System.Boolean)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.UserMessengerEventArgs" /> class.
+ </summary>
+ <param name="autoRefresh">enable/disable autoRefresh</param>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.MachineStateTransitionCompletedEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.IMachineStateManager.TransitionCompleted"/> event.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateTransitionCompletedEventArgs.#ctor(Kostal.Testman.Framework.Base.MachineStateTransitionStartedEventArgs)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.MachineStateTransitionCompletedEventArgs" /> class.
+ </summary>
+ <param name="startArgs">The <see cref="T:Kostal.Testman.Framework.Base.MachineStateTransitionStartedEventArgs" /> instance containing the event data to initialize this event.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateTransitionCompletedEventArgs.#ctor(Kostal.Testman.Framework.Base.MachineStates,Kostal.Testman.Framework.Base.MachineStates,System.Boolean)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.MachineStateTransitionCompletedEventArgs" /> class.
+ </summary>
+ <param name="sourceState">The state transition origins.</param>
+ <param name="targetState">The target of transition.</param>
+ <param name="success">if set to <c>true</c> the transition was successful; otherwise, <c>false</c>.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.MachineStateTransitionCompletedEventArgs.SourceState">
+ <summary>
+ The origin of the transition.
+ </summary>
+ <value>
+ The origin of the transition.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.MachineStateTransitionCompletedEventArgs.TargetState">
+ <summary>
+ The target of the transition.
+ </summary>
+ <value>
+ The target of the transition.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.MachineStateTransitionCompletedEventArgs.Success">
+ <summary>
+ Gets a value indicating whether the transition was successful or not.
+ </summary>
+ <value>
+   <c>true</c> if success; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.MachineStateTransitionStartedEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.IMachineStateManager.TransitionStarted"/> event.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.MachineStateTransitionStartedEventArgs.#ctor(Kostal.Testman.Framework.Base.MachineStates,Kostal.Testman.Framework.Base.MachineStates)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.MachineStateTransitionStartedEventArgs" /> class.
+ </summary>
+ <param name="sourceState">The state this transition origins.</param>
+ <param name="targetState">The state this transition targets.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.MachineStateTransitionStartedEventArgs.SourceState">
+ <summary>
+ The origin of the transition.
+ </summary>
+ <value>
+ The origin of the transition.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.MachineStateTransitionStartedEventArgs.TargetState">
+ <summary>
+ The target of the transition.
+ </summary>
+ <value>
+ The target of the transition.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.MachineStateTransitionStartedEventArgs.Canceled">
+ <summary>
+ Gets or sets a value indicating whether this <see cref="T:Kostal.Testman.Framework.Base.MachineStateTransitionStartedEventArgs" /> is canceled.
+ </summary>
+ <value>
+   <c>true</c> if canceled; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.StateMachineLockStateChangedEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.IMachineStateManager.LockStateChanged"/> event.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StateMachineLockStateChangedEventArgs.#ctor(Kostal.Testman.Framework.Base.LockState)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.StateMachineLockStateChangedEventArgs" /> class.
+ </summary>
+ <param name="lockState">New state of the <see cref="T:Kostal.Testman.Framework.Base.IMachineStateManager"/> locking mechanism.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.StateMachineLockStateChangedEventArgs.LockState">
+ <summary>
+ Gets the state of <see cref="T:Kostal.Testman.Framework.Base.IMachineStateManager"/> locking mechanism.
+ </summary>
+ <value>
+ The state of the lock.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.StateMachineLockToken">
+ <summary>
+ A lock token that is required to lock or unlock <see cref="T:Kostal.Testman.Framework.Base.IMachineStateManager"/>
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StateMachineLockToken.#ctor">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.StateMachineLockToken" /> class.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StateMachineLockToken.Equals(System.Object)">
+ <summary>
+ Determines whether the specified <see cref="T:System.Object" /> is equal to this instance.
+ </summary>
+ <param name="obj">The <see cref="T:System.Object" /> to compare with this instance.</param><returns>
+   <c>true</c> if the specified <see cref="T:System.Object" /> is equal to this instance; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StateMachineLockToken.Equals(Kostal.Testman.Framework.Base.StateMachineLockToken)">
+ <summary>
+ Determines whether the specified <see cref="T:Kostal.Testman.Framework.Base.StateMachineLockToken" /> is equal to this instance.
+ </summary>
+ <param name="other">The <see cref="T:Kostal.Testman.Framework.Base.StateMachineLockToken" /> to compare with this instance.</param><returns>
+   <c>true</c> if the specified <see cref="T:Kostal.Testman.Framework.Base.StateMachineLockToken" /> is equal to this instance; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StateMachineLockToken.Clone">
+ <summary>
+ Creates a new object that is a copy of the current instance.
+ </summary><returns>
+ A new object that is a copy of this instance.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.StateMachineCanSwitchStatus">
+ <summary>
+ Status returned by <see cref="M:Kostal.Testman.Framework.Base.IMachineStateManager.CanSwitchToState(Kostal.Testman.Framework.Base.MachineStates)"/>.
+ Indicated if switching is possible.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.StateMachineCanSwitchStatus.CanSwith">
+ <summary>
+ The requested operation can be executed
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.StateMachineCanSwitchStatus.CanNotSwith">
+ <summary>
+ The requested operation cannot be executed
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.StateMachineCanSwitchStatus.Unknown">
+ <summary>
+ The <see cref="T:Kostal.Testman.Framework.Base.IMachineStateManager"/> has pending operations. Evaluation of possible switches is not possible.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.IRuntimeConsumer">
+ <summary>
+ Basic interface for all Services in testman environment to extends functionality
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IRuntimeConsumer.SetRuntime(Kostal.Testman.Framework.Base.IRuntimeManager)">
+ <summary>
+ Sets the runtime instance.
+ </summary>
+ <param name="runtime">The runtime instance as <see cref="T:Kostal.Testman.Framework.Base.IRuntimeManager"/>.</param>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.TestmanInformation">
+ <summary>
+ Contains some shared methods for informational usage.
+ <remarks>
+ </remarks>
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestmanInformation.GetAssemblyVersions">
+ <summary>
+ A list of loaded testman assemblies and their version.
+ For every assembly there is a list entry. The format is 'AssemblyName  version'
+ </summary>
+ <value></value>
+ <returns>the list of testman assemblies</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestmanInformation.GetTestmanVersion">
+ <summary>
+ highest Version of all Testman assemblys
+ </summary>
+ <value></value>
+ <returns>version</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestmanInformation.GetIp">
+ <summary>
+ Returns the ip adress of the machine
+ </summary>
+ <value></value>
+ <returns>ip adress</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestmanInformation.GetHostName">
+ <summary>
+ Returns the host name of this machine
+ </summary>
+ <value></value>
+ <returns>host name</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestmanInformation.IsRunning">
+ <summary>
+ check if a inctance of current application is running
+ </summary>
+ <returns>
+ returns true if there is no other intance
+ otherwise returns false
+ </returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestmanInformation.BasePath">
+ <summary>
+ Gets or sets the root directory of the application.
+ </summary>
+ <exception cref="T:System.IO.DirectoryNotFoundException">If the basepath couldn't be analyzed correctly</exception>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestmanInformation.SearchFiles(System.Func{System.String,System.Boolean})">
+ <summary>
+ Search for files matching the predicate. First in the basePath of Testman and if there is NO matching file in the lib\core folder
+ </summary>
+ <param name="predicate">Func that gets the filename and returns boolean if the file matches.</param>
+ <returns>List of files that match the predicate</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.Util">
+ <summary>
+ Provides extension methods to do validation and conversion
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.IsByteArray(System.String)">
+ <summary>
+ Determines whether the inserted value is a <see cref="T:System.Byte"/> where either a whitespace or a hyphon is used as seperator char.
+ </summary>
+ <param name="value">The value to be checked.</param><returns>
+   <c>true</c> if value is byte array; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.IsByteArrayWhitespaceSeperated(System.String)">
+ <summary>
+ Determines whether the inserted value is a <see cref="T:System.Byte"/> where a whitespace is used as seperator char.
+ </summary>
+ <param name="value">The value to be checked.</param><returns>
+   <c>true</c> if value is byte array; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.IsByteArrayHyphonSeperted(System.String)">
+ <summary>
+ Determines whether the inserted value is a <see cref="T:System.Byte"/> where a hyphon is used as seperator char.
+ </summary>
+ <param name="value">The value to be checked.</param><returns>
+   <c>true</c> if value is byte array; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.IsLinkSyntax(System.String)">
+ <summary>
+ Determines whether value is in link syntax.
+ </summary>
+ <param name="value">The value to be checked.</param><returns>
+   <c>true</c> if value is in link syntax; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.FindExistingFileInTestmanFilestructure(System.String)">
+ <summary>
+ Searches for an existing file within testman filestructure
+ </summary>
+ <param name="value">Filename and relativ path of the file to be searched.</param>
+ <returns>The absolut path</returns>
+ <exception cref="T:System.IO.FileNotFoundException">In case the file is not existing.</exception>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.CreatePathRelativeToTestmanFilestructure(System.String)">
+ <summary>
+ Tries to make an absolut path relative to testman file structure.
+ this only works if the provided path is within the testman base directory. Otherwise the absolut path is returned
+ </summary>
+ <param name="value">Filename and absolut path to be transformed.</param>
+ <returns>the relative path if possible, otherwise the inserted path.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.FitToTestmanFileStructure(System.String)">
+ <summary>
+ Updates the inserted relativ path and makes it absolut to testman filestructure.
+ </summary>
+ <param name="value">Filename and/or relativ path to be fit.</param>
+ <returns>the absolut path without any existence checks.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.LinebreakTooltip(System.String,System.Int32)">
+ <summary>
+ Automatially linebreaks a text to generate a multiline text.
+ Max blocklength is <paramref name="maxLength"/>. 
+ </summary>
+ <param name="original">The string to be transformed into multiline string.</param>
+ <param name="maxLength">max length of a single line.</param>
+ <returns>The inserted string as multiline string.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.LinebreakTooltip(System.String)">
+ <summary>
+ Automatially linebreaks a text to generate a multiline text.
+ Max blocklength is set fixed to 80. 
+ </summary>
+ <param name="original">The string to be transformed into multiline string.</param>
+ <returns>The inserted string as multiline string.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.QuoteValue(System.String)">
+ <summary>
+ Quate a value
+ </summary>
+ <param name="value"></param>
+ <returns>nothing or String.Format("""{0}""", value)</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.EscapeValue(System.String)">
+ <summary>
+ Escape a Value
+ </summary>
+ <param name="value"></param>
+ <returns>nothing or RegexFlowFileEscaping.Replace(value, "$1""""")</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.EscapeAndQuote(System.String)">
+ <summary>
+ Escape And Quote a value
+ </summary>
+ <param name="value"></param>
+ <returns>nothing or value.EscapeValue().QuoteValue()</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Util.ToStringSupportingNothing(System.String)">
+ <summary>
+ supports ToString if Object is nothing
+ </summary>
+ <param name="message"></param>
+ <returns>message or ""nothing""</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.TesterMode">
+ <summary>
+ all types of TESTER_MODE
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.PRE">
+ <summary>
+  Vorprüfung
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.END">
+ <summary>
+ Endprüfung
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.HT">
+ <summary>
+ Containment / Combi Test „warm“
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.LT">
+ <summary>
+ Containment / Combi Test  „kalt“ 
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.RIH">
+ <summary>
+ Run-in Test  „warm“
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.RIC">
+ <summary>
+ Run- in Test  „kalt“ 
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.ICT">
+ <summary>
+ Incircuit Prüfung
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.VIS">
+ <summary>
+ Visuelle Prüfung
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.AUD">
+ <summary>
+ Auditprüfung
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.GL1">
+ <summary>
+ Kleberüberprüfung 
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.PA1">
+ <summary>
+ Pastenüberprüfung
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.RE1">
+ <summary>
+ Reflow – Prüfung
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.SE1">
+ <summary>
+ Vergussprüfung
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.WA1">
+ <summary>
+ Wellen - Prüfung
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.BSC">
+ <summary>
+ Boundary Scan 
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.RT">
+ <summary>
+ Containment / Combi Test Raumtemp
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.AOI">
+ <summary>
+ Optische Leiterplatten Prüfung
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.TesterMode.FPY">
+ <summary>
+ First Part yield
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestJob.ExecutionTime">
+ <summary>
+ Gets or sets the execution time.
+ Execution time is the duration of the job and is only available when job is done.
+ </summary>
+ <value>
+ The execution time in ms.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestJob.TestResult">
+ <summary>
+ Gets or sets the state of the execution.
+ </summary>
+ <value>
+ The state of the execution.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestJob.IsRunning">
+ <summary>
+ Gets a value indicating whether this instance is running.
+ </summary>
+ <value>
+ <c>true</c> if this instance is running; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestJob.IsJobCompleted">
+ <summary>
+ Gets a value indicating whether this instance of the job is completed.
+ </summary>
+ <value>
+ <c>true</c> if this instance of the job completed; otherwise, <c>false</c>.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestJob.Config">
+ <summary>
+ Gets the job configuration.
+ </summary>
+ <value>
+ The job configuration.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestJob.RootRunnable">
+ <summary>
+ Gets the root runnable.
+ </summary>
+ <value>
+ The root runnable.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.TestRunner.ITestRunner">
+ <summary>
+ Executes test jobs
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.TestRunner.ITestRunner.JobFinished">
+ <summary>
+ Occurs when a test job has been finished.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.TestRunner.ITestRunner.JobDone">
+ <summary>
+ Occurs when a test job has been done.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.TestRunner.ITestRunner.JobStarted">
+ <summary>
+ Occurs when a test job has been started.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.TestRunner.ITestRunner.NoJobFound">
+ <summary>
+ Occurs when no test job is available.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestRunner.ITestRunner.JobDuration">
+ <summary>
+ Gets the duration of the last job.
+ </summary>
+ <value>
+ The duration of the last job.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestRunner.ITestRunner.SetJob(Kostal.Testman.Framework.Base.TestJob)">
+ <summary>
+ Sets the next job to be executed.
+ </summary>
+ <param name="job">The job.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestRunner.ITestRunner.TestStarted(Kostal.Testman.Framework.Base.TestJobConfig)">
+ <summary>
+ Signals the runner that test has started.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestRunner.ITestRunner.SetRegularExecution">
+ <summary>
+ Sets the execution mode to regular execution.
+ This mode executes jobs until it is stopped.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestRunner.ITestRunner.SetSingleExecution">
+ <summary>
+ Sets the execution mode to single execution.
+ This mode executes only a single jobs and stops after completion.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestRunner.ITestRunner.Configure(System.Action)">
+ <summary>
+ Configures a custom execution mode..
+ </summary>
+ <param name="completionAction">The action that is performed when a single test is completed.</param>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.JobEventArgs">
+ <summary>
+ Provides data for the job events.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.JobEventArgs.#ctor(Kostal.Testman.Framework.Base.TestJob)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.JobEventArgs" /> class.
+ </summary>
+ <param name="job">The job that is done.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.JobEventArgs.Job">
+ <summary>
+ Gets the done job.
+ </summary>
+ <returns>The completed job as <see cref="T:Kostal.Testman.Framework.Base.TestJob"/>.</returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.TestJob">
+ <summary>
+ A <see cref="T:Kostal.Testman.Framework.Base.TestJob"/> that can be executed by <see cref="T:Kostal.Testman.Framework.Base.TestRunner.ITestRunner"/>
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.#ctor(Kostal.Testman.Framework.Base.TestJobConfig,Kostal.Testman.Framework.Base.IExecutionOutputData,Kostal.Testman.Framework.Base.ITestRootRunnable,System.Func{Kostal.Testman.Framework.Base.TestJob,Kostal.Testman.Framework.Base.TestingResult},System.Func{Kostal.Testman.Framework.Base.TestJob,System.Boolean})">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.TestJob"/> class.
+ </summary>
+ <param name="testJobConfig"></param>
+ <param name="runLogic">The logic to be run when job is executed.</param>
+ <param name="handleResultLogic">The logic to evaluate the result after testjob is completed.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.#ctor(Kostal.Testman.Framework.Base.TestJobConfig,Kostal.Testman.Framework.Base.IExecutionOutputData,Kostal.Testman.Framework.Base.ITestRootRunnable,System.Func{Kostal.Testman.Framework.Base.TestJob,System.Boolean},System.Func{Kostal.Testman.Framework.Base.TestJob,Kostal.Testman.Framework.Base.TestingResult},System.Func{Kostal.Testman.Framework.Base.TestJob,System.Boolean})">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.TestJob" /> class.
+ </summary>
+ <param name="testJobConfig"></param>
+ <param name="preLogic">The logic to be run before the job is executed.</param>
+ <param name="runLogic">The logic to be run when the job is executed.</param>
+ <param name="handleResultLogic">The logic to evaluate the result after testjob is completed.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.#ctor(Kostal.Testman.Framework.Base.TestJobConfig,Kostal.Testman.Framework.Base.IExecutionOutputData,Kostal.Testman.Framework.Base.ITestRootRunnable,System.Func{Kostal.Testman.Framework.Base.TestJob,System.Boolean},System.Func{Kostal.Testman.Framework.Base.TestJob,Kostal.Testman.Framework.Base.TestingResult},System.Func{Kostal.Testman.Framework.Base.TestJob,System.Boolean},System.Func{Kostal.Testman.Framework.Base.TestJob,System.Boolean})">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.TestJob" /> class.
+ </summary>
+ <param name="testJobConfig"></param>
+ <param name="preLogic">The logic to be run before the job is executed.</param>
+ <param name="runLogic">The logic to be run when the job is executed.</param>
+ <param name="postLogic">The logic to be run after the job is executed.</param>
+ <param name="handleResultLogic">The logic to evaluate the result after testjob is completed.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestJob.ExecutionTime">
+ <summary>
+ Gets the execution time.
+ Execution time is the duration of the job and is only available when job is done.
+ </summary>
+ <value>The execution time in ms</value>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.SetExecutionTime(System.Int64)">
+ <summary>
+ Sets the execution time of the job
+ </summary>
+ <param name="value">The execution time in ms.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.Pre">
+ <summary>
+ Executes the logic that should be executed before the <see cref="M:Kostal.Testman.Framework.Base.TestJob.Run"/> logic.
+ </summary><returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.Run">
+ <summary>
+ Executeds the run logic of this <see cref="T:Kostal.Testman.Framework.Base.TestJob"/>
+ </summary><returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.Post">
+ <summary>
+ Executes the logic that should be executed after the <see cref="M:Kostal.Testman.Framework.Base.TestJob.Run"/> logic.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.HandleResult">
+ <summary>
+ Executes the logic that is executed when <see cref="T:Kostal.Testman.Framework.Base.TestJob"/> is done.
+ </summary>
+ <returns>Result of test as <see cref="T:System.Boolean"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.SetRunLogic(System.Func{Kostal.Testman.Framework.Base.TestJob,Kostal.Testman.Framework.Base.TestingResult})">
+ <summary>
+ Set the run logic.
+ </summary>
+ <param name="logic">A function with a parameter <see cref="T:Kostal.Testman.Framework.Base.TestJob"/> and a return value <see cref="T:Kostal.Testman.Framework.Base.TestingResult"/> to be run.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.SetHandleResultLogic(System.Func{Kostal.Testman.Framework.Base.TestJob,System.Boolean})">
+ <summary>
+ Set the handle result logic.
+ </summary>
+ <param name="logic">A function with a parameter <see cref="T:Kostal.Testman.Framework.Base.TestJob"/> and a return value <see cref="T:System.Boolean"/>called after the test is completed.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.SetPreLogic(System.Func{Kostal.Testman.Framework.Base.TestJob,System.Boolean})">
+ <summary>
+ Set the pre logic.
+ </summary>
+ <param name="logic">A function with a parameter <see cref="T:Kostal.Testman.Framework.Base.TestJob"/> and a return value <see cref="T:System.Boolean"/> to be called before the run logic.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.SetPostLogic(System.Func{Kostal.Testman.Framework.Base.TestJob,System.Boolean})">
+ <summary>
+ Set the post logic.
+ </summary>
+ <param name="logic">A function with a parameter <see cref="T:Kostal.Testman.Framework.Base.TestJob"/> and a return value <see cref="T:System.Boolean"/> to be called after the run logic.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestJob.TestResult">
+ <summary>
+ Gets the result of the execution.
+ </summary>
+ <returns>The result of the execution.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.SetTestResult(Kostal.Testman.Framework.Base.TestingResult)">
+ <summary>
+ Sets the test result
+ </summary>
+ <param name="value">The test result</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestJob.IsRunning">
+ <summary>
+ Get the running state of the testjob
+ </summary>
+ <returns><c>True</c>if running, otherwise <c>False</c></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.SetIsRunning(System.Boolean)">
+ <summary>
+ Set the running status of the testjob 
+ When set to running the ExecutionOutputData is reseted and also the Logging is activated
+ When set to NOT running the Logging is deactivated
+ </summary>
+ <param name="value"><c>True</c> when set to running. <c>False</c> when not running.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.SetIsJobCompletedPredicate(System.Func{System.Boolean})">
+ <summary>
+ Set the function with the condition for the job completion
+ </summary>
+ <param name="predicate">The function with the condition</param>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestJob.IsJobCompleted">
+ <summary>
+ Gets the Jobcompleted status, by calling the JobCompletedPredicate if present,
+ otherwise <c>True</c>
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestJob.Config">
+ <summary>
+ Get the Job configuration
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.TestJob.RootRunnable">
+ <summary>
+ Gets the root runnable.
+ </summary>
+ <value>
+ The root runnable.
+ </value>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestJob.SetTestJobConfig(Kostal.Testman.Framework.Base.TestJobConfig)">
+ <summary>
+ Sets the Job configuration
+ </summary>
+ <param name="testJobConfig"></param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestRunnerException.#ctor">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.TestRunnerException"/>
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestRunnerException.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.TestRunnerException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestRunnerException.#ctor(System.String,System.Exception)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.TestRunnerException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.TestRunnerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.TestRunnerException"/> with serialized data.
+ </summary>
+ <param name="info">The System.Runtime.Serialization.SerializationInfo that holds the serialized object data about the exception being thrown.</param>
+ <param name="context">The System.Runtime.Serialization.StreamingContext that contains contextual information about the source or destination.</param>
+ <exception cref="T:System.ArgumentNullException">The info parameter is null.</exception>
+ <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or System.Exception.HResult is zero (0).</exception>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.TestStatus">
+ <summary>
+ types of TEST Status
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.IUserManager">
+ <summary>
+ Manages the userlevels and allows to switch from one level to another
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.IUserManager.CurrentUserLevel">
+ <summary>
+ Gets the current user level.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IUserManager.SwitchToOperator">
+ <summary>
+ Switches to 'operator' user level.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IUserManager.SwitchToService(System.String,System.String)">
+ <summary>
+ Switches to 'Service' user level using the provided credentials.
+ </summary>
+ <param name="username">The username used for login.</param>
+ <param name="password">The password used for login.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IUserManager.SwitchToDeveloper(System.String,System.String)">
+ <summary>
+ Switches to 'Developer' user level using the provided credentials.
+ </summary>
+ <param name="username">The username used for login.</param>
+ <param name="password">The password used for login.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.IUserManager.SwitchToAdmin(System.String,System.String)">
+ <summary>
+ Switches to 'Admin' user level using the provided credentials.
+ </summary>
+ <param name="username">The username used for login.</param>
+ <param name="password">The password used for login.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.KostalExternalIdController.ModifyExternalId(System.String,System.String)">
+ <summary>
+ Modifies the external identifier by the dynamic id.
+ </summary>
+ <param name="higherPriorityId">The dynamic identifier.</param>
+ <param name="lowerPriorityId">The external identifier.</param>
+ <returns></returns>
+ <remarks>Modifier is Friend, because this function must be tested with UnitTests.</remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.StringConverter">
+ <summary>
+ Provides shared methods to convert a string 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToByteArray(System.String)">
+ <summary>
+ Converts input string into a byte array
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <returns>The converted value as <see cref="T:System.Byte"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToBoolean(System.String)">
+ <summary>
+ Converts input string into boolean
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <returns>The converted value as <see cref="T:System.Boolean"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToByte(System.String)">
+ <summary>
+ Converts input string into byte
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <returns>The converted value as <see cref="T:System.Byte"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToByte(System.String,System.IFormatProvider)">
+ <summary>
+ Converts input string into byte
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <param name="formatProvider">The <see cref="T:System.IFormatProvider"/> used during conversion</param>
+ <returns>The converted value as <see cref="T:System.Byte"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToInteger(System.String)">
+ <summary>
+ Converts input string into integer
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <returns>The converted value as <see cref="T:System.Int32"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToInteger(System.String,System.IFormatProvider)">
+ <summary>
+ Converts input string into integer
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <param name="formatProvider">The <see cref="T:System.IFormatProvider"/> used during conversion</param>
+ <returns>The converted value as <see cref="T:System.Int32"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToLong(System.String)">
+ <summary>
+ Converts input string into long
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <returns>The converted value as <see cref="T:System.Int64"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToLong(System.String,System.IFormatProvider)">
+ <summary>
+ Converts input string into long
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <param name="formatProvider">The <see cref="T:System.IFormatProvider"/> used during conversion</param>
+ <returns>The converted value as <see cref="T:System.Int64"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToSingle(System.String)">
+ <summary>
+ Converts input string into single
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <returns>The converted value as <see cref="T:System.Single"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToSingle(System.String,System.IFormatProvider)">
+ <summary>
+ Converts input string into single
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <param name="formatProvider">The <see cref="T:System.IFormatProvider"/> used during conversion</param>
+ <returns>The converted value as <see cref="T:System.Single"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToDouble(System.String)">
+ <summary>
+ Converts input string into double
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <returns>The converted value as <see cref="T:System.Double"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToDouble(System.String,System.IFormatProvider)">
+ <summary>
+ Converts input string into double
+ </summary>
+ <param name="value">The value to be converted.</param>
+ <param name="formatProvider">The <see cref="T:System.IFormatProvider"/> used during conversion</param>
+ <returns>The converted value as <see cref="T:System.Double"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Byte[])">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Boolean)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Byte)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Int32)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Int64)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Single)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Double)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Boolean,System.IFormatProvider)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="formatProvider">The <see cref="T:System.IFormatProvider"/> used during conversion</param>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Byte,System.IFormatProvider)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="formatProvider">The <see cref="T:System.IFormatProvider"/> used during conversion</param>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Int32,System.IFormatProvider)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="formatProvider">The <see cref="T:System.IFormatProvider"/> used during conversion</param>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Int64,System.IFormatProvider)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="formatProvider">The <see cref="T:System.IFormatProvider"/> used during conversion</param>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Single,System.IFormatProvider)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="formatProvider">The <see cref="T:System.IFormatProvider"/> used during conversion</param>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.StringConverter.ToString(System.Double,System.IFormatProvider)">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents the inserted value.
+ </summary>
+ <param name="formatProvider">The <see cref="T:System.IFormatProvider"/> used during conversion</param>
+ <param name="value">The value to be converted to string.</param><returns>
+ A <see cref="T:System.String" /> that represents the inserted value.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ReportingLevel">
+ <summary>
+ Reporting level that has been assigned to a test step
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ReportingLevel.#ctor">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ReportingLevel" /> class.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ReportingLevel.IsReporting">
+ <summary>
+ Returns true if any documentation level flag is set.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ReportingLevel.Doclevel">
+ <summary>
+ Gets or sets the documentation level (0=none  1=LGV 2=CAQ 4=lOG 8=TRACE .....)
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ReportingLevel.QualityDataSystem">
+ <summary>
+ Gets or sets documentation level flag 'CAQ'.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ReportingLevel.LocalQualityViewer">
+ <summary>
+ Gets or sets documentation level flag 'LqvShow'.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ReportingLevel.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary><returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.AlarmException">
+ <summary>
+ Represents errors that are caused by a alarm signaled during testrun.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.AlarmException.#ctor(System.String,Kostal.Testman.Framework.Base.ITestStepResult,Kostal.Testman.Framework.Base.AlarmChannelType)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.AlarmException" /> class.
+ </summary>
+ <param name="section">Name of the section that was executed when alarm occured.</param>
+ <param name="teststep">Instance of the teststep that was performed when alarm occured.</param>
+ <param name="alarmType">The type of the alert.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.AlarmException.#ctor(System.String,System.String,Kostal.Testman.Framework.Base.ITestStepResult,Kostal.Testman.Framework.Base.AlarmChannelType)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.AlarmException" /> class.
+ </summary>
+ <param name="message">A message providing additional description about the alarm.</param>
+ <param name="section">Name of the section that was executed when alarm occured.</param>
+ <param name="teststep">Instance of the teststep that was performed when alarm occured.</param>
+ <param name="alarmType">The type of the alert.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.AlarmException.#ctor(System.String,System.Exception,System.String,Kostal.Testman.Framework.Base.ITestStepResult,Kostal.Testman.Framework.Base.AlarmChannelType)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.AlarmException" /> class.
+ </summary>
+ <param name="message">A message providing additional description about the alarm.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <param name="section">Name of the section that was executed when alarm occured.</param>
+ <param name="teststep">Instance of the teststep that was performed when alarm occured.</param>
+ <param name="alarmType">The type of the alert.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.AlarmException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext,System.String,Kostal.Testman.Framework.Base.ITestStepResult,Kostal.Testman.Framework.Base.AlarmChannelType)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.AlarmException" /> with serialized data.
+ </summary>
+ <param name="info">The System.Runtime.Serialization.SerializationInfo that holds the serialized object data about the exception being thrown.</param>
+ <param name="context">The System.Runtime.Serialization.StreamingContext that contains contextual information about the source or destination.</param>
+ <exception cref="T:System.ArgumentNullException">The info parameter is null.</exception>
+ <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or System.Exception.HResult is zero (0).</exception>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.AlarmException.Section">
+ <summary>
+ Gets a value indicating the name of section that was executed when the alarm occured.
+ </summary>
+ <returns>Name of section that was executed when alarm occured.</returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.AlarmException.Teststep">
+ <summary>
+ Gets a value indicating the teststep that was executed when the alarm occured.
+ </summary>
+ <returns>Last executed teststep as <see cref="T:Kostal.Testman.Framework.Base.ITestStepResult"/></returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.AlarmException.AlarmType">
+ <summary>
+ Gets the type of the alarm.
+ </summary>
+ <returns>
+ The type of the alarm.
+ </returns>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ArticleBuilder">
+ <summary>
+ Builder to create an ArticleConfigurationSet using simple add routines.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleBuilder.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ArticleBuilder"/> class.
+ </summary>
+ <param name="key">identifier for new article.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleBuilder.AddFile(System.String)">
+ <summary>
+ Adds a new flowFile to the article.
+ </summary>
+ <param name="filename">name and path of the flowFile to be added.</param>
+ <returns>true if file was added; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleBuilder.AddTag(Kostal.Testman.Framework.Base.ArticleAttribute,System.String)">
+ <summary>
+ Adds a tag to the article. 
+ A tag is a value that is attached to a certain enumeration value of InfoItem enumeration.
+ This routine will not overwrite any existing value.
+ </summary>
+ <param name="type">the name of tag as InfoItem</param>
+ <param name="value">the value to be attached to this tag</param>
+ <returns>true if value could be added; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleBuilder.AddTag(Kostal.Testman.Framework.Base.ArticleAttribute,System.String,System.Boolean)">
+ <summary>
+ Adds a tag to the article. 
+ A tag is a value that is attached to a certain enumeration value of InfoItem enumeration.
+ </summary>
+ <param name="type">the name of tag as InfoItem</param>
+ <param name="value">the value to be attached to this tag</param>
+ <param name="overwrite">if true existing values will be overwritten, if false existing values will be kept.</param>
+ <returns>true if value could be added; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleBuilder.AddCustomTag(System.String,System.String,System.Boolean)">
+ <summary>
+ Adds a user-specific or custom tag to the article. This tag is a key-value combination where the key must be unique over all tags (InfoItems and custom tags).
+ This routine will not overwrite any existing value.
+ </summary>
+ <param name="key">name of the tag as string</param>
+ <param name="value">value to be attached to this tag</param>
+ <param name="isShown">if true it will be listed in UI, if false it will be hidden.</param>
+ <returns>true if value could be added; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleBuilder.AddCustomTag(System.String,System.String,System.Boolean,System.Boolean)">
+ <summary>
+ Adds a user-specific or custom tag to the article. This tag is a key-value combination where the key must be unique over all tags (InfoItems and custom tags).
+ </summary>
+ <param name="key">name of the tag as string</param>
+ <param name="value">value to be attached to this tag</param>
+ <param name="isShown">if true it will be listed in UI, if false it will be hidden.</param>
+ <param name="overwrite">if true existing values will be overwritten, if false existing values will be kept.</param>
+ <returns>true if value could be added; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleBuilder.Article">
+ <summary>
+ Gets a value representing the article build by this builder.
+ </summary>
+ <value></value>
+ <returns>the build article as ArticleConfigurationSet</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ArticleCollection">
+ <summary>
+ Container for articles used by testman framework
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleCollection.AddRange(System.Collections.Generic.IEnumerable{Kostal.Testman.Framework.Base.ArticleConfigurationSet},System.Int32@)">
+ <summary>
+ Adds multiple articles to this collection.
+ </summary>
+ <param name="items">articles to be added in a enumerable collection of ArticleConfigurationSet</param>
+ <param name="invalidArticleCount">Return the number of articles that are marked with Valid = false</param>
+ <returns>The number of articles added to this collection</returns>
+ <exception cref="T:Kostal.Testman.Framework.Base.ArticleException">In case of problems when adding the items</exception>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleCollection.Add(Kostal.Testman.Framework.Base.ArticleConfigurationSet)">
+ <summary>
+ Adds a new article to this collection.
+ </summary>
+ <param name="article">article to be added as ArticleConfigurationSet</param>
+ <exception cref="T:Kostal.Testman.Framework.Base.XmlException">in case of a duplicate key of two articles or unvalid key.</exception>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleCollection.IsArticleExisting(System.String)">
+ <summary>
+ Checks if a article with provided key is registered in this collection
+ </summary>
+ <param name="key">article key as string</param>
+ <returns>true if article is existing; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleCollection.GetArticle(System.String)">
+ <summary>
+ Returns the instance of an article that is represented by a key
+ </summary>
+ <param name="key">key of article to be returned</param>
+ <returns>the article as ArticleConfigurationSet</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleCollection.Remove(System.String)">
+ <summary>
+ Removes article registered by provided key from this collection
+ </summary>
+ <param name="key">key of article to be removed as string.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleCollection.RemoveAll">
+ <summary>
+ Removes all currently registered articles from this collection.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.CoreException">
+ <summary>
+ Represents errors that are caused by the testman framework core assemblies.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CoreException.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.CoreException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.CoreException.#ctor(System.String,System.Exception)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.CoreException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ExecutionEngineException">
+ <summary>
+ Represents errors that occured during execution within the ExecutionEngine
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionEngineException.#ctor">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ExecutionEngineException"/>
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionEngineException.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ExecutionEngineException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionEngineException.#ctor(System.String,System.Exception)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ExecutionEngineException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionEngineException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.ExecutionEngineException"/> with serialized data.
+ </summary>
+ <param name="info">The System.Runtime.Serialization.SerializationInfo that holds the serialized object data about the exception being thrown.</param>
+ <param name="context">The System.Runtime.Serialization.StreamingContext that contains contextual information about the source or destination.</param>
+ <exception cref="T:System.ArgumentNullException">The info parameter is null.</exception>
+ <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or System.Exception.HResult is zero (0).</exception>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ExecutionException">
+ <summary>
+ Represents errors that occured right within the execution flow
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionException.#ctor(System.String,Kostal.Testman.Framework.Base.ITestStepResult)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ExecutionException" /> class.
+ </summary>
+ <param name="section">Name of the section that was executed when failure occured.</param>
+ <param name="teststep">Instance of the teststep that was performed when failure occured.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionException.#ctor(System.String,System.String,Kostal.Testman.Framework.Base.ITestStepResult)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ExecutionException" /> class.
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="sectionId">Name of the section that was executed when failure occured.</param>
+ <param name="teststep">Instance of the teststep that was performed when failure occured.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ExecutionException.#ctor(System.String,System.Exception,System.String,Kostal.Testman.Framework.Base.ITestStepResult)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.ExecutionException" /> class.
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <param name="sectionId">Name of the section that was executed when failure occured.</param>
+ <param name="teststep">Instance of the teststep that was performed when failure occured.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ExecutionException.SectionId">
+ <summary>
+ Gets a value indicating the name of section that was executed when the error occured.
+ </summary>
+ <returns>Name of section that was executed when error occured.</returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ExecutionException.TestStepResult">
+ <summary>
+ Gets a value indicating the teststep that was executed when the error occured.
+ </summary>
+ <returns>Last executed teststep as <see cref="T:Kostal.Testman.Framework.Base.ITestStepResult"/></returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.XmlException.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.XmlException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.XmlException.#ctor(System.String,System.Exception)">
+ <summary>
+ Initializes a new instance of <see cref="T:Kostal.Testman.Framework.Base.XmlException"/>
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.AlarmContainer">
+ <summary>
+ Contains all available alarm adapters.
+ Singleton class.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.AlarmContainer.#ctor">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.AlarmContainer" /> class.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.AlarmContainer.EnabledAlert">
+ <summary>
+ Gets the first alarm channel that is turned on.
+ </summary>
+ <returns>first enabled channel as <see cref="T:Kostal.Testman.Framework.Base.AlarmChannelType"/>. If none is enabled <c>nothing/null</c> is returned.</returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.AlarmContainer.GeneralAlarm">
+ <summary>
+ Gets or sets the adapter for general alarm.
+ </summary>
+ <value>
+ The general alarm adapter.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.AlarmContainer.Pass">
+ <summary>
+ Gets or sets the adapter for pass alarm.
+ </summary>
+ <value>
+ The pass alarm adapter.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.AlarmContainer.Fail">
+ <summary>
+ Gets or sets the adapter for fail alarm.
+ </summary>
+ <value>
+ The fail alarm adapter.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.AlarmContainer.EmergencyStop">
+ <summary>
+ Gets or sets the adapter for emergency stop alarm.
+ </summary>
+ <value>
+ The emergency stop alarm adapter.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.AlarmContainer.SafetyProtection">
+ <summary>
+ Gets or sets the adapter for safety protection alarm.
+ </summary>
+ <value>
+ The safety protection alarm adapter.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.AlarmContainer.Retest">
+ <summary>
+ Gets or sets the adapter for retest alarm.
+ </summary>
+ <value>
+ The retest alarm adapter.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.AlarmContainer.Release">
+ <summary>
+ Gets or sets the adapter for release alarm.
+ </summary>
+ <value>
+ The release alarm adapter.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.Gui.IGuiController">
+ <summary>
+ Interface for a gui controller.
+ GuiController manages the elements shown on a certain component.
+ You can add multiple views and switch the view shown up currently.
+ <remarks></remarks>
+ </summary>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.Gui.IGuiController.ModalOnShow">
+ <summary>
+ Occurs when a UI is shown in modal mode.
+ </summary>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.Gui.IGuiController.ModalOnHide">
+ <summary>
+ Occurs when a UI exits modal mode.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.ShowModal(System.String)">
+ <summary>
+ Shows a registered UI in modal mode.
+ </summary>
+ <param name="name">The name of the UI to be shown modal.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.Contains(System.String)">
+ <summary>
+ Determines whether a UI with the specified name is registered in <see cref="T:Kostal.Testman.Framework.Base.Gui.IGuiController"/>.
+ </summary>
+ <param name="name">The name to be checked.</param><returns>
+   <c>true</c> if <see cref="T:Kostal.Testman.Framework.Base.Gui.IGuiController"/> contains the specified name; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.Gui.IGuiController.Item(System.String)">
+ <summary>
+ Gets the <see cref="T:Kostal.Testman.Framework.Base.Gui.IGuiElement" /> with the specified name.
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.SetBaseContainer(System.Windows.Forms.Control)">
+ <summary>
+ Sets the base container.
+ The base container, or view base is the control that works as host for the UI elements.
+ If you call show the UI to be shown will be added as a child to base container.
+ </summary>
+ <param name="view">The view acting as view base.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.Register(System.String,System.Windows.Forms.Control,System.String)">
+ <summary>
+ Registers a new element to be showable by the GuiController.
+ </summary>
+ <param name="name">unique name of the UI</param>
+ <param name="control">the control representing the ui</param>
+ <param name="operatorText">text shown in the Testman sidebar.</param>
+ <returns>true for successful add, false else</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.Register(System.String,Kostal.Testman.Plugin.Base.UserLevel,System.Windows.Forms.Control,System.String)">
+ <summary>
+ Registers a new element to be showable by the GuiController.
+ </summary>
+ <param name="name">unique name of the UI</param>
+ <param name="control">the control representing the ui</param>
+ <param name="operatorText">text shown in the Testman sidebar.</param>
+ <returns>true for successful add, false else</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.Register(System.String,System.Windows.Controls.Control,System.String)">
+ <summary>
+ Registers a new element to be showable by the GuiController.
+ </summary>
+ <param name="name">unique name of the gui</param>
+ <param name="control">the control to show</param>
+ <param name="operatorText">text shown in the Testman sidebar.</param>
+ <returns>true for successful add, false else</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.Register(System.String,Kostal.Testman.Plugin.Base.UserLevel,System.Windows.Controls.Control,System.String)">
+ <summary>
+ Registers a new element to be showable by the GuiController.
+ </summary>
+ <param name="name">unique name of the gui</param>
+ <param name="control">the control to show</param>
+ <param name="operatorText">text shown in the Testman sidebar.</param>
+ <returns>true for successful add, false else</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.Register(System.String,Kostal.Testman.Framework.Base.Gui.IGuiElement)">
+ <summary>
+ Registers a new element to be showable by the GuiController.
+ </summary>
+ <param name="name">unique name of the gui</param>
+<param name="guiElement">the guiElement to add</param>
+ <returns>true for successful add, false else</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.Deregister(System.String)">
+ <summary>
+ Removes an element from the list of showable components
+ </summary>
+ <param name="name">name of element to remove</param>
+ <returns>true for a successful remove, false else.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.Replace(System.String,Kostal.Testman.Framework.Base.Gui.IGuiElement)">
+ <summary>
+ Replaces an element to be showable by the GuiController.
+ </summary>
+ <param name="name">unique name of the gui</param>
+<param name="element">the guiElement to add</param>
+ <returns>true for successful add, false else</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.Show(System.String)">
+ <summary>
+ Shows a gui.
+ </summary>
+ <param name="name">name of gui to show up.</param>
+ <returns>true if shown, false else.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.GetKeyList(Kostal.Testman.Plugin.Base.UserLevel)">
+ <summary>
+ A list of all accessable views.
+ </summary>
+ <returns>array with the names of all registered guis.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.GetKeyList">
+ <summary>
+ A list of all accessable views.
+ </summary>
+ <returns>array with the names of all registered guis.</returns>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.ShowLastShownGui">
+ <summary>
+ Shows the previously shown gui again
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.Gui.IGuiController.LastShownGuiId">
+ <summary>
+ Returns the id string of the last shown gui.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.Gui.IGuiController.ActualShownGuiId">
+ <summary>
+ Returns the id string of the actual shown gui.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.ShowDefaultGui">
+ <summary>
+ Shows the default gui.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.Gui.IGuiController.DefaultGui">
+ <summary>
+ Gets or sets the default gui, that can be shown by the ShowDefault Property.
+ </summary>
+ <value>name of new default gui</value>
+ <returns>current default gui</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.OnKey(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Called when a key is pressed within UI.
+ </summary>
+ <param name="sender">The sender.</param>
+ <param name="e">The <see cref="T:System.Windows.Forms.KeyEventArgs" /> instance containing the event data.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.RefreshGui">
+ <summary>
+ Refreshes the currently shown UI if it is a WPF ui.
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.RefreshGui(System.Boolean)">
+ <summary>
+ Refreshes the currently shown UI if it is a WPF.
+ Windows.Forms is only refreshed if the force parameter is set to true.
+ </summary>
+ <param name="force">true to refresh Windows.Forms UIs as well, false to only refresh WPF content.</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiController.AbortModalView">
+ <summary>
+ Aborts the modal mode of the currently shown UI.
+ Call only affects if current UI is shown modal.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.Gui.IGuiController.UiDispatcher">
+ <summary>
+ Gets the <see cref="T:System.Windows.Threading.Dispatcher" /> of the main gui thread.
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.Gui.IGuiElement">
+ <summary>
+ interface for components, showable by gui controller.
+ <remarks></remarks>
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiElement.GetControl">
+ <summary>
+ returns the showable component
+ </summary>
+ <returns>a panel or a usercontrol to show up.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiElement.OnRegister">
+ <summary>
+ Executed when this element is registered on a guiController.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiElement.OnShow(System.Boolean)">
+ <summary>
+ Executed when the guiController shows up this view
+ </summary>
+ <param name="modal">true if the form is shown up modal.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiElement.OnHide">
+ <summary>
+ Executed when the guiController hides this view again
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiElement.OnDeregister">
+ <summary>
+ Executed when this element is deregistered from a guiController.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="E:Kostal.Testman.Framework.Base.Gui.IGuiElement.ExitModalMode">
+ <summary>
+ Executed by the element, if it want´s to leave the modal mode.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.Gui.IGuiElement.IsPublic">
+ <summary>
+ Gets or sets the accessability for this element
+ </summary>
+ <value>the current visibility</value>
+ <returns>new visibility</returns>
+ <remarks>only public views can be accessed direcly by the user.</remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.Gui.IGuiElement.UserLevels">
+ <summary>
+ Gets or sets the userlevels with rights to view this guiElement
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.Gui.IGuiElement.OperatorText">
+ <summary>
+ Name, shown up in the Testman sidebar.
+ </summary>
+ <value>current name</value>
+ <returns>new name</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.Gui.IGuiElementAlarmManaged">
+ <summary>
+ A UI element that is interacting with testman alarm management system
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiElementAlarmManaged.SetAlarmChannels(Kostal.Testman.Framework.Base.AlarmContainer)">
+ <summary>
+ Sets the alarm channels.
+ </summary>
+ <param name="alarmContainer">The alarm container containing alarm channels.</param>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.Gui.IGuiElementKeyControled">
+ <summary>
+ A UI element that is interacting by keyboard input
+ </summary>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.Gui.IGuiElementKeyControled.OnKey(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Called when key is pressed within UI.
+ </summary>
+ <param name="sender">The sender.</param>
+ <param name="e">The <see cref="T:System.Windows.Forms.KeyEventArgs" /> instance containing the event data.</param>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.Gui.OnShowEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.Gui.IGuiController.ModalOnShow"/> event.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.MachineStates">
+ <summary>
+ Specifies the possible states of testmans state machine
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.DocLevel">
+ <summary>
+ Available statistic levels
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.CompareModes">
+ <summary>
+ The mode of comparions of the measured value against limit
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.CompareModes.FixTrue">
+ <summary>
+ The evaluation will be always result in a true value.
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.CompareModes.InLimit">
+ <summary>
+ The value must be in the range of the limits.
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.CompareModes.OutLimit">
+ <summary>
+ The value must be out of the range of the limits.
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.CompareModes.FixFalse">
+ <summary>
+ The evaluation will be always result in a false value.
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.CompareModes.JustBool">
+ <summary>
+ The evaluation will be result in a boolean value.
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.CompareModes.NullOrEmpty">
+ <summary>
+ The evaluation will be result in true, if the value is null or empty.
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.CompareModes.NotNullOrEmpty">
+ <summary>
+ The evaluation will be result in true, if the value is not null oand also not empty.
+ </summary>
+</member>
+<member name="F:Kostal.Testman.Framework.Base.CompareModes.RegularExpression">
+ <summary>
+ Lower and upper limit contains a regular expression. If lower and upper limit is filled, one of both must be match to get a 'true' as result. 
+ </summary>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ITestStepDefinition">
+ <summary>
+ The interface, that defines a teststep
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.SectionDefinition">
+ <summary>
+ Gets the section definition.
+ </summary>
+ <value>
+ The section definition.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.PluginName">
+ <summary>
+ Gets or sets the name of the plugin.
+ </summary>
+ <value>
+ The name of the plugin.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.CategoryName">
+ <summary>
+ Gets or sets the kind id of the command.
+ </summary>
+ <value>
+ The kind of the command.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.CommandName">
+ <summary>
+ Gets or sets the name of the command.
+ </summary>
+ <value>
+ The name of the command.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.Id">
+ <summary>
+ Gets the identifier.
+ </summary>
+ <value>
+ The identifier.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.TextStandard">
+ <summary>
+ Gets or sets the standard text.
+ </summary>
+ <value>
+ The standard text.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.TextAlternative">
+ <summary>
+ Gets or sets the alternative text.
+ </summary>
+ <value>
+ The alternative text.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.Text">
+ <summary>
+ Gets the text.
+ </summary>
+ <value>
+ The text.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.MaximalExecutions">
+ <summary>
+ Gets or sets the maximal executions.
+ </summary>
+ <value>
+ The maximal executions.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.DelayBeforeExecution">
+ <summary>
+ Gets or sets the delay before execution in milliseconds.
+ </summary>
+ <value>
+ The delay before execution.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.CompareMode">
+ <summary>
+ Gets or sets the CompareMode.
+ </summary>
+ <value>
+ The CompareMode.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.Format">
+ <summary>
+ Gets or sets the format.
+ </summary>
+ <value>
+ The format.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.Unit">
+ <summary>
+ Gets or sets the unit.
+ </summary>
+ <value>
+ The unit.
+ </value>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ITestStepDefinition.ExternalId">
+ <summary>
+ Gets or sets the external identifier.
+ </summary>
+ <value>
+ The external identifier.
+ </value>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ArticleConfigurationFile">
+ <summary>
+ References a flow file located on local harddrive
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleConfigurationFile.#ctor(Kostal.Testman.Framework.Base.ArticleConfigurationSet,System.String)">
+ <summary>
+ Initializes a new instance of the ArticleConfigurationFile class.
+ </summary>
+ <param name="parent">connection to the article the file referres to.</param>
+ <param name="fileName">name and path referencing the file.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleConfigurationFile.#ctor">
+ <summary>
+ Initializes a new instance of the ArticleConfigurationFile class.
+ The properties Parent and FileName as still null
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationFile.Parent">
+ <summary>
+ Gets the value representing the article this configuration element is attached to.
+ </summary>
+ <value>Parent article as ArticleConfigurationSet</value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationFile.FileName">
+ <summary>
+ Gets the value representing the reference to flow file on local harddisk
+ </summary>
+ <value></value>
+ <returns>Filename and path (relative or absolut) to the flow file represented by this class.</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ArticleConfigurationItem">
+ <summary>
+ A configuration item that can be used for article configuration
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleConfigurationItem.#ctor(System.String,System.String,System.Boolean,Kostal.Testman.Framework.Base.ArticleConfigurationSet)">
+ <summary>
+ Initializes a new instance of the ArticleConfigurationItem class.
+ </summary>
+ <param name="key">identifier for this item.</param>
+ <param name="value">the value of this item.</param>
+ <param name="show">true if value should be shown in article selector.</param>
+ <param name="parent">reference to the parent article.</param>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleConfigurationItem.#ctor">
+ <summary>
+ Initializes a new instance of the ArticleConfigurationItem class.
+ All properties of this class are still null.
+ </summary>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationItem.Key">
+ <summary>
+ Gets a value representing the identifier of this ArticleConfigurationItem
+ </summary>
+ <value></value>
+ <returns>key as string</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationItem.Value">
+ <summary>
+ Gets a value representing the value of this item
+ </summary>
+ <value></value>
+ <returns>value as string</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationItem.Show">
+ <summary>
+ Gets a value indicating wether this item will be shown in UI or not
+ </summary>
+ <value></value>
+ <returns>true if it is shown; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationItem.Parent">
+ <summary>
+ Gets the value representing the article this configuration element is attached to.
+ </summary>
+ <value>Parent article as ArticleConfigurationSet</value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.ArticleConfigurationSet">
+ <summary>
+ The complete configuration of a single article 
+ </summary>
+ <remarks>If it is required to build ArticleConfigurationSet manually use the Testman.Framework.Base.ArticleBuilder class.</remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleConfigurationSet.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of ArticleConfigurationSet
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationSet.Key">
+ <summary>
+ Gets a value representing the unique identifier of this configuration set.
+ </summary>
+ <value></value>
+ <returns>key as string</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationSet.Description">
+ <summary>
+ Gets or sets the value describing this ArticleConfigurationSet
+ </summary>
+ <value>description as string</value>
+ <returns>description as string</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationSet.Enabled">
+ <summary>
+ Gets a value indicating wether the article is enabled or not
+ </summary>
+ <value></value>
+ <returns>true if enabled; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationSet.ValidFrom">
+ <summary>
+ Gets a value indicating the start of validity for this article
+ </summary>
+ <value></value>
+ <returns>the dateTime when this article gets active.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationSet.ValidTo">
+ <summary>
+ Gets a value indicating the end of lifetime for this article
+ </summary>
+ <value></value>
+ <returns>dateTime when this article gets invalid</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationSet.IsValid">
+ <summary>
+ Returns a value indicating wether this article is valid or not
+ </summary>
+ <value></value>
+ <returns>true if article is valid; otherwise, false.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationSet.ConfigurationItems">
+ <summary>
+ Returns a collection of all configuration items attached to this ArticleConfigurationSet
+ </summary>
+ <value></value>
+ <returns>list of attached ArticleConfigurationItem objects</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationSet.ConfigurationFiles">
+ <summary>
+ Returns a readonly collection of all flow files attached to this ArticleConfigurationSet
+ </summary>
+ <value></value>
+ <returns>readonly collection of all attached ArticleConfigurationFile objects.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleConfigurationSet.AddConfigurationFile(Kostal.Testman.Framework.Base.ArticleConfigurationFile)">
+ <summary>
+ Adds an additional flow file to this ArticleConfigurationSet
+ </summary>
+ <param name="articleConfigurationFile">flow file represented by ArticleConfigurationFile</param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleConfigurationSet.ContainsItem(System.String)">
+ <summary>
+ Checks if this article configuration contains a certain tag
+ </summary>
+ <param name="keyToBeChecked">name of the tag to be checked</param>
+ <returns>true if tag exists; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationSet.Items">
+ <summary>
+ Returns a readonly collection of all tags currently attached to this article.
+ </summary>
+ <value></value>
+ <returns>readonly collection containing attached ArticleConfigurationItem</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationSet.Item(System.String)">
+ <summary>
+ Returns a tag identified by a certain key.
+ This will return tags identified by InfoItems as well as custom tags.
+ </summary>
+ <param name="keyToBeChecked">key identifying the tag to be returned</param>
+ <value></value>
+ <returns>the tag as ArticleConfigurationItem; nothing if tag doesn't exist.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleConfigurationSet.GetInfo(Kostal.Testman.Framework.Base.ArticleAttribute)">
+ <summary>
+ Returns the value of a standard tag
+ </summary>
+ <param name="articleAttribute">the tag to be returned as InfoItem</param>
+ <returns>value as String; nothing if tag doesn't exist.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleConfigurationSet.GetInfo(System.String)">
+ <summary>
+ Returns the value of a tag identified by string id
+ </summary>
+ <param name="articleAttributeName">the tag to be returned as id string</param>
+ <returns>value as String; nothing if tag doesn't exist.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.ArticleConfigurationSet.ContainsItem(Kostal.Testman.Framework.Base.ArticleAttribute)">
+ <summary>
+ Checks if this article configuration contains a certain tag
+ </summary>
+ <param name="articleAttribute">name of the tag to be checked as enumeration value of InfoItem</param>
+ <returns>true if tag exists; otherwise, false</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.ArticleConfigurationSet.Item(Kostal.Testman.Framework.Base.ArticleAttribute)">
+ <summary>
+ Returns a standard tag identified by a InfoItem value.
+ </summary>
+ <param name="articleAttribute">InfoItem value identifying the tag to be returned</param>
+ <value></value>
+ <returns>the tag as ArticleConfigurationItem; nothing if tag doesn't exist.</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.TestState">
+ <summary>
+ Represents the current status of a test
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Testman.Framework.Base.UserChangedEventArgs">
+ <summary>
+ Provides data for the <see cref="E:Kostal.Testman.Framework.Base.SystemState.IUserState.UserChanged"/> event.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Testman.Framework.Base.UserChangedEventArgs.#ctor(Kostal.Testman.Plugin.Base.UserLevel)">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Testman.Framework.Base.UserChangedEventArgs" /> class.
+ </summary>
+ <param name="userLevel">The <see cref="P:Kostal.Testman.Framework.Base.UserChangedEventArgs.UserLevel"/> now active.</param>
+</member>
+<member name="P:Kostal.Testman.Framework.Base.UserChangedEventArgs.UserLevel">
+ <summary>
+ Gets the active <see cref="P:Kostal.Testman.Framework.Base.UserChangedEventArgs.UserLevel"/> level.
+ </summary>
+</member>
+</members>
+</doc>

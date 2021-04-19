@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:r4="http://systemagmbh.com/manufacturing-automation/r4/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <r4:validateBOM>
+         <validateBOMRequest>
+            <resourceId></resourceId>
+            <softwareRevision></softwareRevision>
+            <timeStamp></timeStamp>
+            <operation></operation>
+            <sfc></sfc>
+         </validateBOMRequest>
+      </r4:validateBOM>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,55 @@
+Help application does not exist
+2021.04.15;10:44:44;Main;Init;**************************************************************************************
+2021.04.15;10:44:44;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.15;10:44:44;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.15;10:44:44;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.15;10:44:44;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.15;10:44:44;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.15;10:44:44;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.15;10:44:44;Main;Language.Init;Language Initial Successful
+2021.04.15;10:44:45;Main;Article.Init;Article Initial Successful
+2021.04.15;10:44:45;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.15;10:44:45;MainForm_Bosh;MainForm;Init Run
+2021.04.15;10:44:45;;WtStatusForm.Init;Initial Successful
+2021.04.15;10:44:45;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.15;10:44:45;MainForm_Bosh;InitCurrentArticle :10524109-0002;Successful
+2021.04.15;10:44:45;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.15;10:44:45;Article40;Article.Init;Article Initial Successful
+2021.04.15;10:44:45;SR751_04;Article.Init;Article Initial Successful
+2021.04.15;10:44:46;QGW03;Article.Init;Article Initial Successful
+2021.04.15;10:44:46;QGW04;Article.Init;Article Initial Successful
+2021.04.15;10:44:46;SR1000_01;Article.Init;Article Initial Successful
+2021.04.15;10:44:46;QGWMB01;Article.Init;Article Initial Successful
+2021.04.15;10:44:47;Flash;Article.Init;Article Initial Successful
+2021.04.15;10:44:47;Main;Start TwinCat;Initial Successful
+2021.04.15;10:44:50;Article40;Step -100;Station Initial
+2021.04.15;10:44:50;SR751_04;Step -100;Station Initial
+2021.04.15;10:44:50;QGW03;Step -100;Station Initial
+2021.04.15;10:44:50;QGW04;Step -100;Station Initial
+2021.04.15;10:44:50;SR1000_01;Step -100;Station Initial
+2021.04.15;10:44:50;QGWMB01;Step -100;Station Initial
+2021.04.15;10:44:50;Flash;Step -100;Station Initial
+2021.04.15;10:44:50;Article40;Step -99;Waiting for Select Article
+2021.04.15;10:44:50;SR751_04;Step -99;Check Scanner Configuration
+2021.04.15;10:44:50;QGW03;Step -99;LineControl.Initial
+2021.04.15;10:44:51;QGW03;LineControl.Init;LineControl Initial Successful
+2021.04.15;10:44:51;QGW04;Step -99;LineControl.Initial
+2021.04.15;10:44:51;QGW04;LineControl.Init;LineControl Initial Successful
+2021.04.15;10:44:51;SR1000_01;Step -99;Check Scanner Configuration
+2021.04.15;10:44:51;QGWMB01;Step -99;LineControl.Initial
+2021.04.15;10:44:52;QGWMB01;LineControl.Init;LineControl Initial Successful
+2021.04.15;10:44:52;Flash;Step -99;Flash.Initial
+2021.04.15;10:44:52;Flash;Flash.Init;Flash Initial FAIL Message _CheckIp;169.254.157.128;Fail
+2021.04.15;10:44:52;Station:Flash
+Step:-99
+Message:Function:Flash.Init;Flash Initial FAIL Message _CheckIp;169.254.157.128;Fail
+2021.04.15;10:44:56;MainForm_Bosh;Exit;sucessfull
+2021.04.15;10:44:56;Article40;Step -99;Dispose Succeeded
+2021.04.15;10:44:56;SR751_04;Step -99;Dispose Succeeded
+2021.04.15;10:44:56;QGW03;LineControl.Init;Dispose Succeeded
+2021.04.15;10:44:56;QGW04;LineControl.Init;Dispose Succeeded
+2021.04.15;10:44:56;SR1000_01;Step -99;Dispose Succeeded
+2021.04.15;10:44:56;QGWMB01;LineControl.Init;Dispose Succeeded
+2021.04.15;10:44:56;Flash;Flash.Init;Dispose Succeeded
+2021.04.15;10:44:56;Main;Exit;System Stop
+2021.04.15;10:44:56;Main;Exit;**************************************************************************************

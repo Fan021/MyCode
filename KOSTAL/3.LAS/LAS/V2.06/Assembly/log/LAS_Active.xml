@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LasConfiguration xmlns="http: //www.kostal.com/Testman/config">
+  <LanguageFiles>
+    <!-- Select Language  -->
+    <SelLanguage>English</SelLanguage>
+  </LanguageFiles>
+  <Article>
+    <!-- Select Article  -->
+    <SelVariant>10132861</SelVariant>
+  </Article>
+</LasConfiguration>

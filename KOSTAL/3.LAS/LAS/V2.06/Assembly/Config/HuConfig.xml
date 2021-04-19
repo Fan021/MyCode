@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HuConfig>
+	<ArticleList AllArticleSame="False">
+	  <Article>
+		<PartNo>10132860</PartNo>
+		<PackageList>
+		  <Package>
+			<CountPosition start="30" end="31">50</CountPosition>
+			<ArticleNoPosition start="18" end="25"></ArticleNoPosition>
+			<HuNoPosition start="6" end="14"></HuNoPosition>	
+		  </Package>
+		  <Package>
+			<CountPosition start="30" end="31">20</CountPosition>
+			<ArticleNoPosition start="18" end="25"></ArticleNoPosition>
+			<HuNoPosition start="6" end="14"></HuNoPosition>	
+		  </Package>		  
+		</PackageList>
+	  </Article>
+	  <Article>
+		<PartNo>10132861</PartNo>
+		<PackageList>
+		  <Package>
+			<CountPosition start="30" end="31">50</CountPosition>
+			<ArticleNoPosition start="18" end="25"></ArticleNoPosition>
+			<HuNoPosition start="6" end="14"></HuNoPosition>			
+		  </Package>
+		</PackageList>
+	  </Article>
+	  <Article>
+		<PartNo>10518276</PartNo>
+		<PackageList>
+		  <Package>
+			<CountPosition start="30" end="31">50</CountPosition>
+			<ArticleNoPosition start="18" end="25"></ArticleNoPosition>
+			<HuNoPosition start="6" end="14"></HuNoPosition>			
+		  </Package>
+		</PackageList>
+	  </Article>	  
+	</ArticleList>
+</HuConfig>

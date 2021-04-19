@@ -1,0 +1,7 @@
+﻿1>------ Rebuild All started: Project: Kostal.Las.ArticleProvider, Configuration: Debug Any CPU ------
+1>  Kostal.Las.ArticleProvider -> D:\LAS For Multistation\Assembly\Lib\Kostal.Las.ArticleProvider.dll
+2>------ Rebuild All started: Project: Kostal.Las.Base, Configuration: Debug Any CPU ------
+2>  Kostal.Las.Base -> D:\LAS For Multistation\Assembly\Lib\Kostal.Las.Base.dll
+3>------ Rebuild All started: Project: Kostal.Las.UserInterface, Configuration: Debug Any CPU ------
+3>  Kostal.Las.UserInterface -> D:\LAS For Multistation\Assembly\Lib\Kostal.Las.UserInterface.dll
+========== Rebuild All: 3 succeeded, 0 failed, 0 skipped ==========

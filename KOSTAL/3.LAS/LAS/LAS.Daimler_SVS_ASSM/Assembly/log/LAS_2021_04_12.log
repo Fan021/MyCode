@@ -1,0 +1,281 @@
+Help application does not exist
+2021.04.12;13:54:08;Main;Init;**************************************************************************************
+2021.04.12;13:54:09;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.12;13:54:10;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.12;13:54:11;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.12;13:54:15;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.12;13:54:15;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.12;13:54:15;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.12;13:54:15;Main;Language.Init;Language Initial Successful
+2021.04.12;13:54:30;Main;Article.Init;Article Initial Successful
+2021.04.12;13:54:38;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.12;13:54:46;MainForm_Bosh;MainForm;Init Run
+2021.04.12;13:54:46;;WtStatusForm.Init;Initial Successful
+2021.04.12;13:54:46;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.12;13:54:46;MainForm_Bosh;InitCurrentArticle :10524146-0002;Successful
+2021.04.12;13:54:46;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.12;13:54:49;Article40;Article.Init;Article Initial Successful
+2021.04.12;13:54:49;SR751_04;Article.Init;Article Initial Successful
+2021.04.12;13:54:50;QGW03;Article.Init;Article Initial Successful
+2021.04.12;13:54:50;QGW04;Article.Init;Article Initial Successful
+2021.04.12;13:54:50;SR1000_01;Article.Init;Article Initial Successful
+2021.04.12;13:54:51;QGWMB01;Article.Init;Article Initial Successful
+2021.04.12;13:54:51;Flash;Article.Init;Article Initial Successful
+2021.04.12;13:55:01;Main;Start TwinCat;PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;13:55:17;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+Help application does not exist
+2021.04.12;13:59:06;Main;Init;**************************************************************************************
+2021.04.12;13:59:06;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.12;13:59:06;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.12;13:59:06;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.12;13:59:06;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.12;13:59:06;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.12;13:59:07;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.12;13:59:07;Main;Language.Init;Language Initial Successful
+2021.04.12;13:59:07;Main;Article.Init;Article Initial Successful
+2021.04.12;13:59:11;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.12;13:59:11;MainForm_Bosh;MainForm;Init Run
+2021.04.12;13:59:11;;WtStatusForm.Init;Initial Successful
+2021.04.12;13:59:11;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.12;13:59:11;MainForm_Bosh;InitCurrentArticle :10524146-0002;Successful
+2021.04.12;13:59:11;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.12;13:59:11;Article40;Article.Init;Article Initial Successful
+2021.04.12;13:59:12;SR751_04;Article.Init;Article Initial Successful
+2021.04.12;13:59:12;QGW03;Article.Init;Article Initial Successful
+2021.04.12;13:59:12;QGW04;Article.Init;Article Initial Successful
+2021.04.12;13:59:13;SR1000_01;Article.Init;Article Initial Successful
+2021.04.12;13:59:13;QGWMB01;Article.Init;Article Initial Successful
+2021.04.12;13:59:14;Flash;Article.Init;Article Initial Successful
+2021.04.12;13:59:14;Main;Start TwinCat;PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;13:59:14;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;13:59:41;MainForm_Bosh;Exit;sucessfull
+2021.04.12;13:59:41;Article40;Article.Init;Dispose Succeeded
+2021.04.12;13:59:41;SR751_04;Article.Init;Dispose Succeeded
+2021.04.12;13:59:41;QGW03;Article.Init;Dispose Succeeded
+2021.04.12;13:59:41;QGW04;Article.Init;Dispose Succeeded
+2021.04.12;13:59:41;SR1000_01;Article.Init;Dispose Succeeded
+2021.04.12;13:59:41;QGWMB01;Article.Init;Dispose Succeeded
+2021.04.12;13:59:41;Flash;Article.Init;Dispose Succeeded
+2021.04.12;13:59:41;Main;Exit;System Stop
+2021.04.12;13:59:41;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.12;14:04:30;Main;Init;**************************************************************************************
+2021.04.12;14:04:30;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.12;14:04:30;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.12;14:04:30;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.12;14:04:31;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.12;14:04:31;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.12;14:04:31;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.12;14:04:31;Main;Language.Init;Language Initial Successful
+2021.04.12;14:04:32;Main;Article.Init;Article Initial Successful
+2021.04.12;14:04:32;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.12;14:04:32;MainForm_Bosh;MainForm;Init Run
+2021.04.12;14:04:32;;WtStatusForm.Init;Initial Successful
+2021.04.12;14:04:32;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.12;14:04:32;MainForm_Bosh;InitCurrentArticle :10524146-0002;Successful
+2021.04.12;14:04:32;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.12;14:04:32;Article40;Article.Init;Article Initial Successful
+2021.04.12;14:04:32;SR751_04;Article.Init;Article Initial Successful
+2021.04.12;14:04:33;QGW03;Article.Init;Article Initial Successful
+2021.04.12;14:04:33;QGW04;Article.Init;Article Initial Successful
+2021.04.12;14:04:33;SR1000_01;Article.Init;Article Initial Successful
+2021.04.12;14:04:33;QGWMB01;Article.Init;Article Initial Successful
+2021.04.12;14:04:34;Flash;Article.Init;Article Initial Successful
+2021.04.12;14:04:34;Main;Start TwinCat;PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;14:04:34;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;14:05:24;MainForm_Bosh;Exit;sucessfull
+2021.04.12;14:05:24;Article40;Article.Init;Dispose Succeeded
+2021.04.12;14:05:24;SR751_04;Article.Init;Dispose Succeeded
+2021.04.12;14:05:24;QGW03;Article.Init;Dispose Succeeded
+2021.04.12;14:05:24;QGW04;Article.Init;Dispose Succeeded
+2021.04.12;14:05:24;SR1000_01;Article.Init;Dispose Succeeded
+2021.04.12;14:05:24;QGWMB01;Article.Init;Dispose Succeeded
+2021.04.12;14:05:24;Flash;Article.Init;Dispose Succeeded
+2021.04.12;14:05:24;Main;Exit;System Stop
+2021.04.12;14:05:24;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.12;14:07:17;Main;Init;**************************************************************************************
+2021.04.12;14:07:17;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.12;14:07:17;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.12;14:07:17;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.12;14:07:17;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.12;14:07:17;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.12;14:07:18;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.12;14:07:18;Main;Language.Init;Language Initial Successful
+2021.04.12;14:07:18;Main;Article.Init;Article Initial Successful
+2021.04.12;14:07:18;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.12;14:07:18;MainForm_Bosh;MainForm;Init Run
+2021.04.12;14:07:18;;WtStatusForm.Init;Initial Successful
+2021.04.12;14:07:18;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.12;14:07:18;MainForm_Bosh;InitCurrentArticle :10524146-0002;Successful
+2021.04.12;14:07:18;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.12;14:07:19;Article40;Article.Init;Article Initial Successful
+2021.04.12;14:07:19;SR751_04;Article.Init;Article Initial Successful
+2021.04.12;14:07:19;QGW03;Article.Init;Article Initial Successful
+2021.04.12;14:07:19;QGW04;Article.Init;Article Initial Successful
+2021.04.12;14:07:20;SR1000_01;Article.Init;Article Initial Successful
+2021.04.12;14:07:20;QGWMB01;Article.Init;Article Initial Successful
+2021.04.12;14:07:20;Flash;Article.Init;Article Initial Successful
+2021.04.12;14:07:20;Main;Start TwinCat;PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;14:07:20;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;14:07:26;MainForm_Bosh;Exit;sucessfull
+2021.04.12;14:07:26;Article40;Article.Init;Dispose Succeeded
+2021.04.12;14:07:26;SR751_04;Article.Init;Dispose Succeeded
+2021.04.12;14:07:26;QGW03;Article.Init;Dispose Succeeded
+2021.04.12;14:07:26;QGW04;Article.Init;Dispose Succeeded
+2021.04.12;14:07:26;SR1000_01;Article.Init;Dispose Succeeded
+2021.04.12;14:07:26;QGWMB01;Article.Init;Dispose Succeeded
+2021.04.12;14:07:26;Flash;Article.Init;Dispose Succeeded
+2021.04.12;14:07:26;Main;Exit;System Stop
+2021.04.12;14:07:26;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.12;14:12:49;Main;Init;**************************************************************************************
+2021.04.12;14:12:49;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.12;14:12:49;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.12;14:12:49;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.12;14:12:49;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.12;14:12:49;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.12;14:12:50;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.12;14:12:50;Main;Language.Init;Language Initial Successful
+2021.04.12;14:12:51;Main;Article.Init;Article Initial Successful
+2021.04.12;14:12:51;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.12;14:12:51;MainForm_Bosh;MainForm;Init Run
+2021.04.12;14:12:51;;WtStatusForm.Init;Initial Successful
+2021.04.12;14:12:51;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.12;14:12:51;MainForm_Bosh;InitCurrentArticle :10524146-0002;Successful
+2021.04.12;14:12:51;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.12;14:12:51;Article40;Article.Init;Article Initial Successful
+2021.04.12;14:12:51;SR751_04;Article.Init;Article Initial Successful
+2021.04.12;14:12:51;QGW03;Article.Init;Article Initial Successful
+2021.04.12;14:12:52;QGW04;Article.Init;Article Initial Successful
+2021.04.12;14:12:52;SR1000_01;Article.Init;Article Initial Successful
+2021.04.12;14:12:52;QGWMB01;Article.Init;Article Initial Successful
+2021.04.12;14:12:52;Flash;Article.Init;Article Initial Successful
+2021.04.12;14:12:53;Main;Start TwinCat;PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;14:12:53;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x7 : Taget machine could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;14:13:03;MainForm_Bosh;Exit;sucessfull
+2021.04.12;14:13:03;Article40;Article.Init;Dispose Succeeded
+2021.04.12;14:13:03;SR751_04;Article.Init;Dispose Succeeded
+2021.04.12;14:13:03;QGW03;Article.Init;Dispose Succeeded
+2021.04.12;14:13:03;QGW04;Article.Init;Dispose Succeeded
+2021.04.12;14:13:03;SR1000_01;Article.Init;Dispose Succeeded
+2021.04.12;14:13:03;QGWMB01;Article.Init;Dispose Succeeded
+2021.04.12;14:13:03;Flash;Article.Init;Dispose Succeeded
+2021.04.12;14:13:03;Main;Exit;System Stop
+2021.04.12;14:13:03;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.12;14:13:42;Main;Init;**************************************************************************************
+2021.04.12;14:13:42;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.12;14:13:42;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.12;14:13:42;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.12;14:13:42;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.12;14:13:42;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.12;14:13:43;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.12;14:13:43;Main;Language.Init;Language Initial Successful
+2021.04.12;14:13:43;Main;Article.Init;Article Initial Successful
+2021.04.12;14:13:43;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.12;14:13:43;MainForm_Bosh;MainForm;Init Run
+2021.04.12;14:13:43;;WtStatusForm.Init;Initial Successful
+2021.04.12;14:13:43;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.12;14:13:43;MainForm_Bosh;InitCurrentArticle :10524146-0002;Successful
+2021.04.12;14:13:43;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.12;14:13:43;Article40;Article.Init;Article Initial Successful
+2021.04.12;14:13:44;SR751_04;Article.Init;Article Initial Successful
+2021.04.12;14:13:44;QGW03;Article.Init;Article Initial Successful
+2021.04.12;14:13:44;QGW04;Article.Init;Article Initial Successful
+2021.04.12;14:13:44;SR1000_01;Article.Init;Article Initial Successful
+2021.04.12;14:13:45;QGWMB01;Article.Init;Article Initial Successful
+2021.04.12;14:13:45;Flash;Article.Init;Article Initial Successful
+2021.04.12;14:13:45;Main;Start TwinCat;PLC40TC;Ads-Error 0x6 : Target port could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;14:13:45;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x6 : Target port could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;14:13:54;MainForm_Bosh;Exit;sucessfull
+2021.04.12;14:13:54;Article40;Article.Init;Dispose Succeeded
+2021.04.12;14:13:54;SR751_04;Article.Init;Dispose Succeeded
+2021.04.12;14:13:54;QGW03;Article.Init;Dispose Succeeded
+2021.04.12;14:13:54;QGW04;Article.Init;Dispose Succeeded
+2021.04.12;14:13:54;SR1000_01;Article.Init;Dispose Succeeded
+2021.04.12;14:13:54;QGWMB01;Article.Init;Dispose Succeeded
+2021.04.12;14:13:54;Flash;Article.Init;Dispose Succeeded
+2021.04.12;14:13:54;Main;Exit;System Stop
+2021.04.12;14:13:54;Main;Exit;**************************************************************************************
+Help application does not exist
+2021.04.12;14:19:55;Main;Init;**************************************************************************************
+2021.04.12;14:19:55;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.12;14:19:55;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.12;14:19:55;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.3
+2021.04.12;14:19:55;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.12;14:19:55;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.12;14:19:56;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.12;14:19:56;Main;Language.Init;Language Initial Successful
+2021.04.12;14:19:56;Main;Article.Init;Article Initial Successful
+2021.04.12;14:19:56;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.12;14:19:56;MainForm_Bosh;MainForm;Init Run
+2021.04.12;14:19:56;;WtStatusForm.Init;Initial Successful
+2021.04.12;14:19:56;Main;Article.GetArticle_FromID;Initial Successful
+2021.04.12;14:19:56;MainForm_Bosh;InitCurrentArticle :10524146-0002;Successful
+2021.04.12;14:19:56;MainForm_Bosh;MainForm;Init sucessfull
+2021.04.12;14:19:56;Article40;Article.Init;Article Initial Successful
+2021.04.12;14:19:56;SR751_04;Article.Init;Article Initial Successful
+2021.04.12;14:19:57;QGW03;Article.Init;Article Initial Successful
+2021.04.12;14:19:57;QGW04;Article.Init;Article Initial Successful
+2021.04.12;14:19:57;SR1000_01;Article.Init;Article Initial Successful
+2021.04.12;14:19:57;QGWMB01;Article.Init;Article Initial Successful
+2021.04.12;14:19:58;Flash;Article.Init;Article Initial Successful
+2021.04.12;14:19:58;Main;Start TwinCat;PLC40TC;Ads-Error 0x6 : Target port could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344
+2021.04.12;14:19:58;Staion:Main
+Function:Start TwinCat
+Message:PLC40TC;Ads-Error 0x6 : Target port could not be found.   在 TwinCAT.Ads.Internal.TcAdsDllWrapper.ThrowAdsException(AdsErrorCode adsErrorCode)
+   在 TwinCAT.Ads.Internal.TcAdsSyncPortRouter.ReadState(Boolean throwAdsException, StateInfo& stateInfo)
+   在 TwinCAT.Ads.TcAdsClient.ReadState()
+   在 Kostal.Las.Base.TwinCatAds.Init(Boolean InitStationAds) 位置 D:\KProjects\LAS.Daimler_SVS_ASSM\Source\Kostal.Las\Kostal.Las.Base\Device\TwincatAds.vb:行号 1344

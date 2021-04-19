@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LasConfiguration xmlns="http://www.kostal.com/Testman/config">
+  <Project>
+    <!-- Project  -->
+    <Name>LAS</Name>
+  </Project>
+  <Folder>
+    <!-- Config Folder   -->
+    <Config>\Config</Config>
+    <!-- lng Folder -->
+    <lng>\lng</lng>
+    <!-- log Folder -->
+    <log>\log</log>
+    <!-- var Folder -->
+    <var>\var</var>
+    <!-- Schedule Folder -->
+    <Schedule>\Schedule</Schedule>
+    <!-- printer Folder -->
+    <printer>\printer</printer>
+    <!-- LineControl Folder -->
+    <LineControl>\LineControl</LineControl>
+    <!-- Counter Folder -->
+    <Counter>\Counter</Counter>
+    <!-- Picture Folder -->
+    <Picture>\Picture</Picture>
+    <!-- Skin Folder -->
+    <Skin>\Skin</Skin>
+    <!-- Lib Folder -->
+    <Skin>\Lib</Skin>
+  </Folder>
+  <Password>
+    <!-- UserPassWord -->
+    <UserPassWord>0</UserPassWord>
+  </Password>
+  <Environment>
+    <!-- Environment 0 is full Screen.-->
+    <Screen>0</Screen>
+  </Environment>
+</LasConfiguration>

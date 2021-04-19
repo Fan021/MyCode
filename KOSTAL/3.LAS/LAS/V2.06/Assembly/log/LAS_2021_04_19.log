@@ -1,0 +1,17 @@
+Help application does not exist
+2021.04.19;09:38:53;Main;Init;**************************************************************************************
+2021.04.19;09:38:53;Main;Init;System Version: V1.1.0.0 Build: 1.1.0.0
+2021.04.19;09:38:53;Main;Init;Kostal.Las.ArticleProvider.dll Version: 1.0.0.2
+2021.04.19;09:38:53;Main;Init;Kostal.Las.Base.dll                Version: 2.0.0.5
+2021.04.19;09:38:53;Main;SetLanguage.ReadLanguageFiles;ReadLanguageFiles Successful
+2021.04.19;09:38:53;Main;SetLanguage.GetSelectedLanguage;GetSelectedLanguage Successful
+2021.04.19;09:38:54;Main;SetLanguage.ReadTexts;ReadTexts Successful
+2021.04.19;09:38:54;Main;Language.Init;Language Initial Successful
+2021.04.19;09:38:54;Main;Article.Init;Article Initial Successful
+2021.04.19;09:38:54;Main_ArticleCounter;Counter.Init;Initial Successful
+2021.04.19;09:38:54;Main;ScheduleReader.Init;Schedule Read FAIL
+2021.04.19;09:38:54;Staion:Main
+Function:ScheduleReader.Init
+Message:Schedule Read FAIL
+2021.04.19;09:38:59;Main;Exit;System Stop
+2021.04.19;09:38:59;Main;Exit;**************************************************************************************

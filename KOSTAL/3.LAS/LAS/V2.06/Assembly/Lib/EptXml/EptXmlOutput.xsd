@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="NonEmptyString">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        Any non empty string value according to the regular expression ^(.{1,})$.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="^(.{1,})$"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="MaterialWithRevision">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        A string containing material and revision delimited by a hyphen according to the pattern ^(.{1,})-(.{1,})$.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="^(.{1,})-(.{1,})$"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="Ept">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        The root element node containing minimum one node of type 'Row'.
+        No use of any arguments.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" name="Row">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">
+              Each element node of type 'Row' represents a property collection for one material.
+              Each property is defined by a sub-node of type 'Column'.
+            </xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="1" maxOccurs="unbounded" name="Column">
+                <xs:annotation>
+                  <xs:documentation xml:lang="en">
+                    Defines one material property by it's name and value.
+                    The property name is defined by the attribute 'name'.
+                    The property value is the 'Column' element value.
+                  </xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="name" type="NonEmptyString" use="required">
+                        <xs:annotation>
+                          <xs:documentation xml:lang="en">
+                            Defines a property name.
+                            The property name has to be unique in the according 'Row' node of a mterial.
+                          </xs:documentation>
+                        </xs:annotation>
+                      </xs:attribute>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="variant" type="MaterialWithRevision" use="required">
+              <xs:annotation>
+                <xs:documentation xml:lang="en">
+                  A unique material ID.
+                </xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+          </xs:complexType>
+          <xs:unique name="uniqueColumnName">
+            <xs:selector xpath="xs:Column"/>
+            <xs:field xpath="@name"/>
+          </xs:unique>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:unique name="uniqueRowVariant">
+      <xs:selector xpath="xs:Row"/>
+      <xs:field xpath="@variant"/>
+    </xs:unique>
+  </xs:element>
+</xs:schema>

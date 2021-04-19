@@ -1,0 +1,59 @@
+<CsvProviderParmetrisation xmlns="http://Kostal.com/Las/CsvProviderParametrisation">
+
+  <Mappings>
+    <KeyColumnMapping>
+      <!--<UseFirstColumnAsKey />-->
+      <UsingSpecificKeyColumn columnName="ID">
+        <StringModification >Unmodified</StringModification>
+      </UsingSpecificKeyColumn>
+    </KeyColumnMapping>
+	<!-- 
+      ArticleName
+      ArticleNumber
+      ArticleIndex
+      ArticleInfo
+      ArticleFamily
+      CustomerNumber
+      HardwareVersion
+      SoftwareVersion
+      Q
+      Picture
+      ValidFrom
+      ValidTo
+      LaserTemplateName
+      MaskFile
+      MaskName
+	-->
+	 <ArticlePropertyMapping articleProperty="ArticleNumber">
+      <SimpleMapping columnName ="LK_ArticleNumber"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="ArticleIndex">
+      <SimpleMapping columnName ="LK_ArticleIndex"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="ArticleName">
+      <SimpleMapping columnName ="LK_ArticleNumber"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="ArticleInfo">
+      <SimpleMapping columnName ="LK_ArticleInfo"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="ArticleFamily">
+      <SimpleMapping columnName ="Product_Family"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="CustomerNumber">
+      <SimpleMapping columnName="Customer_Number"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="HardwareVersion">
+      <SimpleMapping columnName="Hardware_Version"/>
+    </ArticlePropertyMapping>
+    <ArticlePropertyMapping articleProperty ="SoftwareVersion">
+      <SimpleMapping columnName="Software_Version"/>
+    </ArticlePropertyMapping>
+
+  </Mappings>
+  <AdditionalGlobalParameter>
+    <ArticleParameter name ="ValidFrom">2014.12.12</ArticleParameter>
+    <ArticleParameter name ="ValidTo">2099.12.12</ArticleParameter>
+    <Parameter name ="pcb_sn_prefix">YB016</Parameter>
+    <Parameter name ="src_sn_prefix">01391</Parameter>
+  </AdditionalGlobalParameter>
+</CsvProviderParmetrisation>

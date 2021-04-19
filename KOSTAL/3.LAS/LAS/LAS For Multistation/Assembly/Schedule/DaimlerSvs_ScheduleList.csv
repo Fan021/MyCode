@@ -1,0 +1,14 @@
+ID;ScheduleIndex;ScheduleName;ScheduleDescription;UserVerification;SecurityChecksum;PassST1;FailST1;PassST2;FailST2;PassST3;FailST3;PassST4;FailST4;PassST5;FailST5;PassST6;FailST6;PassST7;FailST7;PassST8;FailST8;PassST9;FailST9;PassST10;FailST10;PassST11;FailST11;PassST12;FailST12;PassST13;FailST13;PassST14;FailST14;PassST15;FailST15;PassST16;FailST16;PassST17;FailST17;PassST18;FailST18;PassST19;FailST19;PassST20;FailST20;PassST21;FailST21;PassST22;FailST22
+SM1;1;ProductionMode;Production Mode;ArticleUsed;331;2;1;3;1;5;1;;;6;1;7;1;8;1;9;1;10;1;11;1;13;1;;;14;1;15;16;16;16;17;22;19;22;;;21;22;;;22;22;1;1
+SM2;2;RetestMode;Repair Test;;257;9;1;;;;;;;;;;;;;;;14;1;;;;;;;;;15;16;16;16;17;22;19;22;;;21;22;;;22;22;1;1
+SM3;3;SelfResistanceTest;Self Resistance Test;;40;19;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1;19;;;;;;
+SM4;4;MasterPartTest;Good Masterpart Test;;82;19;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;21;19;;;1;21;;
+SM5;5;AssemblyOnly;Just do assembly;Password=54321;226;2;1;3;1;5;1;;;6;1;7;1;8;1;9;1;10;1;11;1;13;1;;;14;1;15;16;16;16;17;22;1;22;;;;;;;;;1;1
+SM6;6;ClearMode;Clear Mode;;;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM7;7;UserDefined;defined for APP engineers;Password=54321;11;8;1;;;;;;;;;;;;;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM8;8;StandAlone;Stand Alone Mode;Password=54321;;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM9;9;DummyTest;DummyTest;;44;21;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1;21;;
+SM10;10;POKAYOKE1;POKAYOKE1;;2;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM11;11;POKAYOKE2;POKAYOKE2;;2;1;1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+SM12;12;POKAYOKE3;POKAYOKE3;;92;6;1;;;;;;;;;9;6;;;;;14;9;;;;;;;;;16;14;;;1;16;;;;;;;;;;;;
+SM13;13;POKAYOKE4;POKAYOKE4;;92;6;1;;;;;;;;;9;6;;;;;14;9;;;;;;;;;16;14;;;1;16;;;;;;;;;;;;

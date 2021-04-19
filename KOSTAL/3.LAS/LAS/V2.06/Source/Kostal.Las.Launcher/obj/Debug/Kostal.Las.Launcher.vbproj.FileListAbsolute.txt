@@ -1,0 +1,9 @@
+C:\Users\fan021\Desktop\LAS\V2.06\Source\Kostal.Las.Launcher\obj\Debug\Kostal.Las.Launcher.vbprojResolveAssemblyReference.cache
+C:\Users\fan021\Desktop\LAS\V2.06\Source\Kostal.Las.Launcher\obj\Debug\Interop.prjSerialNoGenerator.dll
+C:\Users\fan021\Desktop\LAS\V2.06\Source\Kostal.Las.Launcher\obj\Debug\Kostal.Las.Launcher.vbproj.ResolveComReference.cache
+C:\Users\fan021\Desktop\LAS\V2.06\Source\Kostal.Las.Launcher\obj\Debug\Kostal.Las.AboutBox.resources
+C:\Users\fan021\Desktop\LAS\V2.06\Source\Kostal.Las.Launcher\obj\Debug\Kostal.Las.LoadScreen.resources
+C:\Users\fan021\Desktop\LAS\V2.06\Source\Kostal.Las.Launcher\obj\Debug\Kostal.Las.MainForm.resources
+C:\Users\fan021\Desktop\LAS\V2.06\Source\Kostal.Las.Launcher\obj\Debug\Kostal.Las.Resources.resources
+C:\Users\fan021\Desktop\LAS\V2.06\Source\Kostal.Las.Launcher\obj\Debug\Kostal.Las.Launcher.vbproj.GenerateResource.Cache
+C:\Users\fan021\Desktop\LAS\V2.06\Source\Kostal.Las.Launcher\obj\Debug\Kostal.Las.Launcher.xml

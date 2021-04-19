@@ -1,0 +1,700 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kostal.Las.Base
+</name>
+</assembly>
+<members>
+<member name="T:Kostal.Las.Base.CAQ">
+ <summary>
+ V1.1.0.0 Build 2014_02_20_00
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Las.Base.ExpressionMember">
+ <summary>
+ Helper class for converting expressions to members.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.ExpressionMember.AsMethod(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert <see cref="T:System.Linq.Expressions.MethodCallExpression"/> to <see cref="T:Kostal.Las.Base.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Las.Base.Member"/></returns>
+</member>
+<member name="M:Kostal.Las.Base.ExpressionMember.AsMember(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert <see cref="T:System.Linq.Expressions.MemberExpression"/> to <see cref="T:Kostal.Las.Base.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Las.Base.Member"/></returns>
+</member>
+<member name="M:Kostal.Las.Base.ExpressionMember.AsMemberOrMethod(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert the member or method from <see cref="T:System.Linq.Expressions.LambdaExpression"/> to <see cref="T:Kostal.Las.Base.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Las.Base.Member"/></returns>
+</member>
+<member name="M:Kostal.Las.Base.ExpressionMember.AsMemberOrMethod(System.Linq.Expressions.Expression)">
+ <summary>
+ Convert the member or method from <see cref="T:System.Linq.Expressions.Expression"/> to <see cref="T:Kostal.Las.Base.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Las.Base.Member"/></returns>
+</member>
+<member name="M:Kostal.Las.Base.ExpressionMember.AsUnaryWrappedMember(System.Linq.Expressions.LambdaExpression)">
+ <summary>
+ Convert the UnaryExpression from <see cref="T:System.Linq.Expressions.LambdaExpression"/> to <see cref="T:Kostal.Las.Base.Member"/>
+ </summary>
+ <returns>An instance of <see cref="T:Kostal.Las.Base.Member"/></returns>
+</member>
+<member name="T:Kostal.Las.Base.Member">
+ <summary>
+ Class for easily getting information about a type member,
+ and referencing the member by name, or getting it as a
+ <see cref="T:System.Reflection.MemberInfo"/>, <see cref="T:System.Reflection.PropertyInfo"/>,
+ <see cref="T:System.Reflection.FieldInfo"/>, or <see cref="T:System.Reflection.MethodInfo"/>.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.Member.#ctor(System.Linq.Expressions.MemberExpression)">
+ <summary>
+ Initializes a new <see cref="T:Kostal.Las.Base.Member"/> using the specified
+ <see cref="T:System.Linq.Expressions.MemberExpression"/>.
+ </summary>
+ <param name="expression">The expression that references the desired member.</param>
+</member>
+<member name="M:Kostal.Las.Base.Member.#ctor(System.Reflection.MemberInfo)">
+ <summary>
+ Initializes a new <see cref="T:Kostal.Las.Base.Member"/> using the specified
+ <see cref="T:System.Reflection.MemberInfo"/>.
+ </summary>
+ <param name="info">The member info that references the desired member.</param>
+</member>
+<member name="P:Kostal.Las.Base.Member.Info">
+ <summary>
+ The <see cref="T:System.Reflection.MemberInfo"/> discovered for the member specified.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.Member.op_Implicit(Kostal.Las.Base.Member)~System.String">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Las.Base.Member"/> to a <see cref="T:System.String"/>, using the
+ <see cref="M:Kostal.Las.Base.Member.ToString"/> method.
+ </summary>
+ <param name="member">The <see cref="T:Kostal.Las.Base.Member"/> to cast to a string.</param>
+</member>
+<member name="M:Kostal.Las.Base.Member.op_Implicit(Kostal.Las.Base.Member)~System.Reflection.MemberInfo">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Las.Base.Member"/> to a <see cref="T:System.Reflection.MemberInfo"/>, by
+ returning the <see cref="P:Kostal.Las.Base.Member.Info"/> property value.
+ </summary>
+ <param name="member">The <see cref="T:Kostal.Las.Base.Member"/> to cast to a <see cref="T:System.Reflection.MemberInfo"/>.</param>
+ <returns>The <see cref="P:Kostal.Las.Base.Member.Info"/> of the specified member, or <c>null</c>.</returns>
+</member>
+<member name="M:Kostal.Las.Base.Member.op_Implicit(Kostal.Las.Base.Member)~System.Reflection.MethodInfo">
+ <summary>
+ Implicitly cast a <see cref="T:Kostal.Las.Base.Member"/> to a <see cref="T:System.Reflection.MethodInfo"/>, by
+ returning the <see cref="M:Kostal.Las.Base.Member.AsMethod"/> result.
+ </summary>
+ <param name="member">
+ The <see cref="T:Kostal.Las.Base.Member"/> to cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </param>
+ <returns>A <see cref="T:System.Reflection.MethodInfo"/> for the specified member.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Las.Base.Member.op_Implicit(System.Reflection.MemberInfo)~Kostal.Las.Base.Member">
+ <summary>
+ Implicitly cast a <see cref="T:System.Reflection.MemberInfo"/> to a <see cref="T:Kostal.Las.Base.Member"/>.
+ </summary>
+ <param name="memberInfo">The member info to use as a member.</param>
+ <returns>
+ A <see cref="T:System.Reflection.MemberInfo"/> representing the specified <paramref name="memberInfo"/>.
+ </returns>
+</member>
+<member name="M:Kostal.Las.Base.Member.Of(System.Linq.Expressions.Expression{System.Action})">
+ <summary>
+ Create a <see cref="T:Kostal.Las.Base.Member"/> using a method call expression.
+ </summary>
+ <remarks>
+ This is used for <c>void</c> methods.
+ </remarks>
+ <param name="methodCall">The method call expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Las.Base.Member"/> for the specified method call expression.</returns>
+</member>
+<member name="M:Kostal.Las.Base.Member.Of``1(System.Linq.Expressions.Expression{System.Action{``0}})">
+ <summary>
+ Create a <see cref="T:Kostal.Las.Base.Member"/> using a method call expression
+ for the specified type.
+ </summary>
+ <typeparam name="T">The type of the Action parameter</typeparam>
+ <param name="methodCall"></param>
+ <returns>A <see cref="T:Kostal.Las.Base.Member"/> for the specified method call expression.</returns>
+</member>
+<member name="M:Kostal.Las.Base.Member.Of(System.Linq.Expressions.Expression{System.Func{System.Object}})">
+ <summary>
+ Create a <see cref="T:Kostal.Las.Base.Member"/> using a property, field, or non-void
+ method call expression.
+ </summary>
+ <param name="member">The member expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Las.Base.Member"/> for the specified member expression.</returns>
+</member>
+<member name="M:Kostal.Las.Base.Member.Of``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+ <summary>
+ Create a <see cref="T:Kostal.Las.Base.Member"/> using a property, field, or non-void
+ method call expression for the specified type.
+ </summary>
+ <typeparam name="T">The type containing the member specified.</typeparam>
+ <param name="member">The member expression to use as a member.</param>
+ <returns>A <see cref="T:Kostal.Las.Base.Member"/> for the specified member expression.</returns>
+</member>
+<member name="M:Kostal.Las.Base.Member.AsProperty">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.PropertyInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.PropertyInfo"/> instance for the current member <see cref="P:Kostal.Las.Base.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.PropertyInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Las.Base.Member.AsField">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.FieldInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.FieldInfo"/> instance for the current member <see cref="P:Kostal.Las.Base.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.FieldInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Las.Base.Member.AsMethod">
+ <summary>
+ Gets the current member as a <see cref="T:System.Reflection.MethodInfo"/> instance.
+ </summary>
+ <returns>A <see cref="T:System.Reflection.MethodInfo"/> instance for the current member <see cref="P:Kostal.Las.Base.Member.Info"/>.</returns>
+ <exception cref="T:System.InvalidCastException">
+ When the current member cannot be cast to a <see cref="T:System.Reflection.MethodInfo"/>.
+ </exception>
+</member>
+<member name="M:Kostal.Las.Base.Member.ToString">
+ <summary>
+ Returns the current member name as the string representation of a <see cref="T:Kostal.Las.Base.Member"/>.
+ </summary>
+ <returns>The name of the current member <see cref="P:Kostal.Las.Base.Member.Info"/>.</returns>
+</member>
+<member name="T:Kostal.Las.Base.NotifyingObject">
+ <summary>
+ Base class for the correct use of <see cref="T:System.ComponentModel.INotifyPropertyChanged"/>
+ </summary>
+</member>
+<member name="E:Kostal.Las.Base.NotifyingObject.PropertyChanged">
+ <summary>
+   Raised when a property on this object has a new value.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.NotifyingObject.OnPropertyChanged(System.String)">
+ <summary>
+ Raises this object's PropertyChanged event.
+ </summary>
+ <param name="propertyName">
+ The property that has a new value.
+ If property name is Nothing the name of the calling Property will be used aus property name
+ </param>
+</member>
+<member name="M:Kostal.Las.Base.NotifyingObject.OnPropertyChangedWithSender(System.Object,System.String)">
+ <summary>
+ Raises this object's PropertyChanged event.
+ </summary>
+ <param name="sender">
+ The sender of the event
+ </param>
+ <param name="propertyName">
+ The property that has a new value.
+ If property name is Nothing the name of the calling Property will be used aus property name
+ </param>
+</member>
+<member name="P:Kostal.Las.Base.NotifyingObject.ThrowOnInvalidPropertyName">
+ <summary>
+   Returns whether an exception is thrown, or if a Debug.Fail() is used
+   when an invalid property name is passed to the VerifyPropertyName method.
+   The default value is false, but subclasses used by unit tests might 
+   set this property's getter to return true.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.NotifyingObject.VerifyPropertyName(System.String)">
+ <summary>
+ Warns the developer if this object does not have
+   a public property with the specified name. This 
+   method does not exist in a Release build.
+ </summary>
+</member>
+<member name="T:Kostal.Las.Base.RefElements">
+ <summary>
+ Contains all elements of one REF Part
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Las.Base.References">
+ <summary>
+ Handles Reference Parts
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.References.CheckingScheduleNameBeingUsedByRefs(System.String)">
+<summary>
+Checking whether the ScheduleName has been used By Reference settings or not
+</summary>
+ 
+</member>
+<member name="M:Kostal.Las.Base.References.RefreshingCheckList(System.String,System.String)">
+<summary>
+Refreshing CheckList which contains reference info 
+</summary>
+</member>
+<member name="M:Kostal.Las.Base.References.ModifingCheckList(System.String)">
+<summary>
+Modifing CheckList which contains reference info 
+</summary>
+</member>
+<member name="M:Kostal.Las.Base.References.RemoveItems(System.String)">
+<summary>
+Romove some items with same schedule name in Checklist 
+</summary>
+</member>
+<member name="M:Kostal.Las.Base.References.RemoveOne(System.String)">
+<summary>
+Romove one of items of Checklist 
+</summary>
+</member>
+<member name="M:Kostal.Las.Base.References.AddOne(Kostal.Las.Base.RefElements)">
+<summary>
+Use to add one spezified REF part with additional LK Name
+</summary>
+</member>
+<member name="T:Kostal.Las.Base.CounterController">
+ <summary>
+ Counter Controller functions
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.CounterController.ClearResultIndication">
+ <summary>
+ Clear BackColor Indication
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Las.Base.CounterController.State">
+ <summary>
+ returns the CounterState
+ </summary>
+ <returns>CounterState -> Successfully or Failed or Waiting</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.CounterController.Reset">
+ <summary>
+  Reset Counter 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.CounterController.Update">
+ <summary>
+ Update Values
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Las.Base.CounterController.Ppm">
+ <summary>
+ returns PPM Value
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Las.Base.CounterController.Percent">
+ <summary>
+ returns Percent Value
+ </summary>
+ <returns>Percent String Value e.g. "23,78 %"</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Las.Base.CounterEntity">
+ <summary>
+ Simple container to keep count of passed and failed testruns.
+ Used for serialization
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.CounterEntity.#ctor">
+ <summary>
+ Initializes a new instance of the <see cref="T:Kostal.Las.Base.CounterEntity" /> class.
+ Pass and Fail properties both have a value of zero.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.CounterEntity.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+ <summary>
+ Initializes a new instance of CounterEntity with serialized data.
+ </summary>
+ <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo"/> that holds the serialized object data about the exception being thrown.</param>
+ <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext"/>" that contains contextual information about the source or destination.</param>
+ <exception cref="T:System.ArgumentNullException">The info parameter is null.</exception>
+ <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult"/>" is zero (0).</exception>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.CounterEntity.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+ <summary>
+ Populates a <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with the data needed to serialize the target object.
+ </summary>
+ <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> to populate with data.</param>
+ <param name="context">The destination (see <see cref="T:System.Runtime.Serialization.StreamingContext" />) for this serialization.</param>
+ <exception cref="T:System.Security.SecurityException">
+ The caller does not have the required permission.
+   </exception>
+</member>
+<member name="P:Kostal.Las.Base.CounterEntity.Pass">
+ <summary>
+ Gets or sets the value indicating the count of successful tests.
+ </summary>
+ <value>count of successful tests</value>
+ <returns>new count of successful tests.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Las.Base.CounterEntity.Fail">
+ <summary>
+ Gets or sets the value indicating the count of failed tests.
+ </summary>
+ <value>count of failed tests</value>
+ <returns>new count of failed tests.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.CounterEntity.ToString">
+ <summary>
+ Returns a <see cref="T:System.String" /> that represents this instance.
+ </summary><returns>
+ A <see cref="T:System.String" /> that represents this instance.
+ </returns>
+</member>
+<member name="T:Kostal.Las.Base.CounterState">
+ <summary>
+ Specifies the current state of counter.
+ It has either counted a successful or failed run or it's waiting for a result.
+ </summary>
+</member>
+<member name="T:Kostal.Las.Base.ICounterController">
+ <summary>
+ Controller to count the successful and failed testruns and provide statistical data.
+ </summary>
+</member>
+<member name="P:Kostal.Las.Base.ICounterController.Fail">
+ <summary>
+ Gets the counter counting failed testruns.
+ </summary>
+ <returns>The counter counting failed testruns as <see cref="T:Kostal.Las.Base.ISingleCounter"/></returns>
+</member>
+<member name="P:Kostal.Las.Base.ICounterController.Success">
+ <summary>
+ Gets the counter counting successful testruns.
+ </summary>
+ <returns>The counter counting successful testruns as <see cref="T:Kostal.Las.Base.ISingleCounter"/></returns>
+</member>
+<member name="P:Kostal.Las.Base.ICounterController.State">
+ <summary>
+ Gets or sets a value representing the current counter state.
+ </summary>
+ <value>
+ The new state of counter as <see cref="T:Kostal.Las.Base.CounterState"/>.
+ </value>
+ <returns>Current state of counter as <see cref="T:Kostal.Las.Base.CounterState"/></returns>
+</member>
+<member name="P:Kostal.Las.Base.ICounterController.Ppm">
+ <summary>
+ Gets or sets the value indicating the failures in 'Parts per million'.
+ </summary>
+ <value>
+ New ppm value.
+ </value>
+ <returns>current ppm value</returns>
+</member>
+<member name="P:Kostal.Las.Base.ICounterController.Percent">
+ <summary>
+ Gets the value indicating the percentage of failures in amount of overall measured items.
+ </summary>
+ <returns>current percentage of failures.</returns>
+</member>
+<member name="M:Kostal.Las.Base.ICounterController.ClearResultIndication">
+ <summary>
+ Clears the result indication.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.ICounterController.Reset">
+ <summary>
+ Resets this instance.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.ICounterController.Restore(Kostal.Las.Base.SurfaceCounter)">
+ <summary>
+ Restores the counter using specified counter name.
+ </summary>
+ <param name="SurfaceCounter">Name of the counter.</param>
+</member>
+<member name="M:Kostal.Las.Base.ICounterController.Store(Kostal.Las.Base.SurfaceCounter)">
+ <summary>
+ Stores this object using specified counter name.
+ </summary>
+ <param name="SurfaceCounter">Name of the counter.</param>
+</member>
+<member name="P:Kostal.Las.Base.ICounterController.ArticleIndependent">
+ <summary>
+ Set a fix Countername if this Name is set
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Kostal.Las.Base.ICounterController.Enabled">
+ <summary>
+ Enables the counter
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Las.Base.ISingleCounter">
+ <summary>
+ Simple counter that manages an integer value on provides events when value changes
+ </summary>
+</member>
+<member name="P:Kostal.Las.Base.ISingleCounter.Value">
+ <summary>
+ Gets or sets the value representing the count.
+ </summary>
+ <value>
+ The new counter value.
+ </value>
+ <returns>The current counter value.</returns>
+</member>
+<member name="M:Kostal.Las.Base.ISingleCounter.Reset">
+ <summary>
+ Resets this counter instance.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.ISingleCounter.SetValue(System.Int32)">
+ <summary>
+ Sets the value of this counter instance.
+ </summary>
+ <param name="value">The new value.</param>
+</member>
+<member name="M:Kostal.Las.Base.ISingleCounter.Increase">
+ <summary>
+ Increases the value by one.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.ISingleCounter.Decrease">
+ <summary>
+ Decreases the value by one.
+ </summary>
+</member>
+<member name="P:Kostal.Las.Base.SingleCounter.Enabled">
+ <summary>
+ Enables the counter.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.Sympol_MS447.MakePackage(System.Byte[],Kostal.Las.Base.Sympol_MS447.CMD_TYPE)">
+ <summary>
+ Make the send-date to available format for host transmit only.
+ </summary>
+ <param name="dtSendData">Byte-data want to send.</param>
+ <param name="cmdType">Command types(Abort_Macro_Pdf;Aim_Off;Aim_On;Para_Default;Para_Send;_
+ Para_Request;Start_Session;End_Session;Decode_Data;Cmd_Ack;Cmd_Nak;Enable;Disable).</param>
+ <returns>The packaged data.</returns>
+</member>
+<member name="M:Kostal.Las.Base.Sympol_MS447.Wakeup">
+ <summary>
+ This sub make the scanner wakeup.
+ </summary>
+</member>
+<member name="M:Kostal.Las.Base.Sympol_MS447.CheckPackage(System.Byte[],Kostal.Las.Base.Sympol_MS447.CMD_TYPE,System.Byte[]@)">
+ <summary>
+ Check the package for the received data.
+ </summary>
+ <param name=" RecvData">Data array to check.</param>
+ <param name="cmdType">Command types(Abort_Macro_Pdf;Aim_Off;Aim_On;Para_Default;Para_Send;_
+ Para_Request;Start_Session;End_Session;Decode_Data;Cmd_Ack;Cmd_Nak;Enable;Disable).</param>
+ <param name=" FrameData">Data array of this Frame.</param>
+ <returns>True for success, false for fail.</returns>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.Run">
+ <summary>
+ 运行SubStation ADS请求.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.Init(System.Boolean)">
+ <summary>
+ 初始化.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.InitSchedule(Kostal.Las.Base.ScheduleStation)">
+ <summary>
+ 写Schedule List至PLC.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.AddDeviceNotificationEx">
+ <summary>
+ 添加系统级别Notification.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.AddNotificationEx(System.String,System.Object,System.Int32[])">
+ <summary>
+ 手动添加Notification.
+ </summary>
+ <param name="VariableName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.adsClient_AdsNotificationEx(System.Object,TwinCAT.Ads.AdsNotificationExEventArgs)">
+ <summary>
+ Notification回调函数.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.GetDeviceNotificationEx(System.String)">
+ <summary>
+ 获取Notification值.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.SetDeviceNotificationEx(System.String,System.Object)">
+ <summary>
+ 获取SetDeviceNotificationEx值.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.AddLocationAds">
+ <summary>
+ 添加系统级别ADS变量.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.AddAdsVariable(System.String)">
+ <summary>
+ 手动添加ADS变量.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.ReadAny(System.String,System.Type,System.Int32[])">
+ <summary>
+ 读取ADS变量.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.ReadBoolean(System.String)">
+ <summary>
+ 读取Bool ADS变量.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.ReadString(System.String,System.Int32)">
+ <summary>
+ 读取String ADS变量.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.ReadFailedPartInfo(System.String)">
+ <summary>
+ 读取WT信息.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.ReadCarrierInfo(System.Int32)">
+ <summary>
+ 读取托盘信息.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.ResetCarrierInfo(System.Int32)">
+ <summary>
+ Reset托盘信息.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.WriteAny(System.String,System.Object,System.Int32[])">
+ <summary>
+ 写入ADS信息.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Kostal.Las.Base.TwinCatAds.Dispose">
+ <summary>
+ 释放.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Kostal.Las.Base.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Kostal.Las.Base.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Kostal.Las.Base.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Kostal.Las.Base.My.Resources.Resource1">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Kostal.Las.Base.My.Resources.Resource1.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Kostal.Las.Base.My.Resources.Resource1.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Kostal.Las.Base.My.Resources.Resource1.automatic_controller">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.Base.My.Resources.Resource1.automation_controller">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.Base.My.Resources.Resource1.gray">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.Base.My.Resources.Resource1.green">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.Base.My.Resources.Resource1.logo_screen_145px2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Kostal.Las.Base.My.Resources.Resource1.red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Kostal.Las.Base.CaqStation">
+ <summary>
+ Class:      CaqStation 
+ Author:     Wang Yumin
+ Version:    1.0.0.0
+ Date:       2018.07.14
+ Description:SubStation which is to write Caq onto Db for FPY parts. 
+ </summary>
+ <remarks> FPY:FirstPartYield </remarks>
+</member>
+</members>
+</doc>

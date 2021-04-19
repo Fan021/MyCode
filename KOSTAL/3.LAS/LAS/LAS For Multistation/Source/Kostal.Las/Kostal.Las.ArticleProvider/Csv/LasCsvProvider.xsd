@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://Kostal.com/Las/CsvProviderParametrisation"
+           elementFormDefault="qualified"
+           xmlns:mstns="http://Kostal.com/Las/CsvProviderParametrisation"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="CsvProviderParmetrisation">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        There are contained all rules that describes how each single column value of a CSV-Row has to be transformed into a testman article property.
+        The transformation of column contents can be directly linked or condition dependent.
+        Also definition of constant properties is possible.
+        Each CSV-Row represents one article with all properties that are stored in the columns of this article row.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Mappings" type="mstns:Mappings" minOccurs="1" maxOccurs="1" />
+        <xs:element name="AdditionalGlobalParameter" type="mstns:GlobalParameter" minOccurs="0" maxOccurs="1" />
+        <xs:element name="ConditionalParameter" type="mstns:ConditionalParameter" minOccurs="0" maxOccurs="1" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- CSV Mappings -->
+
+  <xs:complexType name="Mappings">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This node contains all mapping rules that describes relations between CSV-Columns and article properties.
+        There are three kinds of mappings: CustomPropertyMapping, ArticlePropertyMapping and IniFileMapping.
+        All columns that are not described there will be mapped as custom properties.
+        Also the key column mapping strategy can be defined there.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence minOccurs="1">
+      <xs:element name="KeyColumnMapping" type="mstns:KeyColumnMapping"/>
+      <xs:element name="ArticleScheduleMapping" type="mstns:ArticleScheduleMapping" minOccurs="0" />
+      
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:choice>
+          <xs:element name ="ArticlePropertyMapping" type="mstns:ArticlePropertyMapping"/>
+          <xs:element name ="ArticleRowElementMapping" type="mstns:ArticleRowElementMapping"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:sequence>
+    <xs:attribute name="onEmptyColumn" type="mstns:OnEmptyColumnOption" use="optional" default="NullEntry">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Use this global option to define how to handle empty columns. Default is 'NullEntry'.
+          This global option can be overridden locally in each mapping.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="KeyColumnMapping">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This kind of mapping provides mapping of the key column. Define key column there.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:choice>
+      <xs:element name ="UseFirstColumnAsKey" type="mstns:BasicMappingProperties">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            While using this option consider that the first CSV column has to contain unique content.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name ="UsingSpecificKeyColumn">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            While using this option consider that the specified CSV column has to contain unique content.
+          </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:complexContent>
+            <xs:extension base="mstns:BasicMappingProperties">
+              <xs:attribute name="columnName" type="xs:string" use="required">
+                <xs:annotation>
+                  <xs:documentation xml:lang="en">
+                    Specify the column containing key information.
+                  </xs:documentation>
+                </xs:annotation>
+              </xs:attribute>
+            </xs:extension>
+          </xs:complexContent>
+        </xs:complexType>
+      </xs:element>
+    </xs:choice>
+  </xs:complexType>
+
+  <xs:complexType name="ArticleScheduleMapping">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This kind of mapping provides mapping of the Article Schedule.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:choice>
+      <xs:element name ="UsingSpecificScheduleMode">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            While using this option consider that the specified schedule list has to contain unique content.
+          </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:attribute name ="scheduleName" type ="xs:string" use ="required"></xs:attribute>
+          <!--<xs:simpleContent>
+            <xs:extension base="xs:string">
+            </xs:extension>
+          </xs:simpleContent>-->
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SimpleMapping" type="mstns:SimpleMapping"/>
+    </xs:choice>
+    <xs:attribute name="articleProperty" type="mstns:ScheduleProperties"  use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Select the testman article property to be mapped.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="onEmptyColumn" type="mstns:OnEmptyColumnOption" use="optional" default="NullEntry">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Default is 'NullEntry' or the global one if defined.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="ArticlePropertyMapping">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This kind of mapping provides mapping of Testman native article properties.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:choice>
+      <xs:element name="BooleanColumnMapping" type="mstns:BooleanColumnMapping"/>
+      <xs:element name="SimpleMapping" type="mstns:SimpleMapping"/>
+      <xs:element name="ArticleNumberMapping" type="mstns:ArticleNumberMapping"/>
+      <xs:element name="ArticleIndexMapping" type="mstns:ArticleIndexMapping"/>
+      <xs:element name="DateMapping" type="mstns:DateMapping"/>
+    </xs:choice>
+    <xs:attribute name="articleProperty" type="mstns:ArticleProperties"  use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Select the testman article property to be mapped.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="onEmptyColumn" type="mstns:OnEmptyColumnOption" use="optional" default="NullEntry">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Default is 'NullEntry' or the global one if defined.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  
+  
+   <xs:complexType name="ArticleRowElementMapping">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This kind of mapping provides mapping of the variant attribute value of the row element.
+        Example: variant attribute '10023451-01' leads into '10023451' as '10023451' represents the raw article number.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="articleProperty" type="mstns:ArticleProperties"  use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Select the testman article property to be mapped.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="delimiter" type="mstns:NonEmptyString" use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Delimiter used to seperate the variant attribute value.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="index" type="xs:integer" use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Index after split with delimiter the variant attribute value.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  
+    <xs:simpleType name="NonEmptyString">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="^(.{1,})$"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="CustomPropertyMapping">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This kind of mapping provides mapping of custom article properties that are not Testman native.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="columnName" type="xs:string"  use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Name of the column to be mapped by this property.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="show" type="xs:boolean" default="false"  use="optional">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Use this option to show the custom property in the Testman article selector. Default value is 'false'.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="onEmptyColumn" type="mstns:OnEmptyColumnOption" use="optional" default="NullEntry">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Default is 'NullEntry' or the global one if defined.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="IniFileMapping">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This kind of mapping provides mapping of ini files. This means, that the mapped column value represents a file path.
+        The path can be absolute or relative.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="columnName" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Name of the column containing an ini-file.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="allowEmpty" type="xs:boolean" use="optional" default="false">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          Use this option to define how to handle empty columns. Default value is 'false'.
+          Please consider that an empty column will not cause any errors if this option is set to 'true'.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="BooleanColumnMapping">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This kind of mapping provides mapping of boolean values.
+        Example: column value 'x' leads into a boolean 'TRUE' if 'x' is defined as TrueValueDescription.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="mstns:MappingBase">
+        <xs:sequence>
+          <xs:element name="StringComparison" type="mstns:StringComparison" minOccurs="0" maxOccurs="1"/>
+          <xs:element name="AcceptsEmptyField" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+          <xs:element name="TrueValueDescription" type="xs:string"/>
+          <xs:element name="FalseValueDescription" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="ArticleIndexMapping">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This kind of mapping provides mapping of article indexes.
+        Example: column value '10023451-01' leads into '01' as '01' represents the index.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="mstns:MappingBase"/>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="ArticleNumberMapping">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This kind of mapping provides mapping of raw article numbers.
+        Example: column value '10023451-01' leads into '10023451' as '10023451' represents the raw article number.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="mstns:MappingBase"/>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="DateMapping">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This kind of mapping provides mapping of date values.
+        Example: column value '2012-12-31' leads into according date type containing '31.12.2012'.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="mstns:MappingBase"/>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="SimpleMapping">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This kind of mapping provides simple mapping of values without any interpretation.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="mstns:MappingBase">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="MappingBase">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        The mapping base containing base mapping information like 'columnName'.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="mstns:BasicMappingProperties">
+        <xs:attribute name="columnName" type="xs:string" use="required">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">
+              Name of the column containing an property value.
+            </xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="BasicMappingProperties">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        Possible mapping properties like string modifications.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="StringModification" type="mstns:StringModification" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            Select the required string modification option.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="StringModification">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        String modification option for a mapped column value.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Unmodified"/>
+      <xs:enumeration value="RemoveWhitespaces"/>
+      <xs:enumeration value="Trim"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="StringComparison">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        String comparison option.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="InvariantCulture"/>
+      <xs:enumeration value="InvariantCultureIgnoreCase"/>
+      <xs:enumeration value="Ordinal"/>
+      <xs:enumeration value="OrdinalIgnoreCase"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Global Parameter-->
+
+  <xs:complexType name="GlobalParameter">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This node contains all global property definitions.
+        There are three kinds of definitions: Parameter, ArticleParameter and IniFile.
+        All defined global parameters will be added to each article.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:choice>
+        <xs:element name ="Parameter" type="mstns:GlobalCustomParameter"/>
+        <xs:element name ="ArticleParameter" type="mstns:GlobalArticleParameter"/>
+        <xs:element name ="IniFile" type="mstns:GlobalIniFile"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="GlobalCustomParameter">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This will create a custom article property that is not Testman native.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="name" type="xs:string" use="required">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">
+              Name of the custom property.
+            </xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="show" type="xs:boolean" default="false"  use="optional">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">
+              Use this option to show the global custom property in the Testman article selector. Default value is 'false'.
+            </xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="GlobalArticleParameter">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This will create a Testman native article property.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="name" type="mstns:ArticleProperties" use="required">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">
+              Name of the article property.
+            </xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="GlobalIniFile">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This will create an ini-file.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="xs:string"/>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- Conditional Parameter-->
+
+  <xs:complexType name="ConditionalParameter">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This node contains all global condition dependent property definitions.
+        That means, that a property will be created only in the case the defined condition is fulfilled.
+        There are three kinds of definitions: ConditionalArticleParameter, ConditionalCustomParameter and ConditionalIniFile.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:choice>
+        <xs:element name="ConditionalArticleParameter" type="mstns:ArticleParameter"/>
+        <xs:element name="ConditionalCustomParameter" type="mstns:CustomParameter"/>
+        <xs:element name="ConditionalIniFile" type="mstns:IniFile"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CustomParameter">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This will create a custom article property that is not Testman native.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="mstns:Parameter">
+        <xs:attribute name="parameterName" type="xs:string" use="required">
+          <xs:annotation>
+            <xs:documentation>
+              The property's name.
+            </xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="show" type="xs:boolean" default="false"  use="optional">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">
+              Use this option to show the property in the Testman article selector. Default value is 'false'.
+            </xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="ArticleParameter">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This will create a Testman native article property.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="mstns:Parameter">
+        <xs:attribute name="parameterName" type="mstns:ArticleProperties" use="required">
+          <xs:annotation>
+            <xs:documentation>
+              Select the property's name.
+            </xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="IniFile">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        This will create an ini-file.
+        The path can be absolute or relative.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="mstns:IniFileParameter"/>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="IniFileParameter">
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:choice>
+        <xs:element name="Assignment">
+          <xs:complexType>
+            <xs:choice>
+              <xs:element name="Conditions">
+                <xs:complexType>
+                  <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                    <xs:element name="Condition" type="mstns:SingleCondition"/>
+                  </xs:sequence>
+                  <xs:attribute name="type" type="mstns:ConditionType" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Condition" type="mstns:SingleCondition"/>
+            </xs:choice>
+            <xs:attribute name="value" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MultipleAssignment">
+          <!--<xs:element name="Values" minOccurs="1" maxOccurs="1">
+            <xs:complexType>
+              <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="Value" type="xs:string"/>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>-->
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Values" minOccurs="1" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                    <xs:element name="Value" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:choice>
+                <xs:element name="Conditions">
+                  <xs:complexType>
+                    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                      <xs:element name="Condition" type="mstns:SingleCondition"/>
+                    </xs:sequence>
+                    <xs:attribute name="type" type="mstns:ConditionType" use="required"/>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="Condition" type="mstns:SingleCondition"/>
+              </xs:choice>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+      <!--<xs:element name="DefaultAssignment" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="value" type="xs:string" use="required"/>
+				</xs:complexType>
+			</xs:element>-->
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Parameter">
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:element name="Assignment">
+        <xs:complexType>
+          <xs:choice>
+            <xs:element name="Conditions">
+              <xs:complexType>
+                <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                  <xs:element name="Condition" type="mstns:SingleCondition"/>
+                </xs:sequence>
+                <xs:attribute name="type" type="mstns:ConditionType" use="required"/>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Condition" type="mstns:SingleCondition"/>
+          </xs:choice>
+          <xs:attribute name="value" type="xs:string" use="required"/>
+        </xs:complexType>
+      </xs:element>
+      <!--<xs:element name="DefaultAssignment" minOccurs="0">
+				<xs:complexType>
+					<xs:attribute name="value" type="xs:string" use="required"/>
+				</xs:complexType>
+			</xs:element>-->
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SingleCondition">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        Represents a single condition for property creation.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="ColumnName" type="xs:string">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">
+            Column name of the column its content should be matched against a specified value or RegEx-Pattern.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:choice>
+        <xs:sequence>
+          <xs:element name="MatchValue" type="xs:string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">
+                Value the column content has to match to fulfill this condition.
+              </xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="StringComparison" type="mstns:StringComparison" minOccurs="0" maxOccurs="1" />
+          <xs:element name="StringModification" type="mstns:StringModification" minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+        <xs:element name="RegexMatchValue" type="xs:string">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">
+              RegEx-Pattern the column content has to match to fulfill this condition.
+            </xs:documentation>
+          </xs:annotation>
+        </xs:element>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="ArticleProperties">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        Possible Testman native article properties.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Key"/>
+      <xs:enumeration value="ArticleName"/>
+      <xs:enumeration value="ArticleNumber"/>
+      <xs:enumeration value="ArticleIndex"/>
+      <xs:enumeration value="ArticleInfo"/>
+      <xs:enumeration value="ArticleFamily"/>
+      <xs:enumeration value="CustomerNumber"/>
+      <xs:enumeration value="HardwareVersion"/>
+      <xs:enumeration value="SoftwareVersion"/>
+      <xs:enumeration value="Enabled"/>
+      <xs:enumeration value="Q"/>
+      <xs:enumeration value="Picture"/>
+      <xs:enumeration value="ValidFrom"/>
+      <xs:enumeration value="ValidTo"/>
+      <xs:enumeration value="LaserTemplateName"/>
+      <xs:enumeration value="MaskFile"/>
+      <xs:enumeration value="MaskName"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ConditionType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        Represents the type of a condition.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Or"/>
+      <xs:enumeration value="And"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="OnEmptyColumnOption">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        Use this option to define how to handle empty columns.
+        In case of 'NullEntry' an empty column leads to an empty property value.
+        Empty columns will be skipped in case of 'SkipField'.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="NullEntry"/>
+      <xs:enumeration value="SkipField"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ScheduleProperties">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        Represents the key name of a schedule.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ScheduleName"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+</xs:schema>
